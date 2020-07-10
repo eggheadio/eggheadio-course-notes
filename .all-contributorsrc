@@ -94,6 +94,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "wjohnson85",
+      "name": "William Johnson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40403549?v=4",
+      "profile": "https://williamjohnson.dev/",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
