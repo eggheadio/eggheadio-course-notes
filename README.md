@@ -1,6 +1,6 @@
 # notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://twitter.com/learn_n_share"><img src="https://avatars1.githubusercontent.com/u/6245927?v=4" width="100px;" alt=""/><br /><sub><b>Amandeep Singh</b></sub></a><br /><a href="#content-plug-n-play" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mgrinthal"><img src="https://avatars3.githubusercontent.com/u/10216319?v=4" width="100px;" alt=""/><br /><sub><b>Michael Grinthal</b></sub></a><br /><a href="#content-mgrinthal" title="Content">🖋</a></td>
     <td align="center"><a href="http://thaycacac.me"><img src="https://avatars2.githubusercontent.com/u/29374426?v=4" width="100px;" alt=""/><br /><sub><b>Phạm Ngọc Hòa</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/tomByrer"><img src="https://avatars2.githubusercontent.com/u/1308419?v=4" width="100px;" alt=""/><br /><sub><b>Tom Byrer</b></sub></a><br /><a href="#content-tomByrer" title="Content">🖋</a></td>
   </tr>
 </table>
 
