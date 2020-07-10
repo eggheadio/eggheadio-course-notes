@@ -1,8 +1,6 @@
 <h1 align="center"><a href="https://egghead.io/courses/the-beginner-s-guide-to-react">A Beginners Guide to React 2020</a></h1>
 
-
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_BeginnersReact2.png" width="200"></p>
-
 
 These notes are intended to be used and studied in tandem with [Kent C. Dodds](https://egghead.io/instructors/kentcdodds)'s [A Beginners Guide to React (2020)](https://egghead.io/courses/the-beginner-s-guide-to-react) course.
 
@@ -12,7 +10,7 @@ Generally, there is one document for each lesson in the course. Each section con
 
 This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React.
 
-## Table of Contents
+## Notes - Table of Contents
 
 - [00. A Beginners Guide to React Introduction](00-react-a-beginners-guide-to-react-introduction.md)
 - [01. Create a User Interface with Vanilla JavaScript and DOM](01-react-create-a-user-interface-with-vanilla-javascript-and-dom.md)
@@ -44,4 +42,3 @@ This course is for React newbies and anyone looking to build a solid foundation.
 - [27. Install and use React DevTools](27-react-install-and-use-react-devtools.md)
 - [28. Build and deploy a React Application with Codesandbox, GitHub, and Netlify](28-react-build-and-deploy-a-react-application-with-codesandbox-github-and-netlify.md)
 - [29. A Beginners Guide to React Outro](29-react-a-beginners-guide-to-react-outro.md)
-
