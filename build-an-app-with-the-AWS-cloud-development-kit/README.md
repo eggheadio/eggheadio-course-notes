@@ -46,7 +46,7 @@ Senior Frontend Engineer at OLX Group. His interests include React, AWS, testing
 
 ## Notes - Table of Contents 📜
 
-- [00-Intro and Welcome](/notes/blob/00-intro-and-welcome.md)
+- [00-Intro and Welcome](https://github.com/eggheadio/notes/blob/build-an-app-with-the-AWS-cloud-development-kit/build-an-app-with-the-AWS-cloud-development-kit/notes/00-intro-and-welcome.md)
 - [01-Install AWS Cloud Development Kit (CDK) and create a new project](/notes/01-install-aws-cloud-development-kit-cdk-and-create-a-new-project.md)
 - [02-Build and deploy a sample AWS Cloud Development Kit stack to AWS](/notes/02-build-and-deploy-a-sample-aws-cloud-development-kit-stack-to-aws.md)
 - [03-Review an AWS CloudFormation stack deployed with AWS CDK](/notes/03-review-an-aws-cloud-formation-stack-deployed-with-aws-cdk.md)
