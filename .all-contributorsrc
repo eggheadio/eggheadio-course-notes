@@ -101,8 +101,23 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/999613?v=4",
       "profile": "https://github.com/MrZakos",
       "contributions": [
-        "content",
         "bug"
+      ]
+    },
+      "login": "codeandcats",
+      "name": "Ben",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6035934?v=4",
+      "profile": "http://bendaniel.io",
+      "contributions": [
+        "content"
+      ]
+    },
+      "login": "pgrimaud",
+      "name": "Pierre Grimaud",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1866496?v=4",
+      "profile": "https://github.com/pgrimaud",
+      "contributions": [
+        "content"
       ]
     }
   ],
