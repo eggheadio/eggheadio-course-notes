@@ -1,6 +1,6 @@
 # notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -37,6 +37,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://thaycacac.me"><img src="https://avatars2.githubusercontent.com/u/29374426?v=4" width="100px;" alt=""/><br /><sub><b>Phạm Ngọc Hòa</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tomByrer"><img src="https://avatars2.githubusercontent.com/u/1308419?v=4" width="100px;" alt=""/><br /><sub><b>Tom Byrer</b></sub></a><br /><a href="#content-tomByrer" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ceoraford"><img src="https://avatars2.githubusercontent.com/u/41582216?v=4" width="100px;" alt=""/><br /><sub><b>Ceora Ford</b></sub></a><br /><a href="#content-ceoraford" title="Content">🖋</a></td>
+    <td align="center"><a href="http://thomasbarrett.dev"><img src="https://avatars0.githubusercontent.com/u/47550906?v=4" width="100px;" alt=""/><br /><sub><b>Thomas Barrett</b></sub></a><br /><a href="#content-tsbarrett89" title="Content">🖋</a></td>
   </tr>
 </table>
 
