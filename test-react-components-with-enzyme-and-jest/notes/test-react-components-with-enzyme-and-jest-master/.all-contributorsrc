@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ParkerGits",
+      "name": "Parker Landon",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45955761?v=4",
+      "profile": "https://github.com/ParkerGits",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "test-react-components-with-enzyme-and-jest",
+  "projectOwner": "eggheadio-projects",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
