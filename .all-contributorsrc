@@ -122,6 +122,15 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "rosaxny",
+      "name": "rosaxny",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35818464?v=4",
+      "profile": "https://github.com/rosaxny",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
