@@ -94,6 +94,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "MrZakos",
+      "name": "Zakos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/999613?v=4",
+      "profile": "https://github.com/MrZakos",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
