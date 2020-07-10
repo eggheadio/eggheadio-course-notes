@@ -30,7 +30,7 @@ In the final lesson, we will recap these concepts through the testing of both a 
 
 The code for each lesson in this course can be found [here](https://github.com/ParkerGits/react-enzyme-jest). Each branch contains code for its respective lesson. **THERE IS NO BRANCH FOR LESSON 1, SO THE BRANCH NUMBERS 1-14 CORRESPOND WITH LESSON NUMBERS 2-15**. Code for each lesson can also be found in the **Resources** section of each page of notes.
 
-## Table of Contents
+## Notes - Table of Contents
 
 - [01-Course Overview: Testing React Components with Enzyme and Jest](01-course-overview-testing-react-components-with-enzyme-and-jest.md)
 - [02-Install Enzyme and Configure Jest](02-install-enzyme-and-configure-jest.md)
