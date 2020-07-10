@@ -1,6 +1,6 @@
 # notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -25,6 +25,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://thaycacac.me"><img src="https://avatars2.githubusercontent.com/u/29374426?v=4" width="100px;" alt=""/><br /><sub><b>Phạm Ngọc Hòa</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tomByrer"><img src="https://avatars2.githubusercontent.com/u/1308419?v=4" width="100px;" alt=""/><br /><sub><b>Tom Byrer</b></sub></a><br /><a href="#content-tomByrer" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
+    <td align="center"><a href="http://darkwark.com"><img src="https://avatars0.githubusercontent.com/u/1868217?v=4" width="100px;" alt=""/><br /><sub><b>Kamil Khadeyev</b></sub></a><br /><a href="#design-darkwark" title="Design">🎨</a></td>
   </tr>
 </table>
 
