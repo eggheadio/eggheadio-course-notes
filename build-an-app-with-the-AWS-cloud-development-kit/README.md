@@ -29,14 +29,15 @@ You can find a challenge written up for you to test your new AWS knowledge in th
 You'll notice that there is a [community solutions](./course-project/community-solutions.md) folder within the Course Project section. We encourage you to submit a PR and add your solution!
 
 ## Prerequisites ✅
+
 During this course we're going to talk quite a bit about AWS Lambda, DynamoDB and we're going to play with AWS SAM a bit. This is not required but I think you will get more out of the course if you take a look at those resources first (don't worry - I will be explaining those concepts during the course as well):
 
 [🤔 Tomasz's notes](https://gist.github.com/tlakomy/f1312ec1fd092ece75a0f72403235fc8) and [workshop docs](https://github.com/tlakomy/egghead-aws-cdk-workshop/tree/master/docs)
 
-| Learn AWS Lambda from scratch                                                             | Learn AWS Serverless Application Model (AWS SAM) from scratch                                                                     | Learn DynamoDB from scratch                                                                 | Intro to DynamoDB by [Chris Biscardi](https://egghead.io/instructors/chris-biscardi?af=6p5abz) |
-|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [📹 Collection](https://egghead.io/playlists/learn-aws-lambda-from-scratch-d29d?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-serverless-application-model-aws-sam-framework-from-scratch-baf9?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-dynamodb-from-scratch-21c3?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-dynamodb-from-scratch-21c3?af=6p5abz)    |
-| [🤔 Notes](https://github.com/theianjones/egghead.io_learn_aws_lambda_from_scratch)        |                                       [🤔 Notes](https://github.com/eggheadio-projects/build-serverless-applications-with-aws-sam) |            [🤔 Notes](https://github.com/eggheadio-projects/learn-aws-dynamodb-from-scratch) |                             [🤔 Notes](https://github.com/eggheadio-projects/intro-to-dynamodb) |
+| Learn AWS Lambda from scratch                                                              | Learn AWS Serverless Application Model (AWS SAM) from scratch                                                                      | Learn DynamoDB from scratch                                                                  | Intro to DynamoDB by [Chris Biscardi](https://egghead.io/instructors/chris-biscardi?af=6p5abz) |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [📹 Collection](https://egghead.io/playlists/learn-aws-lambda-from-scratch-d29d?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-serverless-application-model-aws-sam-framework-from-scratch-baf9?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-dynamodb-from-scratch-21c3?af=6p5abz) | [📹 Collection](https://egghead.io/playlists/learn-aws-dynamodb-from-scratch-21c3?af=6p5abz)   |
+| [🤔 Notes](https://github.com/theianjones/egghead.io_learn_aws_lambda_from_scratch)        | [🤔 Notes](https://github.com/eggheadio-projects/build-serverless-applications-with-aws-sam)                                       | [🤔 Notes](https://github.com/eggheadio-projects/learn-aws-dynamodb-from-scratch)            | [🤔 Notes](https://github.com/eggheadio-projects/intro-to-dynamodb)                            |
 
 ## Who is Tomasz Łakomy? 👨‍💻
 
@@ -46,40 +47,40 @@ Senior Frontend Engineer at OLX Group. His interests include React, AWS, testing
 
 ## Notes - Table of Contents 📜
 
-- [00-Intro and Welcome](/notes/00-intro-and-welcome.md)
-- [01-Install AWS Cloud Development Kit (CDK) and create a new project](/notes/01-install-aws-cloud-development-kit-cdk-and-create-a-new-project.md)
-- [02-Build and deploy a sample AWS Cloud Development Kit stack to AWS](/notes/02-build-and-deploy-a-sample-aws-cloud-development-kit-stack-to-aws.md)
-- [03-Review an AWS CloudFormation stack deployed with AWS CDK](/notes/03-review-an-aws-cloud-formation-stack-deployed-with-aws-cdk.md)
-- [04-Clear an initial AWS CDK stack to start building an app from scratch](/notes/04-clear-an-initial-aws-cdk-stack-to-start-building-an-app-from-scratch.md)
-- [05-Create and deploy a lambda function with AWS CDK](/notes/05-create-and-deploy-a-lambda-function-with-aws-cdk.md)
-- [06-Review and execute a lambda function deployed with CDK in AWS Console](/notes/06-review-and-execute-a-lambda-function-deployed-with-cdk-in-aws-console.md)
-- [07-Change the properties of a lambda function deployed with AWS CDK](/notes/07-change-the-properties-of-a-lambda-function-deployed-with-aws-cdk.md)
-- [08-Attach an API Gateway to a lambda function deployed with AWS CDK](/notes/08-attach-an-api-gateway-to-a-lambda-function-deployed-with-aws-cdk.md)
-- [09-Pass environment variables to a lambda function deployed with AWS CDK](/notes/09-pass-environment-variables-to-a-lambda-function-deployed-with-aws-cdk.md)
-- [10-Run lambda functions built with CDK locally using AWS SAM](/notes/10-run-lambda-functions-built-with-cdk-locally-using-aws-sam.md)
-- [11-Create and deploy an S3 bucket with AWS CDK](/notes/11-create-and-deploy-an-s3-bucket-with-aws-cdk.md)
-- [12-Make the contents of an S3 bucket deployed with CDK public](/notes/12-make-the-contents-of-an-s3-bucket-deployed-with-cdk-public.md)
-- [13-Create an S3 event notification to trigger a lambda function on file upload](/notes/13-create-an-s3-event-notification-to-trigger-a-lambda-function-on-file-upload.md)
-- [14-Use a bucket deployment to upload a file to S3 when deploying a CDK stack](/notes/14-use-a-bucket-deployment-to-upload-a-file-to-s3-when-deploying-a-cdk-stack.md)
-- [15-Create a custom AWS CDK construct](/notes/15-create-a-custom-aws-cdk-construct.md)
-- [16-Create a DynamoDB table with AWS CDK](/notes/16-create-a-dynamo-db-table-with-aws-cdk.md)
-- [17-Get all items from a DynamoDB table deployed with CDK using DocumentClient API](/notes/17-get-all-items-from-a-dynamo-db-table-deployed-with-cdk-using-document-client-api.md)
-- [18-Debug permission issues and allow a lambda function to access data from a DynamoDB table](/notes/18-debug-permission-issues-and-allow-a-lambda-function-to-access-data-from-a-dynamo-db-table.md)
-- [19-Adding data to a DynamoDB table with put operation](/notes/19-adding-data-to-a-dynamo-db-table-with-put-operation.md)
-- [20-Delete an item from a DynamoDB table with delete operation](/notes/20-delete-an-item-from-a-dynamo-db-table-with-delete-operation.md)
-- [21-Add external dependencies to an AWS Lambda function deployed with CDK](/notes/21-add-external-dependencies-to-an-aws-lambda-function-deployed-with-cdk.md)
-- [22-Connect React app to a serverless backend deployed with CDK and fix CORS issues](/notes/22-connect-react-app-to-a-serverless-backend-deployed-with-cdk-and-fix-cors-issues.md)
-- [23-Add a custom CloudFormation stack output with CDK](/notes/23-add-a-custom-cloud-formation-stack-output-with-cdk.md)
-- [24-Deploy a static website to S3 with AWS CDK](/notes/24-deploy-a-static-website-to-s3-with-aws-cdk.md)
-- [25-Deploy a site with HTTPS support behind a CDN with CDK](/notes/25-deploy-a-site-with-https-support-behind-a-cdn-with-cdk.md)
-- [26-Destroy an AWS CDK stack](/notes/26-destroy-an-aws-cdk-stack.md)
+- [00-Intro and Welcome](notes/00-intro-and-welcome.md)
+- [01-Install AWS Cloud Development Kit (CDK) and create a new project](notes/01-install-aws-cloud-development-kit-cdk-and-create-a-new-project.md)
+- [02-Build and deploy a sample AWS Cloud Development Kit stack to AWS](notes/02-build-and-deploy-a-sample-aws-cloud-development-kit-stack-to-aws.md)
+- [03-Review an AWS CloudFormation stack deployed with AWS CDK](notes/03-review-an-aws-cloud-formation-stack-deployed-with-aws-cdk.md)
+- [04-Clear an initial AWS CDK stack to start building an app from scratch](notes/04-clear-an-initial-aws-cdk-stack-to-start-building-an-app-from-scratch.md)
+- [05-Create and deploy a lambda function with AWS CDK](notes/05-create-and-deploy-a-lambda-function-with-aws-cdk.md)
+- [06-Review and execute a lambda function deployed with CDK in AWS Console](notes/06-review-and-execute-a-lambda-function-deployed-with-cdk-in-aws-console.md)
+- [07-Change the properties of a lambda function deployed with AWS CDK](notes/07-change-the-properties-of-a-lambda-function-deployed-with-aws-cdk.md)
+- [08-Attach an API Gateway to a lambda function deployed with AWS CDK](notes/08-attach-an-api-gateway-to-a-lambda-function-deployed-with-aws-cdk.md)
+- [09-Pass environment variables to a lambda function deployed with AWS CDK](notes/09-pass-environment-variables-to-a-lambda-function-deployed-with-aws-cdk.md)
+- [10-Run lambda functions built with CDK locally using AWS SAM](notes/10-run-lambda-functions-built-with-cdk-locally-using-aws-sam.md)
+- [11-Create and deploy an S3 bucket with AWS CDK](notes/11-create-and-deploy-an-s3-bucket-with-aws-cdk.md)
+- [12-Make the contents of an S3 bucket deployed with CDK public](notes/12-make-the-contents-of-an-s3-bucket-deployed-with-cdk-public.md)
+- [13-Create an S3 event notification to trigger a lambda function on file upload](notes/13-create-an-s3-event-notification-to-trigger-a-lambda-function-on-file-upload.md)
+- [14-Use a bucket deployment to upload a file to S3 when deploying a CDK stack](notes/14-use-a-bucket-deployment-to-upload-a-file-to-s3-when-deploying-a-cdk-stack.md)
+- [15-Create a custom AWS CDK construct](notes/15-create-a-custom-aws-cdk-construct.md)
+- [16-Create a DynamoDB table with AWS CDK](notes/16-create-a-dynamo-db-table-with-aws-cdk.md)
+- [17-Get all items from a DynamoDB table deployed with CDK using DocumentClient API](notes/17-get-all-items-from-a-dynamo-db-table-deployed-with-cdk-using-document-client-api.md)
+- [18-Debug permission issues and allow a lambda function to access data from a DynamoDB table](notes/18-debug-permission-issues-and-allow-a-lambda-function-to-access-data-from-a-dynamo-db-table.md)
+- [19-Adding data to a DynamoDB table with put operation](notes/19-adding-data-to-a-dynamo-db-table-with-put-operation.md)
+- [20-Delete an item from a DynamoDB table with delete operation](notes/20-delete-an-item-from-a-dynamo-db-table-with-delete-operation.md)
+- [21-Add external dependencies to an AWS Lambda function deployed with CDK](notes/21-add-external-dependencies-to-an-aws-lambda-function-deployed-with-cdk.md)
+- [22-Connect React app to a serverless backend deployed with CDK and fix CORS issues](notes/22-connect-react-app-to-a-serverless-backend-deployed-with-cdk-and-fix-cors-issues.md)
+- [23-Add a custom CloudFormation stack output with CDK](notes/23-add-a-custom-cloud-formation-stack-output-with-cdk.md)
+- [24-Deploy a static website to S3 with AWS CDK](notes/24-deploy-a-static-website-to-s3-with-aws-cdk.md)
+- [25-Deploy a site with HTTPS support behind a CDN with CDK](notes/25-deploy-a-site-with-https-support-behind-a-cdn-with-cdk.md)
+- [26-Destroy an AWS CDK stack](notes/26-destroy-an-aws-cdk-stack.md)
 
 ## Emoji Legend 🧠
 
-| emoji| explanation              |
-| -----|:------------------------:|
-| 📹   | links to the course video|
-| 💻   | course repository        |
-| ⌨️    | keyboard shortcut        |
-| 🤔   | additional resources     |
-| 👍   | good practice            |
+| emoji |        explanation        |
+| ----- | :-----------------------: |
+| 📹    | links to the course video |
+| 💻    |     course repository     |
+| ⌨️    |     keyboard shortcut     |
+| 🤔    |   additional resources    |
+| 👍    |       good practice       |
