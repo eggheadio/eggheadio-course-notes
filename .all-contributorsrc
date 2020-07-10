@@ -58,6 +58,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "mgrinthal",
+      "name": "Michael Grinthal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10216319?v=4",
+      "profile": "https://github.com/mgrinthal",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
