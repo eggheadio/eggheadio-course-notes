@@ -25,7 +25,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://thaycacac.me"><img src="https://avatars2.githubusercontent.com/u/29374426?v=4" width="100px;" alt=""/><br /><sub><b>Phạm Ngọc Hòa</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tomByrer"><img src="https://avatars2.githubusercontent.com/u/1308419?v=4" width="100px;" alt=""/><br /><sub><b>Tom Byrer</b></sub></a><br /><a href="#content-tomByrer" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/MrZakos"><img src="https://avatars2.githubusercontent.com/u/999613?v=4" width="100px;" alt=""/><br /><sub><b>Zakos</b></sub></a><br /><a href="#content-MrZakos" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/MrZakos"><img src="https://avatars2.githubusercontent.com/u/999613?v=4" width="100px;" alt=""/><br /><sub><b>Zakos</b></sub></a><br /><a href="#content-MrZakos" title="Content">🖋</a> <a href="https://github.com/eggheadio/notes/issues?q=author%3AMrZakos" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
