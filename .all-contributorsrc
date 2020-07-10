@@ -103,6 +103,54 @@
       "contributions": [
         "content"
       ]
+    },
+      "login": "wjohnson85",
+      "name": "William Johnson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40403549?v=4",
+      "profile": "https://williamjohnson.dev/",
+      "contributions": [
+        "review"
+      ]
+    },
+      "login": "theianjones",
+      "name": "Ian Jones",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4407263?v=4",
+      "profile": "https://ianjones.us/",
+      "contributions": [
+        "userTesting"
+      ]
+    },
+      "login": "pixelsortr",
+      "name": "Pixel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/54180211?v=4",
+      "profile": "https://github.com/pixelsortr",
+      "contributions": [
+        "content"
+      ]
+    },
+      "login": "MrZakos",
+      "name": "Zakos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/999613?v=4",
+      "profile": "https://github.com/MrZakos",
+      "contributions": [
+        "bug"
+      ]
+    },
+      "login": "codeandcats",
+      "name": "Ben",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6035934?v=4",
+      "profile": "http://bendaniel.io",
+      "contributions": [
+        "content"
+      ]
+    },
+      "login": "pgrimaud",
+      "name": "Pierre Grimaud",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1866496?v=4",
+      "profile": "https://github.com/pgrimaud",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
