@@ -1,6 +1,6 @@
 # notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -29,6 +29,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/pgrimaud"><img src="https://avatars1.githubusercontent.com/u/1866496?v=4" width="100px;" alt=""/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="#content-pgrimaud" title="Content">🖋</a></td>
     <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="https://github.com/eggheadio/notes/pulls?q=is%3Apr+reviewed-by%3Alaurosilvacom" title="Reviewed Pull Requests">👀</a> <a href="#content-laurosilvacom" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/rosaxny"><img src="https://avatars2.githubusercontent.com/u/35818464?v=4" width="100px;" alt=""/><br /><sub><b>rosaxny</b></sub></a><br /><a href="#content-rosaxny" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://kojikanao.netlify.app"><img src="https://avatars0.githubusercontent.com/u/474225?v=4" width="100px;" alt=""/><br /><sub><b>Koji</b></sub></a><br /><a href="#content-koji" title="Content">🖋</a></td>
   </tr>
 </table>
 
