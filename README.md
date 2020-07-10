@@ -1,6 +1,6 @@
 # notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -27,6 +27,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/MrZakos"><img src="https://avatars2.githubusercontent.com/u/999613?v=4" width="100px;" alt=""/><br /><sub><b>Zakos</b></sub></a><br /><a href="https://github.com/eggheadio/notes/issues?q=author%3AMrZakos" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://bendaniel.io"><img src="https://avatars0.githubusercontent.com/u/6035934?v=4" width="100px;" alt=""/><br /><sub><b>Ben</b></sub></a><br /><a href="#content-codeandcats" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/pgrimaud"><img src="https://avatars1.githubusercontent.com/u/1866496?v=4" width="100px;" alt=""/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="#content-pgrimaud" title="Content">🖋</a></td>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="https://github.com/eggheadio/notes/pulls?q=is%3Apr+reviewed-by%3Alaurosilvacom" title="Reviewed Pull Requests">👀</a> <a href="#content-laurosilvacom" title="Content">🖋</a></td>
   </tr>
 </table>
 
