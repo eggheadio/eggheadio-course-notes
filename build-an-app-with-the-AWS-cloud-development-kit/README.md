@@ -44,7 +44,7 @@ Senior Frontend Engineer at OLX Group. His interests include React, AWS, testing
 
 [Other Egghead content](https://egghead.io/instructors/tomasz-lakomy) created by Tomasz.
 
-## Table of Contents 📜
+## Notes - Table of Contents 📜
 
 - [00-Intro and Welcome](00-intro-and-welcome.md)
 - [01-Install AWS Cloud Development Kit (CDK) and create a new project](01-install-aws-cloud-development-kit-cdk-and-create-a-new-project.md)
