@@ -26,6 +26,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/tomByrer"><img src="https://avatars2.githubusercontent.com/u/1308419?v=4" width="100px;" alt=""/><br /><sub><b>Tom Byrer</b></sub></a><br /><a href="#content-tomByrer" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
     <td align="center"><a href="http://bendaniel.io"><img src="https://avatars0.githubusercontent.com/u/6035934?v=4" width="100px;" alt=""/><br /><sub><b>Ben</b></sub></a><br /><a href="#content-codeandcats" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/pgrimaud"><img src="https://avatars1.githubusercontent.com/u/1866496?v=4" width="100px;" alt=""/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="#content-pgrimaud" title="Content">🖋</a></td>
   </tr>
 </table>
 
