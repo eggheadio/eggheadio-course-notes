@@ -1,4 +1,4 @@
-# [Getting Started with Angular](https://egghead.io/courses/get-started-with-angular)
+# [Get Started with Angular](https://egghead.io/courses/get-started-with-angular)
 
 ## 👨‍🏫 Instructor - [John Lindquist](https://egghead.io/instructors/john-lindquist)
 
