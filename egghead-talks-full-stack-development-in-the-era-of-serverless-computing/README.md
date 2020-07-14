@@ -1,3 +1,7 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ## Summary
 
 Nader discusses the impact serverless infrastructure and technology will have on full-stack development. He introduces the workflow that gives front-end developers the tools needed to build full-stack applications.
@@ -323,3 +327,23 @@ In conclusion, we can define full-stack in the era of serverless computing like 
 - GraphQL becomes increasingly important
 
 - Teams organized by feature vs platform or stack
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ceoraford"><img src="https://avatars2.githubusercontent.com/u/41582216?v=4" width="100px;" alt=""/><br /><sub><b>Ceora Ford</b></sub></a><br /><a href="#content-ceoraford" title="Content">🖋</a></td>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="https://github.com/eggheadio-projects/egghead-egghead-talks-full-stack-development-in-the-era-of-serverless-computing/pulls?q=is%3Apr+reviewed-by%3Alaurosilvacom" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
