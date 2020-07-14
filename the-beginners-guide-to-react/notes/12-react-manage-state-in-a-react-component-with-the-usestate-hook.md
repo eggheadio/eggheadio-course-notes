@@ -56,7 +56,7 @@ const [name, setName] = React.useState('');
 const [name2, setName2] = React.useState('');
 
 const handleChange = event => setName(event.target.value);
-const handleChange2 = event => setName(event.target.value);
+const handleChange2 = event => setName2(event.target.value);
 // ...
 
 <form>
