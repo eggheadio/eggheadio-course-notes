@@ -1,3 +1,8 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
 <h1 align="center"><a href="https://egghead.io/courses/create-amazing-animations-with-greensock">Create Amazing Animations With GreenSock</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/253/full/EGH_GreensockAnimation_Final.png" width="340"></p>
@@ -48,3 +53,14 @@ John Lindquist is a co-founder of egghead.io John has spent the majority of his 
 | ⌨️    | keyboard shortcut        |
 | 🤔   | additional resources     |
 | 👍   | good practice            |
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="tsbarrett89"><img src="https://avatars0.githubusercontent.com/u/47550906?s=460&u=a35e2e27da87a24ea55a6cfbe8a2570262d4921f&v=4" width="100px;" alt=""/><br /><sub><b>Thomas Barrett</b></sub></a><br /><a href="https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes" title="Notes">🖋️</a></td>
