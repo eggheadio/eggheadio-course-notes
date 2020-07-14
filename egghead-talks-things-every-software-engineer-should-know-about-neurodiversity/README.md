@@ -1,3 +1,7 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 # Notes
 
 ## [Things Every Software Engineer Should Know About Neurodiversity](https://egghead.io/lessons/egghead-egghead-talks-things-every-software-engineer-should-know-about-neurodiversity)
@@ -235,3 +239,22 @@ In this talk Myk Bilokonsky outline the a subset of Neurodivergent Syndromes and
 - [Neurodiversity as a Competitive Advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage)
 - [Neurodiversity Hub - Resources for Students, Employers & More](https://www.neurodiversityhub.org/)
 - [@mykola](https://twitter.com/mykola?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) on Twitter.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="https://github.com/eggheadio-projects/egghead-egghead-talks-full-stack-development-in-the-era-of-serverless-computing/pulls?q=is%3Apr+reviewed-by%3Alaurosilvacom" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
