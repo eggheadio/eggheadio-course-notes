@@ -1,3 +1,7 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 # [Test React Components with Enzyme and Jest](https://egghead.io/courses/test-react-components-with-enzyme-and-jest)
 
 ## Instructor - [Tyler Clark](https://egghead.io/instructors/tyler-clark)
@@ -47,3 +51,22 @@ The code for each lesson in this course can be found [here](https://github.com/P
 - [13-Test React Component Methods with Enzyme](notes/13-test-react-component-methods-with-enzyme.md)
 - [14-Test Redux Connect Components with Enzyme](notes/14-test-redux-connect-components-with-enzyme.md)
 - [15-Testing React Forms with Enzyme](notes/15-testing-react-forms-with-enzyme.md)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
