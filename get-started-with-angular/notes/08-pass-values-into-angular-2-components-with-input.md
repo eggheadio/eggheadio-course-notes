@@ -29,7 +29,7 @@ ng serve
 ```
 We can navigate to localhost:4200 in our browser and see our simple form displayed for each `message` in `messages`
 
-![Simple Form Loop](./images/9.png)
+![Simple Form Loop](./images/angular-pass-values-into-angular-2-components-with-input-simple-form-loop.png)
 
 We'll now head over to **src/app/simple-form/simple-form.component.ts**, import `Input`, and add an `@Input()` called `message`
 
@@ -105,7 +105,7 @@ ng serve
 ```
 We can see that each message is printed by a corresponding input field.
 
-![Message Display](./images/10.png)
+![Message Display](./images/angular-pass-values-into-angular-2-components-with-input-message-display.png)
 
 The square brackets on `[message]` in **app.component.ts** tells Angular to evaluate `"message"` as the value of the `message` variable and not the `"message"` string. Both the input attribute `[message]` and the variable `message` do **not** need to be the same name as they are in this case.
 

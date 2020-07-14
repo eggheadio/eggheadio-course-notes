@@ -109,7 +109,7 @@ Above, we use `:host` to reference the component itself, which in the DOM is rep
 
 Returning to localhost:4200, we should now see our `margin-bottom`,`display:flex`, and `flex-direction:column` styles in effect.
 
-![Margin Bottom Simple-Form Component](./images/14.png)
+![Margin Bottom Simple-Form Component](./images/angular-write-css-inside-of-angular-2-components-margin-bottom-simple-form-component.png)
 
 If we try to define styles for everything with `*`, we'll see that **the styles we define within our component will be isolated to that component**:
 
@@ -138,7 +138,7 @@ If we try to define styles for everything with `*`, we'll see that **the styles 
 ...
 ```
 
-![Styles Isolated Within Component](./images/15.png)
+![Styles Isolated Within Component](./images/angular-write-css-inside-of-angular-2-components-styles-isolated-within-component.png)
 
 We can see above that only our `Simple-Form Component` elements have a `font-family` of `monospace`.
 
@@ -174,7 +174,7 @@ If we define styles for `input:focus` and `button` within our `Simple-Form Compo
 ...
 ```
 
-![Input Text Bold on Focus and Button Border](./images/16.png)
+![Input Text Bold on Focus and Button Border](./images/angular-write-css-inside-of-angular-2-components-input-text-bold-on-focus-and-button-border.png)
 
 ## Resources 📖
 - [Angular - Component Styles](https://angular.io/guide/component-styles)

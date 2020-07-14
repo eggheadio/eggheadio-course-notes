@@ -28,7 +28,7 @@ We can see that it applies to everything in our project after starting our devel
 ng serve
 ```
 
-![Universally Applied CSS](./images/18.png)
+![Universally Applied CSS](./images/angular-use-global-css-inside-angular-2-components-universally-applied-css.png)
 
 Furthermore, we can grab classes from this stylesheet in our components. In **src/app/simple-form/simple-form.component.ts**, we can add `class="white bg-black code` from the stylesheet.
 
@@ -72,7 +72,7 @@ Furthermore, we can grab classes from this stylesheet in our components. In **sr
 ...
 ```
 
-![Grab Classes from Global Stylesheet](./images/19.png)
+![Grab Classes from Global Stylesheet](./images/angular-use-global-css-inside-angular-2-components-grab-classes-from-global-stylesheet.png)
 
 The button text-color, font, and background color are all coming in from that style library passed in to **index.html**.
 
@@ -94,7 +94,7 @@ The `ShadowDom` setting means "no styles in, no styles out".
 
 If we save our changes and view our webpage at localhost:4200, we can see that the styles from the global stylesheet have been ignored.
 
-![Ignoring Global Styles](images/20.png)
+![Ignoring Global Styles](images/angular-use-global-css-inside-angular-2-components-ignoring-global-styles.png)
 
 The default `encapsulation` property setting is `Emulated`, which allows global styles in but no styles out.
 

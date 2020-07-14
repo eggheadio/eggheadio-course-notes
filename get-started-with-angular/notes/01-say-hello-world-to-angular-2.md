@@ -38,7 +38,7 @@ Once loaded, we can navigate to **localhost:4200** in our browser.
 
 If you're following along with the lesson and using the latest version of Angular CLI, you may be surprised to see a much more elaborate page compared to the one in the lesson:
 
-![Angular CLI Default Application Page](.\images\1.png)
+![Angular CLI Default Application Page](./images/angular-say-hello-world-to-angular-2-cli-default-page.png)
 
 We can easily modify this page to match the one in the lesson. In your project, navigate to **src/app/app.component.ts**
 
@@ -72,7 +72,7 @@ export class AppComponent {
 ```
 After saving these changes and returning to localhost:4200 in the browser, we should see a page that resembles the one in the lesson.
 
-![Lesson 1 Application Page](./images/2.png)
+![Let's Get Started Webpage](./images/angular-say-hello-world-to-angular-2-lets-get-started-webpage.png)
 
 ## Resources 📖
 - [Angular CLI](https://cli.angular.io/)

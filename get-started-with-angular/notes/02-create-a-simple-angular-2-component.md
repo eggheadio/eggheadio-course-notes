@@ -65,7 +65,7 @@ ng serve
 ```
 Navigate to localhost:4200 in the browser and you should see "simple-form works!"
 
-![Our First Component](./images/3.png)
+![Our First Component](./images/angular-create-a-simple-angular-2-component-our-first-component.png)
 
 The text "simple-form-works" is coming from the template property in **simple-form.component.ts**
 
@@ -91,7 +91,7 @@ As we saw, the selector for our new component is "app-simple-form". The selector
 
 We can see the hierarchy of our components in the Chrome devtools
 
-![Chrome Devtools Component Hierarchy](./images/4.png)
+![Chrome Devtools Component Hierarchy](./images/angular-create-a-simple-angular-2-component-component-hierarchy.png)
 
 ## Resources 📖
 - [Angular CLI](https://cli.angular.io/)
