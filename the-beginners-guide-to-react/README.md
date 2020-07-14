@@ -32,7 +32,7 @@ This course is for React newbies and anyone looking to build a solid foundation.
 - [10. Style React Components with className and inline Styles](notes/10-react-style-react-components-with-classname-and-inline-styles.md)
 - [11. Use Event Handlers with React](notes/11-react-use-event-handlers-with-react-bd53256d.md)
 - [12. Manage state in a React Component with the useState hook](notes/12-react-manage-state-in-a-react-component-with-the-usestate-hook.md)
-- [13. Manage side-effects in a React Component with the useEffect hook](notes/3-react-manage-side-effects-in-a-react-component-with-the-useeffect-hook.md)
+- [13. Manage side-effects in a React Component with the useEffect hook](notes/13-react-manage-side-effects-in-a-react-component-with-the-useeffect-hook.md)
 - [14. Use a lazy initializer with useState](notes/14-react-use-a-lazy-initializer-with-usestate.md)
 - [15. Manage the useEffect dependency array](notes/15-react-manage-the-useeffect-dependency-array.md)
 - [16. Create reusable custom hooks](notes/16-react-create-reusable-custom-hooks.md)
