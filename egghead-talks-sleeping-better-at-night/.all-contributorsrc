@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "m-abdelwahab",
+      "name": "Mahmoud Abdel Wahab",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27310414?v=4",
+      "profile": "https://mahmoudabdelwahab.tech",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "thecodepixi",
+      "name": "Emily Harber",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16492325?v=4",
+      "profile": "http://www.dev.to/thecodepixi",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "egghead-talks-sleeping-better-at-night",
+  "projectOwner": "eggheadio-projects",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
