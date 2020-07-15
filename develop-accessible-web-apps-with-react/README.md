@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://egghead.io/courses/develop-accessible-web-apps-with-react">Develop Accessible Web Apps with React Notes</a></h1>
 
-<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/412/full/AccessibleReact_1000.png" width="200"></p>
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/412/full/AccessibleReact_1000.png" width="300"></p>
 
 <p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -18,12 +18,12 @@ These notes contain the same structure as the transcriptions, along with additio
 
 Generally, there is one document for each lesson in the course. If there are related lessons, the notes will be in the same document.
 
-
 ## Course Objective 💪
 
 US census says about 20% of people self-identify as having a disability of some sort. Writing webpages with accessibility in mind is not only important; it's crucial.
 
 This course will deal with the following issues:
+
 - How do you test your (React) application for a11y issues?
 - What tools should you be using?
 - Once you have identified the issues, how can you fix them?
@@ -63,7 +63,6 @@ This course will deal with the following issues:
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
 
 <table>
   <tr>
