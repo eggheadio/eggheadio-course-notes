@@ -1,0 +1,51 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ParkerGits",
+      "name": "Parker Landon",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45955761?v=4",
+      "profile": "https://github.com/ParkerGits",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "laurosilvacom",
+      "name": "Lauro Silva",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57044804?v=4",
+      "profile": "https://laurosilva.com",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "nikkilr88",
+      "name": "Nicole Sattler",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24983331?v=4",
+      "profile": "http://devnikki.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "lsminter",
+      "name": "Lucas Minter",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26470581?v=4",
+      "profile": "https://github.com/lsminter",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gatsby-theme-authoring-notes",
+  "projectOwner": "eggheadio-projects",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
