@@ -48,3 +48,24 @@ Lesson code resides on branch with corresponding name.
 
 - [13-Use Global CSS Inside Angular 2 Components](./notes/13-use-global-css-inside-angular-2-components.md)
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/build-an-app-with-the-AWS-cloud-development-kit-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
