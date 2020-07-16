@@ -107,7 +107,7 @@ ng serve
 ```
 We can navigate to localhost:4200 and see that our `input` element `border` style changes on `mousedown`.
 
-![Green Border on Mousedown](images/angular-apply-css-classes-conditionally-with-angular-2-s-ngclass-green-border-on-mousedown.gif)
+![Green Border on Mousedown](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594929158/transcript-images/angular-apply-css-classes-conditionally-with-angular-2-s-ngclass-green-border-on-mousedown.gif)
 
 We can use `ngClass` to conditionally apply styles to elements by passing in some boolean value.
 

@@ -69,7 +69,7 @@ And navigate to localhost:4200. We should see that our message is now contained 
 
 Furthermore, when we make changes within our input field, the message next to it changes as well.
 
-![Input Changes Message](./images/angular-sync-values-from-inputs-with-angular-2-s-ngmodel-two-way-binding-input-changes-message.png)
+![Input Changes Message](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-sync-values-from-inputs-with-angular-2-s-ngmodel-two-way-binding-input-changes-message.jpg)
 
 The Two-Way Binding can be demonstrated by changing our message via means external of the input.
 
@@ -96,7 +96,7 @@ export class SimpleFormComponent implements OnInit {
 ```
 And we can see at localhost:4200 that both our message and the message within the input are changing every second, and changing the message within the input briefly changes it outside of the input.
 
-![Externally Change Message Within Input Box](images/angular-sync-values-from-inputs-with-angular-2-s-ngmodel-two-way-binding-externally-change-message-within-input-box.gif)
+![Externally Change Message Within Input Box](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594929238/transcript-images/angular-sync-values-from-inputs-with-angular-2-s-ngmodel-two-way-binding-externally-change-message-within-input-box.gif)
 
 **'Changing this message from outside of the `<input>` updates it in , changing the message from inside of the `<input>` updates it out. That's what the square brackets and parentheses represent around the ngModel.'**
 

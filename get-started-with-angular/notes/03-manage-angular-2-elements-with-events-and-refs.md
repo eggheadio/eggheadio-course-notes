@@ -116,7 +116,7 @@ If we remove `.value` from `myInput.value`, save the change, and click the butto
 
 ...
 ```
-![Reference Equals Element Itself](./images/angular-manage-angular-2-elements-with-events-and-refs-reference-equals-element-itself.png)
+![Reference Equals Element Itself](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-manage-angular-2-elements-with-events-and-refs-reference-equals-element-itself.jpg)
 
 The return value of the reference to an element is no different than the element itself.
 

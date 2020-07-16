@@ -79,7 +79,7 @@ ng serve
 ```
 Navigating to localhost:4200 should allow us to see a list containing each `message` in `messages`.
 
-![List of Messages Displayed](./images/angular-loop-through-angular-2-components-with-ngfor-list-of-messages-displayed.png)
+![List of Messages Displayed](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-loop-through-angular-2-components-with-ngfor-list-of-messages-displayed.jpg)
 
 The asterisk in `*ngFor` tells Angular that the element is a template that can be regenerated or reused by whatever *structural directive* is passed in. In this case, the structural directive is "ngFor", and it's using the `<li>` element as a template to be reproduced for each `message` in `messages`.
 

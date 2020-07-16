@@ -100,7 +100,7 @@ ng serve
 ```
 And see that our `MailService` message is being displayed on localhost:4200.
 
-![MailService Message Display](./images/angular-share-services-and-data-with-angular-2-dependency-injection-mailservice-message-display.png)
+![MailService Message Display](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-share-services-and-data-with-angular-2-dependency-injection-mailservice-message-display.jpg)
 
 ## Resources 📖
 - [Angular - Introduction to Services and Dependency Injection](https://angular.io/guide/architecture-services#introduction-to-services-and-dependency-injection)

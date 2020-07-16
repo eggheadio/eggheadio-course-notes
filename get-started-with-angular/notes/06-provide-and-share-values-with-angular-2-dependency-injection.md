@@ -104,7 +104,7 @@ ng serve
 ```
 And navigating to localhost:4200 should allow us to see displayed the value associated with `'api'`.
 
-![API Injection Display](./images/angular-provide-and-share-values-with-angular-2-dependency-injection-api-injection-display.png)
+![API Injection Display](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-provide-and-share-values-with-angular-2-dependency-injection-api-injection-display.jpg)
 
 ## Resources 📖
 - [Angular - Dependency Injection](https://angular.io/guide/dependency-injection)

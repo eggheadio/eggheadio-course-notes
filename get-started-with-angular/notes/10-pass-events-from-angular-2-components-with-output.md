@@ -136,7 +136,7 @@ ng serve
 ```
 And navigate to localhost:4200 in the browser, we should see that the text within the input field is logged as an object in the console when the corresponding button is pressed.
 
-![Update Event Console](./images/angular-pass-events-from-angular-2-components-with-output-update-event-console.png)
+![Update Event Console](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1594927986/transcript-images/angular-pass-events-from-angular-2-components-with-output-update-event-console.jpg)
 
 Now we navigate to **src/app/mail.service.ts**. To give us a way of looking up each message in our `MailService`, we're going to make each message an object with an `id` property.
 
