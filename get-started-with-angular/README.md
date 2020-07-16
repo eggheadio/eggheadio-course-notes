@@ -1,6 +1,6 @@
-# [Get Started with Angular](https://egghead.io/courses/get-started-with-angular)
+<h1><p align="center"><a href="https://egghead.io/courses/get-started-with-angular">Get Started with Angular</a></p></h1>
 
-## 👨‍🏫 Instructor - [John Lindquist](https://egghead.io/instructors/john-lindquist)
+<h2><p align="center"><a href="https://egghead.io/instructors/john-lindquist"> 👨‍🏫 Instructor - John Lindquist</a></p></h2>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/300/full/angular2.png" width="300"/></p>
 
