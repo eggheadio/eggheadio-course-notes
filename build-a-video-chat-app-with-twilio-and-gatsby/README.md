@@ -56,4 +56,3 @@ exported them and have been converting them to more generated Markdown.
   </tr>
 </table>
 
-[✏️ Edit on GitHub](https://github.com/eggheadio/eggheadio-course-notes/tree/master/build-a-video-chat-app-with-twilio-and-gatsby/notes)
