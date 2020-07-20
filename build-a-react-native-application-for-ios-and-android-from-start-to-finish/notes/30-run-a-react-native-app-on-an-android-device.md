@@ -1,6 +1,6 @@
-# TODO
+# Run a React Native App on an Android Device
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-run-a-react-native-app-on-an-android-device)**
 
 ## TODO
 

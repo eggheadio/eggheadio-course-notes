@@ -1,6 +1,6 @@
-# TODO
+# Add Icons to a React Native App with React Native Vector Icons
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-add-icons-to-a-react-native-app-with-react-native-vector-icons)**
 
 ## TODO
 

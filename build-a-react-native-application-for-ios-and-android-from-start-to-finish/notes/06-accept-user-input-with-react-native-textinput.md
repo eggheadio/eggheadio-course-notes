@@ -1,6 +1,6 @@
-# TODO
+# Accept User Input with React Native TextInput
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-accept-user-input-with-react-native-textinput)**
 
 ## TODO
 

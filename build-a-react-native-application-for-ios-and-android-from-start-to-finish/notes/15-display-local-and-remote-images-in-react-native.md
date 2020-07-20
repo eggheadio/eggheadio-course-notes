@@ -1,6 +1,6 @@
-# TODO
+# Display Local and Remote Images in React Native
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-display-local-and-remote-images-in-react-native)**
 
 ## TODO
 

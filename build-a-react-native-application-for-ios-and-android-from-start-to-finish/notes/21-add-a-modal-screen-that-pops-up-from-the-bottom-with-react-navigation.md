@@ -1,6 +1,6 @@
-# TODO
+# Add a Modal Screen that Pops Up from the Bottom with React Navigation
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-add-a-modal-screen-that-pops-up-from-the-bottom-with-react-navigation)**
 
 ## TODO
 

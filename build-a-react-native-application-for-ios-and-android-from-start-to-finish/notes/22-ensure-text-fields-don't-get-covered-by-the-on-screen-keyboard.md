@@ -1,6 +1,6 @@
-# TODO
+# Ensure Text Fields Don't Get Covered by the On Screen Keyboard
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-ensure-text-fields-don't-get-covered-by-the-on-screen-keyboard)**
 
 ## TODO
 

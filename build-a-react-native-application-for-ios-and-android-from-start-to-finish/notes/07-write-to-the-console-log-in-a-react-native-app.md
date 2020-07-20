@@ -1,6 +1,6 @@
-# TODO
+# Write to the Console Log in a React Native App
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-write-to-the-console-log-in-a-react-native-app)**
 
 ## TODO
 

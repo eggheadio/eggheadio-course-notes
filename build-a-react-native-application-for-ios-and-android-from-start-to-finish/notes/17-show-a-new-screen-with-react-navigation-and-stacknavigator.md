@@ -1,6 +1,7 @@
-# TODO
+# Show a New Screen with React Navigation and StackNavigator
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-show-a-new-screen-with-react-navigation-and-stacknavigator)**
+
 
 ## TODO
 

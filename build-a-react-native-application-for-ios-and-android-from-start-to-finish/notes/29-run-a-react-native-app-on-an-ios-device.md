@@ -1,6 +1,6 @@
-# TODO
+# Run a React Native App on an iOS Device
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-run-a-react-native-app-on-an-ios-device)**
 
 ## TODO
 

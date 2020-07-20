@@ -1,6 +1,6 @@
-# TODO
+# Scroll Elements on a React Native Screen with ScrollView
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-scroll-elements-on-a-react-native-screen-with-scrollview)**
 
 ## TODO
 

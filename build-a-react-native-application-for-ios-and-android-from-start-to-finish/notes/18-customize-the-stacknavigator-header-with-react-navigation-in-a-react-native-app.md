@@ -1,6 +1,6 @@
-# TODO
+# Customize the StackNavigator Header with React Navigation in a React Native App
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-customize-the-stacknavigator-header-with-react-navigation-in-a-react-native-app)**
 
 ## TODO
 

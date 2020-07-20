@@ -1,6 +1,6 @@
-# TODO
+# Pass Data Between Screens when Navigating with StackNavigator
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-pass-data-between-screens-when-navigating-with-stacknavigator)**
 
 ## TODO
 

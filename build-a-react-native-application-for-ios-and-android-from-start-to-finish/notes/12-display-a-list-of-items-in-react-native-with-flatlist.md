@@ -1,6 +1,6 @@
-# TODO
+# Display a List of Items in React Native with FlatList
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-display-a-list-of-items-in-react-native-with-flatlist)**
 
 ## TODO
 

@@ -1,6 +1,6 @@
-# TODO
+# Change the Splash Screen for Android Apps built with React Native
 
-📹 [Video](TODO)
+**[📹 Video](https://egghead.io/lessons/react-native-change-the-splash-screen-for-android-apps-built-with-react-native)**
 
 ## TODO
 
