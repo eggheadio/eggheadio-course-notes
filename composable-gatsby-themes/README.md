@@ -29,8 +29,8 @@ After everything's been split up, you will build a deeper understanding of paren
 
 ## Table of Contents
 
-- [01 - Set Up Shopify and Wordpress Accounts](notes/01-set_up_shopify_and_wordpress_accounts.md)
-- [02 - Set Up Shopify and Wordpress Accounts](notes/02-gatsby_set_up_a_wordpress_account.md)
+- [01 - Set Up Shopify Account](notes/01-set_up_shopify_account.md)
+- [02 - Set up a WordPress Account](notes/02-set_up_a_wordpress_account.md)
 - [03 - Set Up and Run Gatsby](notes/03-set_up_and_run_gatsby.md)
 - [04 - Convert Our Gatsby Site to a Yarn Workspace Project](notes/04-convert_gatsby_site_to_yarn_workspace_project.md)
 - [05 - Overview of Gatsby Site](notes/05-overview_of_gatsby_site.md)
