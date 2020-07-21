@@ -33,7 +33,7 @@ In this workshop, you’ll be taking things to the next level, shining a light i
 
 Tyler will walk you through each concept, and build your understanding through examples in the areas you need to know.
 
-# Summary
+# Table of Contents
 
 - [01. Intro to Advanced JavaScript Foundations ](notes/javascript-intro-to-advanced-javascript-foundations.md)
 - [02. Working with Primitive Types](notes/02_javascript-working-with-primitive-types.md)
