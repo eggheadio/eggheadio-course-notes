@@ -6,8 +6,10 @@
 
 ## Notes
 
-- Updating the DOM is typically the slowest part of the whole process. React only updates what’s necessary.
-- React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state.
+- Updating the DOM is typically the slowest part of the whole process(affects performance). React only updates what’s necessary.
+- React saves that time and process cost by using the "virtual DOM", which is a lighter weight copy of the DOM.
+- React updates changes you made to the virtual DOM, then it compares the Virtual DOM vs Actual DOM.
+- Applies only changes for parts that have been updated, which means React does not need to update the whole page or refresh browser window.
 - When we re-render the entire app with `setInterval` you can see the clock changes without a browser window refresh.
 
 ```html
@@ -71,3 +73,4 @@
 - [kent's Blog - One simple trick to optimize React re-renders](https://kentcdodds.com/blog/optimize-react-re-renders/)
 - [React Docs - Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
 - [React Docs - ReactDOM](https://reactjs.org/docs/react-dom.html)
+- [React Docs - Virtual DOM](https://reactjs.org/docs/faq-internals.html)
