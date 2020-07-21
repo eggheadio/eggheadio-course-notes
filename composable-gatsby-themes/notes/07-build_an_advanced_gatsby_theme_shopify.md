@@ -1,4 +1,4 @@
-# 06. Build an Advanced Gatsby Theme Shopify
+# 07. Build an Advanced Gatsby Theme Shopify
 
 [Code Link](https://github.com/christopherbiscardi/advanced-gatsby-themes-workshop-code/tree/03-a-shopify-theme)
 
