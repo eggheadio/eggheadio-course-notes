@@ -30,14 +30,15 @@ After everything's been split up, you will build a deeper understanding of paren
 ## Table of Contents
 
 - [01 - Set Up Shopify and Wordpress Accounts](notes/01-set_up_shopify_and_wordpress_accounts.md)
-- [02 - Set Up and Run Gatsby](notes/02-set_up_and_run_gatsby.md)
-- [03 - Convert Our Gatsby Site to a Yarn Workspace Project](notes/03-convert_gatsby_site_to_yarn_workspace_project.md)
-- [04 - Overview of Gatsby Site](notes/04-overview_of_gatsby_site.md)
-- [05 - Create A Marketing Gatsby Theme](notes/05-create_gatsby_theme_marketing.md)
-- [06 - Create A Shopify Gatsby Theme](notes/06-build_an_advanced_gatsby_theme_shopify.md)
-- [07 - Create Product Blog Theme](notes/07-creating_a_blog_theme.md)
-- [08 - Use Schema Customization to Support MDX and WordPress](notes/08-use_schema_customization_to_support_mdx_and_wordpress.md)
-- [09 - Powering BlogPost with WordPress and Mdx](notes/09-powering_blogpost_with_wordpress_and_mdx.md)
+- [02 - Set Up Shopify and Wordpress Accounts](notes/02-gatsby_set_up_a_wordpress_account.md)
+- [03 - Set Up and Run Gatsby](notes/03-set_up_and_run_gatsby.md)
+- [04 - Convert Our Gatsby Site to a Yarn Workspace Project](notes/04-convert_gatsby_site_to_yarn_workspace_project.md)
+- [05 - Overview of Gatsby Site](notes/05-overview_of_gatsby_site.md)
+- [06 - Create A Marketing Gatsby Theme](notes/06-create_gatsby_theme_marketing.md)
+- [07 - Create A Shopify Gatsby Theme](notes/07-build_an_advanced_gatsby_theme_shopify.md)
+- [08 - Create Product Blog Theme](notes/08-creating_a_blog_theme.md)
+- [09 - Use Schema Customization to Support MDX and WordPress](notes/09-use_schema_customization_to_support_mdx_and_wordpress.md)
+- [10 - Powering BlogPost with WordPress and Mdx](notes/10-powering_blogpost_with_wordpress_and_mdx.md)
 
 ## Contributors ✨
 
