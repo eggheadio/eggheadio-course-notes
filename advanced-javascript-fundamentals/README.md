@@ -35,22 +35,22 @@ Tyler will walk you through each concept, and build your understanding through e
 
 # Summary
 
-- [Intro to Advanced JavaScript Foundations ](notes/javascript-intro-to-advanced-javascript-foundations.md)
-- [Working with Primitive Types](notes/javascript-working-with-primitive-types.md)
-- [Autoboxing Primitive Types in JavaScript](notes/javascript-autoboxing-primitive-types-in-javascript.md)
-- [Understanding Prototypal Inheritance within JavaScript](notes/javascript-understanding-prototypal-inheritance-within-javascript.md)
-- [Understanding the difference between .prototype and .__proto__ in JavaScript](notes/javascript-understanding-the-difference-between-prototype-and-__proto__-in-javascript.md)
-- [Working with var, let, const, and block scopes](notes/javascript-working-with-var-let-const-and-block-scopes.md)
-- [Implicit Binding of the "this" Keyword](notes/javascript-implicit-binding-of-the-this-keyword.md)
-- [Arrow Functions and Lexical Scoping "this"](notes/javascript-arrow-functions-and-lexical-scoping-this.md)
-- [Explicit binding of the "this" keyword](notes/javascript-explicit-binding-of-the-this-keyword.md)
-- [Private Variables with IIFEs](notes/javascript-private-variables-with-iifes.md)
-- [Use Implicit and Explicit Coercion in JavaScript](notes/javascript-use-implicit-and-explicit-coercion-in-javascript.md)
-- [De-sugar an ES6 Class and the Extends Keyword  ](notes/javascript-de-sugar-an-es6-class-and-the-extends-keyword.md)
-- [ES6 Class Constructors and the Super Keyword](notes/javascript-es6-class-constructors-and-the-super-keyword.md)
-- [Working with Static Properties on a Class](notes/javascript-working-with-static-properties-on-a-class.md)
-- [How to use 'strict mode'](notes/javascript-how-to-use-strict-mode.md)
-- [WTF is a Closure? ](notes/javascript-wtf-is-a-closure.md)
+- [01. Intro to Advanced JavaScript Foundations ](notes/javascript-intro-to-advanced-javascript-foundations.md)
+- [02. Working with Primitive Types](notes/02_javascript-working-with-primitive-types.md)
+- [03. Autoboxing Primitive Types in JavaScript](notes/03_javascript-autoboxing-primitive-types-in-javascript.md)
+- [04. Understanding Prototypal Inheritance within JavaScript](notes/04_javascript-understanding-prototypal-inheritance-within-javascript.md)
+- [05. Understanding the difference between .prototype and .__proto__ in JavaScript](notes/05_javascript-understanding-the-difference-between-prototype-and-__proto__-in-javascript.md)
+- [06. Working with var, let, const, and block scopes](notes/06_javascript-working-with-var-let-const-and-block-scopes.md)
+- [07. Implicit Binding of the "this" Keyword](notes/07_javascript-implicit-binding-of-the-this-keyword.md)
+- [08. Arrow Functions and Lexical Scoping "this"](notes/08_javascript-arrow-functions-and-lexical-scoping-this.md)
+- [09. Explicit binding of the "this" keyword](notes/09_javascript-explicit-binding-of-the-this-keyword.md)
+- [10. Private Variables with IIFEs](notes/10_javascript-private-variables-with-iifes.md)
+- [11. Use Implicit and Explicit Coercion in JavaScript](notes/11_javascript-use-implicit-and-explicit-coercion-in-javascript.md)
+- [12. De-sugar an ES6 Class and the Extends Keyword  ](notes/12_javascript-de-sugar-an-es6-class-and-the-extends-keyword.md)
+- [13. ES6 Class Constructors and the Super Keyword](notes/13_javascript-es6-class-constructors-and-the-super-keyword.md)
+- [14. Working with Static Properties on a Class](notes/14_javascript-working-with-static-properties-on-a-class.md)
+- [15. How to use 'strict mode'](notes/15_javascript-how-to-use-strict-mode.md)
+- [16. WTF is a Closure? ](notes/16_javascript-wtf-is-a-closure.md)
 
 
 ## Contribute
