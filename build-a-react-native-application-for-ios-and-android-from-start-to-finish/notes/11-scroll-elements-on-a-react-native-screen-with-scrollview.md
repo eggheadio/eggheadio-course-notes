@@ -7,5 +7,5 @@
 TODO
 
 
-📹 [Go to Previous Lesson](TODO)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-clean-up-the-folder-structure-and-imports-in-a-react-native-app-with-absolute-paths)
 📹 [Go to Next Lesson](TODO)
