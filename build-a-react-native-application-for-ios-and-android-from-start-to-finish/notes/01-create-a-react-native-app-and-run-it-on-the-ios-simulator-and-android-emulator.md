@@ -82,4 +82,6 @@ Additional emulators can be installed by opening Android Studio, selecting `Conf
 
 Check out the [React Native Docs guide](https://reactnative.dev/docs/running-on-device) for running the application on a physical device.
 
+---
+
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-reload-the-simulator-when-changes-occur-in-react-native-apps)

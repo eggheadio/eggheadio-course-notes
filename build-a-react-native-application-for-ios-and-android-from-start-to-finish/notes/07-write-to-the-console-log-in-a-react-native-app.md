@@ -12,5 +12,7 @@ Displaying `console.warn` messages in the React Native interface can be disabled
 
 More information on debugging React Native apps in [the docs](https://reactnative.dev/docs/debugging).
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-accept-user-input-with-react-native-textinput)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-use-the-debugger-in-a-react-native-app)

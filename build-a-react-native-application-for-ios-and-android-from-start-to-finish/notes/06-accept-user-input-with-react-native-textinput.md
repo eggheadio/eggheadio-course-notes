@@ -47,8 +47,10 @@ marginLeft: 4,
 marginRight: 8,
 ```
 
-## New Components
+## New component
 [`<TextInput />`](https://reactnative.dev/docs/textinput) - used for collecting user input.
+
+---
 
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-style-components-in-a-react-native-app-with-stylesheet)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-write-to-the-console-log-in-a-react-native-app)

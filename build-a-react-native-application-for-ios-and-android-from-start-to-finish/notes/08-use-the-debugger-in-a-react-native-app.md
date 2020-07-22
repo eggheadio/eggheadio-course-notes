@@ -10,5 +10,7 @@ Enabling `Pause on caught exceptions` checkbox will pause execution of the app a
 
 More information on debugging React Native apps in [the docs](https://reactnative.dev/docs/debugging).
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-write-to-the-console-log-in-a-react-native-app)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-style-react-native-components-differently-on-ios-and-android)

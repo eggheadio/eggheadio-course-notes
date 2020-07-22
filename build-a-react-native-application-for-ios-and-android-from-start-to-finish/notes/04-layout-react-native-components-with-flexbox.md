@@ -85,5 +85,7 @@ Imagine every component in React Native already has these rules applied:
 | row        | horizontal axis    | vertical axis   |
 | column     | vertical axis      | horizontal axis |
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-display-and-format-text-in-a-react-native-application)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-style-components-in-a-react-native-app-with-stylesheet)

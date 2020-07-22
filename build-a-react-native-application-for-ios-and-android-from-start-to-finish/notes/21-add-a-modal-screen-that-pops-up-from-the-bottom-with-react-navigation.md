@@ -6,6 +6,7 @@
 
 TODO
 
+---
 
-📹 [Go to Previous Lesson](TODO)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-add-bottom-tabs-to-a-react-native-app-with-react-navigation)
 📹 [Go to Next Lesson](TODO)

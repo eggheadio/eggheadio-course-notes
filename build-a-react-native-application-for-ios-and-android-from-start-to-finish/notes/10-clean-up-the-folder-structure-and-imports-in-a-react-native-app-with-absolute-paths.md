@@ -29,5 +29,7 @@ Absolute imports make import statements much cleaner, and allow for really easy 
 
 It is a good idea to add absolute imports for the `styles` and `components` directories.
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-style-react-native-components-differently-on-ios-and-android)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-scroll-elements-on-a-react-native-screen-with-scrollview)

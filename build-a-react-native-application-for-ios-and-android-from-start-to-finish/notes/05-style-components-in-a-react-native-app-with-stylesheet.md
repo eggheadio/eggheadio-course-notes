@@ -172,5 +172,7 @@ Stylesheet - generic styles that should be applied to all components of that typ
 
 External file - styles that are reused (or would be handy to reuse in the future) across other components. These also use React Native's StyleSheet so benefit from the smart stuff with duplicated styles.
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-layout-react-native-components-with-flexbox)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-accept-user-input-with-react-native-textinput)

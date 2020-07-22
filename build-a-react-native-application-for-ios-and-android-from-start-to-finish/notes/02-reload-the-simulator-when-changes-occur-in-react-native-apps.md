@@ -23,5 +23,7 @@ To enable hot reloading make sure the emulator is focused and press `cmd + d` on
 
 Automatic reloading can cause some unexpected behavior so it is recommended to manually refresh when starting out with React Native.
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-create-a-react-native-app-and-run-it-on-the-ios-simulator-and-android-emulator)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-display-and-format-text-in-a-react-native-application)

@@ -33,5 +33,7 @@ import Header from './Header'
 
 This will magically import the `.ios` version on iOS and `.android` version on Android.
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-use-the-debugger-in-a-react-native-app)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-clean-up-the-folder-structure-and-imports-in-a-react-native-app-with-absolute-paths)
