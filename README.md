@@ -12,12 +12,12 @@
 
 This repository is a community garden lead by the eggheadio team and [Learner Advocates](https://howtoegghead.com/advocate).
 
-With eggheadio-course-notes, you gain further resources to enrich your learning experience on [egghead.io](http://egghead.io/).
-You are encouraged to leverage the notes when taking an egghead course, share, iterate, and contribute to them.
+With `eggheadio-course-notes`, you gain further resources to enrich your learning experience on [egghead.io](http://egghead.io/).
+You are encouraged to leverage these notes when taking an egghead course, share, iterate, and contribute to them.
 
 # Getting Started
 
-Each folder follows the course slug. Inside each folder, you can find one or more of the following resources:
+Each folder contains notes on a course. Inside each folder, you can find one or more of the following resources:
 
 - `Notes`
 - `Exercises`
@@ -48,13 +48,9 @@ We are looking for notes that explore holes in the material, fill in gaps, expan
 
 ## First Pull Request
 
-This is your first Pull Request? We created this quick start guide to making your first Pull Request:
+This is your first Pull Request? We recommend taking the following course:
 
-- Creating Your First Pull Request in GitHub
-
-We also recommend taking the following course:
-
-- How to Contribute to an Open Source Project on GitHub
+- [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
 ## Code Review
 
