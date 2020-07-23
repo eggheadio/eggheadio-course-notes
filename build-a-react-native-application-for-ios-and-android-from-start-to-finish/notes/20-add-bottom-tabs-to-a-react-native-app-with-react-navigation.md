@@ -4,7 +4,7 @@
 
 ## Tab navigation
 
-Tab navigation is displayed at the bottom of the interface and is usually available from all screens. Usually there is only one tab navigation that serves as the core experiences of the app.
+[Tab navigation](https://reactnavigation.org/docs/2.x/tab-based-navigation/) is displayed at the bottom of the interface and is usually available from all screens. Usually there is only one tab navigation that serves as the core experiences of the app.
 
 To create tab navigation, use the `createBottomTabNavigator` function.
 
@@ -22,7 +22,7 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-native-nav
 const List = createStackNavigator(...)
 
 export default createBottomTabNavigator({
-	List { screen: List }
+	List: { screen: List }
 })
 ```
 
@@ -31,10 +31,8 @@ When using tab navigation to navigate away from the current stack navigation, it
 The `createBottomTabNavigator()` function also takes config options as a second parameter. This has a `tabBarIcon` function that can be used to set an icon for the focused tab, and an `activeBackgroundColor` that can be used to set the background color of the active tab.
 
 ```jsx
-import Icon from 'react-native-vector-icons/FontAwesome'
-
 createBottomTabNavigator({
-	List { screen: List }
+	...
 }, {
   navigationOptions: ({ navigation }) => {
     return {
@@ -51,6 +49,42 @@ createBottomTabNavigator({
   tabBarOptions: {
     activeBackgroundColor: '#E6F0FA'
   }
+})
+```
+
+The full example looks like this.
+
+```jsx
+import { createStackNavigator, createBottomTabNavigator } from 'react-native-navigation'
+import Icon from 'react-native-vector-icons/FontAwesome'
+import RestaurantList from 'components/RestaurantList'
+import RestaurantInfo from 'components/RestaurantInfo'
+import About from 'components/About'
+
+const List = createStackNavigator({
+  Home: { screen: RestaurantList },
+  Info: { screen: RestaurantInfo }
+})
+
+export default createBottomTabNavigator({
+	List: { screen: List },
+  About: { screen: About }
+}, {
+  navigationOptions: ({ navigation }) => {
+    return {
+      tabBarIcon: ({ tintColor }) => {
+        if (navigation.state.routeName === 'List') {
+          return <Icon name='list' color={tintColor} size={22} />
+        }
+        if (navigation.state.routeName === 'About') {
+          return <Icon name='info-circle' color={tintColor} size={22} />
+        }
+      },
+      tabBarOptions: {
+        activeBackgroundColor: '#E6F0FA'
+      }
+    }
+  },
 })
 ```
 

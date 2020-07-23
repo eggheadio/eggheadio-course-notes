@@ -4,7 +4,7 @@
 
 ## Configuration
 
-Stack navigation adds an automatic header, which contains the back button to go back to the previous screen. This can be turned off per component by adding `static navigationOptions = { header: null }`.
+[Stack navigation](https://reactnavigation.org/docs/2.x/stack-navigator/) adds an automatic header, which contains the back button to go back to the previous screen. This can be turned off per component by adding `static navigationOptions = { header: null }`.
 
 ```jsx
 class MyComponent extends Component {
