@@ -8,5 +8,5 @@ TODO
 
 ---
 
-📹 [Go to Previous Lesson](TODO)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-save-and-retrieve-data-on-the-device-in-a-react-native-app-with-asyncstorage)
 📹 [Go to Next Lesson](TODO)
