@@ -9,7 +9,7 @@
 To create tab navigation, use the `createBottomTabNavigator` function.
 
 ```jsx
-import { createBottomTabNavigator } from 'react-native-navigation'
+import { createBottomTabNavigator } from 'react-navigation'
 ...
 createBottomTabNavigator(...)
 ```
@@ -17,11 +17,11 @@ createBottomTabNavigator(...)
 As this is usually available on all screens, it is usually the root most navigator.
 
 ```jsx
-import { createStackNavigator, createBottomTabNavigator } from 'react-native-navigation'
+import { createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 
 const List = createStackNavigator(...)
 
-export default createBottomTabNavigator({
+const Tabs = createBottomTabNavigator({
 	List: { screen: List }
 })
 ```
@@ -55,7 +55,7 @@ createBottomTabNavigator({
 The full example looks like this.
 
 ```jsx
-import { createStackNavigator, createBottomTabNavigator } from 'react-native-navigation'
+import { createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import RestaurantList from 'components/RestaurantList'
 import RestaurantInfo from 'components/RestaurantInfo'
@@ -66,7 +66,7 @@ const List = createStackNavigator({
   Info: { screen: RestaurantInfo }
 })
 
-export default createBottomTabNavigator({
+const Tabs = createBottomTabNavigator({
 	List: { screen: List },
   About: { screen: About }
 }, {

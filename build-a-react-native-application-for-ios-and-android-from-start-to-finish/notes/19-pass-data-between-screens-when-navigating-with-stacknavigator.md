@@ -8,7 +8,7 @@ Sometimes we need to pass additional props to another screen - such as an `id` f
 
 ```
 this.props.navigation.navigate('Info', {
-	place: this.props.place
+	place: this.state.place
 })
 ```
 

@@ -42,7 +42,7 @@ Next we will configure the `iOS` app to load the correct splash screen.
 - Delete the LaunchScreen.xib file
 - Click `Images.xcassets` file
 - Right click anywhere under `AppIcon` and select `App Icons & Launch Images > New iOS Launch Image`
-- Draw and drop the correct resolution images onto the devices
+- Drag and drop the correct resolution images onto the devices
 - Select the project - the top most `RestaurantReview` file in the example video
 - Navigate to General tab and then click your app's name in the `Targets` list - again this is `RestarurantReview` in the example video
 - Click `Use Asset Catalog...` under `App Icons and Launch Images` menu

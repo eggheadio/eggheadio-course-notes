@@ -29,7 +29,7 @@ const foods = [
   }
 ]
 
-foods.map(({ food, emoji }) => (
+foods.map(({ name, emoji }) => (
   <View>
     <Text>{emoji}: {name}</Text>
   </View>

@@ -56,7 +56,7 @@ Run the project in default iOS simulator.
 react-native run-ios
 ```
 
-Run the project in default iOS simulator.
+Run the project in default Android simulator.
 
 ```bash
 react-native run-android

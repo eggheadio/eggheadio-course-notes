@@ -32,10 +32,8 @@ To read data from localStorage.
 ```jsx
 import AsyncStorage from '@react-native-community/async-storage';
 
-let pokemon = []
-
 AsyncStorage.getItem('pokemon')
-  .then((data) => pokemon = JSON.parse(data))
+  .then((data) => this.setState({ pokemon: JSON.parse(data) }))
 ```
 
 Make sure to protect against `null` or `undefined` values when reading or writing AsyncStorage.
@@ -51,7 +49,7 @@ if (pokemon) {
 AsyncStorage.getItem('pokemon')
   .then((data) => {
     if (data) {
-      pokemon = JSON.parse(data)
+      this.setState({ pokemon: JSON.parse(data) })
     }
   })
 ```

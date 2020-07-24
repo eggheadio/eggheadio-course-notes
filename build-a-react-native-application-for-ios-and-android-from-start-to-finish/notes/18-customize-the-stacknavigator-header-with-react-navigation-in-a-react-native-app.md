@@ -15,7 +15,7 @@ class MyComponent extends Component {
 
 Other config options can also be specified in `navigationOptions` - such as `title`, `headerStyle` and `tintColor`.
 
-These options can also be passed as a second argument to the `createStackNavigator` function.
+These options can also be passed as a second argument to the `createStackNavigator` function, if you would like them to generally apply to all components in the stack.
 
 ```jsx
 createStackNavigator({

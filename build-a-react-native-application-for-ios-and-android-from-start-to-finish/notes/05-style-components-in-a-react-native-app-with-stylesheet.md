@@ -4,7 +4,7 @@
 
 ## StyleSheet
 
-StyleSheet can be used to declare an object of styled for your component. It is imported from the `react-native` package and usually invoked at the bottom of the component file.
+StyleSheet can be used to declare a JSON object of style rules for your component. It is imported from the `react-native` package and usually invoked at the bottom of the component file.
 
 ```jsx
 import { StyleSheet } from 'react-native'

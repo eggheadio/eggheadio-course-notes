@@ -12,7 +12,7 @@ const Tabs = createBottomTabNavigator(...)
 
 export default createStackNavigator({
   Tabs: { screen: Tabs }, // original stack
-  AddReview { screen: AddReview } // new modal screen
+  AddReview :{ screen: AddReview } // new modal screen
 }, {
 	mode: 'modal'
 })
@@ -21,7 +21,7 @@ export default createStackNavigator({
 The full version might look something like this.
 
 ```jsx
-import { createStackNavigator, createBottomTabNavigator } from 'react-native-navigation'
+import { createStackNavigator, createBottomTabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import RestaurantList from 'components/RestaurantList'
 import RestaurantInfo from 'components/RestaurantInfo'
@@ -56,7 +56,7 @@ const Tabs = createBottomTabNavigator({
 
 export default createStackNavigator({
   Tabs: { screen: Tabs },
-  AddReview { screen: AddReview }
+  AddReview: { screen: AddReview }
 }, {
 	mode: 'modal',
 	headerMode: 'none'
