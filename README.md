@@ -22,9 +22,7 @@ Each folder contains notes on a course. Inside each folder, you can find one or 
 - `Notes`
 - `Exercises`
   - `Community solutions`
-- `Illustrations`
-- `Sketches`
-- `Images`
+- `Sketch Notes`
 
 # Contribution
 
