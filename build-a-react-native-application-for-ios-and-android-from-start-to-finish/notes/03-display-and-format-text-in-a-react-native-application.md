@@ -43,9 +43,9 @@ CSS style rules can be applied to components using the inline `style` prop. The 
 ```
 
 ## New components
-[`<View />`](https://reactnative.dev/docs/view) - used for general layout and styling.
+🤔[`<View />`](https://reactnative.dev/docs/view) - used for general layout and styling.
 
-[`<Text />`](https://reactnative.dev/docs/text) - used for displaying and styling text.
+🤔[`<Text />`](https://reactnative.dev/docs/text) - used for displaying and styling text.
 
 ---
 

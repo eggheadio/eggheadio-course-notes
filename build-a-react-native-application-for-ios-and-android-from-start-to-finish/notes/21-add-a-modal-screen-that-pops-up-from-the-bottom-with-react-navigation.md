@@ -4,7 +4,7 @@
 
 ## Modals
 
-[Stack navigation](https://reactnavigation.org/docs/2.x/stack-navigator/) can be used to display a modal. This should be the root most navigation layer if it needs to pop up over all content. The `mode: 'modal'` configuration option is used to tell React Native that this is a modal that should pop up from the bottom of the UI.
+🤔[Stack navigation](https://reactnavigation.org/docs/2.x/stack-navigator/) can be used to display a modal. This should be the root most navigation layer if it needs to pop up over all content. The `mode: 'modal'` configuration option is used to tell React Native that this is a modal that should pop up from the bottom of the UI.
 
 ```jsx
 const List = createStackNavigator(...)

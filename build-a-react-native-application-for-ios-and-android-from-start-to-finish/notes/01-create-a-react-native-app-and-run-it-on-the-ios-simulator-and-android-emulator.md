@@ -12,11 +12,11 @@ Node.js is required to install the `react-native` package and any additional pac
 Any text editor can be used - Sublime Text, Atom, Vim etc - but if you do not yet have a text editor of choice, check out [Visual Studio Code](https://code.visualstudio.com/download).
 
 ### React Native
-Navigate to [react native docs](https://reactnative.dev/docs/environment-setup), select `React Native CLI Quickstart` tab, and choose your dev OS and target OS - e.g. macOS and iOS.
+🤔Navigate to [react native docs](https://reactnative.dev/docs/environment-setup), select `React Native CLI Quickstart` tab, and choose your dev OS and target OS - e.g. macOS and iOS.
 
 > Note: iOS development can only be done on a macOS device, due to Apple licensing. If you are planning to build for iOS make sure you have a macOS dev device, otherwise follow the Android instructions to get setup.
 
-The docs will step you through each dependency you need to setup, before installing the `react native` package. Go through the `Installing dependencies` section for each target OS, even if you are only planning to build for one. This will save a lot of time in the future 🙂
+👍The docs will step you through each dependency you need to setup, before installing the `react native` package. Go through the `Installing dependencies` section for each target OS, even if you are only planning to build for one. This will save a lot of time in the future 🙂
 
 Once all dependencies are installed for both target platforms, install the `react native CLI` package.
 
@@ -80,7 +80,7 @@ Additional emulators can be installed by opening Android Studio, selecting `Conf
 
 ## Running app on physical device
 
-Check out the [React Native Docs guide](https://reactnative.dev/docs/running-on-device) for running the application on a physical device.
+🤔Check out the [React Native Docs guide](https://reactnative.dev/docs/running-on-device) for running the application on a physical device.
 
 ---
 

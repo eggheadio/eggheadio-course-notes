@@ -27,7 +27,7 @@ import Header from '../../components/Header'
 
 Absolute imports make import statements much cleaner, and allow for really easy refactoring and moving of files, without needing to think about where the current file is now located in relation to the file being imported.
 
-It is a good idea to add absolute imports for the `styles` and `components` directories.
+👍It is a good idea to add absolute imports for the `styles` and `components` directories.
 
 ```
 .

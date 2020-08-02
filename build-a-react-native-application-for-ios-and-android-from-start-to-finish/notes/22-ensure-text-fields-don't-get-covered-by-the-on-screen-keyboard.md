@@ -18,13 +18,13 @@ The `<TextInput />` component can be turned into a multiline input - similar to 
 
 When focusing an input the onscreen keyboard is automatically displayed. If this does not open in the simulator, it can be toggled from the developer menu - `cmd + d` or `cmd + m` on macOS and `ctrl + m` on Windows.
 
-The onscreen keyboard can cover the page content. To fix this we can install the `<KeyboardAwareScrollView />` component from NPM.
+👍The onscreen keyboard can cover the page content. To fix this we can install the `<KeyboardAwareScrollView />` component from NPM.
 
 ```bash
 npm i react-native-keyboard-aware-scrollview
 ```
 
-This can be used to wrap each screen to ensure the keyboard does not hide page content.
+👍This can be used to wrap each screen to ensure the keyboard does not hide page content.
 
 ```jsx
 render() {

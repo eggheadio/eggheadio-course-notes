@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 })
 ```
 
-If the dimensions aspect ratio is incorrect, the `<Image />` component will automatically clip the image. This behavior can be overridden with the `resizeMode` prop.
+👍If the dimensions aspect ratio is incorrect, the `<Image />` component will automatically clip the image. This behavior can be overridden with the `resizeMode` prop.
 
 ```jsx
 <Image
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
 
 ## New component
 
-[`<Image />`](https://reactnative.dev/docs/image) - used for displaying images.
+🤔[`<Image />`](https://reactnative.dev/docs/image) - used for displaying images.
 
 ---
 

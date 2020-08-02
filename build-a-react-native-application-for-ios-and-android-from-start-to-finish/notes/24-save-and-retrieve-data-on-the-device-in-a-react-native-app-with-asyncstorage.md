@@ -4,9 +4,9 @@
 
 ## Storage
 
-> Note: This course uses React Native's AsyncStorage, however, this is now deprecated. It is recommended to use the [React Native Community Async Storage](https://react-native-community.github.io/async-storage/docs/install) which needs to be installed from NPM.
+> ❗Note: This course uses React Native's AsyncStorage, however, this is now deprecated. It is recommended to use the [React Native Community Async Storage](https://react-native-community.github.io/async-storage/docs/install) which needs to be installed from NPM.
 
-[AsyncStorage](https://react-native-community.github.io/async-storage/docs/install) can be used to easily store simple data on the user's device. The API is identical to `localStorage` on the web, however, it is asynchronous whereas `localStorage` is synchronous.
+🤔[AsyncStorage](https://react-native-community.github.io/async-storage/docs/install) can be used to easily store simple data on the user's device. The API is identical to `localStorage` on the web, however, it is asynchronous whereas `localStorage` is synchronous.
 
 Install AsyncStorage from NPM.
 

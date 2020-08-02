@@ -8,7 +8,7 @@ A `debugger` statement placed in your React Native code will pause execution and
 
 Enabling `Pause on caught exceptions` checkbox will pause execution of the app and open the debugger tools immediately before the exception is thrown. This is a fantastic way to quickly identify why an unexpected exception is being thrown.
 
-More information on debugging React Native apps in [the docs](https://reactnative.dev/docs/debugging).
+🤔More information on debugging React Native apps in [the docs](https://reactnative.dev/docs/debugging).
 
 ---
 

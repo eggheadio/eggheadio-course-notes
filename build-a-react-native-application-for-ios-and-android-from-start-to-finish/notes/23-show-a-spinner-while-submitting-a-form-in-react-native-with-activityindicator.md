@@ -4,9 +4,9 @@
 
 ## Loading spinners
 
-When loading data from an API or another remote source, the request can take a significant amount of time. Loading spinners are a good way to communicate to the user that something is happening.
+👍When loading data from an API or another remote source, the request can take a significant amount of time. Loading spinners are a good way to communicate to the user that something is happening.
 
-The [`<ActivityIndicator />`](https://reactnative.dev/docs/activityindicator) can show a spinner while content is loading or submitting. It can be provided a `size` and `color` prop, however, managing whether it is shown or not is done manually with state.
+🤔The [`<ActivityIndicator />`](https://reactnative.dev/docs/activityindicator) component can show a spinner while content is loading or submitting. It can be provided a `size` and `color` prop, however, managing whether it is shown or not is done manually with state.
 
 ```jsx
 class MyComponent extends Component {
@@ -53,7 +53,7 @@ A similar technique can be used with `<ActivityIndicator />` after a form has be
 
 ## New component
 
-[`<ActivityIndicator />`](https://reactnative.dev/docs/activityindicator) - used to display a loading spinner when loading or submitting data.
+🤔[`<ActivityIndicator />`](https://reactnative.dev/docs/activityindicator) - used to display a loading spinner when loading or submitting data.
 
 ---
 

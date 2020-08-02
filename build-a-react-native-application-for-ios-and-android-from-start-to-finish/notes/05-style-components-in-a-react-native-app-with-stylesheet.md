@@ -43,9 +43,9 @@ const styles = StyleSheet.create({
 })
 ```
 
-> Note: Most of the examples in this course use the class-based component syntax and `this.setState(...)`, but React Native also supports the newer [hooks](https://reactjs.org/docs/hooks-intro.html) syntax if you prefer.
+> ❗Note: Most of the examples in this course use the class-based component syntax and `this.setState(...)`, but React Native also supports the newer [hooks](https://reactjs.org/docs/hooks-intro.html) syntax if you prefer.
 
-All keys must be camelCase and all values must be a `number` (e.g. 20), `boolean` (e.g. true) or `string` (e.g. '#afafaf').
+👍All keys must be camelCase and all values must be a `number` (e.g. 20), `boolean` (e.g. true) or `string` (e.g. '#afafaf').
 
 ```jsx
 const styles = StyleSheet.create({
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
 })
 ```
 
-Styling rules can be specified inline, abstracted to a stylesheet or in a different file.
+👍Styling rules can be specified inline, abstracted to a stylesheet or in a different file.
 
 Inline:
 
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
 })
 ```
 
-## General rules
+## 👍General rules
 
 Inline - only use for specific styles that should extend or override the general styles - such as a background color for the row that is currently active. These specific styles would usually be based on state that differs between components of that type.
 

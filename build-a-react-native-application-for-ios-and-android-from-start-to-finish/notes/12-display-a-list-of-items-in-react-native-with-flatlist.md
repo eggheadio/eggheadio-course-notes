@@ -26,7 +26,7 @@ const pokemon = [...] // contains all 151 pokemon
 
 ## New component
 
-[`<FlatList />`](https://reactnative.dev/docs/flatlist) - used for displaying large collections of data.
+🤔[`<FlatList />`](https://reactnative.dev/docs/flatlist) - used for displaying large collections of data.
 
 ---
 

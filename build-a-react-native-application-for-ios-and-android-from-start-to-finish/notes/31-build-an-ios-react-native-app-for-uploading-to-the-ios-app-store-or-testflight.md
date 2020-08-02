@@ -14,7 +14,7 @@
 - Ensure you have [registered your app for distribution](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases)
 - Click `Upload to App Store...` to deploy to test flight or the app store
 
-> Note: Xcode may display different options if you are running a newer version - follow [Apple's Distributing Your App for Beta Testing and Releases](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guide for more information.
+> ❗Note: Xcode may display different options if you are running a newer version - follow [Apple's Distributing Your App for Beta Testing and Releases](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guide for more information.
 
 ---
 

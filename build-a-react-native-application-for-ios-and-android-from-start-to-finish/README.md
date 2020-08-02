@@ -51,6 +51,24 @@ Throughout the course, we’ll be building a “Restaurant Review” app. We’l
 - [31 - Build an iOS React Native App for Uploading to the iOS App Store or TestFlight](notes/31-build-an-ios-react-native-app-for-uploading-to-the-ios-app-store-or-testflight.md)
 - [32 - Build an Android React Native App for the Google Play Store or for Ad Hoc Distribution](notes/32-build-an-android-react-native-app-for-the-google-play-store-or-for-ad-hoc-distribution.md)
 
+## Emoji Legend 🧠
+| emoji |        explanation        |
+| ----- | :-----------------------: |
+| 📹    | links to the course video |
+| 💻    |     course repository     |
+| ⌨️     |     keyboard shortcut     |
+| 🤔    |   additional resources    |
+| 👍    |       good practice       |
+| ❗    |    significant change     |
+
+## ❗Significant Changes
+
+This course uses react-navigation version 2. The current version is 5 and contains a slightly different API. The concepts of stack and tab navigation are the same, so for consistency with the videos install version 2, and use the corresponding [docs](https://reactnavigation.org/docs/2.x/getting-started/).
+
+This course uses React Native's AsyncStorage, however, this is now deprecated. It is recommended to use the [React Native Community Async Storage](https://react-native-community.github.io/async-storage/docs/install) which needs to be installed from NPM.
+
+Xcode may display different options if you are running a newer version - follow [Apple's Distributing Your App for Beta Testing and Releases](https://developer.apple.com/documentation/xcode/distributing_your_app_for_beta_testing_and_releases) guide for more information.
+
 ## Contributors ✨
 
 <table>

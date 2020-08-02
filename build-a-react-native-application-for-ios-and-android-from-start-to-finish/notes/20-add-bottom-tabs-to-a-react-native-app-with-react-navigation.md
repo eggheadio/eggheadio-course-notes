@@ -4,7 +4,7 @@
 
 ## Tab navigation
 
-[Tab navigation](https://reactnavigation.org/docs/2.x/tab-based-navigation/) is displayed at the bottom of the interface and is usually available from all screens. Usually there is only one tab navigation that serves as the core experiences of the app.
+🤔[Tab navigation](https://reactnavigation.org/docs/2.x/tab-based-navigation/) is displayed at the bottom of the interface and is usually available from all screens. Usually there is only one tab navigation that serves as the core experiences of the app.
 
 To create tab navigation, use the `createBottomTabNavigator` function.
 

@@ -21,11 +21,11 @@ The `style` prop applies rules to the outer container, and the `contentContainer
 />
 ```
 
-The `<ScrollView />` component should only be used for small collections, as it will load every row into memory, regardless of what is actually in the user's viewport. It should not be used for content that may grow to more than two screens high.
+👍The `<ScrollView />` component should only be used for small collections, as it will load every row into memory, regardless of what is actually in the user's viewport. It should not be used for content that may grow to more than two screens high.
 
 ## New components
 
-[`<ScrollView />`](https://reactnative.dev/docs/scrollview) - used for wrapping content that needs to scroll.
+🤔[`<ScrollView />`](https://reactnative.dev/docs/scrollview) - used for wrapping content that needs to scroll.
 
 ---
 

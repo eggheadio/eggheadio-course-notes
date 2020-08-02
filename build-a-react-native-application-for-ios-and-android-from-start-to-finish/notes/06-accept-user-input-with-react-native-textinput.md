@@ -16,7 +16,8 @@ The `onChangeText` prop can be used to run a function when the user changes the 
 ```
 
 ## No shorthand properties
-In CSS there are a few convenient shorthand properties for styling a collection of related things - such as `border: 1px dotted green;` or `padding: 1rem 2rem;`. Unfortunately these shorthands do not exist in React Native as all properties must be single values. Border properties must be specified as separate rules.
+
+In CSS there are a few convenient shorthand properties for styling a collection of related things - such as `border: 1px dotted green;` or `padding: 1rem 2rem;`. **Unfortunately, these shorthands do not exist in React Native as all properties must be single values.** Border properties must be specified as separate rules.
 
 ```jsx
 borderWidth: 1,
@@ -48,7 +49,7 @@ marginRight: 8,
 ```
 
 ## New component
-[`<TextInput />`](https://reactnative.dev/docs/textinput) - used for collecting user input.
+🤔[`<TextInput />`](https://reactnative.dev/docs/textinput) - used for collecting user input.
 
 ---
 

@@ -69,7 +69,7 @@ Every component in React Native contains the `display: flex` rule implicitly, so
 
 In contrast to the web, React Native's default flex direction is `column`. This may confuse people coming from regular CSS where the default direction is `row`.
 
-Imagine every component in React Native already has these rules applied:
+👍Imagine every component in React Native already has these rules applied:
 
 ```jsx
 <Component style={{
