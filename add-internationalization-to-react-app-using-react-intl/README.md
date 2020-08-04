@@ -1,8 +1,11 @@
 <h1><p align="center"><a href="https://egghead.io/courses/add-internationalization-i18n-to-a-react-app-using-react-intl">Add Internationalization (i18n) to a React app using React Intl</a></p></h1>
-
 <h2><p align="center"><a href="https://egghead.io/instructors/damon-bauer"> 👨‍🏫 Instructor - Damon Bauer</a></p></h2>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/124/full/EGH_React_i18n.png" width="300"/></p>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 🌟 About 
 These notes go along with the *[Add Internationalization (i18n) to a React app using React Intl](https://egghead.io/courses/add-internationalization-i18n-to-a-react-app-using-react-intl)* course from [Damon Bauer](https://egghead.io/instructors/damon-bauer) on [egghead.io](http://egghead.io/).
@@ -42,4 +45,23 @@ Lesson code resides on branch with corresponding name.
 - [10-Write tests for react-intl output using enzyme and Jest](notes/10-write-tests-for-react-intl-output-using-enzyme-and-jest.md)
 
 - [11-Use Webpack to Conditionally Include an Intl Polyfill for Older Browsers](notes/11-use-webpack-to-conditionally-include-an-intl-polyfill-for-older-browsers.md)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ParkerGits"><img src="https://avatars3.githubusercontent.com/u/45955761?v=4" width="100px;" alt=""/><br /><sub><b>Parker Landon</b></sub></a><br /><a href="#content-ParkerGits" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
