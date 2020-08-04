@@ -1,10 +1,24 @@
 # Invoke an Xstate Service when Enterine a state
 
-[video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
+[Video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
 
-- We can reuse the `fetchMachine` in either the same component or different components
-  - If we plan on reusing this `machine` it is good to plan ahead and decided what logic should be passed in as an argument and what logic should be delegated inside the machine
-- When delegating logic to inside the machine, we can achieve this by having the `pending` state `invoke` a service
+- We can reuse the `fetchMachine` in either the same component or different components.
+  - If we plan on reusing this `machine` it is good to plan ahead and decided what logic should be passed in as an argument and what logic should be delegated inside the machine.
+- When delegating logic to inside the machine, we can achieve this by having the `pending` state `invoke` a service.
+
+**Note:** `services` can return promises, observables, and even other machines.
+
+- [Invoke](https://xstate.js.org/docs/guides/communication.html#the-invoke-property) is defined in a state node's configuration whose value is an object that contains:
+  - `src`, `id`, `onError`, `autoForward`, and `data`
+- Xstate can [invoke promises](https://xstate.js.org/docs/guides/communication.html#invoking-promises) as-is.
+- **Note:** _If the state where the invoked promise is active is exited before the promise settles, the result of the promise is discarded._
+- Xstate can [invoke callbacks](https://xstate.js.org/docs/guides/communication.html#invoking-callbacks)
+  - Defined as streams of events sent to the parent machine which are modeled via a callback handler. The callback handler is a function that takes two arguments:
+    - `callback` - called with the event to be sent.
+    - `onReceive` - called with the listern that listens to events from the parent.
+- Xstate can [invoke observables](https://xstate.js.org/docs/guides/communication.html#invoking-observables)
+  - Defined as streams of values emmited over time.
+  - Uni-directional, it can only send events to the parent machine, not receive them.
 
 ```js
 export const fetchMachine = Machine({
@@ -48,5 +62,3 @@ const [fetchPeopleState, sendToPeopleMachine] = useMachine(fetchMachine, {
   },
 });
 ```
-
-**Note:** `services` can return promises, observables, and even other machines.
