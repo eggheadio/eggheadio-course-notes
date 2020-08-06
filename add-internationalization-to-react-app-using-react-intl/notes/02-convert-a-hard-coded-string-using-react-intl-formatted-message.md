@@ -83,8 +83,7 @@ Create a folder in **src** called **components**, and create three files:
 
 Within each file, add the corresponding code given below:
 
-<details>
-<summary> BookDetail.js </summary>
+### BookDetail.js
 
 ```jsx
 import React from 'react';
@@ -144,10 +143,9 @@ const BookDetail = ({match}) => {
 
 export default BookDetail;
 ```
-</details>
 
-<details>
-<summary> FeaturedBook.js </summary>
+
+### FeaturedBook.js 
 
 ```jsx
 import React from 'react';
@@ -167,9 +165,8 @@ const FeaturedBook = ({book}) => {
 
 export default FeaturedBook;
 ```
-</details>
-<details>
-<summary> Home.js </summary>
+
+### Home.js 
 
 ```jsx
 import React from "react";
@@ -189,7 +186,6 @@ const Home = () => {
 
 export default Home;
 ```
-</details>
 
 
 
