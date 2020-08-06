@@ -2,7 +2,7 @@
 
 ## Using flex-direction to layout content horizontally and vertically
 
-**[📹 Video](https://egghead.io/courses/flexbox-fundamentals)**
+**[📹 Video](https://egghead.io/lessons/flexbox-using-flex-direction-to-layout-content-horizontally-and-vertically)**
 
 Flexbox is a layout mode in CSS. This layout type makes it easy for developers to display content in various ways.
 
