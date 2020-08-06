@@ -5,7 +5,7 @@
 ## Making our Messages More Friendly ⚡
 Currently, no matter how many reviews a book has, our app always renders the number of reviews, then the word reviews.
 
-![Reviews Before](images/08-render-content-based-on-a-number-using-react-intl-formatted-message-reviews-before.png)
+![Reviews Before](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732368/transcript-images/08-render-content-based-on-a-number-using-react-intl-formatted-message-reviews-before.png)
 
 We can make this more friendly by first changing our `avgRating` variable in **src/components/BookDetail.js**. Let's have the variable evaluate to what it is now when `book.reviews.length` is true (when there are book reviews), and have it evaluate to 0 when `book.reviews.length` is false (there are no book reviews).
 
@@ -83,10 +83,10 @@ yarn start
 And navigate to our localhost port, we should see that our average rating message is properly displayed for any number of reviews on any supported language.
 
 ### Many Reviews, Different Languages
-![Conditional Reviews Many](images/08-render-content-based-on-a-number-using-react-intl-formatted-message-conditional-reviews-many.png)
+![Conditional Reviews Many](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732368/transcript-images/08-render-content-based-on-a-number-using-react-intl-formatted-message-conditional-reviews-many.png)
 
 ### No Reviews
-![Zero Reviews](images/08-render-content-based-on-a-number-using-react-intl-formatted-message-zero-reviews.png)
+![Zero Reviews](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732368/transcript-images/08-render-content-based-on-a-number-using-react-intl-formatted-message-zero-reviews.png)
 
 ## Resources 📖
 - [FormattedMessage Plural Format - react-intl](https://formatjs.io/docs/icu-syntax#plural-format)

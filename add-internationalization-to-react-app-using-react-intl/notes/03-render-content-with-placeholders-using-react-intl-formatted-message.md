@@ -58,7 +58,7 @@ yarn start
 ```
 We should be able to navigate to a book in our development server and see that the author heading is rendered in the language set by our browser, and the `{author}` placeholder is substituted by `book.author`.
 
-![Author Translate](./images/03-render-content-with-placeholders-using-react-intl-formatted-message-author-translate.png)
+![Author Translate](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732365/transcript-images/03-render-content-with-placeholders-using-react-intl-formatted-message-author-translate.png)
 
 Next, we'll replace our "Average Rating" header.
 
@@ -88,7 +88,7 @@ Now we'll replace the former header with a `<FormattedMessage />` that displays 
 ```
 
 We should now be able to navigate to our development server and see our Average Rating header display our `detail.averageRating` message with `avgRating` substituting the placeholder.
-![Average Rating Translation](./images/03-render-content-with-placeholders-using-react-intl-formatted-message-average-rating-translate.png)
+![Average Rating Translation](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732366/transcript-images/03-render-content-with-placeholders-using-react-intl-formatted-message-average-rating-translate.png)
 
 The final header that we'll be refactoring with a `<FormattedMessage />` component is the reviewer's name and rating. 
 
@@ -109,7 +109,7 @@ For our second prop: if you look at the `BookDetail` user review header, you'll 
 
 If we head to our development server, we should see our placeholders have rendered correctly. This includes both the rendering of the reviewer's name in bold and the rating that the reviewer gave. Furthermore, our message should change depending on the language of the user's browser.
 
-![Review Translate](./images/03-render-content-with-placeholders-using-react-intl-formatted-message-review-translate.png)
+![Review Translate](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732366/transcript-images/03-render-content-with-placeholders-using-react-intl-formatted-message-review-translate.png)
 
 ## Resources 📖
 - [FormattedMessage - react-intl](https://formatjs.io/docs/react-intl/components/#formattedmessage)

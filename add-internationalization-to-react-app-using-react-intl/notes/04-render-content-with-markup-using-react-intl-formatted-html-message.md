@@ -75,6 +75,6 @@ yarn start
 ```
 And navigate to our localhost port, we should see our new `FormattedMessage` component displaying our message with correctly rendered markdown.
 
-![Markdown Render](./images/04-render-content-with-markup-using-react-intl-formatted-html-message-markdown-render.png)
+![Markdown Render](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732366/transcript-images/04-render-content-with-markup-using-react-intl-formatted-html-message-markdown-render.png)
 ## Resources 📖
 - [FormattedMessage Rich Text Formatting - react-intl](https://formatjs.io/docs/react-intl/components#rich-text-formatting)

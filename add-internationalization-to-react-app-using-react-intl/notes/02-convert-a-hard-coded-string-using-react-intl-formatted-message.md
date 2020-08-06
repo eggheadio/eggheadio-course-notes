@@ -196,7 +196,7 @@ export default Home;
 ## Other Files to Add/Edit ⚡
 In order for our project to look as it does in the lesson, we need to add some other files.
 
-Firstly, download [this image](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-books.svg).
+Firstly, download [this image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732364/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-books.svg).
 
 Next, edit **src/App.css** to be as follows:
 ### App.css
@@ -848,11 +848,11 @@ yarn start
 ```
 And navigate to `localhost:3000` to see our project. If there are no errors, we should see the following:
 
-![Homepage](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-homepage.png)
+![Homepage](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732365/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-homepage.png)
 
 Click on one of the books to view information about that book.
 
-![Book Information](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-book-information.png)
+![Book Information](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732364/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-book-information.png)
 
 Our goal now is to internationalize the "Read More" text by having it display from our `messages`.
 
@@ -878,7 +878,7 @@ import books from '../books.json';
 ```
 Saving and returning to our development server, we should see our change in place:
 
-![Toggle Button](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-toggle-button.png)
+![Toggle Button](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732364/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-toggle-button.png)
 
 We'll now also replace the "Purchase this book from" and "Reviews" headers with `FormattedMessage` components. The former will display `detail.purchase` and the latter will display `detail.reviewsHeading`.
 
@@ -900,13 +900,13 @@ We'll now also replace the "Purchase this book from" and "Reviews" headers with 
 When we save our changes, we can view our webpage in different languages to see our translated messages displayed.
 
 ### English
-![English Translation](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-english-translation.png)
+![English Translation](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732364/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-english-translation.png)
 
 ### Spanish
-![Spanish Translation](images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-spanish-translation.png)
+![Spanish Translation](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732364/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-spanish-translation.png)
 
 ### French
-![French Translation](./images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-french-translation.png)
+![French Translation](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732366/transcript-images/02-convert-a-hard-coded-string-using-react-intl-formatted-message-french-translation.png)
 
 ## Resources 📖
 - [FormattedMessage - react-intl](https://formatjs.io/docs/react-intl/components/#formattedmessage)

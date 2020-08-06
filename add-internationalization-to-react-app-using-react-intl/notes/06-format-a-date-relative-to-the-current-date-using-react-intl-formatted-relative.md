@@ -47,7 +47,7 @@ yarn start
 ```
 We can navigate to our localhost port in the browser and see that the relative date is formatted as expected:
 
-![Relative Date Days](./images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-relative-date-days.png)
+![Relative Date Days](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-relative-date-days.png)
 
 By default, this component will automatically re-render at a maximum of every 10 seconds. We can specify our update interval with the `updateIntervalInSeconds` prop.
 
@@ -62,7 +62,7 @@ To use this prop, we need to make sure our `unit` prop is assigned a unit no lon
 
 We can return to our site and see that our displayed relative time is indeed updating every 1 second.
 
-![Update Interval](images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-update-interval.gif)
+![Update Interval](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-update-interval.gif)
 
 The `updateIntervalInSeconds` prop could severely slow down your site in production, as it is re-rendering the component at every interval. This can be especially unwanted if the component re-renders every second, but the relative time isn't changing because it's beyond displaying individual seconds.
 
@@ -81,7 +81,7 @@ Furthermore, the `style` prop now accepts either `long`, `short`, or `narrow`. T
   numeric="always"/><br />
 ```
 
-![Short Style](images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-short.png)
+![Short Style](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/06-format-a-date-relative-to-the-current-date-using-react-intl-formatted-relative-short.png)
 
 ## Resources 📖
 - [FormattedRelativeTime - react-intl](https://formatjs.io/docs/react-intl/components/#formattedrelativetime)

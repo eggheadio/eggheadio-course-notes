@@ -611,7 +611,7 @@ yarn start
 ```
 And navigate to the localhost port to see that our price is displayed with the correct currency symbol for the locale.
 
-![Currency](images/07-format-numbers-with-separators-and-currency-symbols-using-react-intl-formatted-number-currency.png)
+![Currency](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732368/transcript-images/07-format-numbers-with-separators-and-currency-symbols-using-react-intl-formatted-number-currency.png)
 
 ## Resources 📖
 - [FormattedNumber - react-intl](https://formatjs.io/docs/react-intl/components/#formattednumber)

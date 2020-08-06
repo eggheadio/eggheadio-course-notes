@@ -57,7 +57,7 @@ yarn start
 ```
 Our `textarea` wil be rendered like this:
 
-![Object Placeholder](images/09-use-a-react-intl-higher-order-component-to-format-messages-and-get-current-locale-object-placeholder.png)
+![Object Placeholder](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732368/transcript-images/09-use-a-react-intl-higher-order-component-to-format-messages-and-get-current-locale-object-placeholder.png)
 
 The `FormattedMessage` component doesn't actually render like we'd expect when it's inside of the `placeholder` attribute.
 

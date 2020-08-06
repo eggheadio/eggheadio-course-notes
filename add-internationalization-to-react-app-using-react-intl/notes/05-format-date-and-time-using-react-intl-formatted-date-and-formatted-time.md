@@ -49,7 +49,7 @@ yarn start
 ```
 And navigate to our localhost, we should see our dates render correctly.
 
-![Numeric Date](images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-numeric-date.png)
+![Numeric Date](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-numeric-date.png)
 
 To change the date format, we can change the props of the `FormattedDate` component:
 ### BookDetail.js
@@ -62,7 +62,7 @@ To change the date format, we can change the props of the `FormattedDate` compon
 ```
 Navigating back to our page, we should now see our date has changed format.
 
-![Long Month Date](images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-long-month-date.png)
+![Long Month Date](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-long-month-date.png)
 
 For this app, we want our `year`, `month`, and `date` props to be `"2-digit"`, so we'll change that now.
 ### BookDetail.js
@@ -73,7 +73,7 @@ For this app, we want our `year`, `month`, and `date` props to be `"2-digit"`, s
     month="2-digit"
     day="2-digit" /><br />
 ```
-![2 Digit Date](images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-2-digit-date.png)
+![2 Digit Date](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732366/transcript-images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-2-digit-date.png)
 
 ## Using the FormattedTime Component ⚡
 Our `review.time` property was a timestamp that measured down to the millisecond, so we can render all of that time information in a `FormattedTime` component.
@@ -96,7 +96,7 @@ We'll comment out our `FormattedDate` component and pass the same props into a `
 ```
 Navigating back to our page, we should see now that the displayed date also includes a formatted time.
 
-![Formatted Time](./images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-formatted-time.png)
+![Formatted Time](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1596732367/transcript-images/05-format-date-and-time-using-react-intl-formatted-date-and-formatted-time-formatted-time.png)
 
 ## Resources 📖
 - [FormattedDate Component - react-intl](https://formatjs.io/docs/react-intl/components/#formatteddate)
