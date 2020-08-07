@@ -50,7 +50,7 @@ const broken = {
 };
 ```
 
-- We're going to import the machine factory function from the XState library. We're using not, so we'll use common JS rather than ES6.
+- We're going to import the machine factory function from the XState library. We're using Node, so we'll use common JS rather than ES6.
 
 ```js
 const { Machine } = require("xstate");
