@@ -9,7 +9,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## About
+## About 
 
 This repo contains notes from [Gerilyn Hayes](https://twitter.com/gerilynmhayes)'s [Flexbox Fundametals Notes](https://egghead.io/courses/flexbox-fundamentals).
 
