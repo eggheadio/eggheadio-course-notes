@@ -26,7 +26,16 @@ Then he sets the `display:;` to  `flex`. Whatever code is written after this wil
 
 ### Note: Flexbox containers have a property called `flex-direction`.
 
-`flex-direction` defaults to row which is displayed horizontally. This flexbox property's value can be changed to `row`, `row-reverse`, `column`, and `column-reverse`.
+`flex-direction` defaults to row which is displayed horizontally.
+
+Following the transcript, we can note that this flexbox property's value can be changed to:
+
+- `row` – This is the default position for the `flex-direction` property.
+- `row-reverse` – The children will flow from left to right.
+- `column`– The column will display vertically.
+- `column-reverse` - The children to flow from bottom to top.
+
+---
 
 The resulting code snippet for a horizontal navigation bar in Braithwaite's example is:
 
