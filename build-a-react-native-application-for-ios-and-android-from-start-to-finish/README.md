@@ -74,6 +74,7 @@ Xcode may display different options if you are running a newer version - follow 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/dijonmusters"><img src="https://avatars0.githubusercontent.com/u/13792200?s=460&u=a4fe6e9e2a155e1f8e88cc261583c116d953d491&v=4" width="100px;" alt=""/><br /><sub><b>Jon Meyers</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/build-a-react-native-application-for-ios-and-android-from-start-to-finish/notes" title="Content">🖋</td>
+    <td align="center"><a href="https://zacjones.io"><img src="https://avatars2.githubusercontent.com/u/6188161?v=4" width="100px;" alt=""/><br /><sub><b>Zac Jones</b></sub></a><br /><a href="https://github.com/eggheadio/GraphQL Query Language Notes/pulls?q=is%3Apr+reviewed-by%3Azacjones93" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
