@@ -44,6 +44,7 @@ By the time you're done taking this course, you should have a solid education ab
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/doingandlearning"><img src="https://avatars2.githubusercontent.com/u/8320213?s=460&u=091f53ddb85c741ef9509d21e4dc3ab178288634&v=4" width="100px;" alt=""/><br /><sub><b>Kevin Cunningham</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/build-a-video-chat-app-with-twilio-and-gatsby/notes" title="Content">🖋</td>
+    <td align="center"><a href="https://github.com/doingandlearning"><img src="https://avatars2.githubusercontent.com/u/8320213?s=460&u=091f53ddb85c741ef9509d21e4dc3ab178288634&v=4" width="100px;" alt=""/><br /><sub><b>Kevin Cunningham</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/tree/master/introduction-to-state-machines-using-xstate" title="Content">🖋</td>
+    <td align="center"><a href="https://github.com/musikele"><img src="https://avatars2.githubusercontent.com/u/2239793?s=460&u=d9bd2e4d950d28506446b83694d763b1169cf4cf&v=4" width="100px;" alt=""/><br /><sub><b>Michele Nasti</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/tree/master/introduction-to-state-machines-using-xstate" title="Content">🖋</td>
   </tr>
 </table>
