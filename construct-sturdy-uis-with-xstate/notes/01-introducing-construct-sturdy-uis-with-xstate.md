@@ -27,7 +27,7 @@ In this course we will build an app that challenges us to match a starwars chara
 
 6.  How to use history states as way to have state machines remember where it was in a particular area so you can return to it later.
 
-7.  How to use activites to start a process when a state is entered and ended when the state is exited.
+7.  How to use activites to start a process when a state is entered and end it when the state is exited.
 
 ### Sumary
 
