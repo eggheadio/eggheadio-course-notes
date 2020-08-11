@@ -1,7 +1,7 @@
 # Control Transitions Order with Parallel State
 
-[Video Link](https://egghead.io/lessons/react-control-transitions-order-with-parallel-states)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson4-end)
+- [Video Link](https://egghead.io/lessons/react-control-transitions-order-with-parallel-states)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson4-end)
 
 ### Parallel & Final States
 

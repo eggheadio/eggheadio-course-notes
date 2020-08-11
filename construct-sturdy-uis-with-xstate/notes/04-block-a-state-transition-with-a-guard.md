@@ -1,7 +1,7 @@
 # Block a State Transition with a Guard
 
-[Video Link](https://egghead.io/lessons/react-block-a-state-transition-with-a-guard)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson3-end)
+- [Video Link](https://egghead.io/lessons/react-block-a-state-transition-with-a-guard)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson3-end)
 
 What do we do when we want state transitions to only occur when a certain condition is met?
 

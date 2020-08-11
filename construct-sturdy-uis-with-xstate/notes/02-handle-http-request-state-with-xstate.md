@@ -1,7 +1,7 @@
-# Handle http request state with Xstate
+# Handle HTTP Request State with Xstate
 
-[Video link](https://egghead.io/lessons/react-handle-http-request-state-with-xstate)
-[Code](https://github.com/isaacplmann/sturdy-uis/tree/lesson1-end)
+- [Video link](https://egghead.io/lessons/react-handle-http-request-state-with-xstate)
+- [Code](https://github.com/isaacplmann/sturdy-uis/tree/lesson1-end)
 
 ### Notes
 

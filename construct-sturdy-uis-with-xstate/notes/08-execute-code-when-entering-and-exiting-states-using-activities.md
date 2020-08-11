@@ -1,7 +1,7 @@
 # Execute Code when Entering and Exiting States using Activities
 
-[Video Link](https://egghead.io/lessons/react-execute-code-when-entering-and-exiting-states-using-activities)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson7-end)
+- [Video Link](https://egghead.io/lessons/react-execute-code-when-entering-and-exiting-states-using-activities)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson7-end)
 
 ### Activities
 💰 An [activity](https://xstate.js.org/docs/guides/activities.html#activities) is an actio that occurs over time, and can be started and stopped

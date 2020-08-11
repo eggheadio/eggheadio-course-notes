@@ -1,6 +1,6 @@
 # Introducing Construct Sturdy UIs with Xstate
 
-[Video Link](https://egghead.io/lessons/react-introducing-construct-sturdy-uis-with-xstate)
+- [Video Link](https://egghead.io/lessons/react-introducing-construct-sturdy-uis-with-xstate)
 
 ### 3 main reasons why `Xstate` is awesome
 
@@ -35,6 +35,6 @@ In this video we were introduced to the course's roadmap and what we will build 
 
 ### Additional Resources:
 
-📄 [XState Docs](https://xstate.js.org/docs/)
-📹 [Learning Xstate with David K. Piano & Jason Lengstorf](https://www.youtube.com/watch?v=czi24DqUfSA)
-💻 [Wikipedia: finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine)
+- 📄 [XState Docs](https://xstate.js.org/docs/) 
+- 📹 [Learning Xstate with David K. Piano & Jason Lengstorf](https://www.youtube.com/watch?v=czi24DqUfSA)
+- 💻 [Wikipedia: finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine)

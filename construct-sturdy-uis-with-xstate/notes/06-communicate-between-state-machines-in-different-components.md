@@ -1,7 +1,7 @@
 # Communicate between State Machines in Different Components
 
-[Video Link](https://egghead.io/lessons/react-communicate-between-state-machines-in-different-components)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson5-end)
+- [Video Link](https://egghead.io/lessons/react-communicate-between-state-machines-in-different-components)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson5-end)
 
 💡 Machines don't have to be on the same component in order to work together
   - Information can be passed between machines via `props` so machines don't actually need

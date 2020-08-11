@@ -1,7 +1,7 @@
 # Invoke an Xstate Service when Enterine a state
 
-[Video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson2-end)
+- [Video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson2-end)
 
 - We can reuse the `fetchMachine` in either the same component or different components.
   - If we plan on reusing this `machine` it is good to plan ahead and decided what logic should be passed in as an argument and what logic should be delegated inside the machine.

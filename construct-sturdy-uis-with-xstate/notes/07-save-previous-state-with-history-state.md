@@ -1,7 +1,7 @@
 # Save Previous States with a History State
 
-[Video Link](https://egghead.io/lessons/react-save-previous-states-with-a-history-state)
-[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson6-end)
+- [Video Link](https://egghead.io/lessons/react-save-previous-states-with-a-history-state)
+- [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson6-end)
 
 
 🔑 A _[history](https://xstate.js.org/docs/guides/history.html#history) state_ node is a special kind of state node that, when reached, tells the machine to go to the last state value of that region. There's two types of history states:
