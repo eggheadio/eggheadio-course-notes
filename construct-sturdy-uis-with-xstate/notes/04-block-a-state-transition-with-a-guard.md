@@ -30,7 +30,7 @@ successful: {
 }
 ```
 
-* On `successful` response, from `pending` state, `xstate` will decide to which state to move onto based on if the response has `data` or not.
+* On `successful` response, from `pending` state, `xstate` will decide to which state to move into based on if the response has `data` or not.
 
 We can achieve this by adding an array of the possible outcomes to our `pending` state, as such:
 
