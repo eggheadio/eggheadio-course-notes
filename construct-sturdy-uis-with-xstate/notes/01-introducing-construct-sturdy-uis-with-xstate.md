@@ -7,7 +7,7 @@
 - State machines encourage planning out your component before you create it.
   - Planned code is better code.
 - State machines are an old idea and this means that it has been battletested.
-- Xstate provides a browser visualizer in which we can insert our coud and it will create diagrams. This helps communicate the idea better.
+- Xstate provides a browser visualizer in which we can insert our code and it will create diagrams. This helps communicate the idea better.
 
 ```
 In this course we will build an app that challenges us to match a starwars character to their home world
