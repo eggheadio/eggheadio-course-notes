@@ -59,7 +59,7 @@ guards: { 👈// we need to the add the guards key to our machine
 ```
 
 Instead of having the `pending` state know about all the sub-states inside of the `successful` state, it is better for that `successful` state to be in charge of its own sub-states.
-    - This can be achieved by adding a third state, which in the couse will be called `unknown`
+    - This can be achieved by adding a third state, which in this case will be called `unknown`
 
 ```js
 ...
