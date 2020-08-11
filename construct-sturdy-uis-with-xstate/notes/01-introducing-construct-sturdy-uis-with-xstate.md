@@ -4,7 +4,7 @@
 
 ### 3 main reasons why `Xstate` is awesome
 
-- State machines encourage planning out component before you created.
+- State machines encourage planning out your component before you create it.
   - Planned code is better code.
 - State machines are an old idea and this means that it has been battletested.
 - Xstate provides a browser visualizer in which we can insert our coud and it will create diagrams. This helps communicate the idea better.
