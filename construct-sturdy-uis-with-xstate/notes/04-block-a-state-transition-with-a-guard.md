@@ -7,7 +7,7 @@ What do we do when we want state transitions to only occur when a certain condit
 
 - We can add [guards](https://xstate.js.org/docs/guides/guards.html#guards-condition-functions)
 
-A good use case to add guards is when we can be faced with two new states.
+A good use-case to add guards is when we can be faced with two new states.
 
 - If the data structure returns with data inside
 - If the data structure returns empty
@@ -74,4 +74,3 @@ successful: {
 ```
 
 🚙 _[Automatic or transient transition](https://xstate.js.org/docs/guides/transitions.html#transient-transitions) is a transition that is immediately taken without a triggering event as long as any condition is met. It can be specified as a single transition, or an array of condition transitions. If no condition transiitons or transient transitions are met, the machine stays in the same state_
-
