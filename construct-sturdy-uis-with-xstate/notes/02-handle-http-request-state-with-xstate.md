@@ -28,7 +28,7 @@ _Knowing and tracking what a piece of state is at a given time is extremely impo
 
 2. We set the `results` that we get back to state and once that is done, we need to set `isLoading` back to `false`
 
-**We need to make sure to set `isLoading` to false in a error state and set the `erroMessage` with the `result`**
+**We need to make sure to set `isLoading` to false in a error state and set the `errorMessage` with the `result`**
 
 This is what our component should look like.
 
