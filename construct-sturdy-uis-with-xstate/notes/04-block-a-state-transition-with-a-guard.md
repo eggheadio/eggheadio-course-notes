@@ -46,7 +46,7 @@ pending: {
 ```
 
 A [cond](https://xstate.js.org/docs/guides/guards.html#guards-condition-functions) function returns a boolean which determines whether the transition should be allowed to take place.
-  - When the condition is met it will proceed to the corresponding state, in this case the `cond` would be `hasData` and if the response in has data the condition would be met.
+  - When the condition is met it will proceed to the corresponding state, in this case the `cond` would be `hasData` and if the response has data the condition would be met.
 
 ```js
 actions: {
