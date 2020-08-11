@@ -4,7 +4,7 @@
 - [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson2-end)
 
 - We can reuse the `fetchMachine` in either the same component or different components.
-  - If we plan on reusing this `machine` it is good to plan ahead and decided what logic should be passed in as an argument and what logic should be delegated inside the machine.
+  - If we plan on reusing this `machine` it is good to plan ahead and decide what logic should be passed in as an argument and what logic should be delegated to inside the machine.
 - When delegating logic to inside the machine, we can achieve this by having the `pending` state `invoke` a service.
 
 **Note:** `services` can return promises, observables, and even other machines.
@@ -36,8 +36,8 @@
   - Defined as streams of values emmited over time.
   - Uni-directional, it can only send events to the parent machine, not receive them.
 
-🚜 When xstate [invoke machines](https://xstate.js.org/docs/guides/communication.html#invoking-machines), they communicate hierarchicaclly, and invoked machines can communicate `Parent-to-child` or `Child-to-parent`
-  - 🔎 Child machines can be [invoked with `context`](https://xstate.js.org/docs/guides/communication.html#invoking-machines) that is derived from the parent's machine context.
+🚜 When Xstate [invokes machines](https://xstate.js.org/docs/guides/communication.html#invoking-machines), they communicate hierarchically, and invoked machines can communicate `Parent-to-child` or `Child-to-parent`
+  - 🔎 Child machines can be [invoked with `context`](https://xstate.js.org/docs/guides/communication.html#invoking-machines) that is derived from the parent machine's context.
 
 ```js
 export const fetchMachine = Machine({
@@ -63,10 +63,10 @@ Because we now `invoke` a `fetchData` as a service, the values stored inside `ev
 actions: {
   setResults: assign((ctx, event: any) => ({
     results: event.data, 👈 // update from result to data
-  }));
+  })),
   setMessage: assign((ctx, event: any) => ({
     message: event.data, 👈 // update from message to data
-  }));
+  })),
 }
 ```
 
