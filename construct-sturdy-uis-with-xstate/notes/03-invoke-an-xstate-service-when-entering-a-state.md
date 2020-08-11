@@ -1,6 +1,7 @@
 # Invoke an Xstate Service when Enterine a state
 
 [Video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
+[Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson2-end)
 
 - We can reuse the `fetchMachine` in either the same component or different components.
   - If we plan on reusing this `machine` it is good to plan ahead and decided what logic should be passed in as an argument and what logic should be delegated inside the machine.
@@ -8,17 +9,35 @@
 
 **Note:** `services` can return promises, observables, and even other machines.
 
-- [Invoke](https://xstate.js.org/docs/guides/communication.html#the-invoke-property) is defined in a state node's configuration whose value is an object that contains:
+🧙‍♂️ [Invoke](https://xstate.js.org/docs/guides/communication.html#the-invoke-property) is defined in a state node's configuration whose value is an object that contains:
   - `src`, `id`, `onError`, `autoForward`, and `data`
+    - `src` can be:
+      - A machine
+      - A function that returns a `Promise`
+      - A function that returns a "callback handler"
+      - A function that returns an observable
+      - A string, which refers to any of the 3 listed options defined in the machine's `options.services`
+
+⚠️ This `onDone` property and `invoke.onDone` are similar transitions, but refer to different things.
+
 - Xstate can [invoke promises](https://xstate.js.org/docs/guides/communication.html#invoking-promises) as-is.
-- **Note:** _If the state where the invoked promise is active is exited before the promise settles, the result of the promise is discarded._
-- Xstate can [invoke callbacks](https://xstate.js.org/docs/guides/communication.html#invoking-callbacks)
+  - Can `resolve()` which will take `onDone` transition or it can `reject()` which will take `onError` transition.
+    - `onError` data is available on the event's `data` property.
+    ⚠️ If `onError` transition is missing and the `Promise` is rejected, the error will be ignored.
+
+📝 **Note:** _If the state where the invoked promise is active is exited before the promise settles, the result of the promise is discarded._
+
+↪️ Xstate can [invoke callbacks](https://xstate.js.org/docs/guides/communication.html#invoking-callbacks)
   - Defined as streams of events sent to the parent machine which are modeled via a callback handler. The callback handler is a function that takes two arguments:
     - `callback` - called with the event to be sent.
     - `onReceive` - called with the listern that listens to events from the parent.
-- Xstate can [invoke observables](https://xstate.js.org/docs/guides/communication.html#invoking-observables)
+
+🔮 Xstate can [invoke observables](https://xstate.js.org/docs/guides/communication.html#invoking-observables)
   - Defined as streams of values emmited over time.
   - Uni-directional, it can only send events to the parent machine, not receive them.
+
+🚜 When xstate [invoke machines](https://xstate.js.org/docs/guides/communication.html#invoking-machines), they communicate hierarchicaclly, and invoked machines can communicate `Parent-to-child` or `Child-to-parent`
+  - 🔎 Child machines can be [invoked with `context`](https://xstate.js.org/docs/guides/communication.html#invoking-machines) that is derived from the parent's machine context.
 
 ```js
 export const fetchMachine = Machine({

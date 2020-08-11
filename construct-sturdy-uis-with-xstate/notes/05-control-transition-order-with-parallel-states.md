@@ -11,7 +11,7 @@ _[Parallel states](https://xstate.js.org/docs/guides/parallel.html#parallel-stat
 - Additional [reading](https://dev.to/jacobmparis/modelling-parallel-states-in-xstate-3pe0) on modeling parallel states in Xstate.
 
 
-_[Final state](https://xstate.js.org/docs/guides/final.html#final-states) indicates the completion of a part of the statechart, or the entire statechart. Specifically, it inidicates that its parent compound state node is "done"._
+🏁 _[Final state](https://xstate.js.org/docs/guides/final.html#final-states) indicates the completion of a part of the statechart, or the entire statechart. Specifically, it inidicates that its parent compound state node is "done"._
 
 ```js
 export const matchingMachine = Machine({ 

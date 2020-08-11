@@ -73,5 +73,5 @@ successful: {
 ...
 ```
 
-_[Automatic or transient transition](https://xstate.js.org/docs/guides/transitions.html#transient-transitions) is a transition that is immediately taken without a triggering event as long as any condition is met. It can be specified as a single transition, or an array of condition transitions. If no condition transiitons or transient transitions are met, the machine stays in the same state_
+🚙 _[Automatic or transient transition](https://xstate.js.org/docs/guides/transitions.html#transient-transitions) is a transition that is immediately taken without a triggering event as long as any condition is met. It can be specified as a single transition, or an array of condition transitions. If no condition transiitons or transient transitions are met, the machine stays in the same state_
 
