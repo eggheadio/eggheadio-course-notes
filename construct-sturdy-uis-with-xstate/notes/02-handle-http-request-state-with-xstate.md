@@ -17,7 +17,7 @@ export interface Person {
     homeworld: string;
 }
 
-const [isLoading, setIsLoading] = useState(fale);
+const [isLoading, setIsLoading] = useState(false);
 const [results, setResults] = useState<Person[]>([]);
 const [errorMessage, setErrorMessage] = useState('');
 ```
