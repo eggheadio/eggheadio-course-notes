@@ -182,7 +182,7 @@ In order to fetch data we need to tell the machine what method to use
 
 ```js
 pending: {
-    entry: ['fethData'] 👈 // this will map to the function we use later
+    entry: ['fetchData'] 👈 // this will map to the function we use later
     on: {
         RESOLVE: {target: 'successful', action: ['setResults']},
         REJECT: {target: 'failed', action: ['setMessage']}
