@@ -1,12 +1,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <h1 align="center"><a href="https://egghead.io/courses/migrate-from-create-react-app-to-gatsby">Migrate from Create-React-App to Gatsby</a></h1>
 
-<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/451/full/preview-full-EGH_cra-to-gatsby_424_2x.png" width="340"></p>
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/451/full/preview-full-EGH_cra-to-gatsby_424_2x.png" width="380"></p>
 
 ## About 🔍
 
