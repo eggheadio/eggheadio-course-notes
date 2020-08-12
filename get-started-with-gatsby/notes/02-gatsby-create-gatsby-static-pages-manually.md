@@ -1,6 +1,6 @@
 # Create Gatsby Static Pages Manually
 
-[Video link](https://www.egghead.io/lessons/gatsby-create-gatsby-static-pages-manually)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-create-gatsby-static-pages-manually)
 
 Gatsby will create a page for any `.js` file we put in the `src/pages` directory.
 

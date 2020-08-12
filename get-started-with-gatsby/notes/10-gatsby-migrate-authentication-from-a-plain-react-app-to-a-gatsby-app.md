@@ -1,6 +1,6 @@
 # Migrate authentication from a plain react app to a Gatsby App
 
-[Video link](https://www.egghead.io/lessons/gatsby-migrate-authentication-from-a-plain-react-app-to-a-gatsby-app)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-migrate-authentication-from-a-plain-react-app-to-a-gatsby-app)
 
 In the current state of our Gatsby app, the client-only route to our authenticated content is visible to anyone. Let's fix is.
 
@@ -20,14 +20,10 @@ We will also add the `<Login>` component that we will bring over from the Create
 const App = () => {
   return (
     <Router>
-      <PrivateRoute
-        component={Profile}
-        path='app/profile'
-      />
-      <PrivateRoute component={Stats} path='app/stats' />
-      <Login path='app/login' />
+      <PrivateRoute component={Profile} path="app/profile" />
+      <PrivateRoute component={Stats} path="app/stats" />
+      <Login path="app/login" />
     </Router>
   )
 }
 ```
-

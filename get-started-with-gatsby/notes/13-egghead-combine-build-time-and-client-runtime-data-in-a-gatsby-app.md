@@ -1,6 +1,6 @@
 # Combine build time and client runtime data in a Gatsby app
 
-[Video link](https://www.egghead.io/lessons/egghead-combine-build-time-and-client-runtime-data-in-a-gatsby-app)
+[📹 Video link](https://www.egghead.io/lessons/egghead-combine-build-time-and-client-runtime-data-in-a-gatsby-app)
 
 As our app currently works, if we change an existing Pokemon's information in Contentful and then refresh our app, the changes aren't recognized.
 
@@ -13,6 +13,7 @@ Let's update our app to have a combination of build-time and run-time data.
 In Contentful, there is a "Power" field in our Pokemon info. We will update our Gatsby app so that it will refresh the Power rating as it changes.
 
 This example requires the Contentful SDK to be installed:
+
 ```
 npm install contentful
 ```
@@ -53,10 +54,10 @@ const Pokemon = ({pageContext}) => {
 We have the `power` item in state, so let's update our component to display it:
 
 ```js
-  <PokemonLayout>
-    <h1>This pokemon is {pageContext.name}</h1>
-    <p>power: {power}</p>
-  </PokemonLayout>
+<PokemonLayout>
+  <h1>This pokemon is {pageContext.name}</h1>
+  <p>power: {power}</p>
+</PokemonLayout>
 ```
 
 Now when we refresh the page, the `power` value will be updated from the server.

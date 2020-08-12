@@ -1,6 +1,6 @@
 # Extract Gatsby Static Pages from a Plain React app
 
-[Video link](https://www.egghead.io/lessons/gatsby-extract-gatsby-static-pages-from-a-plain-react-app)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-extract-gatsby-static-pages-from-a-plain-react-app)
 
 ## Create-React-App Migration
 
@@ -9,6 +9,7 @@ We'll start by looking at `src/index.js` of our [Create-React-App project on Cod
 Notice the `Root` of the App, and how it uses the `Main` component that contains navigation information.
 
 ### Inside of an Empty Gatsby Project
+
 Create an `index.js` file at `src/pages/index.js`.
 
 Import React, and then copy and paste the `Main` component from CodeSandbox into the `index.js` file.
@@ -23,8 +24,8 @@ We have an `isLoggedIn()` call in the CRA version of the app located at `service
 
 ```js
 import React from 'react'
-import {Link} from 'gatsby'
-import {logout, isLoggedIn} from '../services/auth'
+import { Link } from 'gatsby'
+import { logout, isLoggedIn } from '../services/auth'
 
 const Main = () => (
   <div>
@@ -49,7 +50,7 @@ const Main = () => (
       </li>
     </ul>
   </div>
-);
+)
 
 export default Main
 ```

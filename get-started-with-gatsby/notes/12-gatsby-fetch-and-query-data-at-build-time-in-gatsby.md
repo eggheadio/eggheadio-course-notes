@@ -1,6 +1,6 @@
 # Fetch and query data at build time in Gatsby
 
-[Video link](https://www.egghead.io/lessons/gatsby-fetch-and-query-data-at-build-time-in-gatsby)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-fetch-and-query-data-at-build-time-in-gatsby)
 
 It's common to query data from a remote API to use inside of Gatsby at build time.
 
@@ -9,6 +9,7 @@ In this example, we have some data stored in Contentful that matches the structu
 ## Add the `gatsby-source-graphql` Plugin
 
 Install the plugin by running:
+
 ```
 npm install gatsby-source-graphql
 ```
@@ -21,11 +22,10 @@ Add an object to the `plugins` array with a `resolve` key of `'gatsby-source-gra
 
 In order to let Gatsby use our API key, we'll import the `dotenv` package at the top of the file, and configure it to have a path.
 
-
 ```js
 //gatsby-config.js
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
@@ -35,14 +35,14 @@ module.exports = {
       resolve: `gatsby-source-graphql`,
       options: {
         typeName: `Contentful`,
-        fieldName: `contentful`, 
+        fieldName: `contentful`,
         url: `https://contentful-url-here.com`,
         headers: {
-          Authorization: `Bearer ${process.env.UR_SECRET_TOKEN}`
-        }
-      }
-    }
-  ]
+          Authorization: `Bearer ${process.env.UR_SECRET_TOKEN}`,
+        },
+      },
+    },
+  ],
 }
 ```
 
@@ -56,7 +56,7 @@ First, we'll destructure `graphql` from the parameters to our `createPages` func
 
 ```js
 exports.createPages = async ({ actions, graphql }) => {
-  const {createPage} = actions
+  const { createPage } = actions
   const PokemonTemplate = path.resolve('.src/templates/pokemon.js')
   // ...
 }
@@ -80,7 +80,6 @@ const result = await graphql(`
     }
   }
 `)
-
 ```
 
 We also need to update our `forEach` to iterate over `result.contentful.pokemonCollection.items` instead of our hardcoded JSON data:

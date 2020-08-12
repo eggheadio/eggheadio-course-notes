@@ -1,6 +1,6 @@
 # Share common markup between pages in Gatsby using Layouts
 
-[Video link](https://www.egghead.io/lessons/gatsby-share-common-markup-between-pages-in-gatsby-using-layouts)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-share-common-markup-between-pages-in-gatsby-using-layouts)
 
 In the [Create-React-App version](https://codesandbox.io/s/optimistic-jepsen-1zqmb?from-embed=&file=/src/index.js) of our app, the Navigation is present in every page. However, it's missing when we navigate around our Gatsby version.
 
@@ -21,16 +21,14 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { logout, isLoggedIn } from '../services/auth'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <h1>Gatsby Pokedex!</h1>
       ...content from index.js
-    
-    {children}
+      {children}
     </div>
   )
-
 }
 ```
 
@@ -47,7 +45,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 const Main = () => {
-  <Layout>
+  ;<Layout>
     <h2>Main App</h2>
   </Layout>
 }
@@ -56,4 +54,3 @@ export default Main
 ```
 
 Follow the same process for the `About` page and the Main Pokemon page.
-
