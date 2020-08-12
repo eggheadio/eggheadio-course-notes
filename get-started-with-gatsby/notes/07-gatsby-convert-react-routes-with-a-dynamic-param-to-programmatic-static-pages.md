@@ -4,6 +4,8 @@
 
 [💻 07 Auth and Dynamic Pages](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/07-auth-and-dynamic-pages)
 
+## Notes
+
 In the [Create-React-App version](https://codesandbox.io/s/optimistic-jepsen-1zqmb?from-embed=&file=/src/index.js) of our app, we are able to click on Pokemon and get to an information page for them.
 
 For our Gatsby app, we want to be prepared to create pages dynamically since we can't always guarantee that we know how many Pokemon we will have.

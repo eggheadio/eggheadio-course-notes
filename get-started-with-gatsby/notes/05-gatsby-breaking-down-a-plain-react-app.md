@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-breaking-down-a-plain-react-app)
 
+## Notes
+
 With our Gatsby project set up, let's compare it to an app created with Create-React-App.
 
 Open the [Pokedex App on CodeSandbox](https://codesandbox.io/s/optimistic-jepsen-1zqmb).

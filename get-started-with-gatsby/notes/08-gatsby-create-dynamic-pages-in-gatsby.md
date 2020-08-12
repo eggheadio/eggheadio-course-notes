@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-create-dynamic-pages-in-gatsby)
 
+## Notes
+
 Let's look at the Profile and Stats pages in the [CodeSandbox Create-React-App](https://www.egghead.io/lessons/gatsby-convert-react-routes-with-a-dynamic-param-to-programmatic-static-pages).
 
 The Profile page has a login that's a protected route, with a fake login.

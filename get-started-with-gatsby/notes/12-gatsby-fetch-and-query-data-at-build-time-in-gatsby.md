@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-fetch-and-query-data-at-build-time-in-gatsby)
 
+## Notes
+
 It's common to query data from a remote API to use inside of Gatsby at build time.
 
 In this example, we have some data stored in Contentful that matches the structure of our hardcoded JSON.
@@ -89,3 +91,11 @@ result.data.contentful.pokemonCollection.items.forEach(pokemon => ...)
 ```
 
 When we refresh the server, we can click our Pokemon links as expected.
+
+## GraphQL page vs static queries
+
+Gatsby is capable of handling queries with variables because of its awareness of page context. However, page queries can only be made in top-level page components.
+
+![ GraphQL page vs static queries Image](../sketch-notes/02-sketch-note-pages.png)
+
+In contrast, static queries do not take variables. This is because static queries are used inside specific components, and can appear lower in the component tree. Data fetched with a static query won’t be dynamic, but they can be called at any level in the component tree.

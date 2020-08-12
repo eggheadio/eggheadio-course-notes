@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-create-static-pages-programmatically)
 
+# Notes
+
 ## Create a Pokemon Template
 
 Inside of `/src`, create a `templates/` subdirectory.

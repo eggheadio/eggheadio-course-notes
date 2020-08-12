@@ -4,6 +4,8 @@
 
 [💻 13 Build Time Runtime Data](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/13-build-time-runtime-data)
 
+## Notes
+
 As our app currently works, if we change an existing Pokemon's information in Contentful and then refresh our app, the changes aren't recognized.
 
 This is because the data that we are loading is loaded at build time.
