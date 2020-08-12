@@ -1,6 +1,8 @@
 # Convert React routes with a dynamic param to programmatic static pages
 
-[📹 Video link]((https://www.egghead.io/lessons/gatsby-convert-react-routes-with-a-dynamic-param-to-programmatic-static-pages)
+[📹 Video link](https://www.egghead.io/lessons/gatsby-convert-react-routes-with-a-dynamic-param-to-programmatic-static-pages)
+
+[💻 07 Auth and Dynamic Pages](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/07-auth-and-dynamic-pages)
 
 In the [Create-React-App version](https://codesandbox.io/s/optimistic-jepsen-1zqmb?from-embed=&file=/src/index.js) of our app, we are able to click on Pokemon and get to an information page for them.
 

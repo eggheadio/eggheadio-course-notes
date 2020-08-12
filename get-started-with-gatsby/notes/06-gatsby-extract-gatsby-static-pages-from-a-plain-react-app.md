@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-extract-gatsby-static-pages-from-a-plain-react-app)
 
+[💻 Course Repository - 06 Migrate Static Pages](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/06-migrate-static-pages)
+
 ## Create-React-App Migration
 
 We'll start by looking at `src/index.js` of our [Create-React-App project on CodeSandbox](https://codesandbox.io/s/optimistic-jepsen-1zqmb?from-embed).
@@ -18,6 +20,7 @@ Get rid of the `children` for now.
 At the bottom of the file, we will make `Main` the default export.
 
 In the Create-React-App version, `Link` is imported from Reach Router, but we will import Link from Gatsby.
+
 The `Link` component in Gatsby works similarly to the one in React Router.
 
 We have an `isLoggedIn()` call in the CRA version of the app located at `services/auth.js` that we can copy and paste to a new `src/services/auth.js` file in our Gatsby project. Then we can import it at the top of our file.

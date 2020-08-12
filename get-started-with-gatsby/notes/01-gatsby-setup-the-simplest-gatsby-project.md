@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-setup-the-simplest-gatsby-project)
 
+[💻 Course Repository - 01 Simple Gatsby Project](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/01-simple-gatsby-project)
+
 Inside of an empty directory, run `npm init -y` to initialize a new empty folder.
 
 Next, we'll add some dependencies:
@@ -26,7 +28,7 @@ When you visit `http://localhost:8000` you will see a Gatsby.js development 404 
 
 The error message tells us that we have to create a React.js component at `src/pages/index.js`, so let's do that.
 
-Inside of our project directory, we need to create:
+### Inside of our project directory, we need to create:
 
 - An `src/` directory.
 - A `pages/` subdirectory inside of `src/`

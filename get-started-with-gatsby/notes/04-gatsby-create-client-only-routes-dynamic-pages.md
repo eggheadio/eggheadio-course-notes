@@ -2,6 +2,8 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-create-client-only-routes-dynamic-pages)
 
+[💻 Course Repository - 04 Client only Routes](https://github.com/Khaledgarbaya/moving-from-cra-to-gatsby-course/releases/tag/04-client-only-routes)
+
 ## Create a New Page
 
 Inside of `src/pages` create a file `app.js`.
