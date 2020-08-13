@@ -9,8 +9,7 @@
 - 'deep', which specifies the top-level and all child-level history values.
 
 
-📹 History states explanation:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uczggW1PF6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+📹 History states explanation [video](https://www.youtube.com/embed/uczggW1PF6I)
 
 
 ⚙️ [Configuration](https://xstate.js.org/docs/guides/history.html#history-state-configuration) for a history state:
