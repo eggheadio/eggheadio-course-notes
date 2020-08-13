@@ -41,6 +41,7 @@ In this course, Isaac will teach you how to plan and visualize your application�
 | 📹   | links to the course video|
 | 🔮   | observation              |
 | ↪️   | callbacks                |
+| 🔎   | description              |
 | ⚠️   | warning                  |
 | 📝   | important note           |
 | ❌   | something to avoid       |
@@ -49,4 +50,5 @@ In this course, Isaac will teach you how to plan and visualize your application�
 | 🔑   | great info               |
 | ⚙️   | configuration or setting |
 | 👈   | note on code block       |
+| 💰   | definition with breakdown|
 | 💰   | definition with breakdown|
