@@ -53,3 +53,14 @@ In this course, Isaac will teach you how to plan and visualize your application�
 | 💰   | definition with breakdown|
 | 🐛   | bug                      |
 | 📄   | documentation resource   |
+
+## Contributors
+
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/aromanarguello"><img src="https://avatars2.githubusercontent.com/u/28843542?s=460&u=9c1cacd053b919e882e3b4ce17458393c6256b42&v=4" width="100px;" alt=""/><br /><sub><b>Kevin Cunningham</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/tree/master/construct-sturdy-uis-with-xstate" title="Content">🖋</td>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/build-an-app-with-the-AWS-cloud-development-kit-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
