@@ -51,4 +51,5 @@ In this course, Isaac will teach you how to plan and visualize your application�
 | ⚙️   | configuration or setting |
 | 👈   | note on code block       |
 | 💰   | definition with breakdown|
-| 💰   | definition with breakdown|
+| 🐛   | bug                      |
+| 📄   | documentation resource   |
