@@ -108,7 +108,7 @@ export const fetchMachine = Machine({
 });
 ```
 
-🔮 We need to think about the events can trigger a transition from one state to another
+🔮 We need to think about the events that can trigger a transition from one state to another
   - For example: when we are in the `idle` state and a `fetch` event happens, we want to transition to the `pending` state, etc.
 
 We can define our events as such:

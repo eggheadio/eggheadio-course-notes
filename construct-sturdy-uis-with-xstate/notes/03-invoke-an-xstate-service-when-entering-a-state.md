@@ -1,4 +1,4 @@
-# Invoke an Xstate Service when Enterine a state
+# Invoke an Xstate Service when Entering a state
 
 - [Video link](https://egghead.io/lessons/react-invoke-an-xstate-service-when-entering-a-state)
 - [Code Link](https://github.com/isaacplmann/sturdy-uis/tree/lesson2-end)
