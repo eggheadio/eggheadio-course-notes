@@ -33,3 +33,20 @@ In this course, Isaac will teach you how to plan and visualize your application�
 - [06. Communicate Between State Machines in Different Components](notes/06-communicate-between-state-machines-in-different-components.md)
 - [07. Save Previous State with History State](notes/07-save-previous-state-with-history-state.md)
 - [08. Execute Code When Entering and Exiting States Using Activities](notes/08-execute-code-when-entering-and-exiting-states-using-activities.md)
+
+### Emoji Legend
+
+| emoji| explanation              |
+| -----|:------------------------:|
+| 📹   | links to the course video|
+| 🔮   | observation              |
+| ↪️   | callbacks                |
+| ⚠️   | warning                  |
+| 📝   | important note           |
+| ❌   | something to avoid       |
+| 🚙   | automatic                |
+| 🏁   | final state              |
+| 🔑   | great info               |
+| ⚙️   | configuration or setting |
+| 👈   | note on code block       |
+| 💰   | definition with breakdown|
