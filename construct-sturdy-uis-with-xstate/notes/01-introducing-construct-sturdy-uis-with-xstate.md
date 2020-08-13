@@ -33,8 +33,26 @@ In this course we will build an app that challenges us to match a starwars chara
 
 In this video we were introduced to the course's roadmap and what we will build and learn from.
 
+
 ### Additional Resources:
 
 - 📄 [XState Docs](https://xstate.js.org/docs/) 
 - 📹 [Learning Xstate with David K. Piano & Jason Lengstorf](https://www.youtube.com/watch?v=czi24DqUfSA)
 - 💻 [Wikipedia: finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine)
+
+### Emoji Legend
+
+| emoji| explanation              |
+| -----|:------------------------:|
+| 📹   | links to the course video|
+| 🔮   | observation              |
+| ↪️   | callbacks                |
+| ⚠️   | warning                  |
+| 📝   | important note           |
+| ❌   | something to avoid       |
+| 🚙   | automatic                |
+| 🏁   | final state              |
+| 🔑   | great info               |
+| ⚙️   | configuration or setting |
+| 👈   | note on code block       |
+| 💰   | definition with breakdown|
