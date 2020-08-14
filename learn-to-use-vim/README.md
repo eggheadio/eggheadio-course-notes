@@ -35,6 +35,10 @@ In this course we will take a tour of Vim, and learn the essentials you need to 
 
 - [10-Introduction to Vim Plugins](notes/10-introduction-to-vim-plugins.md)
 
+## 🗒Cheatsheet
+
+[Get the pdf version of the cheatsheet](cheatsheet/learn-to-use-vim-cheatsheet.pdf)
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
