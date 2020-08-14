@@ -1,5 +1,5 @@
 <h1 align="center"><a href="https://egghead.io/courses/learn-to-use-vim">Learn to use Vim</a></h1>
-<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/045/full/EGH_Vim.png" width="200></p>
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/045/full/EGH_Vim.png" width="200"></p>
 
 ## 🔍 About
 
@@ -15,25 +15,25 @@ In this course we will take a tour of Vim, and learn the essentials you need to 
 
 ## 📜 Table of Contents
 
-- [01-Intro to Vim](01-intro-to-vim.md)
+- [01-Intro to Vim](notes/01-intro-to-vim.md)
 
-- [02-Moving around in Vim](02-moving-around-in-vim.md)
+- [02-Moving around in Vim](notes/02-moving-around-in-vim.md)
 
-- [03-Vim's different modes](03-vim-s-different-modes.md)
+- [03-Vim's different modes](notes/03-vim-s-different-modes.md)
 
-- [04-Saving Files in Vim](04-saving-files-in-vim.md)
+- [04-Saving Files in Vim](notes/04-saving-files-in-vim.md)
 
-- [05-Vim's built-in commands](05-vim-s-built-in-commands.md)
+- [05-Vim's built-in commands](notes/05-vim-s-built-in-commands.md)
 
-- [06-Combining Vim commands](06-combining-vim-commands.md)
+- [06-Combining Vim commands](notes/06-combining-vim-commands.md)
 
-- [07-Copy and Paste inside of Vim](07-copy-and-paste-inside-of-vim.md)
+- [07-Copy and Paste inside of Vim](notes/07-copy-and-paste-inside-of-vim.md)
 
-- [08-Configure VIM](08-configure-vim.md)
+- [08-Configure VIM](notes/08-configure-vim.md)
 
-- [09-The Vim Config file](09-the-vim-config-file.md)
+- [09-The Vim Config file](notes/09-the-vim-config-file.md)
 
-- [10-Introduction to Vim Plugins](10-introduction-to-vim-plugins.md)
+- [10-Introduction to Vim Plugins](notes/10-introduction-to-vim-plugins.md)
 
 ## Contributors ✨
 
