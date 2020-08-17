@@ -14,7 +14,7 @@ There are three ways you can use Tailwind with Gatsby:
 
 You have to install and configure Tailwind for all of these methods, so this guide will walk through that step first, then you can follow the instructions for PostCSS, CSS-in-JS or SCSS.
 
-# Exercise
+## Exercise
 
 In this lesson, you learned how to install the Tailwind plugin for Gatsby. Lets solidify your knowledge by installing a few core Gatsby plugins that you will likely run into.  
 
