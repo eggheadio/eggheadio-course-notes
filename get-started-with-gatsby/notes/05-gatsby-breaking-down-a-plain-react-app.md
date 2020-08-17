@@ -10,6 +10,8 @@ Open the [Pokedex App on CodeSandbox](https://codesandbox.io/s/optimistic-jepsen
 
 We have a homepage, an About Page, a Profile page with fake login, and a Stats page. There is also a public Pokemon display.
 
-## 🤔 Performance Task
+## 🤔 Exercise
 
 Recreate the routes and screens in [the example Pokedex built with Create-React-App](https://codesandbox.io/s/optimistic-jepsen-1zqmb) in our Gatsby app following the processes we've learned so far.
+
+For more information, read [Convert to Gatsby Routes Exercise page](../excercises/01-extract-pages-from-CRA-to-gatsby.md).

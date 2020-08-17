@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "bulbasaur",
+    "name": "Bulbasaur"
+  },
+  {
+    "slug": "ivysaur",
+    "name": "Ivysaur"
+  },
+  {
+    "slug": "charmander",
+    "name": "Charmander"
+  },
+  {
+    "slug": "squirtle",
+    "name": "Squirtle"
+  }
+]
