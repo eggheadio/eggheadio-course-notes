@@ -7,6 +7,7 @@
 ## The plain React app
 
 View the React app in codesandbox:
+
 [![View Pokedex-cra-app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/heuristic-mountain-e77n0?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Exercise
@@ -16,6 +17,7 @@ Your job is to use what you learned in the previous exercises to convert this Re
 > 💡 for the pages `app/profile` and `app/stats` they are specific to a logged in user and we'll add authentication to them later.
 
 You can start with this codesandbox templet:
+
 [![Edit trusting-snowflake-0ciho](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/trusting-snowflake-0ciho?fontsize=14&hidenavigation=1&theme=dark)
 
 
