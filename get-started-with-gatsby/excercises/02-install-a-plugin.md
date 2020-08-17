@@ -20,6 +20,7 @@ options: {
 After that you should be able to run your project without any issues and you can see an image rendered in your home page.
 
 You can use this starter to configure the plugins:
+
 [![Edit inspiring-stonebraker-p9iq1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/inspiring-stonebraker-p9iq1?fontsize=14&hidenavigation=1&theme=dark)
 
 ***Note:** you will see errors when it initially loads because Gatsby is trying to use the plugins above which aren't available!
