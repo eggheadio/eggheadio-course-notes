@@ -14,4 +14,4 @@ We have a homepage, an About Page, a Profile page with fake login, and a Stats p
 
 Recreate the routes and screens in [the example Pokedex built with Create-React-App](https://codesandbox.io/s/optimistic-jepsen-1zqmb) in our Gatsby app following the processes we've learned so far.
 
-For more information, read [Convert to Gatsby Routes Exercise page](./../excercises/01-convert-to-gatsby-routes.md).
+For more information, read [Convert to Gatsby Routes Exercise page](../excercises/01-extract-pages-from-CRA-to-gatsby.md).
