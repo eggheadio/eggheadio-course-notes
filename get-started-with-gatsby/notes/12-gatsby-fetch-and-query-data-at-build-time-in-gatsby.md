@@ -2,6 +2,17 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-fetch-and-query-data-at-build-time-in-gatsby)
 
+## Exercise
+In this lesson, you saw how to query data from an outside source (Contentful). 
+
+For this exercise, you'll be querying for that same data in GraphQL from the file system.
+
+Your job is to replace the hardcoded pokemons data in gatsby-node as well as the index page with the results returned from the GraphQL query.
+
+You can start with this [Gatsby application](https://codesandbox.io/s/mystifying-wind-smlbc?fontsize=14&hidenavigation=1&theme=dark). 
+
+For more context, [check out the exercise page](../excercises/03-query-data.md)
+
 ## Notes
 
 It's common to query data from a remote API to use inside of Gatsby at build time.
