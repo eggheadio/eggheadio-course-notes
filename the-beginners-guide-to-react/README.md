@@ -1,9 +1,4 @@
 <p align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-    
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <h1 align="center"><a href="https://egghead.io/courses/the-beginner-s-guide-to-react">A Beginners Guide to React 2020</a></h1>
 
@@ -74,6 +69,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/albertc44"><img src="https://avatars3.githubusercontent.com/u/1314187?s=460&u=a0eeb31932ba637f51c17aac50820778464fa002&v=4" width="100px;" alt=""/><br /><sub><b>Al Chen</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ceccode"><img src="https://avatars0.githubusercontent.com/u/1024055?s=460&u=af18416dac74b51ae9003584c0940763260c841b&v=4" width="100px;" alt=""/><br /><sub><b>Francesco Falanga</b></sub></a><br /><a href="#content-thaycacac" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=460&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a></td>
     </td>
   </tr>
 </table>
