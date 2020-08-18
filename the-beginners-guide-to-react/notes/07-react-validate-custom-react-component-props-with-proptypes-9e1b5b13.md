@@ -87,5 +87,5 @@
 
 ## Additional resource
 
-- [npm - prop-types](https://www.npmjs.com/package/prop-types])
+- [npm - prop-types](https://www.npmjs.com/package/prop-types)
 - [React Docs - Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
