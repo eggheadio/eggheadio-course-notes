@@ -1,9 +1,9 @@
 <h1 align="center"><a href="https://egghead.io/playlists/building-an-opengraph-image-generation-api-with-cloudinary-netlify-functions-and-react-914e">Building an OpenGraph image generation API with Cloudinary, Netlify Functions, and React</a></h1>
 
-<p align="center"><img src="https://res.cloudinary.com/sector/image/upload/s--Ph_pJ8d3--/fn_pre:remote:aHR0cHM6Ly9yZWxheGVkLXBheW5lLWQxYmZiZS5uZXRsaWZ5LmFwcC8ubmV0bGlmeS9mdW5jdGlvbnMvZ2VuLW9wZW5ncmFwaC1pbWFnZT9hdXRob3I9Y2hyaXNiaXNjYXJkaSZ0YWdzPWZpZ21hJTI1MkNuZXRsaWZ5JTIwZnVuY3Rpb25zJTI1MkNwbGF5d3JpZ2h0JnRpdGxlPUJ1aWxkaW5nJTIwYW4lMjBPcGVuR3JhcGglMjBpbWFnZSUyMGdlbmVyYXRpb24lMjBBUEklMjB3aXRoJTIwQ2xvdWRpbmFyeSUyME5ldGxpZnklMjBGdW5jdGlvbnMlMjBhbmQlMjBSZWFjdA==/v1584740928/og-images/img-2.png" width="340"></p>
+<p align="center"><img src="https://res.cloudinary.com/sector/image/upload/s--Ph_pJ8d3--/fn_pre:remote:aHR0cHM6Ly9yZWxheGVkLXBheW5lLWQxYmZiZS5uZXRsaWZ5LmFwcC8ubmV0bGlmeS9mdW5jdGlvbnMvZ2VuLW9wZW5ncmFwaC1pbWFnZT9hdXRob3I9Y2hyaXNiaXNjYXJkaSZ0YWdzPWZpZ21hJTI1MkNuZXRsaWZ5JTIwZnVuY3Rpb25zJTI1MkNwbGF5d3JpZ2h0JnRpdGxlPUJ1aWxkaW5nJTIwYW4lMjBPcGVuR3JhcGglMjBpbWFnZSUyMGdlbmVyYXRpb24lMjBBUEklMjB3aXRoJTIwQ2xvdWRpbmFyeSUyME5ldGxpZnklMjBGdW5jdGlvbnMlMjBhbmQlMjBSZWFjdA==/v1584740928/og-images/img-2.png" width="650"></p>
 
 
-## About this course
+## About this 
 
 OpenGraph images are the images you see when you paste a link into a social platform and it "unfurls" into an image, title, and description. This happens on Twitter, Discord, Slack, and many other platforms. This collection goes over everything from designing OpenGraph images in Figma, to implementing them in CodeSandbox, to returning headless browser screenshots from Netlify Functions, and finally using Cloudinary as a write-through cache.
 
