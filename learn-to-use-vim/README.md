@@ -46,5 +46,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://fabiorosado.dev"><img src="https://avatars2.githubusercontent.com/u/3131401?s=460&u=b6f9f268749033e4e5d6b3004e13259bf8d315e6&v=4" width="100px;" alt=""/><br /><sub><b>FabioRosado</b></sub></a><br /><a href="#content-FabioRosado" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=460&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a></td>
   </tr>
 </table>
