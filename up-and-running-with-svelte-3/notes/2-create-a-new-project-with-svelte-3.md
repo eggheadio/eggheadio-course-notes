@@ -8,7 +8,7 @@
 npx degit sveltejs/template my-svelte-project
 ```
 
-- We&rsquo;re using npx to run degit. Degit is a tool that makes copies of git repositories. If you run `degit some-user/some-repo` it will find the latest commit on <https://github.com/some-user/some-repo> and doownload the associated tar file. Note its faster than git clone because you&rsquo;re not downloading the entire git history.
+- We&rsquo;re using npx to run degit. Degit is a tool that makes copies of git repositories. If you run `degit some-user/some-repo` it will find the latest commit on <https://github.com/some-user/some-repo> and download the associated tar file. Note its faster than git clone because you&rsquo;re not downloading the entire git history.
 - Next go into the directory and run npm install
 
 ```

@@ -4,6 +4,10 @@
 
 This course goes over the basics of Svelte 3. What is [Svelte](https://svelte.dev)? Instead of doing the work of building user interfaces in the browser - Svelte completes its work during a compile stage. This short course introduces the basic concepts of Svelte 3 and is a great starting point for creating your first Svelte site.
 
+## Example Site
+
+After watching through this course, I created a Svelte site and [wrote a short article](https://www.dschapman.com/articles/create-a-svelte-site) about how to create a Svelte site.
+
 - [Up and running with Svelte 3](#up-and-running-with-svelte-3)
   - [1. WTF is Svelte?](./notes/1-wtf-is-svelte.md)
   - [2. Create a new project with Svelte 3](./notes/2-create-a-new-project-with-svelte-3.md)
