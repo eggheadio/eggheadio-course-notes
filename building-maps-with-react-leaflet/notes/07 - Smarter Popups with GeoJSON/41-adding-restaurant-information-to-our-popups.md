@@ -13,23 +13,23 @@ We need to wrap the HTML inside a **template literal** (the backticks ``).
 Let's add the following html:
 
 ```js
-const html = `
-          <div">
-            <h3>${name}</h3>
-            <ul>
-              <li>
-                ${tags.join(", ")}
-              </li>
-              <li>
-                <strong>Delivery:</strong> ${delivery ? "Yes" : "No"}
-              </li>
-              <li>
-                <strong>Phone:</strong> ${phone}
-              </li>
-              <li>
-                <strong>Website:</strong> <a href="${website}">${website}</a>
-              </li>
-            </ul>
-          </div>
-        `;
+const html =
+  `<div">
+    <h3>${name}</h3>
+    <ul>
+      <li>
+        ${tags.join(", ")}
+      </li>
+      <li>
+        <strong>Delivery:</strong> ${delivery ? "Yes" : "No"}
+      </li>
+      <li>
+        <strong>Phone:</strong> ${phone}
+      </li>
+      <li>
+        <strong>Website:</strong> <a href="${website}">${website}</a>
+      </li>
+    </ul>
+  </div>
+`;
 ```

@@ -11,7 +11,7 @@ Import the Leaflet shadow from:
 Then add the two shadow configurations to the icon options object:
 
 ```js
-      shadowUrl: markerShadow,
-      // if you're using a different icon, you'll probably have to play around with the values a bit to get it right
-      shadowAnchor: [13, 28],
+shadowUrl: markerShadow,
+// if you're using a different icon, you'll probably have to play around with the values a bit to get it right
+shadowAnchor: [13, 28],
 ```

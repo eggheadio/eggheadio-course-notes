@@ -12,4 +12,4 @@ return () => {
 };
 ```
 
-**_ Aaaaaaaaaaaaaaaaaaaaaand, you did it! Course complete 🎉🎆🍾🎊💃 _**
+**Aaaaaaaaaaaaaaaaaaaaaand, you did it! Course complete 🎉🎆🍾🎊💃**
