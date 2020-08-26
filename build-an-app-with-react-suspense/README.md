@@ -56,7 +56,11 @@ Michael likes the essentials. He’s a frontend architect at Planning Center and
 | ⌨️    |     keyboard shortcut     |
 | 🤔    |   additional resources    |
 | 👍    |       good practice       |
-| 🔑		| great info                |
+| 🔑		|      great info           |
+| 📝    | important note            |
+| 📄    |documentation resource     |
+| 🛠    |  Tools 										|
+| 🔮    | Observation								|
 
 ## Contributors ✨
 
