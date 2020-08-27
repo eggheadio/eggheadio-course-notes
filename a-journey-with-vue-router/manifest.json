@@ -1,0 +1,25 @@
+{
+  "course": "a-journey-with-vue-router",
+  "notes": [
+    {
+      "index": 1,
+      "id": "01-vue-js-set-up-vue-router-and-add-the-root-application-route",
+      "title": "Set up Vue-Router and add the Root Application Route"
+    },
+    {
+      "index": 2,
+      "id": "02-vue-js-create-routes-in-vue-and-understand-the-path-hierarchy",
+      "title": "Create Routes in Vue and Understand the Path Hierarchy"
+    },
+    {
+      "index": 3,
+      "id": "03-vue-js-access-route-parameters-in-a-vue-component",
+      "title": "Access Route Parameters in a Vue Component"
+    },
+    {
+      "index": 4,
+      "id": "04-vue-js-create-subroutes-displaying-one-or-more-vue-components-with-the-children-key",
+      "title": "Create Subroutes Displaying One or More Vue Components with the children Key"
+    }
+  ]
+}

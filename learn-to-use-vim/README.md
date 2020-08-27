@@ -1,0 +1,51 @@
+<h1 align="center"><a href="https://egghead.io/courses/learn-to-use-vim">Learn to use Vim</a></h1>
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/045/full/EGH_Vim.png" width="200"></p>
+
+## 🔍 About
+
+Vim is a classic text editor that saw its first incarnation in 1976. Used around the world across most platforms, the ability to drop into a computer, open a command prompt and type vim is a simple yet powerful concept.
+
+In this course we will take a tour of Vim, and learn the essentials you need to know to start being productive with this powerful text editor. We will learn about basic movement through a file in Vim without a mouse, loading and saving files, commanding the Vim editor, and get started customizing Vim to suit your needs.
+
+## 👨‍💻 Instructor
+
+[Mike Hartington](https://mhartington.io/). Constantly sarcastic, developer for Ionic Framework, lover of craft beers, tries to play guitar.
+
+[Mike's courses at egghead.](https://egghead.io/instructors/mike-hartington)
+
+## 📜 Table of Contents
+
+- [01-Intro to Vim](notes/01-intro-to-vim.md)
+
+- [02-Moving around in Vim](notes/02-moving-around-in-vim.md)
+
+- [03-Vim's different modes](notes/03-vim-s-different-modes.md)
+
+- [04-Saving Files in Vim](notes/04-saving-files-in-vim.md)
+
+- [05-Vim's built-in commands](notes/05-vim-s-built-in-commands.md)
+
+- [06-Combining Vim commands](notes/06-combining-vim-commands.md)
+
+- [07-Copy and Paste inside of Vim](notes/07-copy-and-paste-inside-of-vim.md)
+
+- [08-Configure VIM](notes/08-configure-vim.md)
+
+- [09-The Vim Config file](notes/09-the-vim-config-file.md)
+
+- [10-Introduction to Vim Plugins](notes/10-introduction-to-vim-plugins.md)
+
+## 🗒Cheatsheet
+
+[Get the pdf version of the cheatsheet](cheatsheet/learn-to-use-vim-cheatsheet.pdf)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<table>
+  <tr>
+    <td align="center"><a href="https://fabiorosado.dev"><img src="https://avatars2.githubusercontent.com/u/3131401?s=460&u=b6f9f268749033e4e5d6b3004e13259bf8d315e6&v=4" width="100px;" alt=""/><br /><sub><b>FabioRosado</b></sub></a><br /><a href="#content-FabioRosado" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=460&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a></td>
+  </tr>
+</table>
