@@ -1,9 +1,10 @@
 <h1 align="center"><a href="https://egghead.io/lessons/egghead-course-introduction-00086daf">Building Maps with React-Leaflet</a></h1>
 
-<p align="center">
+
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/490/full/React_Leaflet_Final.png" width="340"></p>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
@@ -196,4 +197,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/edieblu"><img src="https://avatars0.githubusercontent.com/u/17270662?s=460&u=8d1a4d67576db0a3baa21fa5b2ecab811476da61&v=4" width="100px;" alt=""/><br /><sub><b>Eva</b></sub></a><br /><a href="#content-edieblu" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=460&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a></td>
     <td align="center"><a href="https://zacjones.io"><img src="https://avatars2.githubusercontent.com/u/6188161?v=4" width="100px;" alt=""/><br /><sub><b>Zac Jones</b></sub></a><br /><a href="https://github.com/eggheadio/GraphQL Query Language Notes/pulls?q=is%3Apr+reviewed-by%3Azacjones93" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://maggieappleton.com"><img src="https://avatars0.githubusercontent.com/u/5599295?v=4" width="100px;" alt=""/><br /><sub><b>Appleton</b></sub></a><br /><a href="#design-MaggieAppleton" title="Design">🎨</a></td>
 </table>
