@@ -118,13 +118,13 @@ render(<App />, document.getElementById('corgi'))
 
 - After including `plugin-node-resolve` and also the `plugin-commonjs` module and rerunning build, we're met with another error, `Missing shims for Node.js built-ins`. This is because we're creating a browser that depends on process.
 
+```js
 // functions/gen-opengraph-image/rollup.config.js
 
 import babel from 'rollup-plugin-babel'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 
-```js
 const config = {
   input: 'src/image.js',
   output: [

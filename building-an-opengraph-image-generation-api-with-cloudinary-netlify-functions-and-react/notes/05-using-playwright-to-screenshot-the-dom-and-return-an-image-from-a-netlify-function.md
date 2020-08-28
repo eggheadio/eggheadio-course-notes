@@ -9,58 +9,64 @@
 - We can shrink the package size a little bit by using one of these. Currently, the Playwright team doesn&rsquo;t support a build for Lambda, but they do offer all of their build scripts for somebody else to handle it.
 - We&rsquo;re going to use Playwright AWS Lambda. **Playwright AWS Lambda only supports Chromium, but it&rsquo;ll work in our Netlify functions environment, which is what we need.**
 
-    npm install chrome-aws-lambda --save-prod
+```
+npm install chrome-aws-lambda --save-prod
+```
 
 - Now that we&rsquo;ve added Playwright AWS Lambda to our dependencies, we&rsquo;ll use it in our `gen-opengraph-image` handler.
 - Note that `_defaultContext` is actually an internal API that we have to use because we&rsquo;re using a third-party Playwright package. We create a new page off that context, which will create a new page in the headless Chromium that we&rsquo;ve launched.
 
 ``` javascript
-    // functions/gen-opengraph-image/gen-opengraph-image.js
+// functions/gen-opengraph-image/gen-opengraph-image.js
 
-    const playwright = require("playwright-aws-lambda");
+const playwright = require("playwright-aws-lambda");
 
-    exports.handler = async function(event, ctx) {
-      const browser = await playwright.launchChromium();
-      const context = await browser._defaultContext;
-      const page = await context.newPage();
+exports.handler = async function(event, ctx) {
+  const browser = await playwright.launchChromium();
+  const context = await browser._defaultContext;
+  const page = await context.newPage();
 
-    // ... //
+// ... //
 ```
 
 We can set the content to any HTML we want. In this case, we&rsquo;ve set up a head and a body and a div inside the body with an id=&ldquo;corgi&rdquo; and a content of hello. **This div is where we&rsquo;ll render our image into before we take the screenshot.** Hello is just test content for us.
 
 ``` javascript
-    await page.setContent(`<!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8" />
-        </head>
+await page.setContent(`<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+    </head>
 
-        <body>
-          <div id="corgi"><div>CORGIIIS</div></div>
-        </body>
-      </html>
-      `)
+    <body>
+      <div id="corgi"><div>CORGIIIS</div></div>
+    </body>
+  </html>
+`)
 ```
 
 - Then we need to get the dimensions to pass to the screenshot function. To do this, we can use `page.evaluate`, which allows us to evaluate a function or a string of code inside of the browser context page.
 - In this case, we get the `div` with an `Id` of corgi. We use `getBoundingClientRect` and native browser APIs to get the `X` and the `Y` position as well as the `width` and the `height`. Then we return that as a serializable object as the variable boundingRect.
 
-    const boundingRect = await page.evaluate(() => {
-      const corgi = document.getElementById('corgi')
-      const { x, y, width, height } = corgi.children[0].getBoundingClientRect()
-      return { x, y, width, height }
-    })
+```js
+const boundingRect = await page.evaluate(() => {
+  const corgi = document.getElementById('corgi')
+  const { x, y, width, height } = corgi.children[0].getBoundingClientRect()
+  return { x, y, width, height }
+})
+```
 
 - It&rsquo;s important that we return a serializable `object` here because we&rsquo;re passing data back and forth between the headless Chromium instance and our Node script. If we just passed the result of `getBoundingClientRect`, it would become `contextified` within the browser, which means that it wouldn&rsquo;t be able to get passed through.
 - Finally we `await page.screenshot`. We `clip` the screenshot using the `boundingRect` dimensions that we got in our previous page evaluate. This gives us a buffer which is all of the `data` from our screenshot and the `div` that we rendered.
 
-    const screenshotBuffer = await page.screenshot({ clip: boundingRect })
-    await browser.close()
-    return {
-      isBase64Encoded: true,
-      statusCode: 200,
-    }
+```js
+const screenshotBuffer = await page.screenshot({ clip: boundingRect })
+await browser.close()
+return {
+  isBase64Encoded: true,
+  statusCode: 200,
+}
+```
 
 - Finally, there&rsquo;s a couple of magic properties that we need to set. We need to set `isBase64Encoded` to `true` in our response. We&rsquo;ll set the `headers` `Content-Type` to `image/png` and the `Content-Length` to the buffer `length`.
 
