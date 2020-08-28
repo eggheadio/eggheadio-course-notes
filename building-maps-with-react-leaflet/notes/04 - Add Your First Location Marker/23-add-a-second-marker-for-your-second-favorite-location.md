@@ -8,4 +8,4 @@ Add a second location by repeating the steps from before (Google maps -> What's 
 
 Then add another set of Marker + Popup components.
 
-👍 Start by copying our first duo, then replaced the required information (mainly the coordinates, and the popup text)/
+👍 Start by copying our first duo, then replaced the required information (mainly the coordinates, and the popup text)

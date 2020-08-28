@@ -12,7 +12,7 @@
 - Take a screenshot of this node.
   - 🍎 **In Safari** you can right click on the div and select &ldquo;Capture Screenshot&rdquo;. You&rsquo;ll then be prompted to save the file. I saved mine as opengraph-background.png.
 
-![](./Screen%20Shot%202020-08-11%20at%209.09.39%20PM.png)
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1597870397/transcript-images/Screen_Shot_2020-08-11_at_9.09.39_PM.png)
 
 - Drag the image into Figma and its the right size, and ready to go.
 - Next create a rectangle in Figma, a little smaller than your canvas (1160 X 590) and put it at the center of your background.
