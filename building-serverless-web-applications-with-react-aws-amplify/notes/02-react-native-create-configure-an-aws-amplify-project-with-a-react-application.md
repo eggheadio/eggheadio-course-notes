@@ -36,9 +36,9 @@ Source directory path (src)
 
 Distribution directory path (public)
 
-Build command (yarn build)
+Build command (yarn run-script build)
 
-Start command (yarn start)
+Start command (yarn run-script start)
 
 # This is the profile you created with the `amplify configure` command in the introduction step.
 Do you want to use an AWS profile
