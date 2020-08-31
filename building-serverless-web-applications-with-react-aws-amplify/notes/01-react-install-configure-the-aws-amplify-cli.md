@@ -1,5 +1,7 @@
 # Install & Configure the AWS Amplify CLI
 
+> ❗ AWS Amplify is a framework in constant change and improvement. If you find something here or in the video that is outdated, or not working, please make sure you check the [Official documentation](https://docs.amplify.aws/) to clear your doubts.
+
 **[📹 Video](https://egghead.io/lessons/react-install-configure-the-aws-amplify-cli)**
 
 **[🤔 You can setup your project with a guided help from the Official AWS documentation here](https://docs.amplify.aws/start)**

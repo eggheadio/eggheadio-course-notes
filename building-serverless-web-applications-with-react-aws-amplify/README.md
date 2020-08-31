@@ -39,6 +39,7 @@ You’ll finish the course ready to quickly and easily deploy your serverless Re
 
 - [AWS Amplify official documentation](https://aws.amazon.com/es/amplify/)
 - [Getting Started](https://aws.amazon.com/es/amplify/getting-started/)
+- [AWS Amplify Guides](https://docs.amplify.aws/guides/q/platform/js)
 
 ## Emoji Legend 🧠
 

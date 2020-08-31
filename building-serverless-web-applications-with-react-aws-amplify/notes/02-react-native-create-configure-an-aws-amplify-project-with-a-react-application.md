@@ -1,5 +1,7 @@
 # Create & Configure an AWS Amplify Project with a React Application
 
+> ❗ AWS Amplify is a framework in constant change and improvement. If you find something here or in the video that is outdated, or not working, please make sure you check the [Official documentation](https://docs.amplify.aws/) to clear your doubts.
+
 **[📹 Video](https://egghead.io/lessons/react-native-create-configure-an-aws-amplify-project-with-a-react-application)**
 
 - create a Create-React-App using `npx` and run inside the app `amplify init`
