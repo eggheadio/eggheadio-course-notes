@@ -2,6 +2,17 @@
 
 [📹 Video link](https://www.egghead.io/lessons/gatsby-fetch-and-query-data-at-build-time-in-gatsby)
 
+## Exercise
+In this lesson, you saw how to query data from an outside source (Contentful). 
+
+For this exercise, you'll be querying for that same data in GraphQL from the file system.
+
+Your job is to replace the hardcoded pokemons data in gatsby-node as well as the index page with the results returned from the GraphQL query.
+
+You can start with this [Gatsby application](https://codesandbox.io/s/mystifying-wind-smlbc?fontsize=14&hidenavigation=1&theme=dark). 
+
+For more context, [check out the exercise page](../excercises/03-query-data.md)
+
 ## Notes
 
 It's common to query data from a remote API to use inside of Gatsby at build time.
@@ -96,6 +107,6 @@ When we refresh the server, we can click our Pokemon links as expected.
 
 Gatsby is capable of handling queries with variables because of its awareness of page context. However, page queries can only be made in top-level page components.
 
-![ GraphQL page vs static queries Image](../sketch-notes/02-sketch-note-pages.png)
+![ GraphQL page vs static queries Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1597423576/transcript-images/02-sketch-note-pages.png)
 
 In contrast, static queries do not take variables. This is because static queries are used inside specific components, and can appear lower in the component tree. Data fetched with a static query won’t be dynamic, but they can be called at any level in the component tree.

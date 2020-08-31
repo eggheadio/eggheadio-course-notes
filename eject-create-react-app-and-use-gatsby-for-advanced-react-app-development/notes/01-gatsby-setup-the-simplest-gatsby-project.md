@@ -52,7 +52,7 @@ This is how we create the simplest Gatsby project.
 
 Here's an high overview of what Gatsby is doing:
 
-![ Big picture of Gatsby system Image](../sketch-notes/01-sketch-note-gatsby-system.png)
+![ Big picture of Gatsby system Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1597423576/transcript-images/01-sketch-note-gatsby-system.png)
 
 **Key Takeaways when using Gatsby:**
 

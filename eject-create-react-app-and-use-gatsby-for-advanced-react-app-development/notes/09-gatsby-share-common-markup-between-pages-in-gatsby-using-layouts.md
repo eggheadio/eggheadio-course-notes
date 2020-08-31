@@ -61,6 +61,6 @@ Follow the same process for the `About` page and the Main Pokemon page.
 
 Gatsby uses server-side rendering and a React feature known as hydration to create progressively-enhanced sites. During the build process, Gatsby creates both an HTML document and a JavaScript component for each URL of your site.
 
-![Progressive Enhancement Animation](../sketch-notes/03-sketch-note-progressive-enhancement-animation.gif)
+![Progressive Enhancement Animation](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1597423576/transcript-images/03-sketch-note-progressive-enhancement-animation.gif)
 
 When a site visitor requests their first URL from your site, the initial response will be server-rendered HTML, along with linked JavaScript, CSS, and images. If their browser is capable, React will hydrate the DOM, adding event listeners and state. Subsequent URL requests become DOM updates managed by React. If hydration fails, however, your site still works. Subsequent URL requests will instead trigger a network request and a full-page load.
