@@ -1,5 +1,7 @@
 # Use the AWS Amplify withAuthenticator HOC to Implement a React User Authorization Flow
 
+> ❗ AWS Amplify is a framework in constant change and improvement. If you find something here or in the video that is outdated, or not working, please make sure you check the [Official documentation](https://docs.amplify.aws/) to clear your doubts.
+
 **[📹 Video](https://egghead.io/lessons/react-native-use-the-aws-amplify-withauthenticator-hoc-to-implement-a-react-user-authorization-flow)**
 
 - the Amplify CLI comes with commands to help you create and add services to your applications

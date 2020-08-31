@@ -1,5 +1,7 @@
 # Manually Sign Up New Users in React with AWS Amplify Auth Class
 
+> ❗ AWS Amplify is a framework in constant change and improvement. If you find something here or in the video that is outdated, or not working, please make sure you check the [Official documentation](https://docs.amplify.aws/) to clear your doubts.
+
 **[📹 Video](https://egghead.io/lessons/react-native-manually-sign-up-new-users-in-react-with-aws-amplify-auth-class)**
 
 > ❗ This lesson is using React Class Components. you are free to use the Class syntax or change to use Function components, the core Auth methods will work in both escenarios with a slight different Syntax
@@ -134,14 +136,5 @@ async function signOut() {
 
 - 🤔 [Docs: Sign up, Sign in & Sign out](https://docs.amplify.aws/lib/auth/emailpassword/q/platform/js)
 - 🤔 [Docs: Authentication Contepts](https://docs.amplify.aws/lib/auth/overview/q/platform/js)
-
 - 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-use-the-aws-amplify-withauthenticator-hoc-to-implement-a-react-user-authorization-flow)
 - 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-create-interact-with-an-aws-appsync-graphql-api-with-aws-amplify)
-
-```
-
-```
-
-```
-
-```
