@@ -42,7 +42,7 @@ Setting the flex-basis of all children to zero will prepare us to use all the to
 
 This property works like `flex-grow`, but in reverse.
 
-To illustrate how `flex-shrink` works, Garth sets the children's `flex-basis` values to 200 pixels, totaling 600 pixels in width; exceeding the width of the container. Each child is too big for the container – 😱Yikes! They're even losing some width because they cannot fit into the container.
+To illustrate how `flex-shrink` works, Garth sets the children's `flex-basis` values to 200 pixels, totaling 600 pixels in width; exceeding the width of the container. Each child is too big for the container – 😱 Yikes! They're even losing some width because they cannot fit into the container.
 
 But... *there's space left over from the container causing the children to not fit*... Why? Well, if the combined `flex-basis` is greater than the container's allowed space, the child elements will shrink to fit!
 

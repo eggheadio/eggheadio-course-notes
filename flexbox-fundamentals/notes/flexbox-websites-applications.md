@@ -12,6 +12,6 @@ Let's take a look at how cool flexbox really is in this next lesson with Garth l
 
 You'll see in Garth's first example that he uses `flex` properties to style for various screen sizes using media queries.
 
-In a second example, Garth walks us through styling without media queries as the basis for responsive sites 😯WOW! He's using flexbox and `flex: wrap;`. Pretty cool, huh?
+In a second example, Garth walks us through styling without media queries as the basis for responsive sites 😯 WOW! He's using flexbox and `flex: wrap;`. Pretty cool, huh?
 
 To see Garth's examples in action review them [here](https://egghead.io/lessons/flexbox-using-flexbox-in-websites-and-applications#t=25) and [here](https://egghead.io/lessons/flexbox-using-flexbox-in-websites-and-applications#t=153).

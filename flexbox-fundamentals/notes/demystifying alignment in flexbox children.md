@@ -31,7 +31,7 @@ Following the transcript, we can note that this flexbox property's value can be 
 
 ## Alignment via flexbox children properties
 
-### `justify-content` affects way the children are aligned along the direction the content is flowing.
+### `justify-content` affects the way the children are aligned along the direction the content is flowing.
 
 In other words, depending on where your element starts, the justify-content will affect how the extra space along the flex directioin is used.
 

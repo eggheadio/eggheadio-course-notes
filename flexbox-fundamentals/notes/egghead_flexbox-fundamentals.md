@@ -6,7 +6,7 @@
 
 Flexbox is a layout mode in CSS. This layout type makes it easy for developers to display content in various ways.
 
-Since browsers display content vertically – *from top to bottom* – by default, the Flexbox layot mode gives devs more "flexibility" with how their content is displayed on the front-end.
+Since browsers display content vertically – *from top to bottom* – by default, the Flexbox layout mode gives devs more "flexibility" with how their content is displayed on the front-end.
 
 ### Well, we know what CSS is, *but, what's a "layout mode?"* Here's a refresher:
 
