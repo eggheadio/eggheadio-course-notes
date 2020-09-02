@@ -2,7 +2,7 @@
 
 ## Demystifying alignment in flexbox children
 
-**[📹 Video](https://egghead.io/lessons/flexbox-demystifying-alignment-in-flexbox-children)**
+[📹 Video](https://egghead.io/lessons/flexbox-demystifying-alignment-in-flexbox-children)
 
 Because flexbox layout is so * *ahem* * flexible, it can be difficult to remember which properties do what and what values to use when you need an element to be positioned just right in the browser.
 

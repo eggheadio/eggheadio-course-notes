@@ -2,7 +2,7 @@
 
 ## Combining the Flexbox Sizing Properties Using the Flex Shorthand
 
-**[📹 Video](https://egghead.io/lessons/flexbox-combining-the-flexbox-sizing-properties-using-the-flex-shorthand)**
+[📹 Video](https://egghead.io/lessons/flexbox-combining-the-flexbox-sizing-properties-using-the-flex-shorthand)
 
 Flex shorthand is super cool but might cause some weird things to happen in your browser. Garth Braithwaite explains in his tutorial that further expounds on the previous lesson titled *Using `flex-shrink` and `flex-grow` to Make Flexbox Children Resize Correctly*.
 

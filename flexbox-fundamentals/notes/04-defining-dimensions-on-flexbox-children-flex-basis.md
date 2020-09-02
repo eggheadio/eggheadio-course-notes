@@ -2,7 +2,7 @@
 
 ## Defining Dimensions on Flexbox Children Using Flex-Basis
 
-**[📹 Video](https://egghead.io/lessons/flexbox-defining-dimensions-on-flexbox-children-using-flex-basis)**
+[📹 Video](https://egghead.io/lessons/flexbox-defining-dimensions-on-flexbox-children-using-flex-basis)
 
 Depending on your needs, Flexbox can be coded to do many clever things. Starting with sizing, we'll learn about the following in this lesson:
 

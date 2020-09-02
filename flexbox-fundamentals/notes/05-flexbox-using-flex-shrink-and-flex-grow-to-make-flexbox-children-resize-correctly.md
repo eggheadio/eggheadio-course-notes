@@ -2,7 +2,7 @@
 
 ## Using `flex-shrink` and `flex-grow` to Make Flexox Children Resize Correctly
 
-**[📹 Video](https://egghead.io/lessons/flexbox-using-flex-shrink-and-flex-grow-to-make-flexbox-children-resize-correctly)**
+[📹 Video](https://egghead.io/lessons/flexbox-using-flex-shrink-and-flex-grow-to-make-flexbox-children-resize-correctly)
 
 What are we to do with excess space, or lack of space, around our flexbox? We will want to use either `flex-shrink` or `flex-grow`.
 

@@ -2,7 +2,7 @@
 
 ## Turning a Flexbox into a Grid Using flex-wrap and align-content
 
-**[📹 Video](https://egghead.io/lessons/flexbox-turning-a-flexbox-into-a-grid-using-flex-wrap-and-align-content)**
+[📹 Video](https://egghead.io/lessons/flexbox-turning-a-flexbox-into-a-grid-using-flex-wrap-and-align-content)
 
 Ahhhh... The moment we've been waiting for: Turning `flexbox` into a grid. Following Garth's instrustional notes: Adding flex-wrap to a flexbox container allows the items to form a grid. The content can then be aligned and distributed along the grid using justify-content and align-content.
 
