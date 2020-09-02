@@ -1,4 +1,6 @@
-## 📝 Separate API Utility Function from React Components
+# Separate API Utility Functions from React Components
+
+**[📹 Video](https://egghead.io/lessons/react-separate-api-utility-functions-from-react-components)**
 
 👍 It's a good practice to separate concerns to improve code re-usability, like moving helpers functions or API functions to a shared place where other components can use it. In this example we do a call to `fetch` and to a particular url endpoint to retrieve one particular pokemon, and that is not very interesting nor flexible, this can be extracted to an API function allowing this logic to be dynamic.
 
@@ -60,3 +62,8 @@ import { fetchPokemon, suspensify } from "./api";
 
 
 🔑 So to keep in mind. While you are developing and the application grows keep theis boundaries between componentes and API's or helpers. This will help with the future maintenance and readability of the application.
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-wrap-fetch-requests-to-communicate-pending-error-and-success-status-to-react-suspense)
+📹 [Go to Next Lesson](https://egghead.io/lessons/react-track-async-requests-with-react-s-usestate-hook)

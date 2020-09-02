@@ -1,4 +1,6 @@
-## Track Async Requests with React's useState Hook
+# Track Async Requests with React's useState Hook
+
+**[📹 Video](https://egghead.io/lessons/react-track-async-requests-with-react-s-usestate-hook)**
 
 At this point, the component is able to dynamically fetch a pokemon based on some ID and also to communicate the fetch status to the Suspense and Error Boundaries, the next step is to enable it to fetch the next Pokemon.
 
@@ -22,3 +24,9 @@ The updater function returned by `useState`,  called  `setPokemonResource` in th
 
 In this example, to fetch the next pokemon, the updater function will call the  same function as the `initialPokemon` but with a different `id` and to make that id dynamic we can use the previous state value that comes from the `pokemon` variable.
 
+
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-separate-api-utility-functions-from-react-components)
+📹 [Go to Next Lesson](https://egghead.io/lessons/react-enable-suspense-features-with-experimental-concurrent-mode-using-reactdom-createroot)

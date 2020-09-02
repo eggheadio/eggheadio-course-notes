@@ -1,4 +1,6 @@
-## Catch Errors with a React Error Boundary Component
+# Understand How React.lazy Communicates Loading Status to Suspense and Error Boundaries
+
+**[📹 Video](https://egghead.io/lessons/react-understand-how-react-lazy-communicates-loading-status-to-suspense-and-error-boundaries)**
 
 At this point we're using a dynamic import and Suspense to lazily load the PokemonDetail component. 
 
@@ -87,3 +89,7 @@ export default class ErrorBoundary extends React.Component {
   }
 }
 ```
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-catch-errors-with-a-react-error-boundary-component)
+📹 [Go to Next Lesson](https://egghead.io/lessons/react-wrap-fetch-requests-to-communicate-pending-error-and-success-status-to-react-suspense)

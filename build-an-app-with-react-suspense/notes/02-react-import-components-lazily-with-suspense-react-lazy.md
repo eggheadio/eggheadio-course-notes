@@ -1,4 +1,6 @@
-# Import Components Lazily with Suspense  React.lazy
+# Import Components Lazily with Suspense React.lazy
+
+**[📹 Video](https://egghead.io/lessons/react-import-components-lazily-with-suspense-react-lazy)**
 
 We'll start with a simple task, import a component, but using Suspense.
 
@@ -32,3 +34,7 @@ By using `React.lazy` and `React.Suspense` you will have at least two source fil
 
 In relation with the loading indicator, is hard too see it because of the speed of the loading process but [🛠 React dev tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es) offers a good way to emulate the suspense behavior (min [📄 03:24](https://egghead.io/lessons/react-import-components-lazily-with-suspense-react-lazy#t=204)) 
 
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-build-an-app-with-react-suspense-intro-and-setup)
+📹 [Go to Next Lesson](https://egghead.io/lessons/react-catch-errors-with-a-react-error-boundary-component)
