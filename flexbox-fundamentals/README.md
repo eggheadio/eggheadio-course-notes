@@ -1,4 +1,4 @@
-# [Flexbox Fundamentals](https://egghead.io/courses/flexbox-fundamentals)
+<h1 align="center"><a href="https://egghead.io/courses/flexbox-fundamentals">Flexbox Fundamentals</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/036/full/EGH_Flexbox.png" width="300"></p>
 
