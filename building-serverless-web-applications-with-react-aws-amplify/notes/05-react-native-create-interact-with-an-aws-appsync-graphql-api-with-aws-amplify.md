@@ -10,7 +10,9 @@
 
 ## Create a GraphQL API
 
-- `amplify add api`
+```bash
+amplify add api
+```
 
 Select the following options:
 
@@ -111,6 +113,8 @@ query list {
 - Now that we got some data, we can go and query the data from our React app!
 - In `App.js`, import `API` and `graphqlOperation` from `aws-amplify`
 
+> 🤔 Remember that you need to [Configure your React App](03-react-native-use-the-aws-amplify-withauthenticator-hoc-to-implement-a-react-user-authorization-flow.md) in order to successfully connect your app with your AWS Amplify Services
+
 ```javascript
 import { API, graphqlOperation } from "aws-amplify"
 ```
@@ -146,13 +150,15 @@ const ListTodos = `
 `
 
 export default function App() {
-  const [todos, setTodos] = React.useState([])
+  const [todos, setTodos] = React.useState([]) // important to initialize your state with an empty array!
 
   React.useEffect(() => {
     async function getTodos() {
       const todoData = await API.graphql(graphqlOperation(ListTodos)) // fetch the list of Todos from your graphQL API
       setTodos(toData.data.listTodos.items) // set the result from your query to your local state
     }
+
+    getTodos() // Async functions are not permitted as `useEffect` functions parameters. that's why I created another async function inside of it instead
   }, [])
 
   return (
@@ -174,7 +180,9 @@ export default function App() {
 }
 ```
 
-- when this is ready, you can go to your terminal and run `npm start` or `yarn start` and see the result in the browser ([http://localhost:3000/](http://localhost:3000/))
+- when this is ready, you can go to your command line and run `npm start` or `yarn start` and see the result in the browser ([http://localhost:3000/](http://localhost:3000/))
+
+![React App](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1549391500/transcript-images/react-native-create-interact-with-an-aws-appsync-graphql-api-with-aws-amplify-displayed-todos-in-app.jpg)
 
 ---
 
