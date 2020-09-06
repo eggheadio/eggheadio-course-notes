@@ -4,9 +4,61 @@
 
 - stablish consistency
 - all function expects the same type of arguments (pattern)
-  - that let you combine functions because you Know what is expected
+  - that let you combine functions because you _Know_ what is expected
 
-<CODE HERE>
+```javascript
+let createTimeout = (time) => (listener) => {
+  let id = setTimeout(listener, time)
+
+  return () => {
+    clearTimeout(id)
+  }
+}
+
+let addListener = (selector) => (eventType) => (listener) => {
+  let element = document.querySelector(selector)
+  element.addEventListener(eventType, listener)
+
+  return () => {
+    element.removeEventListener(eventType, listener)
+  }
+}
+
+let createInterval = (time) => (listener) => {
+  let id = setInterval(listener, time)
+  return () => {
+    clearInterval(id)
+  }
+}
+
+let addButtonListener = addListener("#button")
+let addButtonClickListener = addButtonListener("click")
+
+let oneSecond = createInterval(1000)
+
+//broadcaster = function that accepts a listener
+let merge = (broadcaster1, broadcaster2) => (listener) => {
+  let cancel1 = broadcaster1(listener)
+  let cancel2 = broadcaster2(listener)
+
+  return () => {
+    cancel1()
+    cancel2()
+  }
+}
+
+let clickOrTick = merge(addButtonClickListener, oneSecond)
+let cancelClickOrTick = clickOrTick(() => {
+  console.log("click or tick")
+})
+
+cancelClickOrTick()
+```
+
+- because both broadcasters (`addButtonClickListener` & `oneSecond`) expects a listener, we are able to create a wrapper function that accepts a listener too and explicitly pass it to both boradcasters, which in this example we call it `merge`
+- and also we can follow the same pattern as before, because we control the broadcasters we are getting as parameters in `merge`, so we can return another function that cancels both of them
+
+- For the sake of comparisson and help with readability, here's a representation of the functions both using ES6 syntax and ES5 syntax (using the function keyword)
 
 ```js
 // same function
@@ -20,6 +72,12 @@ function createInterval(time) {
   }
 }
 ```
+
+## References
+
+- [source code](https://github.com/johnlindquist/crafting-functions/blob/merge/src/index.js)
+
+---
 
 📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-utility-function-to-control-setinterval)
 📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-use-lodash-curry-when-functions-return-functions)
