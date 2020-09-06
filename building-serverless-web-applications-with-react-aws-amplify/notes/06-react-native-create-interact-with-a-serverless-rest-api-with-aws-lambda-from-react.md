@@ -70,7 +70,9 @@ app.get('/people', function (req, res) {
 import { API } from "aws-amplify"
 ```
 
-- and last lets glue all together in React (the example above is using Functional components, not Class components as in the video)
+- and last lets glue all together in React
+
+> ❗ the example above is using Functional components, not Class components as in the video
 
 ```javascript
 import React from "react"
