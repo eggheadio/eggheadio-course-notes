@@ -184,14 +184,14 @@ export default function App() {
 
 ![React App](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1549391500/transcript-images/react-native-create-interact-with-an-aws-appsync-graphql-api-with-aws-amplify-displayed-todos-in-app.jpg)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-manually-sign-up-new-users-in-react-with-aws-amplify-auth-class)
-📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-create-interact-with-a-serverless-rest-api-with-aws-lambda-from-react)
-
 ## References & Resources
 
 - [Create a GraphQL API (Official docs)](https://docs.amplify.aws/cli/graphql-transformer/overview#create-a-graphql-api)
 - [AWS AppSync main page](https://aws.amazon.com/appsync/)
 - ["GraphQL Query Language" course](https://egghead.io/courses/graphql-query-language)
 - [Using Amplify GraphQL Client](https://docs.amplify.aws/lib/graphqlapi/query-data/q/platform/js#using-amplify-graphql-client)
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-manually-sign-up-new-users-in-react-with-aws-amplify-auth-class)
+📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-create-interact-with-a-serverless-rest-api-with-aws-lambda-from-react)

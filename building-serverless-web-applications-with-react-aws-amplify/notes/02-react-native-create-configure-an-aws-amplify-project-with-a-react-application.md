@@ -68,9 +68,11 @@ yarn add aws-amplify @aws-amplify/ui-react
 
 - Now we are ready to add new features to our React app!
 
----
+## References and Resources
 
-🤔 [Oficial Documentation Tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/react#initialize-a-new-backend)
+- 🤔 [Official Docs Tutorial](https://docs.amplify.aws/start/getting-started/installation/q/integration/react#sign-up-for-an-aws-account)
+
+---
 
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-install-configure-the-aws-amplify-cli)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-use-the-aws-amplify-withauthenticator-hoc-to-implement-a-react-user-authorization-flow)

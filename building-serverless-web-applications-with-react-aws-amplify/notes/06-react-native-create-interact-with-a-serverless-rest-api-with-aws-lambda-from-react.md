@@ -159,5 +159,7 @@ app.get("/people", function (req, res) {
 
 ![React App](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1549391502/transcript-images/react-native-create-interact-with-a-serverless-rest-api-with-aws-lambda-from-react-star-wars-api-data.jpg)
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-create-interact-with-an-aws-appsync-graphql-api-with-aws-amplify)
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-store-data-in-amazon-s3-with-react)

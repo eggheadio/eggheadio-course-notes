@@ -132,9 +132,12 @@ async function signOut() {
 }
 ```
 
----
+## References and Resources
 
 - 🤔 [Docs: Sign up, Sign in & Sign out](https://docs.amplify.aws/lib/auth/emailpassword/q/platform/js)
 - 🤔 [Docs: Authentication Contepts](https://docs.amplify.aws/lib/auth/overview/q/platform/js)
+
+---
+
 - 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-use-the-aws-amplify-withauthenticator-hoc-to-implement-a-react-user-authorization-flow)
 - 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-create-interact-with-an-aws-appsync-graphql-api-with-aws-amplify)
