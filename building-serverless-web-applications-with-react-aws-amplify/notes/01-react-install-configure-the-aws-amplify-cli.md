@@ -30,7 +30,7 @@ npm install -g @aws-amplify/cli
 amplify configure
 ```
 
-- This command should open the AWS console. Log in with your account and jump back to the terminal (console)
+- This command should open the AWS console. Log in with your account and jump back to the command line
 - Specify the AWS reagion closer to you or the one you prefer
 - Set the username of the user that we are about to create
 
@@ -49,7 +49,7 @@ Complete the user creation using the AWS console
 
 > 🤔 Amazon IAM (Identity and Access Management) enables you to manage users and user permissions in AWS. You can learn more about Amazon IAM [here](https://aws.amazon.com/iam/).
 
-- Now you will see the user created, with an `Access key ID` and a `Secret access key` which you need to paste in your terminal (console)
+- Now you will see the user created, with an `Access key ID` and a `Secret access key` which you need to paste in your command line
 - Now you need to set a Profile Name (choose the name of your choice)
 - and that's it!, you have the AWS Amplify CLI setup and ready to create new projects!
 
