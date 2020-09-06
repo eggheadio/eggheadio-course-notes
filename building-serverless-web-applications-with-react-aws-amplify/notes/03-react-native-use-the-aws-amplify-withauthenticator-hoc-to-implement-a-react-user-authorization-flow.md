@@ -78,10 +78,15 @@ npm start
 
 > ❗ To include a sign out button, you need to follow other steps rather than adding a second parameter to the `withAuthenticator` High-order component (HoC). You can follo the new steps [here](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js#option-2-call-authentication-apis-manually)
 
+## References and Resources
+
 - 🤔 [Official Docs: Add Authentication](https://docs.amplify.aws/start/getting-started/auth/q/integration/react)
 - 🤔 [Official Docs: Configure your React app (frontend)](https://docs.amplify.aws/start/getting-started/setup/q/integration/react#set-up-frontend)
 - 🤔 [Complete Auth Class API](https://aws-amplify.github.io/amplify-js/api/classes/authclass.html)
 - 🤔 [Authentication Documentation](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js#authentication-with-amplify)
 - 🤔 [Amazon Cognito user Pools](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html)
+
+---
+
 - 📹 [Go to Previous Lesson](https://egghead.io/lessons/react-native-create-configure-an-aws-amplify-project-with-a-react-application)
 - 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-manually-sign-up-new-users-in-react-with-aws-amplify-auth-class)

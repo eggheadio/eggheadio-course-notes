@@ -53,8 +53,10 @@ Complete the user creation using the AWS console
 - Now you need to set a Profile Name (choose the name of your choice)
 - and that's it!, you have the AWS Amplify CLI setup and ready to create new projects!
 
----
+## References and Resources
 
-🤔 [Official Docs Tutorial](https://docs.amplify.aws/start/getting-started/installation/q/integration/react#sign-up-for-an-aws-account)
+- 🤔 [Official Docs Tutorial](https://docs.amplify.aws/start/getting-started/installation/q/integration/react#sign-up-for-an-aws-account)
+
+---
 
 📹 [Go to Next Lesson](https://egghead.io/lessons/react-native-create-configure-an-aws-amplify-project-with-a-react-application)
