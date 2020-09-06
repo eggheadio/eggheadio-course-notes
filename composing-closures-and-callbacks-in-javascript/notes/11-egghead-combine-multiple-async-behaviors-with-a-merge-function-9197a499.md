@@ -71,6 +71,13 @@ function createInterval(time) {
     // ...do something
   }
 }
+
+// also, is common to see the above function call when you have functions that return functions
+let foo = (a) => (b) => {
+  console.log(a, b)
+}
+
+foo("Hello")("World") // <== two calls on the same line
 ```
 
 ## References
