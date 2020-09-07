@@ -3,7 +3,7 @@
 [Video Link](https://egghead.io/lessons/svelte-use-await-block-to-wait-for-a-promise-and-handle-loading-state-in-svelte-3?pl=getting-started-with-svelte-3-05a8541a)
 
 - In Svelte when you are waiting for asynchronous data you can use `await` blocks
-- First, inside the `script` tag, assign your `async` function to a variable, we&rsquo;re calling it `promise` here
+- First, inside the `script` tag, assign your `async` function to a variable, we're calling it `promise` here
 - Then, we can use an await block with the following syntax
 
 ```

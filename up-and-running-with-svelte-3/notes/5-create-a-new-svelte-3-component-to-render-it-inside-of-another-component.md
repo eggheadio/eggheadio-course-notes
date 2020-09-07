@@ -19,8 +19,8 @@
 <h1>My name is {name}</h1>
 ```
 
-- Let&rsquo;s create a new component that we&rsquo;re going to use to display our surname
-- Create a new file in your `src/` directory, let&rsquo;s call it `Surname.svelte`
+- Let's create a new component that we're going to use to display our surname
+- Create a new file in your `src/` directory, let's call it `Surname.svelte`
 
 ```html
 <script>
@@ -30,6 +30,6 @@
 <h1>My surname is {surname}</h1>
 ```
 
-- Of course this text is not visible because it isn&rsquo;t rendered in our app
-- Let&rsquo;s add it to our component by going back to `App.svelte` removing the surname declaration, and adding `import Surname from 'Surname.svelte'`
-- Notice that the h1 style tag in our `App.svelte` doesn&rsquo;t effect our surname component. If we want to style that component we can do it inside of `Surname.svelte`
+- Of course this text is not visible because it isn't rendered in our app
+- Let's add it to our component by going back to `App.svelte` removing the surname declaration, and adding `import Surname from 'Surname.svelte'`
+- Notice that the h1 style tag in our `App.svelte` doesn't effect our surname component. If we want to style that component we can do it inside of `Surname.svelte`

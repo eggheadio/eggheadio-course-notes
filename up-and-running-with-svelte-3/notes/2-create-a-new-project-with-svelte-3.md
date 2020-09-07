@@ -2,13 +2,13 @@
 
 [Video Link](https://egghead.io/lessons/svelte-create-a-new-project-with-svelte-3?pl=getting-started-with-svelte-3-05a8541a)
 
-- Go to the directory you want to create your Svelte project in and run the following command in the terminal. We&rsquo;re naming the project `my-svelte-project`.
+- Go to the directory you want to create your Svelte project in and run the following command in the terminal. We're naming the project `my-svelte-project`.
 
 ```
 npx degit sveltejs/template my-svelte-project
 ```
 
-- We&rsquo;re using npx to run degit. Degit is a tool that makes copies of git repositories. If you run `degit some-user/some-repo` it will find the latest commit on <https://github.com/some-user/some-repo> and download the associated tar file. Note its faster than git clone because you&rsquo;re not downloading the entire git history.
+- We're using npx to run degit. Degit is a tool that makes copies of git repositories. If you run `degit some-user/some-repo` it will find the latest commit on <https://github.com/some-user/some-repo> and download the associated tar file. Note its faster than git clone because you're not downloading the entire git history.
 - Next go into the directory and run npm install
 
 ```
