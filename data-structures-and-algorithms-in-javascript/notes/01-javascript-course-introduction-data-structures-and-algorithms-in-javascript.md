@@ -34,6 +34,8 @@ This course is not about memorizing the implementation but understanding the ben
 - Merge sort
 - Quick sort
 
+<!-- TODO: make big images smaller 7-14 -->
+
 ## Github repo
 
 💻[intro-to-data-structures-and-algorithms](https://github.com/kyleshevlin/intro-to-data-structures-and-algorithms)

@@ -32,9 +32,7 @@ Each node has a collection of neighbors - usually represented by an array. When 
 
 A graph is a collection of nodes and edges. In a directed graph (what we build in this video) both nodes must point to each other in order to have symmetric edges. In other words, you can have a node with a one-way relationship to another node - one node contains the other node in its neighbors but it does not appear in the other nodes neighbors.
 
-![Symmetric Graph](../assets/Graph-Symmetric.png)
-
-![Asymmetric Graph](../assets/Graph-Asymmetric.png)
+![Graph Symmetry](../assets/Graph-Symmetry.png)
 
 A graph is not hierarchical - it has no order, rank, start or end. It is just a collection of nodes and edges.
 
