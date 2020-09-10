@@ -61,6 +61,8 @@ let operators = pipe(
 
 
 
+> 🚨 the difference between pipe and compose is the order you pass these functions
+
 ## References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/compose-pipe/src/index.js)
