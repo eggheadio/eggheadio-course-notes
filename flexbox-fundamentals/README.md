@@ -48,4 +48,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/gerilynmhayes"><img src="https://avatars1.githubusercontent.com/u/49490974?s=460&u=50ff36702f3f9b324d584f11f4dd93aae544b146&v=4" width="100px;" alt=""/><br /><sub><b>Gerilyn</b></sub></a><br />
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=400&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a>  </td>
 </table>
