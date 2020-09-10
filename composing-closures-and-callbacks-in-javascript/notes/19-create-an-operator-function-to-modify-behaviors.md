@@ -1,27 +1,24 @@
 # Create an Operator Function to Modify Behaviours
 
-*[📹 Video](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)**
+\*[📹 Video](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)\*\*
 
-
-
-*Operators are functions that modify behaviours.*
+_Operators are functions that modify behaviours._
 
 Let's grab the `typeGreeting` function from [lesson 17](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function) and console log either
 
 - The value passed is the `Symbol` done
 - The character inside the string passed to the `forOf` function
 
-
 ```javascript
 string = ""
 
-typeGreeting(value => {
-	if (value === done) {
-		console.log("Shutting Down") // Received Symbol done
-		return
-	}
-	
-	console.log(string += value[1]) // Remember value is an array containing [interval, character]
+typeGreeting((value) => {
+  if (value === done) {
+    console.log("Shutting Down") // Received Symbol done
+    return
+  }
+
+  console.log((string += value[1])) // Remember value is an array containing [interval, character]
 })
 ```
 
@@ -29,16 +26,16 @@ We can now create our operator to modify this code:
 
 ```javascript
 let modify = curry((broadcaster, listener) => {
-	let string = ""
-	
-	return broadcaster(value => {
-		if (value === done) {
-			listener(done)
-			return
-		}
-		
-		listener(string += value[1])
-	})
+  let string = ""
+
+  return broadcaster((value) => {
+    if (value === done) {
+      listener(done)
+      return
+    }
+
+    listener((string += value[1]))
+  })
 })
 ```
 

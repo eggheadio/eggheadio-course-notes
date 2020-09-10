@@ -1,13 +1,12 @@
 # Create a Buffer to Pair Values Together with Zip
 
-*[📹 Video](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)*
-
+_[📹 Video](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)_
 
 Create a broadcaster that can group two values together, the function will take:
 
 - Two broadcasters as arguments
--  Returns a function that takes a listener
-	-  This function will return an array containing the values of both broadcasters
+- Returns a function that takes a listener
+  - This function will return an array containing the values of both broadcasters
 
 We are using the `curry` method from `lodash` to build this function.
 
@@ -35,7 +34,7 @@ let zip = curry((broadcaster1, broadcaster2, listener)) {
 
 ```
 
-The `broadcaster1` might look different than `broadcaster2`, but they are both doing the same. 
+The `broadcaster1` might look different than `broadcaster2`, but they are both doing the same.
 
 **Why?**
 
@@ -50,7 +49,6 @@ We can create a buffer for each of our broadcasters by creating an array for eac
 
 We want to create buffers, because our zip function is grouping the two broadcasters together and sending them at the same time.
 
-
 ```javascript
 let zip = curry((broadcaster1, broadcaster2, listener)) {
 	let buffer1 = []
@@ -59,11 +57,11 @@ let zip = curry((broadcaster1, broadcaster2, listener)) {
 
 		listener(value)
 	})
-	
+
 	let bugger2 = []
 	broadcaster2(value => {
 		buffer2.push(value) // add to buffer
-		
+
 		listener(value)
 	})
 }
@@ -73,30 +71,29 @@ let zip = curry((broadcaster1, broadcaster2, listener)) {
 Now that we have our buffers and we are adding values to them we need to do a two things:
 
 - Check the lenght of each buffer
-	- We do this so we can let the one with more values catch up
+  - We do this so we can let the one with more values catch up
 - Get the last value of each buffer
-	- We can get the last value of the array by using the `Array.prototype.shift()` method
+  - We can get the last value of the array by using the `Array.prototype.shift()` method
 
 ```javascript
 let zip = curry((broadcaster1, broadcaster2, listener)) {
 	let buffer1 = []
 	broadcaster1(value => {
-	
+
 		if (buffer2.lenght) { // Does our buffer has values in it?
 			listener([buffer1.shift(), buffer2.shift()]) // Return the last values of the two buffers
 		}
 
 	})
-	
+
 	let bugger2 = []
 	broadcaster2(value => {
-		if (buffer1.lenght) { 
+		if (buffer1.lenght) {
 			listener([buffer1.shift(), buffer2.shift()])
 		}
 	})
 }
 ```
-
 
 **Stopping the buffer**
 
@@ -106,20 +103,20 @@ It's a good idea to implement the `cancel` method on our zip function in case we
 let zip = curry((broadcaster1, broadcaster2, listener)) {
 	let buffer1 = []
 	let cancel2 = broadcaster1(value => {
-	
+
 		if (buffer2.lenght) { // Does our buffer has values in it?
 			listener([buffer1.shift(), buffer2.shift()]) // Return the last values of the two buffers
 		}
 
 	})
-	
+
 	let bugger2 = []
 	let cancel2 = broadcaster2(value => {
-		if (buffer1.lenght) { 
+		if (buffer1.lenght) {
 			listener([buffer1.shift(), buffer2.shift()])
 		}
 	})
-	
+
 	return () => {
 		cancel1()
 		cancel2()
@@ -139,16 +136,16 @@ let clickAndTick = zip(
 If we call the function `clickAndTick` it will run normally:
 
 ```javascript
-clickAndTick(value => {
-	console.log(value) // This will be logged into the console
+clickAndTick((value) => {
+  console.log(value) // This will be logged into the console
 })
 ```
 
 To cancel the function we need to return `clickAndTick`
 
 ```javascript
-let cancelClickAndTick = clickAndTick(value => {
-	console.log(value) // We cancelled the function, nothing is logged
+let cancelClickAndTick = clickAndTick((value) => {
+  console.log(value) // We cancelled the function, nothing is logged
 })
 ```
 
@@ -162,7 +159,6 @@ Let's assume you are writing a chatbot for Twitch. Your bot will trigger animati
 If you have a lot of people triggering animations, a lot of these animations won't play because when an animation is playing it won't trigger others.
 
 But if you use buffers, you could keep a queue of commands and iterate over each command, displaying each animation in time.
-
 
 ---
 
