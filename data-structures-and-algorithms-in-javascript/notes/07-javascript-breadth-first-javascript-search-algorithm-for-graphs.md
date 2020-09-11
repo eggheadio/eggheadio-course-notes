@@ -6,9 +6,9 @@
 
 ## Summary
 
-Breadth first search is an algorithm we can use to traverse all nodes in a graph. It starts at one node and visits all of that node's neighbors before moving on to the next node's neighbors. This is what the "Breadth" in the name implies, as it will visit widely across a node's neighbors, before traversing the edges of a neighboring node.
-
 ![Breadth first search algorithm](../assets/Breadth-First-Search.gif)
+
+Breadth first search is an algorithm we can use to traverse all nodes in a graph. It starts at one node and visits all of that node's neighbors before moving on to the next node's neighbors. This is what the "Breadth" in the name implies, as it will visit widely across a node's neighbors, before traversing the edges of a neighboring node.
 
 ## Use cases
 

@@ -25,17 +25,21 @@ A linked list is like a train, with a collection of carriages that are linked to
 
 The thing that adds the majority of complexity to a linked list is that the methods usually need to account for three states:
 
-🟥Empty list
-🟨List with one item
-🟩List with more than one item
+🟥 Empty list
+
+🟨 List with one item
+
+🟩 List with more than one item
 
 ## Node
 
 A node is just any item within a list. The thing that makes a node special is it contains a link to the next node in the list.
 
-🟥A node can't exist in an empty list
-🟨The single node's `next` property is set to `null`
-🟩The last node's `next` property is set to null, all other nodes point to the next node
+🟥 A node can't exist in an empty list
+
+🟨 The single node's `next` property is set to `null`
+
+🟩 The last node's `next` property is set to null, all other nodes point to the next node
 
 ## Head
 
@@ -43,9 +47,11 @@ A node is just any item within a list. The thing that makes a node special is it
 
 The head is the first/oldest node added to the list - conceptually, `Array[0]`.
 
-🟥The `head` is set to `null`
-🟨The `head` is set to the only node in the list
-🟩The `head` is set to the first item in the list
+🟥 The `head` is set to `null`
+
+🟨 The `head` is set to the only node in the list
+
+🟩 The `head` is set to the first item in the list
 
 ## Tail
 
@@ -53,9 +59,11 @@ The head is the first/oldest node added to the list - conceptually, `Array[0]`.
 
 The tail is the last/most recently added item in the list - conceptually, `Array.length - 1`.
 
-🟥The `tail` is set to `null`
-🟨The `tail` is set to the only node in the list
-🟩The `tail` is set to the last item in the list
+🟥 The `tail` is set to `null`
+
+🟨 The `tail` is set to the only node in the list
+
+🟩 The `tail` is set to the last item in the list
 
 ## Length
 
@@ -63,9 +71,11 @@ The tail is the last/most recently added item in the list - conceptually, `Array
 
 This returns the length or how many nodes are currently in the list.
 
-🟥0
-🟨1
-🟩n
+🟥 0
+
+🟨 1
+
+🟩 n
 
 ## Push
 
@@ -73,9 +83,11 @@ This returns the length or how many nodes are currently in the list.
 
 Push adds a new node to the end of the list. This becomes the new tail and the length is incremented by one. The new node is returned from `.push()`
 
-🟥Sets `head` and `tail` to new node. Sets node's `next` to `null`
-🟨Sets the current `tail`'s `next` to new node. Sets new node as `tail`.
-🟩Sets the current `tail`'s `next` to new node. Sets new node as `tail`.
+🟥 Sets `head` and `tail` to new node. Sets node's `next` to `null`
+
+🟨 Sets the current `tail`'s `next` to new node. Sets new node as `tail`.
+
+🟩 Sets the current `tail`'s `next` to new node. Sets new node as `tail`.
 
 ## Pop
 
@@ -83,9 +95,11 @@ Push adds a new node to the end of the list. This becomes the new tail and the l
 
 Pop removes the node at the end of the list - tail - and returns it.
 
-🟥Returns null
-🟨Sets `head` and `tail` to `null`. Returns node that was both `head` and `tail`.
-🟩Sets `tail` to node before `tail` (iterates from `head` calling `.next()` to find). Sets new `tail`'s next to null. Returns original `tail`.
+🟥 Returns null
+
+🟨 Sets `head` and `tail` to `null`. Returns node that was both `head` and `tail`.
+
+🟩 Sets `tail` to node before `tail` (iterates from `head` calling `.next()` to find). Sets new `tail`'s next to null. Returns original `tail`.
 
 ## Get
 
@@ -93,9 +107,11 @@ Pop removes the node at the end of the list - tail - and returns it.
 
 Get returns a node at a particular index, without removing it from the list.
 
-🔴Index outside the bounds of list: `< 0` or `> length - 1` **returns `null`**
-🟡Index zero **returns `head`**
-🟢Index other than zero (in bounds) **returns node at index**
+🔴 **Index outside the bounds of list: `< 0` or `> length - 1`**  returns `null`
+
+🟡 **Index zero** returns `head`
+
+🟢 **Index other than zero (in bounds)** returns node at index
 
 ## Delete
 
@@ -103,9 +119,11 @@ Get returns a node at a particular index, without removing it from the list.
 
 Removes the node at the specified index and returns it.
 
-🔴Index outside the bounds of list: `< 0` or `> length - 1` **returns `null`**
-🟡Index zero **sets `head` to second node in list and returns original `head`**
-🟢Index other than zero (in bounds) **sets node before index's next to the node at index's next and returns node** If the `tail` is being deleted the second last node becomes the `tail`
+🔴 **Index outside the bounds of list: `< 0` or `> length - 1`** returns `null`
+
+🟡 **Index zero** sets `head` to second node in list and returns original `head`
+
+🟢 **Index other than zero (in bounds)** sets node before index's next to the node at index's next and returns node. If the `tail` is being deleted the second last node becomes the `tail`
 
 ## isEmpty
 
@@ -113,9 +131,11 @@ Removes the node at the specified index and returns it.
 
 Returns whether the list contains nodes. This can simply return whether the list's `.length()` is zero.
 
-🟥Returns `true`
-🟨Returns `false`
-🟩Returns `false`
+🟥 Returns `true`
+
+🟨 Returns `false`
+
+🟩 Returns `false`
 
 ## Implementation
 

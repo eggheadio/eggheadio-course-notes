@@ -13,28 +13,26 @@ This course is not about memorizing the implementation but understanding the ben
 ## What we will learn
 
 **Data Structures**
-- Queues
-- Stacks
-- Linked Lists
-- Graphs
-- Trees
+- [Queues](https://egghead.io/lessons/javascript-queue-data-structure-in-javascript)
+- [Stacks](https://egghead.io/lessons/javascript-stack-data-structure-in-javascript)
+- [Linked Lists](https://egghead.io/lessons/javascript-linked-list-data-structure-in-javascript)
+- [Graphs](https://egghead.io/lessons/javascript-javascript-graph-data-structure)
+- [Trees](https://egghead.io/lessons/javascript-tree-data-structure-in-javascript)
 
 **Searching algorithms**
-- Breadth-first search
-- Depth-first search
+- [Breadth-first search](https://egghead.io/lessons/javascript-breadth-first-javascript-search-algorithm-for-graphs)
+- [Depth-first search](https://egghead.io/lessons/javascript-write-a-depth-first-search-algorithm-for-graphs-in-javascript)
 
 **Tree traversal algorithms**
-- In order
-- Pre order
-- Post order
+- [In order](https://egghead.io/lessons/javascript-build-a-binary-tree-in-javascript-and-several-traversal-algorithms)
+- [Pre order](https://egghead.io/lessons/javascript-build-a-binary-tree-in-javascript-and-several-traversal-algorithms)
+- [Post order](https://egghead.io/lessons/javascript-build-a-binary-tree-in-javascript-and-several-traversal-algorithms)
 
 **Sorting algorithms**
-- Bubble sort
-- Insertion sort
-- Merge sort
-- Quick sort
-
-<!-- TODO: make big images smaller 7-14 -->
+- [Bubble sort](https://egghead.io/lessons/javascript-sort-an-array-with-a-javascript-do-while-loop-using-bubble-sort)
+- [Insertion sort](https://egghead.io/lessons/javascript-sort-an-array-with-a-nested-for-loop-using-insertion-sort-in-javascript)
+- [Merge sort](https://egghead.io/lessons/javascript-divide-and-recurse-over-an-array-with-merge-sort-in-javascript)
+- [Quick sort](https://egghead.io/lessons/javascript-recursively-sort-an-array-in-javascript-with-quick-sort)
 
 ## Github repo
 
