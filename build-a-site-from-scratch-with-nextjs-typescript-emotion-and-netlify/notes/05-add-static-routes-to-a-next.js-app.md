@@ -9,16 +9,24 @@
 export default function About() {
 
     return(
-        <div>
+        <Article>
             <h1>About this blog</h1>
             <main>
                 <p>This is the best blog ever</p>
             </main>
-        </div>
+        </Article>
     );
 }
 ```
+- The Article component (`components/Article.tsx`):
+```js
+import styled from "@emotion/styled";
 
+export const Article = styled.article`
+    margin: 0 auto;
+    max-width:500px;
+`
+```
 -   The url will be the same as the filename. If the file is nested inside of a directory under pages, then the route will be nested in the same way.
 -   These are just React components so you can import other comoponents and use them when creating pages.
 -   These pages are generated in advance by Next.js by default
