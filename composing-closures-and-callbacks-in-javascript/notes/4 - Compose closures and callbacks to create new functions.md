@@ -1,6 +1,6 @@
 # Lesson 4 - Compose closures and callbacks to create new functions
 
-Composition - a function passing one value to another function
+- Composition - a function passing one value to another function
 
 instead of doing:
 
@@ -40,4 +40,8 @@ With pipe, each return is passed to the next function in line.
 
 With compose the return is passed to the previous function in line - so the value returned to the callback will be passed to multiply.
 
-TODO: Add why using compose instead!
+## Using pipe vs compose
+
+We will be using pipe throughout the course because as John mentioned:
+
+> We're going to stick to using pipe, which takes the functions in a different order, because when thinking asynchronously, it makes more sense to think, "Well, the callback is called, and then multiply is called." We're sticking to this.

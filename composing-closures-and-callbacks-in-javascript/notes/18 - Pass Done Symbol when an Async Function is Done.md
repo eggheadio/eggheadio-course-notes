@@ -168,9 +168,6 @@ If that is the case, we will call `cancelBoth()` to cancel both broadcasters.
 
 >Note: The buffers are Arrays and we are always getting the last value of the array, so the Symbol done will always be the last thing added and that means that the buffer will become shorter and shorter until the only thing inside is the `Symbol` done at index 0.
 
-
-
-
 ---
 
 - [MDN Iteration protocols documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) shown on the video
