@@ -1,4 +1,6 @@
-# Lesson 17 - Pass an array to callback with forof function
+# Pass an array to callback with forof function
+
+*[📹 Video](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)*
 
 What is an iterables?
 
@@ -62,5 +64,10 @@ let forOf = curry((iterable, listener) => {
 
 ```
 
-
 > Note: You can read more about how to cancel a timeout by watching the [ lesson 9 -Create a Function to Configure setTimeout](https://egghead.io/lessons/egghead-time-is-a-hidden-variable-in-javascript-f724e184), or [read the notes]().
+
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)
+📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-pass-a-done-symbol-when-an-async-function-is-done)
