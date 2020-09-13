@@ -50,9 +50,9 @@ Let's break down the `typeGreeting` function:
 
 - The first argument `x => x.toUpperCase()`
 	- Is the transformer
--  The second argument `modify()`
+-  The second argument `modify(zip())`
 	-  Is the broadcaster
--  The third argument `zip()`
+-  The `value` inside `typeGreeting` function
 	-  Is the listener
 
 ![](../images/map.png)
