@@ -11,7 +11,7 @@ Create a broadcaster that can group two values together, the function will take:
 
 We are using the `curry` method from `lodash` to build this function.
 
-> Note: [Read the lesson 14 notes]() on using curry if you need a reminder of what curry does
+> Note: [Read the lesson 14 notes](12-egghead-use-lodash-curry-when-functions-return-functions.md) on using curry if you need a reminder of what curry does
 
 ```javascript
 let zip = curry((broadcaster1, broadcaster2, listener)) {
@@ -127,7 +127,7 @@ let zip = curry((broadcaster1, broadcaster2, listener)) {
 }
 ```
 
-Let's take a look at the code of [lesson x]()
+Let's take a look at the code of [lesson 16](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)
 
 ```javascript
 let clickAndTick = zip(

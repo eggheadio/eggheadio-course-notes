@@ -6,7 +6,7 @@
 
 *Operators are functions that modify behaviours.*
 
-Let's grab the `typeGreeting` function from [lesson 17]() and console log either
+Let's grab the `typeGreeting` function from [lesson 17](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function) and console log either
 
 - The value passed is the `Symbol` done
 - The character inside the string passed to the `forOf` function
@@ -50,7 +50,7 @@ Since the lessons are getting more and more complex, I hope this image will help
 
 ![[19-operators.png]](../images/19-operators.png)
 
-On any function where we are using a broadcaster and a listener we can return the broadcaster with a new listener to do something with those values - similar to what we have done on [Lesson 16]()
+On any function where we are using a broadcaster and a listener we can return the broadcaster with a new listener to do something with those values - similar to what we have done on [Lesson 16](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)
 
 Things we can do with this modify pattern:
 

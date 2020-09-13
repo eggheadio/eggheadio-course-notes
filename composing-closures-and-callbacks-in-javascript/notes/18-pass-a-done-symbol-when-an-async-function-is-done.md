@@ -21,7 +21,7 @@ let done = Symbol("done") // Become unique value
 
 ```
 
-Then use that to pass it to a listener. Let's get our `forOf` function that we created on the [previous lesson]()
+Then use that to pass it to a listener. Let's get our `forOf` function that we created on the [previous lesson](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)
 
 ```javascript
 let forOf = curry((iterable, listener) => {
