@@ -33,6 +33,8 @@ To do some quick math, 92 * 4 * 4 is 1472 classes *just for setting the backgrou
 
 To combat this, prefixes are only generated for specific classes specified in the Tailwind config.
 
+> Changelog: The video shows these as being under the `modules` heading in the options. This has changed in a Tailwind update.
+
 ```js
   variants: {
     accessibility: ['responsive', 'focus'],
