@@ -1,4 +1,7 @@
-# Lesson 20 - Transform Values with a Map Operator
+# Transform Values with a Map Operator
+
+*[📹 Video](https://egghead.io/lessons/egghead-transform-values-with-a-map-operator)**
+
 
 - We can use the `toUpper` method from lodash to uppercase a letter
 -  Since the `modify` function we built on the [previous lesson]() changes a behaviour of our broadcaster, we can call it `operators`
@@ -56,3 +59,8 @@ Let's break down the `typeGreeting` function:
 	-  Is the listener
 
 ![](../images/map.png)
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)
+📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-prevent-certain-values-with-a-filter-operator)

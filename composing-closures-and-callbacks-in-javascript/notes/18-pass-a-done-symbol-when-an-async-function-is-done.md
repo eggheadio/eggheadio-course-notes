@@ -1,4 +1,6 @@
-# 18 - Pass Done Symbol when an Async Function is Done
+# Pass Done Symbol when an Async Function is Done
+
+*[📹 Video](https://egghead.io/lessons/egghead-pass-a-done-symbol-when-an-async-function-is-done)**
 
 We should pass a key of done to our functions to make sure that our buffers don't keep growing.
 
@@ -171,3 +173,8 @@ If that is the case, we will call `cancelBoth()` to cancel both broadcasters.
 ---
 
 - [MDN Iteration protocols documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) shown on the video
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)
+📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)

@@ -1,4 +1,7 @@
-# Lesson 16 - Create a Buffer to Pair Values Together with Zip
+# Create a Buffer to Pair Values Together with Zip
+
+*[📹 Video](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)*
+
 
 Create a broadcaster that can group two values together, the function will take:
 
@@ -159,3 +162,9 @@ Let's assume you are writing a chatbot for Twitch. Your bot will trigger animati
 If you have a lot of people triggering animations, a lot of these animations won't play because when an animation is playing it won't trigger others.
 
 But if you use buffers, you could keep a queue of commands and iterate over each command, displaying each animation in time.
+
+
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-match-function-requirements-with-lodash-partial-and-flip)
+📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)

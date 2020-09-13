@@ -1,4 +1,8 @@
-# Lesson 19 - Create an Operator Function to Modify Behaviours
+# Create an Operator Function to Modify Behaviours
+
+*[📹 Video](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)**
+
+
 
 *Operators are functions that modify behaviours.*
 
@@ -55,3 +59,7 @@ Things we can do with this modify pattern:
 - Only allowing certain values
 - Mapping to different values
 
+---
+
+📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-pass-a-done-symbol-when-an-async-function-is-done)
+📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-transform-values-with-a-map-operator)
