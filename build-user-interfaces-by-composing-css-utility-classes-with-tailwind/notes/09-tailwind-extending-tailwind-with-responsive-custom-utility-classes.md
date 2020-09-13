@@ -35,7 +35,7 @@ Fortunately, the `@variants` directive is here to solve this.
 
 In a similar fashion, the @responsive directive can create all the responsive prefixes.
 
-> Changelog: The video shows `@variants hover, responsive` as a single directive. This has changed in a Tailwind CSS update.
+> Changelog: The video shows `@variants hover, responsive` as a single directive. While this still works, the @responsive directive was added to enforce that responsive utilities take precedence over the unresponsive ones.
 
 ```diff
 + @responsive {
