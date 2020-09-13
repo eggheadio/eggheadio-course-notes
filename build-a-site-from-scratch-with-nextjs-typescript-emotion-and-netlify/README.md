@@ -1,3 +1,14 @@
+## About 🔎
+
+This repo contains notes on [Tomasz Łakomy](https://twitter.com/tlakomy)'s collection [Build a site from scratch with Next.js, TypeScript, Emotion and Netlify](https://egghead.io/playlists/build-a-blog-with-next-js-typescript-emotion-and-netlify-adcc). These notes follow along with the collection and guide you as you create a blog in TypeScript that pulls in content from an API, generates dynamic pages, sets up styling with emotion styled components, and deploys to Netlify.
+
+In addition to helpful code snippets, keep an eye out for these friendly Emojis throughout these notes:
+
+- 📜 : A helpful link to the documentation
+- 📝 : An important note that something might have changed since the lesson was made
+- 🧩 : A useful piece of information
+- 💡 : An idea for a future feature
+
 ## Table of Contents
 
 - [01 - Create a Next.js app from scratch with create-next-app](notes/01-create-a-next.js-app-from-scratch-with-create-next-app.md)
