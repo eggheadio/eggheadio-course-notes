@@ -4,7 +4,7 @@
 
 
 - We can use the `toUpper` method from lodash to uppercase a letter
--  Since the `modify` function we built on the [previous lesson]() changes a behaviour of our broadcaster, we can call it `operators`
+-  Since the `modify` function we built on the [previous lesson](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors) changes a behaviour of our broadcaster, we can call it `operators`
 
 Grabbing the template from our `modify` function we can change it to turn everything in the broadcaster to uppercase
 

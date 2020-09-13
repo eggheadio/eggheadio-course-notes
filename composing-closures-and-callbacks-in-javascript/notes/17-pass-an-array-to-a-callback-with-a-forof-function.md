@@ -22,7 +22,7 @@ let forOf = curry((iterable, listener) => {
 
 ```
 
-Now we can use our `zip` function created on the [previous lesson]() and delay the log by using the `createInterval` to delay the logging.
+Now we can use our `zip` function created on the [previous lesson](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip) and delay the log by using the `createInterval` to delay the logging.
 
 ```javascript
 let typeGreeting = zip(
@@ -64,7 +64,7 @@ let forOf = curry((iterable, listener) => {
 
 ```
 
-> Note: You can read more about how to cancel a timeout by watching the [ lesson 9 -Create a Function to Configure setTimeout](https://egghead.io/lessons/egghead-time-is-a-hidden-variable-in-javascript-f724e184), or [read the notes]().
+> Note: You can read more about how to cancel a timeout by watching the [ lesson 9 - Create a Function to Configure setTimeout](https://egghead.io/lessons/egghead-time-is-a-hidden-variable-in-javascript-f724e184), or [read the notes](./9-create-a-function-to-configure-settimeout.md).
 
 
 ---
