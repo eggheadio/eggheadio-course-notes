@@ -85,6 +85,7 @@ June 20-21 2019
 
 This may be due to a change in toLocaleDateString() or due to my own personal settings. If you also encounter this issue and have an easy fix, please feel free to contribute!
 
+## Alternative Example 
 
 One possible way to do is adding another conditional option
 
