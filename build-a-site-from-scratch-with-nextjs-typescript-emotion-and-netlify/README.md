@@ -64,7 +64,9 @@ Senior Frontend Engineer at OLX Group. His interests include React, AWS, testing
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/dschapman"><img src="https://avatars0.githubusercontent.com/u/36767987?s=460&u=ab9bc3080185245a52b84c94c44c972266ae47af&v=4" width="100px;" alt=""/><br /><sub><b>Daniel Chapman</b></sub></a><br /><a href="#review" title="Review">🖋</a></td>
-    <td align="center"><a href="https://github.com/tlakomy"><img src="https://avatars2.githubusercontent.com/u/16646517?s=460&u=ab62d97532c45a219fa5ac26ec529c1159b0bbc4&v=4" width="100px;" alt=""/><br /><sub><b>Tomasz Łakomy</b></sub></a><br /><a href="#review" title="Review">🖋</a></td>
+    <td align="center"><a href="https://github.com/dschapman"><img src="https://avatars0.githubusercontent.com/u/36767987?s=460&u=ab9bc3080185245a52b84c94c44c972266ae47af&v=4" width="100px;" alt=""/><br /><sub><b>Daniel Chapman</b></sub></a><br /><a href="#review" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/tlakomy"><img src="https://avatars2.githubusercontent.com/u/16646517?s=460&u=ab62d97532c45a219fa5ac26ec529c1159b0bbc4&v=4" width="100px;" alt=""/><br /><sub><b>Tomasz Łakomy</b></sub></a><br /><a href="#review" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/laurosilvacom"><img src="https://avatars1.githubusercontent.com/u/57044804?s=460&u=207ca2dcd61ac35eaa300c12dabcd9477a3a5600&v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#review" title="Review">👀</a></td>
+    <td align="center"><a href="https://github.com/JacobParis"><img src="https://avatars3.githubusercontent.com/u/5633704?s=460&u=9d8f6f4dc1159f808077a6f0c638b967a3a98f31&v=4" width="100px;" alt=""/><br /><sub><b>Jacob Paris</b></sub></a><br /><a href="#review" title="Content">🖋</a></td>
+    
 </table>
