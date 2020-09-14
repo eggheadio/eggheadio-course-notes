@@ -36,7 +36,7 @@ const getAllTodos = async () => {
 
     return scanResult;
 };
-// async function that respons to apiGateway events
+// async function that response to apiGateway events
 exports.handler = async function(event: AWSLambda.APIGatewayEvent) {
     try {
         const { httpMethod, body: requestBody } = event;
@@ -62,7 +62,7 @@ We'll have to make some changes to our `todo-backend` file. Let's make a new `la
 `import * as lambda from "@aws-cdk/aws-lambda";`
 
 ```ts
-// use this instead of const, you'll say in a moment
+// use this instead of const, you'll see why in a moment
 this.handler = new lambda.Function(this, "TodoHandler", {
     code: lambda.Code.fromAsset("lambda"),
     // the name of the method in your code that lambda will call
