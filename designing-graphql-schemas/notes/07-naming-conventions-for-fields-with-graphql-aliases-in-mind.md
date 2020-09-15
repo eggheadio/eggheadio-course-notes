@@ -26,7 +26,7 @@
 
 👆 `admins` and `managers` are aliases in the example query above.
 
-- 💰 _An [Enum](https://www.apollographql.com/docs/apollo-server/schema/scalars-enums/) is similar to a [scalar type](git push --set-upstream origin schemaDesignNikGraf), but it can only be one of several values defined in the schema. Enums are most useful in a situation where the user must pick from a prescribed list of options. Additionally enums improve development velocity, since they will auto-complete in tools like GraphQL Playground._
+- 💰 _An [Enum](https://www.apollographql.com/docs/apollo-server/schema/scalars-enums/) is similar to a [scalar type](https://graphql.org/learn/schema/#scalar-types), but it can only be one of several values defined in the schema. Enums are most useful in a situation where the user must pick from a prescribed list of options. Additionally enums improve development velocity, since they will auto-complete in tools like GraphQL Playground._
 
 Enum example:
 
