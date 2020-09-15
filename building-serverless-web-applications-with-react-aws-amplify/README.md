@@ -20,9 +20,9 @@ You’ll finish the course ready to quickly and easily deploy your serverless Re
 
 ## Instructor 🎓
 
-[nader dabit](https://egghead.io/instructors/nader-dabit). Developer Advocate at Amazon Web Services specializing in cross-platform & cloud-enabled application development.
+[Nader Dabit](https://egghead.io/instructors/nader-dabit). Developer Advocate at Amazon Web Services specializing in cross-platform & cloud-enabled application development.
 
-[nader's courses at egghead.](https://egghead.io/instructors/nader-dabit)
+[Nader's courses at egghead.](https://egghead.io/instructors/nader-dabit)
 
 ## Table of Contents 📜
 
