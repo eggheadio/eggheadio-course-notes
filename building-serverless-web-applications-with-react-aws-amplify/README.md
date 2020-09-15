@@ -75,5 +75,3 @@ You’ll finish the course ready to quickly and easily deploy your serverless Re
     </td>
   </tr>
 </table>
-
-[✏️ Edit on GitHub](https://github.com/eggheadio/eggheadio-course-notes/tree/master/building-serverless-web-applications-with-react-aws-amplify/notes)
