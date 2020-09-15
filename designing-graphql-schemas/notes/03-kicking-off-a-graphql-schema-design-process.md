@@ -3,7 +3,9 @@
 - 📹 [Video Link](https://egghead.io/lessons/graphql-kicking-off-a-graphql-schema-design-process)
 - 💻 [Code Link](https://github.com/nikgraf/designing-graphql-schemas-course/tree/master/lesson02)
 
-* We will design the schema of a web-shop selling laptops and related accessories
+### How to start
+
+- We will design the schema of a web-shop selling laptops and related accessories
 
 🔑 Always start with one use case, for example the page for one product
 
