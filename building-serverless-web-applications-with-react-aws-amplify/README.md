@@ -73,5 +73,22 @@ You’ll finish the course ready to quickly and easily deploy your serverless Re
         🖋
       </a>
     </td>
+       <td align="center">
+      <a href="https://github.com/horacioh">
+        <img
+          src="https://avatars1.githubusercontent.com/u/57044804?s=460&u=207ca2dcd61ac35eaa300c12dabcd9477a3a5600&v=4"
+          width="100px;"
+          alt="Lauro's profile picture"
+        />
+        <br />
+        <sub><b>Lauro Silva</b></sub>
+      </a>
+      <br />
+      <a
+        href="https://github.com/eggheadio/eggheadio-course-notes/building-serverless-web-applications-with-react-aws-amplify/notes"
+        title="Review">
+        👀
+      </a>
+    </td>
   </tr>
 </table>
