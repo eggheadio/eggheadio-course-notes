@@ -4,15 +4,15 @@
 
 ## About 🔍
 
-React makes it intuitive to build real-world web application. But in reality, you need to use a host of other services to get the app in front of real users.
+React makes it intuitive to build real-world web applications. But in reality, you need to use a host of other services to get the app in front of real users.
 
 This course walks you through setup and implementation to get your cloud-based application up and running.
 
 You’ll learn to set up:
 
 - Install and configure AWS Amplify into your React applications
-- Add services like Authentication, APIs using GraphQL, interact and deploy Serverless functions and store data in Amazon S3.
-- deploy your React application and make it available to all your users.
+- Add services like Authentication, APIs using GraphQL, interact and deploy Serverless functions, and store data in Amazon S3.
+- Deploy your React application and make it available to all your users.
 
 ## Course Goal
 
