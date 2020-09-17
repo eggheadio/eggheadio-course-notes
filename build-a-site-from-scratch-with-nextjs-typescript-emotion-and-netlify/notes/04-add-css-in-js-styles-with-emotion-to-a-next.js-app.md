@@ -11,7 +11,7 @@ yarn add @emotion/core @emotion/styled
 - Next we're going to import styled components, and add a few styled components
 
 ```js
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 const Container = styled.div`
   min-height: 100vh;
