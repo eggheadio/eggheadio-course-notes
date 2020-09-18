@@ -22,12 +22,12 @@ const Container = styled.div`
   align-items: center;
 `;
 const Main = styled.main`
-    padding 5rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 const BlogTitle = styled.h1`
   margin: 0;
