@@ -104,5 +104,7 @@ hangman(inputValue)(console.log)
 - if you compare both versions, you can see the huge benefit both in readability and reusability of our code! 🌟
 - you can also add/remove/reorder all the game logic depending on your needs, like for example if you want to debounce the input or you are interacting with an API and need to wait for some results... the posibilities are endless
 
+---
+
 📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-building-a-timer-ui-by-composing-callbacks)
 📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-win-condition-with-a-mapdone-operator)
