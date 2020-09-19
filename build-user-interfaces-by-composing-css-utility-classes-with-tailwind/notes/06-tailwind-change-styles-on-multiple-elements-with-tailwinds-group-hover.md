@@ -1,3 +1,5 @@
+📹[Change Styles on Multiple Elements with Tailwinds group-hover](https://egghead.io/lessons/tailwind-change-styles-on-multiple-elements-with-tailwinds-group-hover)
+
 If you want to update styles for muliple children elements while hovering over a parent, Tailwind offers the `.group` class and the `group-hover:` prefix
 
 ```html
@@ -28,3 +30,7 @@ Adding `.hover:text-white` to the heading and the paragraph will only change the
     </p>
   </div>
 ```
+
+Next lesson: [Control What Variations are Generated for Each Utility Class Module in Tailwind](https://egghead.io/lessons/tailwind-control-what-variations-are-generated-for-each-utility-class-module-in-tailwind)
+
+Previous: [Style Elements on hover and focus with Tailwind’s State Variants](https://egghead.io/lessons/tailwind-style-elements-on-hover-and-focus-with-tailwind-s-state-variants)

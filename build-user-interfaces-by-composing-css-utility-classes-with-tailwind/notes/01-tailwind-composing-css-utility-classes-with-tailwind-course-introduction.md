@@ -1,3 +1,5 @@
+📹[Course Introduction](https://egghead.io/lessons/tailwind-composing-css-utility-classes-with-tailwind-course-introduction)
+
 In this course, you'll learn to build custom user interfaces with Tailwind, a utility-first CSS framework
 
 More specifically, you will learn how to:
@@ -15,3 +17,5 @@ More specifically, you will learn how to:
 * Removing Unused CSS in Tailwind with PurgeCSS
 
 By the time you have completed this course, you will have earned a high degree of confidence in your ability to create new Tailwind projects or add Tailwind to existing projects.
+
+Next lesson: [Compile Tailwind to CSS with gulp](https://egghead.io/lessons/tailwind-compile-tailwind-to-css-with-gulp)

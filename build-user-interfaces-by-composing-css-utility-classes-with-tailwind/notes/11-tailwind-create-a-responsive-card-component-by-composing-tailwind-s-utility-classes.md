@@ -1,3 +1,5 @@
+📹[Create a Responsive Card Component by Composing Tailwind's Utility Classes](https://egghead.io/lessons/tailwind-create-a-responsive-card-component-by-composing-tailwind-s-utility-classes)
+
 This lesson is just a sample card component.
 
 Initial
@@ -71,3 +73,7 @@ For reference, this is the final html.
   </div>
 </body>
 ```
+
+Next lesson: [Customize Tailwind’s Naming Convention for Generated Utility Classes](https://egghead.io/lessons/tailwind-customize-tailwind-s-naming-convention-for-generated-utility-classes)
+
+Previous: [Abstract Utility Classes to BEM Components in Tailwind](https://egghead.io/lessons/tailwind-abstract-utility-classes-to-bem-components-in-tailwind)

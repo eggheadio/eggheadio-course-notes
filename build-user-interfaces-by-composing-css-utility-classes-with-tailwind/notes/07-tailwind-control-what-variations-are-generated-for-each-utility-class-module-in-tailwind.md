@@ -1,3 +1,5 @@
+📹[Control What Variations are Generated for Each Utility Class Module in Tailwind](https://egghead.io/lessons/tailwind-control-what-variations-are-generated-for-each-utility-class-module-in-tailwind)
+
 Utility class prefixes are *expensive*.
 
 If Tailwind supports 100 styles (it supports more), and offers each of those styles in 3 breakpoints (it has more), and each of those variants gets `hover:`, `focus:`, and `group-hover:` prefixes (for which there are **many** more), the number of individual classes that generates is astonishing
@@ -61,3 +63,7 @@ To stop Tailwind from generating the prefixes for each breakpoint, remove the `r
 ```
 
 > Tip: Remember to recompile Tailwind by running the command `gulp` after editing the config
+
+Next lesson: [Keep Specificity in Check when Working with Tailwind](https://egghead.io/lessons/tailwind-keep-specificity-in-check-when-working-with-tailwind)
+
+Previous: [Change Styles on Multiple Elements with Tailwinds group-hover](https://egghead.io/lessons/tailwind-change-styles-on-multiple-elements-with-tailwinds-group-hover)

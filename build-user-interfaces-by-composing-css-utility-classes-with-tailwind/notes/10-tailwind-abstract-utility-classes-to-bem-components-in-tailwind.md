@@ -1,3 +1,5 @@
+📹[Abstract Utility Classes to BEM Components in Tailwind](https://egghead.io/lessons/tailwind-abstract-utility-classes-to-bem-components-in-tailwind)
+
 One of the major problems with utility classes is that of repetition; or rather, of how you manage to avoid repetition.
 
 Consider a button like this: 
@@ -134,3 +136,7 @@ Adding custom classes for pill and square shaped buttons follows the exact same 
     Square
   </button>
 ```
+
+Next lesson: [Create a Responsive Card Component by Composing Tailwind's Utility Classes](https://egghead.io/lessons/tailwind-create-a-responsive-card-component-by-composing-tailwind-s-utility-classes)
+
+Previous: [Extending Tailwind with Responsive Custom Utility Classes](https://egghead.io/lessons/tailwind-extending-tailwind-with-responsive-custom-utility-classes)

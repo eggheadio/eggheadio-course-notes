@@ -1,3 +1,5 @@
+📹[Removing Unused CSS in Tailwind with PurgeCSS](https://egghead.io/lessons/tailwind-removing-unused-css-in-tailwind-with-purgecss)
+
 Tailwind CSS is *large*
 
 In the notes for [Lesson 7] we learned that there were approximately 1472 classes devoted specifically to setting the background color.
@@ -46,3 +48,7 @@ Compile Tailwind again and all the unused utility classes will be purged.
 ```sh
 gulp
 ```
+
+Previous: [Customize Tailwind’s Naming Convention for Generated Utility Classes](https://egghead.io/lessons/tailwind-customize-tailwind-s-naming-convention-for-generated-utility-classes)
+
+Table of contents: [Course Introduction](https://egghead.io/lessons/tailwind-composing-css-utility-classes-with-tailwind-course-introduction)

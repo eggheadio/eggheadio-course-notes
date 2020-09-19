@@ -1,3 +1,5 @@
+📹[Extending Tailwind with Responsive Custom Utility Classes](https://egghead.io/lessons/tailwind-extending-tailwind-with-responsive-custom-utility-classes)
+
 Since the `style.css` is a regular css file, you can add as many custom rules as you wish.
 
 ```css
@@ -79,3 +81,7 @@ The same pattern can be extended to the other variants, such as `focus` and `gro
 +   @variants hover, focus, group-hover {
       .bg-gradient-blue {
 ```
+
+Next lesson: [Abstract Utility Classes to BEM Components in Tailwind](https://egghead.io/lessons/tailwind-abstract-utility-classes-to-bem-components-in-tailwind)
+
+Previous: [Keep Specificity in Check when Working with Tailwind](https://egghead.io/lessons/tailwind-keep-specificity-in-check-when-working-with-tailwind)

@@ -1,3 +1,5 @@
+📹[Compile Tailwind to CSS with gulp](https://egghead.io/lessons/tailwind-compile-tailwind-to-css-with-gulp)
+
 Beginning in an empty project with an `index.html` that renders *"Hello world"* to the screen, it's time to install Tailwind and Gulp.
 
 > Yarn and NPM are package managers for Node.js modules. It's entirely up to you which to use, and instructions for both will be provided
@@ -171,3 +173,6 @@ Everything should work now! To test it out, play around and add some Tailwind cl
   </h1>
 </body>
 ```
+Next lesson: [Create Custom Utility Classes in Tailwind](https://egghead.io/lessons/tailwind-create-custom-utility-classes-in-tailwind)
+
+Previous: [Course Introduction](https://egghead.io/lessons/tailwind-composing-css-utility-classes-with-tailwind-course-introduction)

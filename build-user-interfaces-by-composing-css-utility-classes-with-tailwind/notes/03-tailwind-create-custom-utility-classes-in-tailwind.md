@@ -1,3 +1,5 @@
+📹[Create Custom Utility Classes in Tailwind](https://egghead.io/lessons/tailwind-create-custom-utility-classes-in-tailwind)
+
 We'll start with a purple paragraph and its heading, and using Tailwind we generate utility classes that will adjust its padding to one of any custom value.
 
 ```js
@@ -104,3 +106,7 @@ A simple change from `.py-8` to `.py-16` doubles the vertical padding, and from 
 - <section class="bg-purple-lightest py-16">
 + <section class="bg-purple-lightest py-crazy">
 ```
+
+Next lesson: [Apply mobile-first Responsive Classes in Tailwind](https://egghead.io/lessons/tailwind-apply-mobile-first-responsive-classes-in-tailwind)
+
+Previous: [Compile Tailwind to CSS with gulp](https://egghead.io/lessons/tailwind-compile-tailwind-to-css-with-gulp)

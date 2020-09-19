@@ -1,3 +1,5 @@
+📹[Apply mobile-first Responsive Classes in Tailwind](https://egghead.io/lessons/tailwind-apply-mobile-first-responsive-classes-in-tailwind)
+
 The Tailwind configuration defines its breakpoints in the `screens` object.
 
 ```js
@@ -77,3 +79,7 @@ If that's not enough power, try passing an array of objects instead.
 > Tip: Remember to recompile Tailwind by running the command `gulp` after editing the config
 
 After recompiling Tailwind, add the `skip:uppercase` class to your heading and it will display in all caps for as long as the browser width is either between 500px and 700px or wider than 900px
+
+Next lesson: [Style Elements on hover and focus with Tailwind’s State Variants](https://egghead.io/lessons/tailwind-style-elements-on-hover-and-focus-with-tailwind-s-state-variants)
+
+Previous: [Create Custom Utility Classes in Tailwind](https://egghead.io/lessons/tailwind-create-custom-utility-classes-in-tailwind)
