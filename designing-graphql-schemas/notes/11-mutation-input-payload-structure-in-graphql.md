@@ -10,7 +10,7 @@
 ```js
 mutation CreateProductMutation($name: String!, $description: String) {
   createProduct(name: $name, description: $description) {
-    id           👆            👆
+    id           // 👆            👆
     name
   }
 }
@@ -28,7 +28,7 @@ mutation CreateProductMutation($name: String!, $description: String) {
 ```graphql
 mutation CreateProductMutation($input: CreateProductInput!) {
   createProduct(input: $input) {
-    id            👆 // in this scenario we nest `id` and `name`
+    id               // 👆 in this scenario we nest `id` and `name`
     name             // inside input
   }                  // { input: id: Int, name: String }
 }

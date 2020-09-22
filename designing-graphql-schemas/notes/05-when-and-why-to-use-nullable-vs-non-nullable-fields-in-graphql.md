@@ -7,15 +7,15 @@
 
 - The fields whose types have an exclamation mark, `!`, next to them are **non-null fields**. These fields won't return a null value when you query them.
 
-```graphql
+```js
 type Post {
-  author: String 👈 // can return null
+  author: String // 👈 can return null
 }
 ```
 
-```graphql
+```js
 type Post {
-  author: String! 👈 // does NOT return null
+  author: String! // 👈 does NOT return null
 }
 ```
 

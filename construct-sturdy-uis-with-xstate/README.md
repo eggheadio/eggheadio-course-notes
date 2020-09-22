@@ -28,7 +28,7 @@ In this course, Isaac will teach you how to plan and visualize your applicationâ
 
 ### Table of Contents ðŸ“œ
 
-- [01. Introducing Construct Sturdy UIs with XState](notes//01-introducing-construct-sturdy-uis-with-xstate.md)
+- [01. Introducing Construct Sturdy UIs with XState](notes/01-introducing-construct-sturdy-uis-with-xstate.md)
 - [02. Handle HTTP Request State with Xstate](notes/02-handle-http-request-state-with-xstate.md)
 - [03. Invoke An Xstate Service When Entering a State](notes/03-invoke-an-xstate-service-when-entering-a-state.md)
 - [04. Block a State Transition Order with Parallel States](notes/04-block-a-state-transition-with-a-guard.md)

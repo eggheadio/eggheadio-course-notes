@@ -6,7 +6,7 @@
 ### Plural vs Singular arguments
 
 ```js
-addProductToCart(input: { productId: "abc" }) 👈 // This is great when we need to add one product,
+addProductToCart((input: { productId: "abc" })); // 👈 This is great when we need to add one product,
 // but what if we need to add multiple products?
 ```
 

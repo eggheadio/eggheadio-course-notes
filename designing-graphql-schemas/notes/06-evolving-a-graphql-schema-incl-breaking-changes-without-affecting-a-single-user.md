@@ -21,8 +21,8 @@
     name: String
     description: String
     image: String @deprecated(reason: "Use \`imageObject { url }\`.")
-    imageObject: Image 👆 // Add the depracted directive
-  }
+    imageObject: Image
+  } // 👆  Add the depracted directive
   ...
 ```
 
@@ -39,8 +39,8 @@ Once all your potential users have been migrated to the latest version of your a
     id: ID!
     name: String
     description: String
-    image: Image 👈 // swapped
-    imageObject: Image @deprecated(reason: "Use \'image\'.") 👈 // swapped
+    image: Image // 👈 swapped
+    imageObject: Image @deprecated(reason: "Use \'image\'.") // 👈 swapped
   }
   ...
 ```

@@ -23,9 +23,9 @@
         boughtTogetherPercentage
       }
       pageInfo {
-        hasNextPage 👈 // next page
-        hasPreviousPage 👈 // previous page, these 2 examples work well for
-        endCursor          // infinte scroll but not pagination
+        hasNextPage // 👈  next page
+        hasPreviousPage //👈 previous page, these 2 examples work well for
+        endCursor       // infinte scroll but not pagination
         startCursor
       }
     }
@@ -50,7 +50,7 @@ pageInfo {
 
 ```js
 "hasNextPages": [
-  { "cursor": "ert" }, 👈 // the next page cursor ID is referenced
+  { "cursor": "ert" }, // 👈 the next page cursor ID is referenced
   { "cursor": "tyu" },
   { "cursor": "ewq" },
 ],

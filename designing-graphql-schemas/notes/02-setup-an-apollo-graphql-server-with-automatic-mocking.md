@@ -27,7 +27,7 @@ const typeDefs = gql`
 
 const server = new ApolloServer({
   typeDefs,
-  mocks: true,👈 // set mock to true, returns default mock
+  mocks: true, // 👈 set mock to true, returns default mock
 });
 
 server.listen().then(({ url }) => {
@@ -39,12 +39,12 @@ server.listen().then(({ url }) => {
 ...
 
 const mocks = {
-  String: () => "Hello"  👈 // create a mocks resolver
+  String: () => "Hello" //👈 create a mocks resolver
 } ⚠️👆 // GraphQL schema type String starts with an uppercase S
 
 const server = new ApolloServer({
   typeDefs,
-  mocks,👈 // remove boolean and set to newly created mocks object
+  mocks,// 👈 remove boolean and set to newly created mocks object
 });
 ...
 ```

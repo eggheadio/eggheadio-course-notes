@@ -45,3 +45,21 @@ Follow Nik, and avoid making Schema mistakes that will come back to bite you lat
 | 💰    | definition with breakdown |
 | 🐛    |            bug            |
 | 📄    |  documentation resource   |
+
+### Table of Contents 📜
+
+- [01. Course Intro for Designing GraphQL Schemas](notes/01-course-intro-for-designing-graphql-schemas.md)
+- [02. Setup an Apollo GraphQL Server with automatic Mocking](notes/02-setup-an-apollo-graphql-server-with-automatic-mocking.md)
+- [03. Kicking off a GraphQL Schema Design Process](notes/03-kicking-off-a-graphql-schema-design-process.md)
+- [04. Naming Conventions for Query Fields in GraphQL](notes/04-naming-conventions-for-query-fields-in-graphql.md)
+- [05. When and Why to use Nullable vs Non-nullable Fields in GraphQL](notes/05-when-and-why-to-use-nullable-vs-non-nullable-fields-in-graphql.md)
+- [06. Evolving a GraphQL Schema incl. Breaking Changes without affecting a Single User](notes/06-evolving-a-graphql-schema-incl-breaking-changes-without-affecting-a-single-user.md)
+- [07. Naming Conventions for Fields with GraphQL Aliases in Mind](notes/07-naming-conventions-for-fields-with-graphql-aliases-in-mind.md)
+- [08. Paginate Entries using the Connection Specification](notes/08-paginate-entries-using-the-connection-specification.md)
+- [09. Extending GraphQL Connections with additional Fields and Arguments](notes/09-extending-graphql-connections-with-additional-fields-and-arguments.md)
+- [10. Naming top-level Query Fields in GraphQL](notes/10-naming-top-level-query-fields-in-graphql.md)
+- [11. Mutation Input and Payload Structure in GraphQL](notes/11-mutation-input-payload-structure-in-graphql.md)
+- [12. Design GraphQL Mutations by focusing on the Domain rather than the Data Model](notes/12-design-graphql-mutations-by-focusin-on-the-domain-rather-than-the-data-model.md)
+- [13. Optimising GraphQL Mutations for Static Usage](notes/13-optimising-graphql-mutations-for-static-usage.md)
+- [14. GraphQL Mutations to update Connections](notes/14-graphql-mutations-to-update-connections.md)
+- [15. Tradeoffs when designing GraphQL Mutations to update multiple Properties on one Entity](notes/15-tradeoffs-when-designing-graphql-mutations-to-update-multiple-properties-on-one-entity.md)

@@ -32,7 +32,7 @@ or ✅
 type Likes {
   count: Int
   ...
-} 👈 // if type should include more describing properties
+} // 👈 if type should include more describing properties
 
 type Post {
   likes: Likes
@@ -61,13 +61,13 @@ const typeDefs = gql`
     url: String
     description: String
     thumbnailUrl(width: Int, height: Int): String
-  } 👆 // create an Image type to describe it's properties
+  } //👆 create an Image type to describe it's properties
 
   type Product {
     name: String
     description: String
-    image: Image 👈 // make image be of type Image
-}
+    image: Image
+}`; // 👆 make image be of type Image
 ```
 
 - 🔑 [Stack Overflow](https://stackoverflow.com/a/45170611) answer about naming best practices

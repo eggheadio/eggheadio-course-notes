@@ -26,8 +26,8 @@ mutation UpdateProductMutation($input: UpdateProductInput!) {
 input UpdateProductInput {
   productId: String!
   name: String!
-  description: String 👈 // By omitting the exclamation mark
-}                       // the field becomes optional
+  description: String  // 👈  By omitting the exclamation mark
+}                     // the field becomes optional
 
 type UpdateProductPayload {
   product: Product
@@ -36,7 +36,7 @@ type UpdateProductPayload {
 type Mutation { 👇 // Only two mutations :)
   createProduct(input: CreateProductInput!): CreateProductPayload
   updateProduct(input: UpdateProductInput!): UpdateProductPayload
-}  👆 // Update mutation with input
+}  // 👆 Update mutation with input
 ```
 
 [RFC Null Value](https://github.com/graphql/graphql-spec/pull/83): _This proposal adds a null literal to the GraphQL language and allows it to be provided to nullable typed arguments and input object fields._

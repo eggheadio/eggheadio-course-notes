@@ -36,16 +36,16 @@
 ```js
 ...
 const typeDefs = gql`
-  type Product { 👈 // add Product typeDef
+  type Product { // 👈 add Product typeDef
     name: String
     description: String
   }
 
   type Query {
     product(id: ID!): Product
-  }  // 👆 Define the query itself, which returns object of type Product
-`;   // and takes as argument a scalar type of ID which is required
-...
+  }
+`;  // 👆 Define the query itself, which returns object of type Product
+... // and takes as argument a scalar type of ID which is required
 ```
 
 ⚠️ Always check in [Playground](https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/) or browser-based IDE if query works fine
