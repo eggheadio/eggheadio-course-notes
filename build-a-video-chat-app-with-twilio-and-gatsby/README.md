@@ -1,5 +1,11 @@
 # [Build a Video Chat App with Twilio and Gatsby](https://egghead.io/courses/build-a-video-chat-app-with-twilio-and-gatsby)
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/395/full/TwilioGatsby_Final.png" width="300"/></p>
 
 ## About
@@ -53,6 +59,7 @@ exported them and have been converting them to more generated Markdown.
 <table>
   <tr>
     <td align="center"><a href="https://github.com/doingandlearning"><img src="https://avatars2.githubusercontent.com/u/8320213?s=460&u=091f53ddb85c741ef9509d21e4dc3ab178288634&v=4" width="100px;" alt=""/><br /><sub><b>Kevin Cunningham</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/build-a-video-chat-app-with-twilio-and-gatsby/notes" title="Content">🖋</td>
+      <td align="center"><a href="https://github.com/smetzdev"><img src="https://avatars0.githubusercontent.com/u/29286869?s=460&u=33a7aa4394b0df0c155cdc409f812a5b9a2f0fa9&v=4" width="100px;" alt=""/><br /><sub><b>Sascha Metz</b></sub></a><br /><a href="https://github.com/eggheadio/eggheadio-course-notes/build-a-video-chat-app-with-twilio-and-gatsby/notes" title="Content">🖋</td>
   </tr>
 </table>
 
