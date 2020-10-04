@@ -37,17 +37,16 @@ We will also see how we can use that to lazy load our code, to code split our co
 
 # Summary
 
-- [Refactor a class component to a function component using React Hooks](notes/javascript-intro-to-advanced-javascript-foundations.md)
-- [Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](notes/javascript-working-with-primitive-types.md)
-- [Safely setState on a Mounted React Component through the useEffect Hook](notes/javascript-autoboxing-primitive-types-in-javascript.md)
-- [Extract Generic React Hook Code into Custom React Hooks](notes/javascript-understanding-prototypal-inheritance-within-javascript.md)
-- [Track Values Over the Course of Renders with React useRef in a Custom usePrevious Hook](notes/javascript-understanding-the-difference-between-prototype-and-__proto__-in-javascript.md)
-- [Refactor a React Class Component with useContext and useState Hooks](notes/javascript-working-with-var-let-const-and-block-scopes.md)
-- [Refactor a render Prop Component to a Custom React Hook](notes/javascript-implicit-binding-of-the-this-keyword.md)
-- [Handle componentDidMount and componentWillUnmount in React Component Refactor to Hooks](notes/javascript-arrow-functions-and-lexical-scoping-this.md)
-- [Dynamically Import React Components with React.lazy and Suspense](notes/javascript-explicit-binding-of-the-this-keyword.md)
-- [Pre-load React Components with the useEffect Hook](notes/javascript-private-variables-with-iifes.md)
-
+- [Refactor a class component to a function component using React Hooks](notes/02-react-class-component-to-function-component.md)
+- [Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](notes/03-deep-comparison-with-useref.md)
+- [Safely setState on a Mounted React Component through the useEffect Hook](notes/04-safe-setstate-on-mounted-component.md)
+- [Extract Generic React Hook Code into Custom React Hooks](notes/05-06-generic-code-to-custom-hook.md)
+- [Track Values Over the Course of Renders with React useRef in a Custom usePrevious Hook](notes/05-06-generic-code-to-custom-hook.md)
+- [Refactor a React Class Component with useContext and useState Hooks](notes/07-refactor-class-component-using-useContext.md)
+- [Refactor a render Prop Component to a Custom React Hook](notes/08-refactor-renderprop-using-custom-hook.md)
+- [Handle componentDidMount and componentWillUnmount in React Component Refactor to Hooks](notes/09-componentdidmount-componentwillunmount-refactor.md)
+- [Dynamically Import React Components with React.lazy and Suspense](notes/10-dynamic-import-using-lazy-suspense.md)
+- [Pre-load React Components with the useEffect Hook](notes/11-preload-components-using-useeffect.md)
 
 ## Contribute
 
