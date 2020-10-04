@@ -25,6 +25,12 @@ Right below is the intended outcomes of the course, these are the skills and kno
 
 >Every lesson in the course has a link to GitHub. The lessons are sequential and the code follows that sequence in branches on the GitHub repo. So if you look at the code in the previous lesson, that's the code before the next lesson.
 
+## Prerequisites
+
+- Understanding of Javascript ES6 syntax, special features like: destructing, arrow functions, etc
+- Prior knowledge of React. [This course](https://egghead.io/lessons/react-introduction-to-the-beginner-s-guide-to-reactjs) can be a good primer.
+- Basic familiarity with React hooks. This can be [a good resource](https://egghead.io/playlists/react-hooks-and-suspense-650307f2) to start with.
+
 ## [Overview](https://egghead.io/courses/simplify-react-apps-with-react-hooks)
 
 The code for this course can be found [here in Kent's repository](https://github.com/kentcdodds/react-github-profile).
@@ -35,7 +41,7 @@ In this course, Kent C. Dodds introduces us to the world of React hooks and Susp
 We also take a look at the `useRef`, `useContext`, `useState`, `useReducer`, `useEffect` -- all these different hooks that are built into React that are really, really useful for making our function components more capable than they were before.
 We will also see how we can use that to lazy load our code, to code split our code and load our components as they are needed, and so we don't ship as much to our user using `React.lazy` and `Suspense`
 
-# Summary
+# Table of Contents
 
 - [Refactor a class component to a function component using React Hooks](notes/02-react-class-component-to-function-component.md)
 - [Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](notes/03-deep-comparison-with-useref.md)
@@ -58,6 +64,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/laurosilvacom"><img src="https://avatars1.githubusercontent.com/u/57044804?s=460&u=207ca2dcd61ac35eaa300c12dabcd9477a3a5600&v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-helmutgranda" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/rajatjain-21"><img src="https://avatars2.githubusercontent.com/u/16884032?s=460&u=ef7ea5af479d7014b0a4fd6f378d1ee9bddd473b&v=4" width="100px;" alt=""/><br /><sub><b>Rajat Jain</b></sub></a><br /><a href="#content-helmutgranda" title="Content">🖋</a></td>
   </tr>
 </table>
