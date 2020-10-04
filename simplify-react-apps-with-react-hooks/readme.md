@@ -2,11 +2,14 @@
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/263/full/EGH_SimplifyHooks_Final.png" width="200"></p>
 
-These notes are intended to be used and studied in tandem with Kent C. Dodds' [Simplify React Apps with React Hooks](https://egghead.io/courses/simplify-react-apps-with-react-hooks) egghead course.
+
+## About 🔍
+
+These notes are intended to be used and studied in tandem with Kent C. Dodds' [Simplify React Apps with React Hooks](https://egghead.io/courses/simplify-react-apps-with-react-hooks) egghead course. They contain the same structure as the transcriptions, along with additional rewrites, links to resources, and personal takes on the lesson. Feel free to submit additions to these notes, but please don't remove anything (unless we messed up or misunderstood something).
+
+Generally, there is one document for each lesson in the course. If there are related lessons, the notes will be in the same document.
 
 This course talks about how to refactor your existing application using React hooks and Suspense. In this course, [Kent](https://egghead.io/instructors/kent-c-dodds) takes an already existing [codebase](https://github.com/kentcdodds/react-github-profile) (with class based components) and tries to refactor and simplify it to functional components.
-
-Right below is the intended outcomes of the course, these are the skills and knowledge you will learn that you can take to any application to use.
 
 ## What you'll learn 💪
 
@@ -31,7 +34,7 @@ Right below is the intended outcomes of the course, these are the skills and kno
 - Prior knowledge of React. [This course](https://egghead.io/lessons/react-introduction-to-the-beginner-s-guide-to-reactjs) can be a good primer.
 - Basic familiarity with React hooks. This can be [a good resource](https://egghead.io/playlists/react-hooks-and-suspense-650307f2) to start with.
 
-## [Overview](https://egghead.io/courses/simplify-react-apps-with-react-hooks) 🔍
+## [Overview](https://egghead.io/courses/simplify-react-apps-with-react-hooks) 📹
 
 The code for this course can be found [here in this repository](https://github.com/kentcdodds/react-github-profile).
 
