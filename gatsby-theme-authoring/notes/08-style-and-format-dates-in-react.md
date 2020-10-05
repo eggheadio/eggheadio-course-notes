@@ -84,6 +84,44 @@ instead of
 June 20-21 2019
 
 This may be due to a change in toLocaleDateString() or due to my own personal settings. If you also encounter this issue and have an easy fix, please feel free to contribute!
+
+## Alternative Example 
+
+One possible way to do is adding another conditional option
+
+```js
+const EventDate = ({ startDate, endDate }) => {
+  const start = new Date(startDate)
+  const end = new Date(endDate)
+  const isOneDay = start.toDateString() === end.toDateString()
+  const isSameMonth = start.getMonth() === end.getMonth()
+  return (
+    <>
+      <time dateTime={start.toISOString()}>
+        {getDate(start, { year: isOneDay })}
+      </time>
+      {!isOneDay && (
+        <>
+          {' - '}
+          {isSameMonth ? (
+            <time dateTime={end.toISOString()}>
+              {end.getDate()} {getDate(end, { day: false, month: false })}
+            </time>
+
+          ) : (
+              <time dateTime={end.toISOString()}>
+                {getDate(end, { month: start.getMonth() !== end.getMonth() })}
+              </time>
+            )}
+        </>
+      )
+      }
+    </>
+  )
+}
+```
+
+
 ## Resources
 - [Lesson 8 Code](https://github.com/ParkerGits/authoring-gatsby-themes/tree/08-style-and-format-dates-in-react)
 - [Gatsby - Style and format dates in React](https://www.gatsbyjs.org/tutorial/building-a-theme/#style-and-format-dates-in-react)

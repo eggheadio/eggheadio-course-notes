@@ -146,7 +146,7 @@ const Join = () => {
     <>
       <h1>Start or Join a Video Chat</h1>
       <pre>{JSON.stringify(state, null, 2)}</pre>
-      <form className="state-form" onSubmit={handleSubmit}>
+      <form className="start-form" onSubmit={handleSubmit}>
         <label htmlFor="identity">
           Display name:
           <input

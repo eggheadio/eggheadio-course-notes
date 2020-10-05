@@ -115,10 +115,10 @@ The function will navigate to the root of the site and will delete that entry fr
 
 ### pages/room.js
 
-    ```jsx
-    import React, { useEffect } from 'react';
-
-import { Router } from '@reach/router'import { navigate } from 'gatsby';
+```jsx
+import React, { useEffect } from 'react';
+import { Router } from '@reach/router'
+import { navigate } from 'gatsby';
 import Layout from '../components/layout';
 import VideoDisplay from '../components/video-display';
 
