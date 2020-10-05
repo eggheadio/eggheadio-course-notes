@@ -1,6 +1,6 @@
 # Combine Multiple Async Behaviors with a Merge Function
 
-**[📹 Video](https://egghead.io/lessons/egghead-combine-multiple-async-behaviors-with-a-merge-function-9197a499)**
+[📹 Video](https://egghead.io/lessons/egghead-combine-multiple-async-behaviors-with-a-merge-function-9197a499)
 
 - stablish consistency
 - all function expects the same type of arguments (pattern)
@@ -31,8 +31,8 @@ let createInterval = (time) => (listener) => {
   }
 }
 
-let addButtonListener = addListener("#button")
-let addButtonClickListener = addButtonListener("click")
+let addButtonListener = addListener('#button')
+let addButtonClickListener = addButtonListener('click')
 
 let oneSecond = createInterval(1000)
 
@@ -49,7 +49,7 @@ let merge = (broadcaster1, broadcaster2) => (listener) => {
 
 let clickOrTick = merge(addButtonClickListener, oneSecond)
 let cancelClickOrTick = clickOrTick(() => {
-  console.log("click or tick")
+  console.log('click or tick')
 })
 
 cancelClickOrTick()
@@ -77,14 +77,9 @@ let foo = (a) => (b) => {
   console.log(a, b)
 }
 
-foo("Hello")("World") // <== two calls on the same line
+foo('Hello')('World') // <== two calls on the same line
 ```
 
 ## References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/merge/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-utility-function-to-control-setinterval)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-use-lodash-curry-when-functions-return-functions)

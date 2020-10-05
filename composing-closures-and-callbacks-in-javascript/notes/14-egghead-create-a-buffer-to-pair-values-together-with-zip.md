@@ -1,6 +1,6 @@
 # Create a Buffer to Pair Values Together with Zip
 
-**[📹 Video](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)**
+[📹 Video](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)
 
 - the main concept here is that in order to capture values between listeners, you can always wrap your original listener into a new one, do whatever you need with the value and then pass it to the original listener
 
@@ -20,8 +20,3 @@ broadcaster((value) => {
 ## References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/zip/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-match-function-requirements-with-lodash-partial-and-flip)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)

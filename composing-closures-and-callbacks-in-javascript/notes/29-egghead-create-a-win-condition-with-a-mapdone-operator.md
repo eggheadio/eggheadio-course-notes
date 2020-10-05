@@ -1,6 +1,6 @@
 # Create a Win Condition with a mapDone Operator
 
-**[📹 Video](https://egghead.io/lessons/egghead-create-a-win-condition-with-a-mapdone-operator)**
+[📹 Video](https://egghead.io/lessons/egghead-create-a-win-condition-with-a-mapdone-operator)
 
 - the `doneCondition` is an operator that accepts a condition (our win condition) and only will invoke our listener if the condition is met.
 - some key ideas about the `doneCondition` and `mapDone`:
@@ -26,11 +26,11 @@ let mapDone = (doneValue) => (broadcaster) => (listener) => {
 }
 
 let winPipe = pipe(
-  doneCondition((string) => !string.includes("*")),
+  doneCondition((string) => !string.includes('*')),
   //            |________________________________|
   //                                ☝️
   // the function passed is the `condition` argument
-  mapDone("You win!") // <== "You win!" == doneValue
+  mapDone('You win!'), // <== "You win!" == doneValue
 )
 ```
 
@@ -47,8 +47,8 @@ let winPipe = pipe(
 
 ```javascript
 let winPipe = pipe(
-  doneCondition((string) => !string.includes("*")),
-  mapDone("You win!")
+  doneCondition((string) => !string.includes('*')),
+  mapDone('You win!'),
 )
 
 let play = hangman(inputValue)
@@ -83,8 +83,3 @@ win(console.log)
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/hangman-win/src/index.js)
 - [Remember what the Filter operator does](https://egghead.io/lessons/egghead-prevent-certain-values-with-a-filter-operator)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-building-a-word-matching-game-by-composing-callbacks)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-repeat-a-broadcaster-that-is-done)

@@ -1,6 +1,6 @@
 # Repeat When Done with a Repeat Operator
 
-**[📹 Video](https://egghead.io/lessons/egghead-repeat-when-done-with-a-repeat-operator)**
+[📹 Video](https://egghead.io/lessons/egghead-repeat-when-done-with-a-repeat-operator)
 
 ```javascript
 let repeat = (broadcaster) => (listener) => {
@@ -51,8 +51,3 @@ let repeatWhen = (whenBroadcaster) => (broadcaster) => (listener) => {
 
 - [forOf function](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/repeat-when/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-repeat-a-broadcaster-that-is-done)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-repeat-when-done-with-a-repeat-operator)

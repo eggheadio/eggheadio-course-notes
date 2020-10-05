@@ -1,12 +1,12 @@
 # Building a Word Matching Game by Composing Callbacks
 
-**[📹 Video](https://egghead.io/lessons/egghead-building-a-word-matching-game-by-composing-callbacks)**
+[📹 Video](https://egghead.io/lessons/egghead-building-a-word-matching-game-by-composing-callbacks)
 
 - whenever you find repeating a pattern wuite a few times, consider creating a new utility about that particular operation (the `targetValue` example)
 
 ```javascript
 inputValue((value) => {
-  let result = ""
+  let result = ''
   word((letter) => {
     if (letter === done) {
       console.log(result)
@@ -16,7 +16,7 @@ inputValue((value) => {
       //         ⬆️ THIS IS NEW!! (Let's talk about it below...)
       result += letter
     } else {
-      result += "*"
+      result += '*'
     }
   })
 })
@@ -43,7 +43,7 @@ mapBoradcaster((value) => word)(inputValue)(console.log)
 
 ```javascript
 mapBroadcaster((value) => {
-  return map((letter) => (value.includes(letter) ? letter : "*"))(word)
+  return map((letter) => (value.includes(letter) ? letter : '*'))(word)
 })(inputValue)(console.log)
 ```
 
@@ -85,11 +85,11 @@ and finally let's `pipe` all the functions and add the last piece of functionali
 
 ```javascript
 let stringConcat = (broadcaster) => (listener) => {
-  let result = ""
+  let result = ''
   broadcaster((value) => {
     if (value === done) {
       listener(result)
-      result = ""
+      result = ''
       return
     }
     result += value
@@ -103,8 +103,3 @@ hangman(inputValue)(console.log)
 
 - if you compare both versions, you can see the huge benefit both in readability and reusability of our code! 🌟
 - you can also add/remove/reorder all the game logic depending on your needs, like for example if you want to debounce the input or you are interacting with an API and need to wait for some results... the posibilities are endless
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-building-a-timer-ui-by-composing-callbacks)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-win-condition-with-a-mapdone-operator)

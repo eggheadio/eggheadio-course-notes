@@ -1,6 +1,6 @@
 # Compose closures and callbacks to create new functions
 
-*[📹 Video](https://egghead.io/lessons/egghead-compose-closures-and-callbacks-to-create-new-functions)*
+[📹 Video](https://egghead.io/lessons/egghead-compose-closures-and-callbacks-to-create-new-functions)
 
 - Composition - a function passing one value to another function
 
@@ -38,7 +38,7 @@ compose allows you to refactor the code by removing nested functions and instead
 
 ![](../images/compose-pipe.png)
 
-With pipe, each return is passed to the next function in line. 
+With pipe, each return is passed to the next function in line.
 
 With compose the return is passed to the previous function in line - so the value returned to the callback will be passed to multiply.
 
@@ -47,8 +47,3 @@ With compose the return is passed to the previous function in line - so the valu
 We will be using pipe throughout the course because as John mentioned:
 
 > We're going to stick to using pipe, which takes the functions in a different order, because when thinking asynchronously, it makes more sense to think, "Well, the callback is called, and then multiply is called." We're sticking to this.
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-can-a-function-be-a-closure-and-a-callback)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-defining-the-broadcaster-and-listener-relationship)

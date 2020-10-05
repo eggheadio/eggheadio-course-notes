@@ -1,29 +1,28 @@
 # Create a Function to Configure setTimeout
 
+[📹 Video](https://egghead.io/lessons/egghead-create-a-function-to-configure-settimeout)
 
-**[📹 Video](https://egghead.io/lessons/egghead-create-a-function-to-configure-settimeout)**
+Every function calls can be configurable by extracting the pieces that comforms the execution of it. In this example we are using the `setTimeout` function that have two arguments:
 
-
-
-Every function calls can be configurable by extracting the pieces that comforms the execution of it. In this example we are using the  `setTimeout` function that have two arguments:
-* a callback that holds the definition of the action that will happen
-* a number that represents the time in milliseconds that the function will wait to be executed.
+- a callback that holds the definition of the action that will happen
+- a number that represents the time in milliseconds that the function will wait to be executed.
 
 By extracting pieces of the function we can gain more control over how the function behaves, in this example there a 3 pieces that we can control:
-* the time amount
-* the function that is being passed as callback 
-* and the fact that `setTimeout` is being called inmmediatly.
+
+- the time amount
+- the function that is being passed as callback
+- and the fact that `setTimeout` is being called inmmediatly.
 
 All of this can be controlled by putting the `setTimeout` call into a function of our own. This will allow us to extract the pieces that we defined earlier as arguments of this function and pass that arguments as the parameters of the `setTimeout` call.
 
-By creating this function named `createTimeout` we gain control over the arguments of the `setTimeout` call but there is still the problem of the function being inmmediatly executed, to avoid this we can, again, wrap the  `setTimeout` call in a function. This is really simply to do by using the fat arrow sintax, just add a new function definition to the right side of the first one like this:
+By creating this function named `createTimeout` we gain control over the arguments of the `setTimeout` call but there is still the problem of the function being inmmediatly executed, to avoid this we can, again, wrap the `setTimeout` call in a function. This is really simply to do by using the fat arrow sintax, just add a new function definition to the right side of the first one like this:
 
-```javacript 
+```javacript
 let createTimeout = (time) => () => {
 ```
 
-Here the first piece of the function definition is the one that accepts the arguments that we defined in the first step, the second one is just a wrapper to ensure that if we call `createTimeout(1000)` the setTimeout will not be invoke. This is because `createTimeout` is in fact returning a function instead of executing the function body.
-To execute the timeout we need to do a second call. 
+Here the first piece of the function definition is the one that accepts the arguments that we defined in the first step, the second one is just a wrapper to ensure that if we call `createTimeout(1000)` the setTimeout will not be invoke. This is because `createTimeout` is in fact returning a function instead of executing the function body. To execute the timeout we need to do a second call.
+
 ```
 let oneSecond = createTimeout(1000)
 let twoSeconds = createTimeout(1000)
@@ -38,10 +37,3 @@ This implementation give us the hability to define functions to different scenar
 ## References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/wrap-settimeout/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://github.com/johnlindquist/crafting-functions/blob/wrap-settimeout/src/index.js)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-return-a-function-to-cancel-an-async-behavior)
-
-

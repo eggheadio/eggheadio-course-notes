@@ -1,6 +1,6 @@
 # Creating a Debounce Operator to Limit Listener Calls
 
-**[📹 Video](https://egghead.io/lessons/egghead-creating-a-debounce-operator-to-limit-listener-calls)**
+[📹 Video](https://egghead.io/lessons/egghead-creating-a-debounce-operator-to-limit-listener-calls)
 
 - beautiful explanation of how using the cancellation pattern we've been seen on previous lessons, we can create a very useful operator that _waits_ until we stop typing in the input for a fixed amount of miliseconds.
 
@@ -27,8 +27,3 @@ export let waitFor = (time) => (broadcaster) => (listener) => {
 ## Resources and References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/debounce/src/operators.js#L257)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-map-a-sequence-based-on-input-text-in-react)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-wrap-fetch-in-a-broadcaster-in-react)

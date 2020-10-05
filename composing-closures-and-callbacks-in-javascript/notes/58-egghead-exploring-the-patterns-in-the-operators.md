@@ -10,9 +10,3 @@
 - [What is a Closure?](https://egghead.io/lessons/egghead-what-is-a-closure-in-javascript)
 - [What is a Callback?](https://egghead.io/lessons/egghead-what-is-a-callback-in-javascript)
 - [Broadcaster and Listener Relationship](https://egghead.io/lessons/egghead-defining-the-broadcaster-and-listener-relationship)
--
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-return-a-cancel-function-from-useeffect-to-avoid-unmounting-issues)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-comparing-similarities-with-popular-async-libraries)

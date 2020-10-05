@@ -1,6 +1,6 @@
 # Wrap Fetch in a Broadcaster in React
 
-**[📹 Video](https://egghead.io/lessons/egghead-wrap-fetch-in-a-broadcaster-in-react)**
+[📹 Video](https://egghead.io/lessons/egghead-wrap-fetch-in-a-broadcaster-in-react)
 
 - `async/await` does not work for the `getURL` broadcaster because async functions always return a promise no matter what you return from them, so there's no way we can bypass it and cancel it before it resolves the promise.
 - for this broadcaster we used the normal `them` syntax.
@@ -9,8 +9,3 @@
 ## Resources and References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/fetch-broadcaster/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-creating-a-debounce-operator-to-limit-listener-calls)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-cancel-a-fetch-request-with-a-broadcaster-and-react)

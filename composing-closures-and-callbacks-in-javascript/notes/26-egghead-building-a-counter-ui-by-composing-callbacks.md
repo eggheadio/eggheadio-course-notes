@@ -1,6 +1,6 @@
 # Building a Counter UI by Composing Callbacks
 
-**[📹 Video](https://egghead.io/lessons/egghead-building-a-timer-ui-by-composing-callbacks)**
+[📹 Video](https://egghead.io/lessons/egghead-building-a-timer-ui-by-composing-callbacks)
 
 ## Remember:
 
@@ -47,11 +47,11 @@ let merge = (b1, b2) => (listener) => {
 - here is where you wire up the DOM buttons and the type of event you will be listening to
 
 ```js
-let plusClick = addListener("#plus", "click")
-let minusClick = addListener("#minus", "click")
+let plusClick = addListener('#plus', 'click')
+let minusClick = addListener('#minus', 'click')
 
 // example of how to call them:
-plusClick("#plus", "click")((value) => console.log(value))
+plusClick('#plus', 'click')((value) => console.log(value))
 // This function will setup the "#plus" button to listen to the click event, and will call the last function passed. this will result in loggin in the console the MouseEvent from all the clicks to the button with id "#plus"
 ```
 
@@ -115,8 +115,3 @@ counter((value) => {
 
 - [Pointfree Programming in JavaScript by Kyle Shevlin](https://egghead.io/lessons/egghead-pointfree-programming-in-javascript)
 - [Just Enough Functional Programming in JavaScript by Kyle Shevlin](https://egghead.io/courses/just-enough-functional-programming-in-javascript)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-use-buffers-to-store-values-until-a-condition-is-met)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-building-a-timer-ui-by-composing-callbacks)
