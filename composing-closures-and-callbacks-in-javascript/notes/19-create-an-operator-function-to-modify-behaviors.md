@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors

@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-use-lodash-curry-when-functions-return-functions

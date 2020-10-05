@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip

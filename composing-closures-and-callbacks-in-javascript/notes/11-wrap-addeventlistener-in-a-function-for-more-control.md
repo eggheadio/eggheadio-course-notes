@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-wrap-addeventlistener-in-a-function-for-more-control

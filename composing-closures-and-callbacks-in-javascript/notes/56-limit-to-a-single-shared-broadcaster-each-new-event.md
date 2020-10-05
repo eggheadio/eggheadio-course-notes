@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-limit-to-a-single-shared-broadcaster-each-new-event

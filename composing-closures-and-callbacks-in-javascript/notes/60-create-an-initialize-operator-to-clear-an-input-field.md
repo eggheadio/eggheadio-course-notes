@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-create-an-initialize-operator-to-clear-an-input-field

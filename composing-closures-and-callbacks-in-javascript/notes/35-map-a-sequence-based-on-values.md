@@ -40,7 +40,7 @@ We already implement a similar behavior and there is a common pattern when we ar
 
 🚨 Every time you use a buffer to store some data you need to add guards to the case when the buffer is empty to avoid getting undefined values.
 
-🚨Be aware the for the scenarios where the `done` status is not catch, sometimes this can happen because of the inner broadcasting could be not re-assigned.
+🚨 Be aware the for the scenarios where the `done` status is not catch, sometimes this can happen because of the inner broadcasting could be not re-assigned.
 
 ## References
 

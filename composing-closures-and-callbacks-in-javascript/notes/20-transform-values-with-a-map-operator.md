@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-transform-values-with-a-map-operator

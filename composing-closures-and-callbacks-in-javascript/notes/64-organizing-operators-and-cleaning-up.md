@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-organizing-operators-and-cleaning-up

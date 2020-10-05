@@ -23,7 +23,7 @@ let createTimeout = (time) => () => {
 
 Here the first piece of the function definition is the one that accepts the arguments that we defined in the first step, the second one is just a wrapper to ensure that if we call `createTimeout(1000)` the setTimeout will not be invoke. This is because `createTimeout` is in fact returning a function instead of executing the function body. To execute the timeout we need to do a second call.
 
-```
+```js
 let oneSecond = createTimeout(1000)
 let twoSeconds = createTimeout(1000)
 let threeSeconds = createTimeout(1000)
