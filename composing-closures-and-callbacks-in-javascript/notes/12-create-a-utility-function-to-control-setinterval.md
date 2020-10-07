@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-create-a-utility-function-to-control-setinterval

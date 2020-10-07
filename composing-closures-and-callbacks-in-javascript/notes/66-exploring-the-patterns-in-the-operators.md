@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-exploring-the-patterns-in-the-operators

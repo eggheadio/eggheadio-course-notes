@@ -1,6 +1,12 @@
 <h1 align="center"><a href="https://egghead.io/lessons/egghead-course-introduction-00086daf">Building Maps with React-Leaflet</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/490/full/React_Leaflet_Final.png" width="340"></p>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+</p>
 
 ## About 🔍
 

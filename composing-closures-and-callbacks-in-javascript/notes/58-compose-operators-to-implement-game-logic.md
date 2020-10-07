@@ -1,0 +1,3 @@
+pending...
+
+https://egghead.io/lessons/egghead-compose-operators-to-implement-game-logic
