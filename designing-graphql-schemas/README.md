@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://egghead.io/courses/designing-graphql-schemas-99db">Construct Sturdy UIs with XState</a></h1>
+<h1 align="center"><a href="https://egghead.io/courses/designing-graphql-schemas-99db">Designing GraphQL Schemas</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/405/full/DesignGraphQLSchemas.png" width="200"></p>
 
