@@ -63,3 +63,28 @@ Follow Nik, and avoid making Schema mistakes that will come back to bite you lat
 - [13. Optimising GraphQL Mutations for Static Usage](notes/13-optimising-graphql-mutations-for-static-usage.md)
 - [14. GraphQL Mutations to update Connections](notes/14-graphql-mutations-to-update-connections.md)
 - [15. Tradeoffs when designing GraphQL Mutations to update multiple Properties on one Entity](notes/15-tradeoffs-when-designing-graphql-mutations-to-update-multiple-properties-on-one-entity.md)
+
+## Contributors ✨
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/aromanarguello">
+        <img
+          src="https://avatars2.githubusercontent.com/u/28843542?s=460&u=9c1cacd053b919e882e3b4ce17458393c6256b42&v=4"
+          width="100px;"
+          alt="Alejandro Roman's profile picture"
+        />
+        <br />
+        <sub><b>Alejandro Roman</b></sub>
+      </a>
+      <br />
+      <a
+        href="https://github.com/eggheadio/eggheadio-course-notes/tree/master/designing-graphql-schemas"
+        title="Content">
+        🖋
+      </a>
+    </td>
+       <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/build-an-app-with-the-AWS-cloud-development-kit-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
