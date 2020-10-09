@@ -21,6 +21,8 @@ Insertion sort can be quite inefficient due to the number of potential loops to 
 
 ## Implementation
 
+**insertionSort/index.js**
+
 ```js
 function insertionSort(array) {
   let i

@@ -34,7 +34,7 @@ A graph is a collection of nodes and edges. In a directed graph (what we build i
 
 ![Graph Symmetry](../assets/Graph-Symmetry.png)
 
-A graph is not hierarchical - it has no order, rank, start or end. It is just a collection of nodes and edges.
+**A graph is not hierarchical - it has no order, rank, start or end. It is just a collection of nodes and edges.**
 
 ## addNode
 
@@ -55,6 +55,8 @@ The `getNode()` method allows us to find a node based on its key. We can use the
 The `addEdge()` method creates a relationship or edge between two nodes. In an undirected graph, we add the relationship both ways to keep our edges symmetrical. In a directed graph, we would need to call the `addEdge()` method for each direction, if we wanted the edges to be symmetrical.
 
 ## Implementation
+
+**graphs/index.js**
 
 ```js
 function createNode(key) {

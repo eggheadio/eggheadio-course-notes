@@ -18,6 +18,8 @@ Depth first search implements an explore function which is called recursively - 
 
 ## Implementation
 
+**graphs/depthFirstSearch.js**
+
 ```js
 {
   // graph from previous lessons

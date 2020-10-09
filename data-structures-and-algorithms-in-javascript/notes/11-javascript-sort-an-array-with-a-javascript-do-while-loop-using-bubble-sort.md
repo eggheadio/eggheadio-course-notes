@@ -21,6 +21,8 @@ As the Bubble sort algorithm needs to do so many passes across the array to swap
 
 ## Implementation
 
+**bubbleSort/index.js**
+
 ```js
 function bubbleSort(array) {
   let swapped = false

@@ -40,6 +40,8 @@ Starting from the root node, it traverses down the left side of the tree until i
 
 ## Implementation
 
+**binaryTrees/index.js**
+
 ```js
 function createBinaryNode(key) {
   return {

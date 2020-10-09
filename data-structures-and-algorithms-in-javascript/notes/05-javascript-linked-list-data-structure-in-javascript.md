@@ -31,6 +31,14 @@ The thing that adds the majority of complexity to a linked list is that the meth
 
 🟩 List with more than one item
 
+## Searching for nodes
+
+🟪 The index being asked for is out of bounds
+
+🟦 The index being asked for is index 0
+
+🟫 The index being asked for is in bounds and not index 0
+
 ## Node
 
 A node is just any item within a list. The thing that makes a node special is it contains a link to the next node in the list.
@@ -107,11 +115,11 @@ Pop removes the node at the end of the list - tail - and returns it.
 
 Get returns a node at a particular index, without removing it from the list.
 
-🔴 **Index outside the bounds of list: `< 0` or `> length - 1`**  returns `null`
+🟪 **Index outside the bounds of list: `< 0` or `> length - 1`**  returns `null`
 
-🟡 **Index zero** returns `head`
+🟦 **Index zero** returns `head`
 
-🟢 **Index other than zero (in bounds)** returns node at index
+🟫 **Index other than zero (in bounds)** returns node at index
 
 ## Delete
 
@@ -119,11 +127,11 @@ Get returns a node at a particular index, without removing it from the list.
 
 Removes the node at the specified index and returns it.
 
-🔴 **Index outside the bounds of list: `< 0` or `> length - 1`** returns `null`
+🟪 **Index outside the bounds of list: `< 0` or `> length - 1`** returns `null`
 
-🟡 **Index zero** sets `head` to second node in list and returns original `head`
+🟦 **Index zero** sets `head` to second node in list and returns original `head`
 
-🟢 **Index other than zero (in bounds)** sets node before index's next to the node at index's next and returns node. If the `tail` is being deleted the second last node becomes the `tail`
+🟫 **Index other than zero (in bounds)** sets node before index's next to the node at index's next and returns node. If the `tail` is being deleted the second last node becomes the `tail`
 
 ## isEmpty
 
@@ -138,6 +146,8 @@ Returns whether the list contains nodes. This can simply return whether the list
 🟩 Returns `false`
 
 ## Implementation
+
+**linkedLists/index.js**
 
 ```js
 function createNode(value) {
@@ -155,6 +165,7 @@ function createLinkedList() {
     push(value) {
       const node = createNode(value)
 
+      // 🟥
       if (this.head === null) {
         this.head = node
         this.tail = node
@@ -162,6 +173,7 @@ function createLinkedList() {
         return node
       }
 
+      // 🟨 or 🟩
       this.tail.next = node
       this.tail = node
       this.length++
@@ -169,12 +181,14 @@ function createLinkedList() {
       return node
     },
     pop() {
+      // 🟥
       if (this.isEmpty()) {
         return null
       }
 
       const node = this.tail
 
+      // 🟨
       if (this.head === this.tail) {
         this.head = null
         this.tail = null
@@ -182,6 +196,7 @@ function createLinkedList() {
         return node
       }
 
+      // 🟩
       let current = this.head
       let penultimate
       while (current) {
@@ -200,14 +215,17 @@ function createLinkedList() {
       return node
     },
     get(index) {
+      // 🟪
       if (index < 0 || index > this.length - 1) {
         return null
       }
 
+      // 🟦
       if (index === 0) {
         return this.head
       }
 
+      // 🟫
       let current = this.head
       let i = 0
 
@@ -219,10 +237,12 @@ function createLinkedList() {
       return current
     },
     delete(index) {
+      // 🟪
       if (index < 0 || index > length - 1) {
         return null
       }
 
+      // 🟦
       if (index === 0) {
         const deleted = this.head
 
@@ -232,6 +252,7 @@ function createLinkedList() {
         return deleted
       }
 
+      // 🟫
       let current = this.head
       let previous
       let i = 0
@@ -254,6 +275,8 @@ function createLinkedList() {
       return deleted
     },
     isEmpty() {
+      // 🟥 => true
+      // 🟨 or 🟩 => false
       return this.length === 0
     }
   }

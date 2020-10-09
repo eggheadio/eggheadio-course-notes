@@ -17,6 +17,8 @@ Breadth first search is an algorithm we can use to traverse all nodes in a graph
 
 ## Implementation
 
+**graphs/breadthFirstSearch.js**
+
 ```js
 {
   // rest of graph from previous lesson

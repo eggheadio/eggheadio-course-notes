@@ -66,6 +66,8 @@ Return a Boolean value (`true` or `false`) as to whether the stack contains item
 
 ## Implementation
 
+**stacks/index.js**
+
 ```js
 function createStack() {
   const stack = []

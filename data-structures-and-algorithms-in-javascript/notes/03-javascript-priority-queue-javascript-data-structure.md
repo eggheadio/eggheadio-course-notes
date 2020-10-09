@@ -24,6 +24,8 @@ Think of a priority queue as an airport with separate lines for first class and 
 
 ## Implementation
 
+**priorityQueue.js**
+
 Can be implemented as two queues - low and high priority. We can implement a similar API to the queue - with the `enqueue` method accepting an optional `isHighPriority` parameter.
 
 ```js

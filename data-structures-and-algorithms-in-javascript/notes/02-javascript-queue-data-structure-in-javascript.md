@@ -8,7 +8,7 @@
 
 ![Three items queued in sequential order](../assets/Queue.png)
 
-A queue is a FIFO (First In First Out) data structure - usually an array or list-like structure - with an enqueue and dequeue method for adding and removing items. Peek, length and isEmpty are helper functions that allow us to ask questions about the state of the queue.
+A queue is a FIFO (First In First Out) data structure - usually an array or list-like structure - with an enqueue and dequeue method for adding and removing items. `peek`, `length` and `isEmpty` are helper functions that allow us to ask questions about the state of the queue.
 
 ## Use case
 
@@ -73,6 +73,8 @@ Return a Boolean value (`true` or `false`) as to whether the queue is empty or n
 `Array.length === 0` is used to determine whether the array currently has zero items. If it does then this method returns `true`. If there are items in the array it will return `false`.
 
 ## Implementation
+
+**queues/index.js**
 
 ```js
 function createQueue() {
