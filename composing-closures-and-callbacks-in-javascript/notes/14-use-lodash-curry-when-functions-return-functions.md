@@ -11,8 +11,3 @@
 
 - [What is a JavaScript Function Currying? by John Lindquist](https://egghead.io/lessons/javascript-what-is-javascript-function-currying)
 - [Currying and Partial Application in JavaScript (ES5 & ES6) by Kyle Shevlin](https://egghead.io/lessons/javascript-currying-and-partial-application-in-javascript-es5-es6)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-combine-multiple-async-behaviors-with-a-merge-function-9197a499)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-match-function-requirements-with-lodash-partial-and-flip)
