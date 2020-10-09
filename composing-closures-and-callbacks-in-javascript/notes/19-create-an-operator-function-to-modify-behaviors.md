@@ -82,8 +82,4 @@ If you check the [previous lesson](18-pass-a-done-symbol-when-an-async-function-
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/operator/src/index.js)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-pass-a-done-symbol-when-an-async-function-is-done)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-transform-values-with-a-map-operator)
 
