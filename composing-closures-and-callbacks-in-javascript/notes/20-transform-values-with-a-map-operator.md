@@ -64,8 +64,4 @@ This pattern that wraps our broadcaster is what we will call through the lessons
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/returning-functions/src/index.js)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-prevent-certain-values-with-a-filter-operator)
 
