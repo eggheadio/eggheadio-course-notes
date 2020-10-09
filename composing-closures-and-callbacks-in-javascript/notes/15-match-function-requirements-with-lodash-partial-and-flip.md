@@ -34,7 +34,3 @@ partial(flip(setInterval), 1000) // returns setInterval(1000)(listener) a functi
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/lodash-partial/src/index.js)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-use-lodash-curry-when-functions-return-functions)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-buffer-to-pair-values-together-with-zip)
