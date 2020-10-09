@@ -73,7 +73,3 @@ let App = () => {
 render(<App></App>, document.querySelector("#root"))
 ```
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-adding-react-to-a-vanilla-parcel-project)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-custom-usebroadcaster-hook)
