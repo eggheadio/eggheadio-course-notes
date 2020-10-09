@@ -28,8 +28,3 @@ broadcaster(listener)
 ## References
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/broadcaster-listener-relationship/src/index.js)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-compose-closures-and-callbacks-to-create-new-functions)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-time-is-a-hidden-variable-in-javascript-f724e184)
