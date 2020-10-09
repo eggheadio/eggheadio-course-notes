@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-marking-done-based-on-a-condition)
 
-The current use case of the `repeat` and `repeatWhen` operators in the course is to implement a game like situation, in this case we need to be able to stop and restart the game when the scorte hits.
+The current use case of the `repeat` and `repeatWhen` operators in the course is to implement a game like situation, in this case we need to be able to stop and restart the game when the score hits.
 
 The logic for this example is just to check if the `state` of the game is equal to `0` meaning that the game is over or **done**.
 

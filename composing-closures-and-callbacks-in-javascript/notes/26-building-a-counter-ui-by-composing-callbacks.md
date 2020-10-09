@@ -7,7 +7,7 @@
 - `listener` is a function that is called when an event or something happens
 - `broadcaster` is a function that returns a `listener`
 - `operator` is a function that accepts one or more `broadcasters`
-- You can also have a configuration function that resurns an `operator` (the `app` case)
+- You can also have a configuration function that returns an `operator` (the `app` case)
 
 ## Functions
 
@@ -15,7 +15,7 @@
 
 - is a `broadcaster`
 - is the one setting up the document eventListener
-- the value that the `listener` will be callse with, will be the click event (since we are using [PointFree style](https://egghead.io/lessons/egghead-pointfree-programming-in-javascript) to pass the listener function to the `addEventListener` (the second parameter)
+- the value that the `listener` will be called with, will be the click event (since we are using [PointFree style](https://egghead.io/lessons/egghead-pointfree-programming-in-javascript) to pass the listener function to the `addEventListener` (the second parameter)
 - by having functions that return other functions that return other functions, we are taking advantage of closures because the function that accepts a listener (last function) **can remember** all the previous values set by the parent scopes. this is very important and useful to advance or delay function executions.
 
 ```js

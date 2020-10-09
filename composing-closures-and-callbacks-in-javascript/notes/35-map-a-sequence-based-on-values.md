@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-map-a-sequence-based-on-values)
 
-In the previous lesson we create a `sequence` operator that take a list of broacaster and execute each of them in a row, one after the other, when the `done` status was catch.
+In the previous lesson we create a `sequence` operator that take a list of broadcaster and execute each of them in a row, one after the other, when the `done` status was catch.
 
 ```javascript
 sequence(
@@ -14,7 +14,7 @@ sequence(
 )(console.log)
 ```
 
-This is a useful construct but could be improved to make it easier to use for this particular use case by enable a mapping functionallity over a particular message.
+This is a useful construct but could be improved to make it easier to use for this particular use case by enable a mapping functionality over a particular message.
 
 The, current example write to the console the message `Hello, my name is John` so we can use that same string as our base value.
 

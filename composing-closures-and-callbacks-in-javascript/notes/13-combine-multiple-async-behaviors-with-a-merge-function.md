@@ -55,10 +55,10 @@ let cancelClickOrTick = clickOrTick(() => {
 cancelClickOrTick()
 ```
 
-- because both broadcasters (`addButtonClickListener` & `oneSecond`) expects a listener, we are able to create a wrapper function that accepts a listener too and explicitly pass it to both boradcasters, which in this example we call it `merge`
+- because both broadcasters (`addButtonClickListener` & `oneSecond`) expects a listener, we are able to create a wrapper function that accepts a listener too and explicitly pass it to both broadcasters, which in this example we call it `merge`
 - and also we can follow the same pattern as before, because we control the broadcasters we are getting as parameters in `merge`, so we can return another function that cancels both of them
 
-- For the sake of comparisson and help with readability, here's a representation of the functions both using ES6 syntax and ES5 syntax (using the function keyword)
+- For the sake of comparison and help with readability, here's a representation of the functions both using ES6 syntax and ES5 syntax (using the function keyword)
 
 ```js
 // same function

@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-prevent-certain-values-with-a-filter-operator)
 
-We can re-use our new `map` operator to accomplish the same behavior of typewriting but by ussing our new patterns, we can move some logic out of our `modify` operator into the `transform` argument of the `map` operator.
+We can re-use our new `map` operator to accomplish the same behavior of typewriting but by using our new patterns, we can move some logic out of our `modify` operator into the `transform` argument of the `map` operator.
 
 ```javascript
 let typeGreeting = map(

@@ -91,5 +91,5 @@ function useLocalStorageState(key, defaultValue = '') {
 ## Additional resource
 
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-- [Kent's Blog - The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [Kent's Blog - The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 - [React Docs - Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)

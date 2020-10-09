@@ -10,7 +10,7 @@ The first step is to organize our code, starting to move all of the operators to
 
 The reason to include the use of a view library as React is to solve one of the challenges that appears when rendering content into the DOM. There is a need to compare different state of the UI to, for example, decide if a listener need to be added again or not. All of the view libraries out there solve this problem with different techniques.
 
-Since the project is using Parcel, add React to it is straigtforward, head to [the recipe page](https://parceljs.org/recipes.html) on parcel site and follow the instructions there to install the dependencies required to run a react project with it.
+Since the project is using Parcel, add React to it is straightforward, head to [the recipe page](https://parceljs.org/recipes.html) on parcel site and follow the instructions there to install the dependencies required to run a react project with it.
 
 ```bash
 npm install --save react

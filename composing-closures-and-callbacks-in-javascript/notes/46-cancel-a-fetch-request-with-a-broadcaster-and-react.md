@@ -5,7 +5,7 @@
 ```javascript
 let getURL = (url) => (listener) => {
   let controller = new AbortController()
-  let signal = controller.signal // <== our controler's signal!!
+  let signal = controller.signal // <== our controller's signal!!
   fetch(url, {signal})
     .then((response) => {
       return response.json()

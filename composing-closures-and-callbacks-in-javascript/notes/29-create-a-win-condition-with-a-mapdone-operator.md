@@ -57,7 +57,7 @@ let win = winPipe(play)
 let cancelWhen = (cancelBroadcaster) => (broadcaster) => (listener) => {
   /*
   - cancelBroadcaster => win => doneCondition
-  - boradcaster == mapDone
+  - broadcaster == mapDone
   */
 
   let cancel = broadcaster(listener)
