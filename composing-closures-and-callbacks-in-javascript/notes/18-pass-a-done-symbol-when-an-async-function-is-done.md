@@ -95,8 +95,3 @@ let cancelTypeGreeting = typeGreeting(value => {
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/returning-functions/src/index.js)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-an-operator-function-to-modify-behaviors)
-
