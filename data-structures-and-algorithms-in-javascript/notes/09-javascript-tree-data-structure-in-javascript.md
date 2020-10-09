@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Tree data structure](../assets/Tree.png)
+![Tree data structure](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262883/transcript-images/09-javascript-tree-data-structure-in-javascript-Tree.png)
 
 A tree is a special type of graph - a collection of nodes and their relationships to other nodes. **However, what makes a tree special is that it is hierarchical (in rank or order), and rather than neighbors, nodes have children.**
 
@@ -20,7 +20,7 @@ A tree starts at the root node - top most node - and stems out from there - simi
 
 ## Traversal
 
-![Tree traversal](../assets/Tree-Traversal.gif)
+![Tree traversal](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262884/transcript-images/09-javascript-tree-data-structure-in-javascript-Tree-Traversal.gif)
 
 There are multiple traversal algorithms we can use to visit each node. In this video we implement a depth first traversal algorithm - as it starts at the top and recursively visits each node's first child until it reaches a leaf node of the tree, then it goes up one layer and continues down from the next child.
 

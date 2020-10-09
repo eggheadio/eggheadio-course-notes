@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Depth first search algorithm](../assets/Depth-First-Search.gif)
+![Depth first search algorithm](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262884/transcript-images/08-javascript-write-a-depth-first-search-algorithm-for-graphs-in-javascript-Depth-First-Search.gif)
 
 Depth first search is similar to the algorithm we looked at in the previous lesson, in that it is also used to traverse each node in a graph. The difference is the order in which nodes are visited. With Depth first search we start at the first node and visit its first neighbor, then that node's first neighbor and so on until we reach a node with no unvisited neighbors. Then we go back up one node and look at its next neighbor, and so on.
 

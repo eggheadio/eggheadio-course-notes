@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Breadth first search algorithm](../assets/Breadth-First-Search.gif)
+![Breadth first search algorithm](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262885/transcript-images/07-javascript-breadth-first-javascript-search-algorithm-for-graphs-Breadth-First-Search.gif)
 
 Breadth first search is an algorithm we can use to traverse all nodes in a graph. It starts at one node and visits all of that node's neighbors before moving on to the next node's neighbors. This is what the "Breadth" in the name implies, as it will visit widely across a node's neighbors, before traversing the edges of a neighboring node.
 

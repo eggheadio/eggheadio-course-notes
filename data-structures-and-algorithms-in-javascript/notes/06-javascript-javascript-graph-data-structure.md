@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Graph data structure](../assets/Graph.png)
+![Graph data structure](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262882/transcript-images/06-javascript-javascript-graph-data-structure-Graph.png)
 
 A Graph is a collection of nodes (vertices) that can point to other nodes via edges. There is no hierarchy (top, bottom, start, end) in a graph, so other nodes are referred to as neighbors. Each node or vertex has a collection of neighbors.
 
@@ -32,25 +32,25 @@ Each node has a collection of neighbors - usually represented by an array. When 
 
 A graph is a collection of nodes and edges. In a directed graph (what we build in this video) both nodes must point to each other in order to have symmetric edges. In other words, you can have a node with a one-way relationship to another node - one node contains the other node in its neighbors but it does not appear in the other nodes neighbors.
 
-![Graph Symmetry](../assets/Graph-Symmetry.png)
+![Graph Symmetry](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262881/transcript-images/06-javascript-javascript-graph-data-structure-Graph-Symmetry.png)
 
 **A graph is not hierarchical - it has no order, rank, start or end. It is just a collection of nodes and edges.**
 
 ## addNode
 
-![Add item to Graph](../assets/Graph-Add.gif)
+![Add item to Graph](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262882/transcript-images/06-javascript-javascript-graph-data-structure-Graph-Add.gif)
 
 The `addNode()` method takes a key (identifier for the node), creates a node data structure and adds it to the graph's nodes. We can use the `Array.push()` method to insert it into the graph's array of nodes.
 
 ## getNode
 
-![Find item in Graph](../assets/Graph-Find.png)
+![Find item in Graph](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262881/transcript-images/06-javascript-javascript-graph-data-structure-Graph-Find.png)
 
 The `getNode()` method allows us to find a node based on its key. We can use the `Array.find()` method to locate it in the graph's array of nodes.
 
 ## addEdge
 
-![Add edge to Graph](../assets/Graph-Add-Edge.gif)
+![Add edge to Graph](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262880/transcript-images/06-javascript-javascript-graph-data-structure-Graph-Add-Edge.gif)
 
 The `addEdge()` method creates a relationship or edge between two nodes. In an undirected graph, we add the relationship both ways to keep our edges symmetrical. In a directed graph, we would need to call the `addEdge()` method for each direction, if we wanted the edges to be symmetrical.
 

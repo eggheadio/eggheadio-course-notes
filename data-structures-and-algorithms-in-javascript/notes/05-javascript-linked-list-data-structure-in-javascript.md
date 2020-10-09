@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Linked List data structure](../assets/Linked-List.png)
+![Linked List data structure](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262881/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List.png)
 
 Linked lists are a collection of nodes, each pointing to the next node. A linked list has a head - representing the start - and a tail - representing the end. These can both be the same node if the list's length is 1, or null if the list is empty. Otherwise, they represent the first and last nodes in the list, and help us determine whether the current node is at the start, end or somewhere in the middle.
 
@@ -51,7 +51,7 @@ A node is just any item within a list. The thing that makes a node special is it
 
 ## Head
 
-![Linked List head](../assets/Linked-List-Head.png)
+![Linked List head](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262879/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Head.png)
 
 The head is the first/oldest node added to the list - conceptually, `Array[0]`.
 
@@ -63,7 +63,7 @@ The head is the first/oldest node added to the list - conceptually, `Array[0]`.
 
 ## Tail
 
-![Linked List tail](../assets/Linked-List-Tail.png)
+![Linked List tail](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262880/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Tail.png)
 
 The tail is the last/most recently added item in the list - conceptually, `Array.length - 1`.
 
@@ -75,7 +75,7 @@ The tail is the last/most recently added item in the list - conceptually, `Array
 
 ## Length
 
-![Length of Linked List](../assets/Linked-List-Length.gif)
+![Length of Linked List](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262879/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Head.png)
 
 This returns the length or how many nodes are currently in the list.
 
@@ -87,7 +87,7 @@ This returns the length or how many nodes are currently in the list.
 
 ## Push
 
-![Push item into Linked List](../assets/Linked-List-Push.gif)
+![Push item into Linked List](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262879/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Push.gif)
 
 Push adds a new node to the end of the list. This becomes the new tail and the length is incremented by one. The new node is returned from `.push()`
 
@@ -99,7 +99,7 @@ Push adds a new node to the end of the list. This becomes the new tail and the l
 
 ## Pop
 
-![Pop item off Linked List](../assets/Linked-List-Pop.gif)
+![Pop item off Linked List](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262879/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Pop.gif)
 
 Pop removes the node at the end of the list - tail - and returns it.
 
@@ -111,7 +111,7 @@ Pop removes the node at the end of the list - tail - and returns it.
 
 ## Get
 
-![Get item in Linked List](../assets/Linked-List-Get.gif)
+![Get item in Linked List](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262877/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Get.gif)
 
 Get returns a node at a particular index, without removing it from the list.
 
@@ -123,7 +123,7 @@ Get returns a node at a particular index, without removing it from the list.
 
 ## Delete
 
-![Delete item from Linked List](../assets/Linked-List-Delete.gif)
+![Delete item from Linked List](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262877/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-Delete.gif)
 
 Removes the node at the specified index and returns it.
 
@@ -135,7 +135,7 @@ Removes the node at the specified index and returns it.
 
 ## isEmpty
 
-![Check if Linked List is empty](../assets/Linked-List-isEmpty.gif)
+![Check if Linked List is empty](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262879/transcript-images/05-javascript-linked-list-data-structure-in-javascript-Linked-List-isEmpty.gif)
 
 Returns whether the list contains nodes. This can simply return whether the list's `.length()` is zero.
 

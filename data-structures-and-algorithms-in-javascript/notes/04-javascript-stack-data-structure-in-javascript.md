@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Stack data structure](../assets/Stack.png)
+![Stack data structure](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262878/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack.png)
 
 A Stack is a LIFO (Last In First Out) data structure. This means new items are placed on top of the stack, and popped off from the top down.
 
@@ -24,7 +24,7 @@ A stack is commonly used for routing between pages or screens in an app. When yo
 
 ## Push
 
-![Push item onto Stack](../assets/Stack-Push.gif)
+![Push item onto Stack](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262877/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack-Push.gif)
 
 Add an item to the top of the stack.
 
@@ -32,7 +32,7 @@ Add an item to the top of the stack.
 
 ## Pop
 
-![Pop item off Stack](../assets/Stack-Pop.gif)
+![Pop item off Stack](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262875/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack-Pop.gif)
 
 Remove and return the top item on the stack.
 
@@ -40,7 +40,7 @@ Remove and return the top item on the stack.
 
 ## Peek
 
-![Peek item at the top of Stack](../assets/Stack-Peek.png)
+![Peek item at the top of Stack](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262876/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack-Peek.png)
 
 Access the item at the top of the stack.
 
@@ -48,7 +48,7 @@ Access the item at the top of the stack.
 
 ## Length
 
-![Check length of Stack](../assets/Stack-Length.gif)
+![Check length of Stack](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262876/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack-Length.gif)
 
 Find out how many items are on the stack.
 
@@ -58,7 +58,7 @@ Find out how many items are on the stack.
 
 ## isEmpty
 
-![Check if Stack is empty](../assets/Stack-isEmpty.gif)
+![Check if Stack is empty](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262875/transcript-images/04-javascript-stack-data-structure-in-javascript-Stack-isEmpty.gif)
 
 Return a Boolean value (`true` or `false`) as to whether the stack contains items.
 

@@ -6,7 +6,7 @@
 
 ## Summary
 
-![Three items queued in sequential order](../assets/Queue.png)
+![Three items queued in sequential order](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-Queue.png)
 
 A queue is a FIFO (First In First Out) data structure - usually an array or list-like structure - with an enqueue and dequeue method for adding and removing items. `peek`, `length` and `isEmpty` are helper functions that allow us to ask questions about the state of the queue.
 
@@ -34,7 +34,7 @@ For this implementation you can think of the items in the array forming a queue.
 
 Add an item to the left side of the queue.
 
-![Enqueue item from left](../assets/Enqueue.gif)
+![Enqueue item from left](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-Enqueue.gif)
 
 `Array.unshift()` is used to add an item to the start (left) of an array.
 
@@ -42,7 +42,7 @@ Add an item to the left side of the queue.
 
 Remove an item from the right side of the queue.
 
-![Dequeue item from right](../assets/Dequeue.gif)
+![Dequeue item from right](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-Dequeue.gif)
 
 `Array.pop()` is used to remove the item at the end (right) of the array. This method returns the removed item.
 
@@ -50,7 +50,7 @@ Remove an item from the right side of the queue.
 
 Access the item at the right side of the queue.
 
-![Peek next item](../assets/Peek.png)
+![Peek next item](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-Peek.png)
 
 `Array[length - 1]` is used to access the last item in the array - next to be dequeued.
 
@@ -58,7 +58,7 @@ Access the item at the right side of the queue.
 
 Find out how many items are currently in the queue.
 
-![Count items in queue](../assets/Length.gif)
+![Count items in queue](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-Length.gif)
 
 `Array.length` is used to determine how many items are in the array.
 
@@ -68,7 +68,7 @@ Find out how many items are currently in the queue.
 
 Return a Boolean value (`true` or `false`) as to whether the queue is empty or not.
 
-![Check if queue is empty](../assets/isEmpty.gif)
+![Check if queue is empty](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262873/transcript-images/02-javascript-queue-data-structure-in-javascript-isEmpty.gif)
 
 `Array.length === 0` is used to determine whether the array currently has zero items. If it does then this method returns `true`. If there are items in the array it will return `false`.
 

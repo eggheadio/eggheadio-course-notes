@@ -6,7 +6,7 @@
 
 ## Summary
 
-![High priority queue dequeued first](../assets/Priority-Queue.gif)
+![High priority queue dequeued first](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602262874/transcript-images/03-javascript-priority-queue-javascript-data-structure-Priority-Queue.gif)
 
 A priority queue is similar to a queue, but with the ability to add high priority items that are processed before the lower priority items.
 
