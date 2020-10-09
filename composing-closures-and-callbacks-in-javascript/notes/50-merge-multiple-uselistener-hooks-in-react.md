@@ -16,7 +16,7 @@ let inputToBookSearch = pipe(
   map((result) => result.docs),
 )(inputValue)
 
-// Clear the search when content lenght is less than 2
+// Clear the search when content length is less than 2
 let inputToClearSearch = pipe(
   filter((name) => name.length < 2),
   map((name) => []),

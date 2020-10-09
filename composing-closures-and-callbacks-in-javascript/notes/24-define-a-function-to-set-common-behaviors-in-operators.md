@@ -54,7 +54,7 @@ return broadcaster((value) => {
 })
 ```
 
-The last step is replace our operators to use `createOperator` but in the case of our `map` and `filter` the signature is slitghly different. The operator that we are passing have different arguments, in the case of `map` it have a `transform` function as first argument and `filter` have a `predicate` function that `createOperator` doesn't know how to handle.
+The last step is replace our operators to use `createOperator` but in the case of our `map` and `filter` the signature is slightly different. The operator that we are passing have different arguments, in the case of `map` it have a `transform` function as first argument and `filter` have a `predicate` function that `createOperator` doesn't know how to handle.
 
 Fix this is easy since the rest of the signature is the same, we just take the `transform` and `predicate` function out of the `createOperator` call.
 

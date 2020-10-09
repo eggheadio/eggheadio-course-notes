@@ -18,14 +18,14 @@ The implementation here is to loop through the array of broadcasters, perform ea
 
 The implementation here is a bit "recursive" so we can read a particular broadcaster from the broadcasters array by using `Array.shift` that will take the first element of the array **🚨and at the same time will update (mutate) the original array removing the first item of it**.
 
-After we have a reference to a broadcaster, we can just fire up and add the **done** status handle, since this si a recurisve operation we need to take the logic from inside the broadcaster and move it out to enable us to re-use the same function.
+After we have a reference to a broadcaster, we can just fire up and add the **done** status handle, since this si a recursive operation we need to take the logic from inside the broadcaster and move it out to enable us to re-use the same function.
 
 The logic is:
 
 1. Take one broadcaster,
 2. Trigger it and when is `done` take the next broadcaster
 3. Trigger it and when is `done` take the next broadcaster
-4. so on and so on until there is no broadcastsers to take.
+4. so on and so on until there is no broadcasters to take.
 
 ```javascript
 let sequence = (...broadcasters) => (listener) => {

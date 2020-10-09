@@ -21,7 +21,7 @@ startClick(() => {
 })
 
 // can also be represented like this:
-let startWhen = (whenBoradcaster) => (mainBroadcaster) => (listener) => {
+let startWhen = (whenBroadcaster) => (mainBroadcaster) => (listener) => {
   whenBroadcaster(() => {
     mainBroadcaster((value) => {
       listener(value)
@@ -38,7 +38,7 @@ startWhen(startClick)(timer)(console.log)
  */
 ```
 
-- the code above is not handling any cancelation behavior, so keep in mind that.
-- because all the broadcasters returns a function to cancel them, its easier to assing your inner broadcasters to values and cancel tehm at any point you need/want.
+- the code above is not handling any cancellation behavior, so keep in mind that.
+- because all the broadcasters return a function to cancel them, its easier to assign your inner broadcasters to values and cancel them at any point you need/want.
 - after the `stopWhen` operator is added, you see that the order you passed your broadcasters is important, because you may be canceling things you are not able to restart (startClick example).
 - the final API looks very simple and much more readable than all the logic behind it. this has multiple benefits from code readability to more testable code.

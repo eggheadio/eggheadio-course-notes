@@ -62,7 +62,7 @@ useEffect(() => {
 
 🔑 The main takeaway is that. This is a very imperative code in comparison with the patterns shown in the course. The operator/broadcaster/listener allows you to confidently refactor the applied logic to some value, like updating where a filter is applied.
 
-🔑 Is trongly recommended to create some similar patterns to extract the asynchronous logic to avoid the moving pieces and the callback hell.
+🔑 Is strongly recommended to create some similar patterns to extract the asynchronous logic to avoid the moving pieces and the callback hell.
 
 ## References
 

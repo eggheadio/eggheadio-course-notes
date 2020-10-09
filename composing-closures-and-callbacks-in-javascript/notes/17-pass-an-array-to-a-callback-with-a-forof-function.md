@@ -2,13 +2,13 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-pass-an-array-to-a-callback-with-a-forof-function)
 
-In this lesson we will work with iterable. In javacript an [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables) is any object that implements the `@@iterator` method, defining the behavior of the object when needs to be iterated, for example, by using a [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...ofv) loop. There are a few [built-in types that are iterables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables) like String, Array, Map and Set.
+In this lesson we will work with iterable. In javascript an [Iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables) is any object that implements the `@iterator` method, defining the behavior of the object when needs to be iterated, for example, by using a [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...ofv) loop. There are a few [built-in types that are iterables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Built-in_iterables) like String, Array, Map and Set.
 
 > Anything that fits into a `for...of` loop will work for the scope of this lesson
 
 We will create a custom `forOf` function to implement an scenario where we can type out a letter every second, this is basically grouping the behavior of some of our broadcasters.
 
-We will call our `forOf` function a broadcater creator. This function will take two arguments, an Iterable and a listener and, as our curret pattern, we will use curry to handle the arguments. Our `forOf` will just iterate over the `iterable` argument and will call the `listener` in each iteration.
+We will call our `forOf` function a broadcaster creator. This function will take two arguments, an Iterable and a listener and, as our current pattern, we will use curry to handle the arguments. Our `forOf` will just iterate over the `iterable` argument and will call the `listener` in each iteration.
 
 ```javascript
 let forOf = curry((iterable, listener) => {

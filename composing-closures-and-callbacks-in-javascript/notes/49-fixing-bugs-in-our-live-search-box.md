@@ -60,7 +60,7 @@ export let waitFor = (time) => (broadcaster) => (listener) => {
 }
 ```
 
-There is a second bug. The search is triggered when the input goes empty after a previous search, we can use this bug to add a new feature, add a minimun number of chars that need to be written in order to trigger the actual search, this will clean the bug of the empty input search and also will avoid searching with ambiguos text that fetch too many results.
+There is a second bug. The search is triggered when the input goes empty after a previous search, we can use this bug to add a new feature, add a minimum number of chars that need to be written in order to trigger the actual search, this will clean the bug of the empty input search and also will avoid searching with ambiguous text that fetch too many results.
 
 The required logic here is to filter the entered text that doesn't accomplish certain rule, this is, filter out the input value that have less than 3 characters. We have a `filter` operator that we can add to our `pipe`.
 
