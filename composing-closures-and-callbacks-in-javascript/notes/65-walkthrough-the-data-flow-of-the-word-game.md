@@ -1,3 +1,3 @@
-pending...
+# Walkthrough the Data Flow of the Word Game
 
-https://egghead.io/lessons/egghead-walkthrough-the-data-flow-of-the-word-game
+[📹 Video](https://egghead.io/lessons/egghead-walkthrough-the-data-flow-of-the-word-game)
