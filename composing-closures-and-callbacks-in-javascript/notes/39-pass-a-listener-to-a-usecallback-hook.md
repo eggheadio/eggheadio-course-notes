@@ -1,6 +1,4 @@
-pending...
-
-# Create a Custom useBroadcaster Hook
+# Pass a Listener to a useCallback Hook
 
 **[📹 Video](https://egghead.io/lessons/egghead-pass-a-listener-to-a-usecallback-hook)**
 
