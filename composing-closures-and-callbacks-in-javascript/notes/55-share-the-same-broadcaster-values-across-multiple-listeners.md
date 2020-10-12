@@ -47,7 +47,3 @@ let App = () => {
 render(<App></App>, document.querySelector("#root"))
 ```
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/react-fix-race-conditions-due-to-caching-and-canceling)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-limit-to-a-single-shared-broadcaster-each-new-event)
