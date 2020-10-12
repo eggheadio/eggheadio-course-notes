@@ -6,7 +6,3 @@
 - remember that the first time the `onInput` wil be called (specifically the `callbackListener` function inside the `useListener`) will be inside the `useBroadcaster` (`broadcaster(setState)`). the next time this function will be called, is when the user types something on the input, and will be called with the value of the input.
 - again, this is a "clever" solution, but is one that let you see how this can work in the React model.
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-custom-uselistener-hook-around-usecallback)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-handling-an-enter-keypress-with-uselistener-and-react)
