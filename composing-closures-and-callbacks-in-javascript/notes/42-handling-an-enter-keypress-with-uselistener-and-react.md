@@ -26,7 +26,3 @@ let allowWhen = (allowBroadcaster) => (broadcaster) => (listener) => {
 
 - [source code](https://github.com/johnlindquist/crafting-functions/blob/react-input-enter/src/index.js)
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-explaining-the-uselistener-code)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-map-a-sequence-based-on-input-text-in-react)
