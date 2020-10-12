@@ -45,7 +45,3 @@ glad you ask! ;)
 - function are easy to test, compared to test the whole component behavior, you can just test your function or custom hook in isolation
 - and the most important to me, you end up with a much more readable codebase, you can communicate what the code is doing by naming your custom hooks and functions correctly!
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-broadcaster-in-react-with-usestate-and-useeffect-hooks)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-pass-a-listener-to-a-usecallback-hook)
