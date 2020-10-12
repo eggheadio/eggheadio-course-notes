@@ -1,5 +1,3 @@
-pending...
-
 # Share the Same Broadcaster Values Across Multiple Listeners
 
 **[📹 Video](https://egghead.io/lessons/egghead-share-the-same-broadcaster-values-across-multiple-listeners)**
