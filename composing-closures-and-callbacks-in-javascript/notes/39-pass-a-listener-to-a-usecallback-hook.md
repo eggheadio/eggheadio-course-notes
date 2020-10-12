@@ -52,7 +52,3 @@ Let's Walkthrough a normal render execution:
 
 Isn't it awesome that we can do this with just a couple of functions?!? ❤️🚀
 
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-create-a-custom-usebroadcaster-hook)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-create-a-custom-uselistener-hook-around-usecallback)
