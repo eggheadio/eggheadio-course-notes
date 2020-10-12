@@ -58,8 +58,3 @@ let App = () => {
 ```
 
 - One thing that is important to clarify, is that we need to pass a dependencies array to our `useCallback` call inside the `useListener`, because that way we can hold on to the listener value being set to `setState` or the function passed at the beginning of our App render.
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-pass-a-listener-to-a-usecallback-hook)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-explaining-the-uselistener-code)
