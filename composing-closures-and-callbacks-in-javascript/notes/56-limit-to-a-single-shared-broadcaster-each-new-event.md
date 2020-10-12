@@ -41,7 +41,4 @@ export let useListener = (deps = []) => {
 
 - the `callbackListener` function inside `useListener` is acting as a broadcaster. that's why is important we return a way to cancel it.
 
----
 
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-share-the-same-broadcaster-values-across-multiple-listeners)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-combine-two-broadcasters-to-compare-values)
