@@ -40,7 +40,4 @@ let gameBroadcaster = gameLogic(combine(targetValue(onInput), getWord))
 let game = useBroadcaster(gameBroadcaster, "")
 ```
 
----
 
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-combine-two-broadcasters-to-compare-values)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-fetch-a-new-data-based-on-conditions)
