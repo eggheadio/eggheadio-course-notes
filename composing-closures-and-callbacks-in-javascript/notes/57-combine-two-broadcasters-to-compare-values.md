@@ -42,7 +42,4 @@ export let merge = curry((broadcaster1, broadcaster2, listener) => {
 })
 ```
 
----
 
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-limit-to-a-single-shared-broadcaster-each-new-event)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-compose-operators-to-implement-game-logic)
