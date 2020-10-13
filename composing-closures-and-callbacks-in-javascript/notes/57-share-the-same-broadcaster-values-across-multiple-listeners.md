@@ -23,9 +23,9 @@ let share = () => {
 }
 ```
 
-- the `cancel` variable is needed to cancel the broadcaster passed. we set the variable and assigned it to thte result of the broadcaster call.
+- the `cancel` variable is needed to cancel the broadcaster passed. we set the variable and assigned it to the result of the broadcaster call.
 - we then store all the `listeners` passed to this broadcaster. this is the important part here because by storing the listeners, we can call all of them with the value passed, and effectively _share_ the same value with all the listeners.
-- another important piece here, is that we are _calling_ this function when we pass it to `pipe`, that wau it will capture the listener first and share the same value with all the next calls.
+- another important piece here, is that we are _calling_ this function when we pass it to `pipe`, that was it will capture the listener first and share the same value with all the next calls.
 
 ```js
 let getWord = pipe(

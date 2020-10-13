@@ -4,7 +4,7 @@
 
 By adding the **done** behavior to our broadcasters allow us to perform new operations on it, like create a sequence of broadcasters. This is, fire one broadcaster after the other only if the previous one is **done**
 
-As an axample we use a custom broadcaster call `delayMessage` that fire a **done** status.
+As an example we use a custom broadcaster call `delayMessage` that fire a **done** status.
 
 ```javascript
 let delayMessage = (message) => hardCode(message)(createTimeout(500))
@@ -18,7 +18,7 @@ The implementation here is to loop through the array of broadcasters, perform ea
 
 The implementation here is a bit "recursive" so we can read a particular broadcaster from the broadcasters array by using `Array.shift` that will take the first element of the array **🚨and at the same time will update (mutate) the original array removing the first item of it**.
 
-After we have a reference to a broadcaster, we can just fire up and add the **done** status handle, since this si a recursive operation we need to take the logic from inside the broadcaster and move it out to enable us to re-use the same function.
+After we have a reference to a broadcaster, we can just fire up and add the **done** status handle, since this is a recursive operation we need to take the logic from inside the broadcaster and move it out to enable us to re-use the same function.
 
 The logic is:
 

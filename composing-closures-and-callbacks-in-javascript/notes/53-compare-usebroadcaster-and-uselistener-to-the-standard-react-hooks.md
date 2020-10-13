@@ -6,7 +6,7 @@ Our implementation is not the standard React approach. Let's see how this compar
 
 🔑 The **useRef** hook is a way to use the `createRef` api. The documentation considers this hook as an additional one.
 
-> Returns a mutable ref object. The returned object will persis for the full lifetime of the component.
+> Returns a mutable ref object. The returned object will persist for the full lifetime of the component.
 
 This means that **useRef** gives you the same ref object on every render and also that this hook doesn't notify the changes and then it not cause a re-render.
 

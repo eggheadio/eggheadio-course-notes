@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-adding-react-to-a-vanilla-parcel-project)
 
-Until now all of the work has been tested by loggin content to the console, but, is not that useful. We were building tools that we can use to create complex interactions, so in this lesson will will introduce the use of React to show some goods into the UI.
+Until now all of the work has been tested by logging content to the console, but, is not that useful. We were building tools that we can use to create complex interactions, so in this lesson will will introduce the use of React to show some goods into the UI.
 
 The examples here are using [Parcel](https://parceljs.org/getting_started.html) as the tool to bundle the code, live reload and serve the files.
 

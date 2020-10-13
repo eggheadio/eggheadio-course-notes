@@ -21,7 +21,7 @@ let operator = (broadcaster) => (listener) => {
 }
 ```
 
-In the example the line `currentValue += value` is run inmmediatly and by the definition of the broadcaster function, that line was call 3 times, then the value of `currentValue` is _"trap"_ inside the `setTimeout` call as a closure.
+In the example the line `currentValue += value` is run immediately and by the definition of the broadcaster function, that line was call 3 times, then the value of `currentValue` is _"trap"_ inside the `setTimeout` call as a closure.
 
 🔑 The key of an operator is to give it a good name to represent what is the actual behavior captured by the function definition
 

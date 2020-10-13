@@ -58,7 +58,7 @@ let thenCombine = secondBroadcaster => {
 
 _**Note:** We are using `word` as the first value here, to make it clear that this first value, was the same that we were passing as a dependency to the `useBroadcaster`._
 
-Since we will probably want to reuse the `thenCombine` operator, we will renate `word` to `firstValue` instead.
+Since we will probably want to reuse the `thenCombine` operator, we will rename `word` to `firstValue` instead.
 
 ```js
 let thenCombine = secondBroadcaster => {

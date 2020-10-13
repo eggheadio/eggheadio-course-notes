@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-combine-multiple-async-behaviors-with-a-merge-function-9197a499)
 
-- stablish consistency
+- establish consistency
 - all function expects the same type of arguments (pattern)
   - that let you combine functions because you _Know_ what is expected
 

@@ -27,7 +27,7 @@ let getURL = (url) => (listener) => {
 }
 ```
 
-In this part of the example we are just loggin out the error. but what we want is to be able to handle that in a better way. Following our patterns, we can create an operator that takes care of this value.
+In this part of the example we are just logging out the error. but what we want is to be able to handle that in a better way. Following our patterns, we can create an operator that takes care of this value.
 
 The logic for this new operator is to transform or **map** the error value to a new shape, so we will name the operator as `mapError`. In a similar way as our previous operators this operator takes a `transform` a `broadcaster` and a `listener`.
 

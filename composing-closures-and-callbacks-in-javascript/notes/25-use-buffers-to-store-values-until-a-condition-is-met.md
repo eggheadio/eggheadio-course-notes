@@ -15,7 +15,7 @@ let split = (splitter) =>
 
 We will use our operator template here, that allow us to implement every logic we need inside the listener.
 
-To split the string that we operator receives we will create a buffer, that is no more than a simple array to push some data to it and to retrieve it from there based on teh `splitter` value.
+To split the string that we operator receives we will create a buffer, that is no more than a simple array to push some data to it and to retrieve it from there based on the `splitter` value.
 
 ```javascript
 let split = (splitter) =>
@@ -64,7 +64,7 @@ The custom done behavior here is just:
 
 1. Check if the value is done
 2. If is true, then pass the whole buffer back to the listener, clear and mark as done
-3. otherways just pass and run the `splitter` comparison.
+3. other-ways just pass and run the `splitter` comparison.
 
 ## References
 

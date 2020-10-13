@@ -43,9 +43,9 @@ let repeatWhen = (whenBroadcaster) => (broadcaster) => (listener) => {
 }
 ```
 
-- if you compare both operators `repeat` and `cancelWhen`, you see that the pattern of handling with broadcasters, is that you need to assign the value to a scoped parameter (cancel and cancelWhen) to make sure you have a way to cancel them.
-- you can implement the logic you one inside the \*\*local function you need to create in order to manipulate the data
-- see also how cancelWhen is called just when the value is assigned to a value (the if statement). that is because the only way `cancelWhen` is assigned, is when the value passed to the original listener is the `done` value.
+- If you compare both operators `repeat` and `cancelWhen`, you see that the pattern of handling with broadcasters, is that you need to assign the value to a scoped parameter (cancel and cancelWhen) to make sure you have a way to cancel them.
+- You can implement the logic you one inside the \*\*local function you need to create in order to manipulate the data
+- See also how cancelWhen is called just when the value is assigned to a value (the if statement). that is because the only way `cancelWhen` is assigned, is when the value passed to the original listener is the `done` value.
 
 ## Resources and References
 

@@ -28,4 +28,4 @@ Callbag uses the term `callbag` for the functions that we used as operators
 - `next` is a listener
 - `end` is like cancelling
 
-Most.JS uses the term `transforming streams` for the functions that we used as operatorss
+Most.JS uses the term `transforming streams` for the functions that we used as operators

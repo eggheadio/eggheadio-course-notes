@@ -2,7 +2,7 @@
 
 **[📹 Video](https://egghead.io/lessons/egghead-create-a-custom-uselistener-hook-around-usecallback)**
 
-- this is another example of how you can encapsulates and wrap a piece of functionallity to make it shareable throw out your application code.
+- this is another example of how you can encapsulates and wrap a piece of functionality to make it shareable throw out your application code.
 
 ### Before
 
