@@ -19,7 +19,7 @@ button.addEventListener('click', () => {
 We can split this code in different pieces to use our broadcaster pattern by replacing the original code with different arguments where:
 
 * `button` becomes the `element` argument
-* `click` becomes the `eventType` argyment
+* `click` becomes the `eventType` argument
 * and the `console.log` that is triggered inside the original callback is now wrapped by the `listener` argument
 
 ```javascript

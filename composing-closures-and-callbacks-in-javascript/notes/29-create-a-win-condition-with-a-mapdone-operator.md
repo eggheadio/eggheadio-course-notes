@@ -2,7 +2,7 @@
 
 [📹 Video](https://egghead.io/lessons/egghead-create-a-win-condition-with-a-mapdone-operator)
 
-- the `doneCondition` is an operator that accepts a condition (our win condition) and only will invoke our listener if the condition is met.
+- The `doneCondition` is an operator that accepts a condition (our win condition) and only will invoke our listener if the condition is met.
 - some key ideas about the `doneCondition` and `mapDone`:
 
 ```javascript

@@ -9,7 +9,7 @@ The `typeGreeting` function calls a `setInterval` that is pushing data into the 
 The Iterator protocol is using objects as the  `value` where one of the key is the boolean `done`. In this implementation we are just passing the  `value` so we can use that to just pass a value of `done` when the loop ends.
 
 Here we will introduce the usage of `Symbol` as a way to hold an unique value. 
-[`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) is a primitive data type, that has static propoerties that expose some built-in objects. Is similar to the object class.
+[`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) is a primitive data type, that has static properties that expose some built-in objects. Is similar to the object class.
 We will use `Symbol` here to guarantee that the value is unique, like a constant.
 
 ```javascript 
@@ -36,7 +36,7 @@ let forOf = curry((iterable, listener) => {
 Now we need to update the  `zip` broadcaster to check for the `done` symbol and stop the buffering. To do that we will add some conditional logic. We will heck if the buffers have the `done` Symbol and if that is true, will shutdown the broadcaster. 
 We already have a way to cancel the broadcasters action, we are returning the cancel function, we need to move that up in the code to be able to call it when the condition of `done` is true. 
 
-We implement the cancellation of both broadcasters to allow the caller of the `zip` function to add an iterable in any place in the argument list.
+We implement the cancellation of both broadcasters to allow the caller of the `zip` function to add an `iterable` in any place in the argument list.
 
 We also add a `done` value to the listener before cancel both broadcasters to enable any chained listener to get the `done` to be used.
 

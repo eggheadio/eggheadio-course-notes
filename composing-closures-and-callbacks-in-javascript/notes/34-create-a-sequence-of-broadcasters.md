@@ -4,7 +4,7 @@
 
 By adding the **done** behavior to our broadcasters allow us to perform new operations on it, like create a sequence of broadcasters. This is, fire one broadcaster after the other only if the previous one is **done**
 
-As an axample we use a custom broadcaster call `delayMessage` that fire a **done** status.
+As an example we use a custom broadcaster call `delayMessage` that fire a **done** status.
 
 ```javascript
 let delayMessage = (message) => hardCode(message)(createTimeout(500))

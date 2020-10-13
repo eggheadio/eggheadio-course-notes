@@ -8,7 +8,7 @@ In this lesson we will work with iterable. In javascript an [Iterable](https://d
 
 We will create a custom `forOf` function to implement an scenario where we can type out a letter every second, this is basically grouping the behavior of some of our broadcasters.
 
-We will call our `forOf` function a broadcaster creator. This function will take two arguments, an Iterable and a listener and, as our current pattern, we will use curry to handle the arguments. Our `forOf` will just iterate over the `iterable` argument and will call the `listener` in each iteration.
+We will call our `forOf` function a broadcaster creator. This function will take two arguments, an `iterable` and a listener and, as our current pattern, we will use curry to handle the arguments. Our `forOf` will just iterate over the `iterable` argument and will call the `listener` in each iteration.
 
 ```javascript
 let forOf = curry((iterable, listener) => {

@@ -36,10 +36,10 @@ let mapBroadcaster = (createBroadcaster) => (broadcaster) => (listener) => {
 mapBroadcaster((value) => word)(inputValue)(console.log)
 ```
 
-- `mapBroadcasters` takes a function (`value => word`) that the return of that function returns a new broadcaster!. The _magic_ here is that we are using a function to help us define what the broadcaster will be getting, we are inversing the way we are defining our values!
-- the function we are passing to `broadcaster` is a new listener (I would call it modifier listener, because it captures the original listener and transforms the value it will receive)
-- now that we create `newBroadcaster` with the original listener value, we can now pass that to the original `listener` to obtain the result we want (which is map over the word we passed to `inputValue`)
-- let's continue to add all the logic to the listener...
+- `mapBroadcasters` takes a function (`value => word`) that the return of that function returns a new broadcaster!. The _magic_ here is that we are using a function to help us define what the broadcaster will be getting, we are inverting the way we are defining our values!
+- The function we are passing to `broadcaster` is a new listener (I would call it modifier listener, because it captures the original listener and transforms the value it will receive)
+- Now that we create `newBroadcaster` with the original listener value, we can now pass that to the original `listener` to obtain the result we want (which is map over the word we passed to `inputValue`)
+- Let's continue to add all the logic to the listener...
 
 ```javascript
 mapBroadcaster((value) => {
@@ -47,7 +47,7 @@ mapBroadcaster((value) => {
 })(inputValue)(console.log)
 ```
 
-- for this part, take a look on how we are calling `word`. Because we are calling the returned function of the previous one, that means we can take it out and compose it in a different function, let's do that:
+- For this part, take a look on how we are calling `word`. Because we are calling the returned function of the previous one, that means we can take it out and compose it in a different function, let's do that:
 
 ```javascript
 mapBroadcaster(operator => operator(word))(map(value) => {
@@ -57,7 +57,7 @@ mapBroadcaster(operator => operator(word))(map(value) => {
 
 // TODO: ask about this change!
 
-- if you pay attention to the inner function (the function passed to the `map` function), you notice that this is our actual hangman logic which we can extract into our own function!
+- If you pay attention to the inner function (the function passed to the `map` function), you notice that this is our actual hangman logic which we can extract into our own function!
 
 ```javascript
 let hangmanLogic = (value) => {
@@ -101,5 +101,5 @@ let hangman = pipe(map(hangmanLogic), applyOperator(word), stringConcat)
 hangman(inputValue)(console.log)
 ```
 
-- if you compare both versions, you can see the huge benefit both in readability and reusability of our code! 🌟
-- you can also add/remove/reorder all the game logic depending on your needs, like for example if you want to debounce the input or you are interacting with an API and need to wait for some results... the possibilities are endless.
+- If you compare both versions, you can see the huge benefit both in readability and reusability of our code! 🌟
+- You can also add/remove/reorder all the game logic depending on your needs, like for example if you want to debounce the input or you are interacting with an API and need to wait for some results... the possibilities are endless.

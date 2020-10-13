@@ -15,7 +15,7 @@ let gameLogic = pipe(
 )
 ```
 
-- we can see how we brak all the logic into two
+- we can see how we break all the logic into two
 
 ```js
 // PART 1
@@ -29,8 +29,8 @@ map(([guess, word]) =>
 )
 ```
 
-- Part 1 is responsable of checking that all values in the array are strings. for that we are using `every` (call a callback with every value of an array) and `isString` (check if a calue is a string) from `lodash`
-- Part 2 is responsable of compare each letter from the `word` to all the letters from what the user types (`guess`).
+- Part 1 is responsible of checking that all values in the array are strings. for that we are using `every` (call a callback with every value of an array) and `isString` (check if a calue is a string) from `lodash`
+- Part 2 is responsible of compare each letter from the `word` to all the letters from what the user types (`guess`).
 
 - finally we are setting our game into our React app using `useBroadcaster`
 

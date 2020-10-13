@@ -2,9 +2,9 @@
 
 **[📹 Video](https://egghead.io/lessons/egghead-limit-to-a-single-shared-broadcaster-each-new-event)**
 
-- **Time** is a hidden variable in this escenario, because we rely on `share` to be called at the beginning, if we call it again, it weill re-set the broadcasters/listeners and will get into weird behaviors.
+- **Time** is a hidden variable in this scenario, because we rely on `share` to be called at the beginning, if we call it again, it we'll re-set the broadcasters/listeners and will get into weird behaviors.
 - this is easy to say with a button click event as it shows in the lesson
-- if we want `share` to not being called inmediately, we can move it outside of where it was:
+- if we want `share` to not being called immediately, we can move it outside of where it was:
 
 ```js
 // From THIS

@@ -42,8 +42,8 @@ Let's Walkthrough a normal render execution:
 
 ### React renders the app for the first time
 
-- `onInput` is set to `callbackListener`, and that means that the retunr value of it can be different depending on the value type this function accepts.
-- `callbackListener` has a guard againts if the value passed is a function or not. \*\*Here's how you can use `onInput` as a broadcaster (passing it to the `useBroadcaster` wrapped in `targetValue`) and as a Listener (passed to the input's`onInput` prop).
+- `onInput` is set to `callbackListener`, and that means that the return value of it can be different depending on the value type this function accepts.
+- `callbackListener` has a guard against if the value passed is a function or not. \*\*Here's how you can use `onInput` as a broadcaster (passing it to the `useBroadcaster` wrapped in `targetValue`) and as a Listener (passed to the input's`onInput` prop).
 - the first time the broadcaster is called, is inside the `useBroadcaster` custom hook, inside the `useEffect` (in this case it will be called just once and after the first render, because we are passing an empty array as dependencies of the `useEffect`). Here, the variable `listener`will be assigned to `setState`, defined inside the `useBroadcaster` hook 🤯
 
 ### `listener` === `setState`

@@ -1,7 +1,7 @@
 # Use lodas curry when functions return functions
 **[📹 Video](https://egghead.io/lessons/egghead-use-lodash-curry-when-functions-return-functions)**
 
-- `curry` from `lodash` helps us to simplify all the function chaining we have in our code, by changing its function signature to one that accepts multiple argumets, but still treat it as multiple functions that accept just une parameter (unary functions).
+- `curry` from `lodash` helps us to simplify all the function chaining we have in our code, by changing its function signature to one that accepts multiple arguments, but still treat it as multiple functions that accept just one parameter (unary functions).
 - There are multiple benefits of the _curried_ function signature
   - you don't have to have all the required parameters at the same time to start _capturing_ them
   - you can store intermediate functions to use them elsewhere or even break complex computation into smaller ones, by calling all this unary functions at different times

@@ -9,4 +9,4 @@ _questions:_
 
 - shouldn't `i` increase to 1 when logging `i++`?
 
-This is like a for loop, it wipes down the variable asignment
+This is like a for loop, it wipes down the variable alignment.
