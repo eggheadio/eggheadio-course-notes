@@ -36,7 +36,7 @@ compose(multiply, callback)
 
 compose allows you to refactor the code by removing nested functions and instead list them out in order.
 
-![](../images/compose-pipe.png)
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602630306/transcript-images/javascript-what-is-a-callback-in-javascript-callback.png)
 
 With pipe, each return is passed to the next function in line.
 

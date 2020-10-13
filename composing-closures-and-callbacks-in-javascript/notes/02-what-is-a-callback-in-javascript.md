@@ -6,7 +6,9 @@ According to MDN: *"A callback function is a function passed into another funct
 
 - A callback is when you pass a function as an argument to another function
 
-![](../images/callback.png) Callbacks:
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602630306/transcript-images/javascript-what-is-a-callback-in-javascript-callback.png) 
+
+Callbacks:
 
 1. Function passed into another function as an argument
 2. Invoked or "called-after" inside the outer function to complete an action/routine

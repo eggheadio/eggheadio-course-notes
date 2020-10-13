@@ -119,4 +119,4 @@ let ifElse = (
 
 Let's look at the `inputToBookSearch` code where we are using the `ifElse` operator and see what is happening:
 
-![](../images/ifElseOperator.png)
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602630305/transcript-images/javascript-create-an-ifelse-operator-to-fork-on-a-condition-ifElseOperator.png)

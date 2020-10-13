@@ -6,7 +6,7 @@
 
 Let's explore the code and try to figure out where are the closures and where are the callbacks.
 
-![](../images/closures_callbacks.png)
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1602630305/transcript-images/egghead-exploring-the-patterns-in-the-operators-closures_callbacks.png)
 
 ## Closures
 
