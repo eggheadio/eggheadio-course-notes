@@ -29,7 +29,7 @@ map(([guess, word]) =>
 )
 ```
 
-- Part 1 is responsible of checking that all values in the array are strings. for that we are using `every` (call a callback with every value of an array) and `isString` (check if a calue is a string) from `lodash`
+- Part 1 is responsible of checking that all values in the array are strings. for that we are using `every` (call a callback with every value of an array) and `isString` (check if a call, if it is a string) from `lodash`
 - Part 2 is responsible of compare each letter from the `word` to all the letters from what the user types (`guess`).
 
 - finally we are setting our game into our React app using `useBroadcaster`

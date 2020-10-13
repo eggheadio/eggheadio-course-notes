@@ -113,5 +113,5 @@ counter((value) => {
 
 ## References
 
-- [Pointfree Programming in JavaScript by Kyle Shevlin](https://egghead.io/lessons/egghead-pointfree-programming-in-javascript)
+- [Point-free Programming in JavaScript by Kyle Shevlin](https://egghead.io/lessons/egghead-pointfree-programming-in-javascript)
 - [Just Enough Functional Programming in JavaScript by Kyle Shevlin](https://egghead.io/courses/just-enough-functional-programming-in-javascript)
