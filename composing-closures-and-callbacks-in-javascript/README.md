@@ -16,6 +16,8 @@ These notes contain the same structure as the transcriptions, along with additio
 
 Generally, there is one document for each lesson in the course. If there are related lessons, the notes will be in the same document.
 
+## Sections 📜
+
 This course is quite large and has been divided up into sections for you. The following sections correlate to a respective section of lessons on egghead:
 
 | 01 Introduction to Callbacks, Broadcasters, and Listeners                                                                                                                           | 02 Establish Callback and Closure patterns Around Async Browser Behaviors                                                                                                           | 03 Use the Callback and Closure Pattern to Build Advanced Async Behaviors                                                                                                                                           | 04 Implement the Pattern in Common Async Scenarios                                                   |
@@ -48,18 +50,6 @@ Using callbacks in code is a major pattern in JavaScript, and learning to work w
 
 John Lindquist is a co-founder of egghead.io John has spent the majority of his career developing Rich Web Applications. Before starting egghead.io, John worked at JetBrains as a WebStorm evangelist, and before that he was a Technical Architect at Isobar leading large teams in building the latest and greatest in web apps for the Air Force, HBO, and Bloomberg.
 
-## Notes - Sections 📜
-
-This course contains eight modules. We recommend going through the course linearly from start to finish.
-
-1. [Introduction to Callbacks, Broadcasters, and Listeners](https://egghead.io/playlists/introduction-to-callbacks-broadcasters-and-listeners-5bd7)
-2. [Establish Callback and Closure patterns Around Async Browser Behaviors](https://egghead.io/playlists/establish-callback-and-closure-patterns-around-async-browser-behaviors-c813)
-3. [Use the Callback and Closure Pattern to Build Advanced Async Behaviors](https://egghead.io/playlists/use-the-callback-and-closure-pattern-to-build-advanced-async-behaviors-db15)
-4. [Implement the Pattern in Common Async Scenarios](https://egghead.io/playlists/implement-the-pattern-in-common-async-scenarios-c059)
-5. [Use a Completion Pattern to enable Repetition and Sequencing](https://egghead.io/playlists/use-a-completion-pattern-to-enable-repetition-and-sequencing-f0ba)
-6. [Bringing the Pattern into React](https://egghead.io/playlists/bringing-the-pattern-into-react-decf)
-7. [Building Light Search Box](https://egghead.io/playlists/building-light-search-box-bb64)
-8. [Implementing a Word Game with Patterns and React](https://egghead.io/playlists/implementing-a-word-game-with-patterns-and-react-dcb0)
 
 ## Emoji Legend 🧠
 
