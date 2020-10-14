@@ -28,6 +28,7 @@ This course is quite large and has been divided up into sections for you. The fo
 | [📹 Section](https://egghead.io/playlists/use-a-completion-pattern-to-enable-repetition-and-sequencing-f0ba)                                                                              | [📹 Section](https://egghead.io/playlists/bringing-the-pattern-into-react-decf)                                                         | [📹 Section](https://egghead.io/playlists/building-light-search-box-bb64)                                                                                         | [📹 Section](https://egghead.io/playlists/implementing-a-word-game-with-patterns-and-react-dcb0) |
 | [🤔 Notes](./notes/05-use-completion-pattern-to-enable-repitition-and-sequencing) | [🤔 Notes](./notes/06-bring-pattern-to-react) | [🤔 Notes](./notes/07-build-light-search-box-react) |                [🤔 Notes](./notes/08-implement-word-game-with-patterns-react) |
 
+[09 Conclusion](./notes/09-conclusion) holds notes for the final two lessons of the course exploring the patterns in operators and comparing the similarities to popular async libraries.
 
 ## Course Objective 💪
 
