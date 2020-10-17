@@ -32,7 +32,7 @@ Now we need to create an `urql` client and wrap our application in their provide
 // other imports
 import { createClient, Provider } from 'urql'
 
-const client = createClient({ url: 'graphql-endpoint-from-onegraph' })
+const client = createClient({ url: 'replace-with-graphql-endpoint-from-onegraph' })
 
 ReactDOM.render(
   <React.StrictMode>
@@ -76,6 +76,7 @@ Since the query is making an asynchronous call to our GraphQL endpoint, we need 
 ```
 
 ## Helpful Links
+
 [create-react-app docs](https://create-react-app.dev/docs/getting-started)
 
 [urql docs](https://formidable.com/open-source/urql/docs/)
