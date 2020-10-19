@@ -6,7 +6,7 @@
 
 ## Summary
 
-When we call useQuery a request is fired off to `Onegraph`, which in turn requests data from GitHub, this means we do not have the `data` immediately. We need to describe how our components look while the data is still loading, and what we display if there is an error in that process.
+When we call useQuery a request is fired off to `OneGraph`, which in turn requests data from GitHub, this means we do not have the `data` immediately. We need to describe how our components look while the data is still loading, and what we display if there is an error in that process.
 
 Conveniently, the `result` variable returned by `useQuery` contains `fetching` and `error` properties that we can use to display our component in those different states.
 
@@ -30,7 +30,7 @@ function Comments() {
 }
 ```
 
-This will throw an error as `result.data` does not contain the data until we get it back from `Onegraph`, so we need a way to know whether we are still fetching data.
+This will throw an error as `result.data` does not contain the data until we get it back from `OneGraph`, so we need a way to know whether we are still fetching data.
 
 We can add a check before returning the markup for `data` to confirm we actually have the data, if not we can just render `null`.
 

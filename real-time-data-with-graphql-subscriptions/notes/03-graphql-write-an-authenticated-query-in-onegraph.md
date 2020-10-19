@@ -1,4 +1,4 @@
-# Write an Authenticated Query in Onegraph
+# Write an Authenticated Query in OneGraph
 
 **[📹 Video](https://egghead.io/lessons/graphql-write-an-authenticated-query-in-onegraph)**
 
@@ -6,11 +6,11 @@
 
 ## Summary
 
-`OneGraphiQL` is a playground to build up queries and mutations across multiple services. It also consolidates authentication logic across multiple services, so we can authenticate and authorize `Onegraph` once, and then make as many queries as we want. This allows us to focus on building the queries and mutations that make our app awesome!
+`OneGraphiQL` is a playground to build up queries and mutations across multiple services. It also consolidates authentication logic across multiple services, so we can authenticate and authorize `OneGraph` once, and then make as many queries as we want. This allows us to focus on building the queries and mutations that make our app awesome!
 
 ## OneGraphiQL
 
-`OneGraphiQL` is a data explorer that allows us to build up our GraphQL queries and mutations. It is the `Onegraph` implementation of [GraphiQL](https://github.com/graphql/graphiql), which can be used with any GraphQL endpoint. `GraphiQL` is the perfect way to discover what is available, as it is generated from the GraphQL schema, and provides helpful documentation for the queries, mutations and types. Additionally, it uses this data to intelligently suggest options for your queries and mutations.
+`OneGraphiQL` is a data explorer that allows us to build up our GraphQL queries and mutations. It is the `OneGraph` implementation of [GraphiQL](https://github.com/graphql/graphiql), which can be used with any GraphQL endpoint. `GraphiQL` is the perfect way to discover what is available, as it is generated from the GraphQL schema, and provides helpful documentation for the queries, mutations and types. Additionally, it uses this data to intelligently suggest options for your queries and mutations.
 
 ⌨️ Pressing `Ctrl + Space` will display suggestions, and pressing `Tab` will autocomplete. This massively improves the speed at which you can build up GraphQL queries and mutations.
 
@@ -51,11 +51,11 @@ Since we declared the `id` variable's type as `String`, we cannot pass the numbe
 
 ⌨️ To send the GraphQL request, click the `play` button or `Cmd + Enter`.
 
-This will cause an error in the case of the video example, as Github requires us to authenticate and provide an access token. Thankfully, `Onegraph` takes care of this for us and provides a super convenient button to log in to a particular service. In the case of the video example, this button is `Log in to GitHub`. This will require you to authenticate with `GitHub` and grant permissions for `Onegraph` to make requests on your behalf.
+This will cause an error in the case of the video example, as Github requires us to authenticate and provide an access token. Thankfully, `OneGraph` takes care of this for us and provides a super convenient button to log in to a particular service. In the case of the video example, this button is `Log in to GitHub`. This will require you to authenticate with `GitHub` and grant permissions for `OneGraph` to make requests on your behalf.
 
 Now that we have authenticated with the `GitHub` service, we can re-send our GraphQL request and get back some data 🎉
 
-`Onegraph` keeps that authentication logic in one place, so we can authenticate a collection of services once and then forget about it all together. Now we have authenticated queries, so we can just focus on the data our application needs 🥳
+`OneGraph` keeps that authentication logic in one place, so we can authenticate a collection of services once and then forget about it all together. Now we have authenticated queries, so we can just focus on the data our application needs 🥳
 
 ## Helpful Links
 

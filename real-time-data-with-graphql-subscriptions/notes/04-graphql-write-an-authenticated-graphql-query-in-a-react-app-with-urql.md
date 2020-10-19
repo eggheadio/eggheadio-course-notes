@@ -44,7 +44,7 @@ const [result, reExecuteQuery] = useQuery({
 
 ## Authentication
 
-The last thing we need to implement in order to fetch data from our services is authentication. `Onegraph` provides a package called [onegraph-auth](https://www.onegraph.com/docs/) that we can import into our project.
+The last thing we need to implement in order to fetch data from our services is authentication. `OneGraph` provides a package called [onegraph-auth](https://www.onegraph.com/docs/) that we can import into our project.
 
 ```bash
 yarn add onegraph-auth
@@ -126,7 +126,7 @@ function App() {
 
 ## Helpful Links
 
-[Onegraph-auth docs](https://www.onegraph.com/docs/)
+[OneGraph-auth docs](https://www.onegraph.com/docs/)
 
 [React Context](https://reactjs.org/docs/context.html)
 

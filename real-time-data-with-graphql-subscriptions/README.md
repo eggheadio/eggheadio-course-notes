@@ -16,9 +16,9 @@ We are going to use OneGraph GraphQL server and urql GraphQL Client to build a r
 
 - [01 - Query Multiple Services with OneGraph GraphiQL Editor](notes/01-graphql-query-multiple-services-with-onegraph-graphiql-editor.md)
 - [02 - Query Multiple Services with urqls GraphQL Client](notes/02-graphql-query-multiple-services-with-urqls-graphql-client.md)
-- [03 - Write an Authenticated Query in Onegraph](notes/03-graphql-write-an-authenticated-query-in-onegraph.md)
+- [03 - Write an Authenticated Query in OneGraph](notes/03-graphql-write-an-authenticated-query-in-onegraph.md)
 - [04 - Write an Authenticated GraphQL Query in a React App with Urql](notes/04-graphql-write-an-authenticated-graphql-query-in-a-react-app-with-urql.md)
-- [05 - Query Github Comments with One Graph through Urql's Client](notes/05-graphql-query-github-comments-with-one-graph-through-urql-s-client.md)
+- [05 - Query Github Comments with OneGraph through Urql's Client](notes/05-graphql-query-github-comments-with-one-graph-through-urql-s-client.md)
 - [06 - Display GraphQL Data with A React Component](notes/06-graphql-display-graphql-data-with-a-react-component.md)
 - [07 - Style A List Component ](notes/07-graphql-style-a-list-component.md)
 - [08 - Use a GraphQL Mutation to Create a Github Issue Comment](notes/08-graphql-use-a-graphql-mutation-to-create-a-github-issue-comment.md)

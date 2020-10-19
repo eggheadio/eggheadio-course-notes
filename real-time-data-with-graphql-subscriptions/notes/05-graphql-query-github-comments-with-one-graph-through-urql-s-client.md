@@ -8,7 +8,7 @@
 
 This video steps through building a new query to fetch all the comments for a particular issue in GitHub. We start by building the query in `OneGraphiQL` and then move this across to our application. Since we stepped through all the authentication logic in the previous video, we should just be able to trigger the query with its variables and get back the data 👍
 
-This demonstrates how simple `Onegraph` makes authenticating requests to our different services!
+This demonstrates how simple `OneGraph` makes authenticating requests to our different services!
 
 ## Comments
 
@@ -113,7 +113,7 @@ function() {
 }
 ```
 
-You can check out the `Network` tab in the developer tools, or `console.log` the result of the `COMMENTS_QUERY` to see the data coming back from `Onegraph`.
+You can check out the `Network` tab in the developer tools, or `console.log` the result of the `COMMENTS_QUERY` to see the data coming back from `OneGraph`.
 
 ---
 
