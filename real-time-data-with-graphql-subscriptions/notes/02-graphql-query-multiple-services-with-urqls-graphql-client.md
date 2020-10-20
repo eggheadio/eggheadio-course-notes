@@ -6,7 +6,7 @@
 
 ## Summary
 
-`urql` is a light-weight data fetching library that we can use to send queries and mutations to our `Onegraph` endpoint. It provides us with some convenient variables to determine whether our application is in a loading, or error state, or whether we have the data required to display our component.
+`urql` is a light-weight data fetching library that we can use to send queries and mutations to our `OneGraph` endpoint. It provides us with some convenient variables to determine whether our application is in a loading, or error state, or whether we have the data required to display our component.
 
 ## Create React App
 
@@ -20,7 +20,7 @@ The `create-react-app` package allows us to quickly create a React application w
 
 ## Urql
 
-`urql` is a data fetching library that we can use to send queries and mutations to our GraphQL API (Onegraph). In order to specify queries, `urql` also requires the `graphql` package.
+`urql` is a data fetching library that we can use to send queries and mutations to our GraphQL API (OneGraph). In order to specify queries, `urql` also requires the `graphql` package.
 
 `yarn add urql graphql`
 
