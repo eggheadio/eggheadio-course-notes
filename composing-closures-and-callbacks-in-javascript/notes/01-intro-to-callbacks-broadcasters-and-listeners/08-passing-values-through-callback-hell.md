@@ -21,7 +21,7 @@ let nest = (mapInner) => (outer) => (listener) => {
 }
 ```
 
-🔑 So now, instead of think abotu nested callback, we can think of what value is the function receiving and how we want to configure the inner callback.
+🔑 So now, instead of thinking about nested callback, we can think of what value is the function receiving and how we want to configure the inner callback.
 
 ## References
 
