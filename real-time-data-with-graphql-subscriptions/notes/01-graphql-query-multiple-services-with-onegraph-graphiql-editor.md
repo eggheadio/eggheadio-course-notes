@@ -8,6 +8,24 @@
 
 `OneGraph` provides a single GraphQL endpoint that sits between our applications and the SaaS services we want to use. It aggregates these separate services together into a single graph and handles authenticating our applications requests.
 
+## Problem
+
+Modern applications typically make several requests to third party services to handle isolated functionality - charging a card with Stripe, fetching tweets from Twitter, issues from GitHub etc. This requires your application to know how to talk to each of these individual services.
+
+![React application making multiple API requests](../assets/traditional-communication.png)
+
+It also requires your application to speak to each of these services in their language of choice.
+
+![React application making REST and GraphQL requests](../assets/traditional-payloads.png)
+
+`OneGraph` sits between your application requests and these services.
+
+![React application using OneGraph to proxy requests](../assets/onegraph-communication.png)
+
+`OneGraph` exposes these services via a single GraphQL endpoint - meaning your application only needs to speak one language.
+
+![React application only making GraphQL requests](../assets/onegraph-payload.png)
+
 ## OneGraph
 
 `OneGraph` aggregates a collection of SaaS (Software as a Service) products together into a single, consistent GraphQL endpoint. It also allows us to authenticate each service once, and then query or mutate data across all our services, without leaving GraphiQL.
