@@ -15,7 +15,7 @@ Using npx
 npx install <package name>
 ```
 
-The thing to keep in mind is that, since we have a global `package.json` file, the package that we are installing, will be avaliable for the entire workspace.
+The thing to keep in mind is that, since we have a global `package.json` file, the package that we are installing, will be available for the entire workspace.
 
 ## References
 

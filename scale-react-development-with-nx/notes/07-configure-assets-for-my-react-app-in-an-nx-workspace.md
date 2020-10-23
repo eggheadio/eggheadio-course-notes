@@ -41,7 +41,7 @@ Any file inside this _assets_ folder, will be available for us to link to by jus
 
 Similar to the stylesheet, you can add more folders to be used as assets by opening your `workspace.json` and inside the `build` you can see an `assets` array. Add the path of the folder that you want to include and Nx will start serving the contents from that folder.
 
-You can also copying assets by using the extended way of copying assets.
+You can also copy assets by using the extended way of copying assets.
 
 ```json
 {
@@ -56,7 +56,7 @@ You can also copying assets by using the extended way of copying assets.
 
 ```
 
-Let's have a look at what each of these mean:
+Let's have a look at what each of these means:
 
 - `input` points to some folder location
 - `glob` pattern of what you want to copy - in the example we are copying only PNG files

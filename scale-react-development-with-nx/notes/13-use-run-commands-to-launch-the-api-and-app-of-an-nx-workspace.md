@@ -35,9 +35,9 @@ yarn nx run-many --target=serve --projects=api,store --parallel=true
 That's a lot of flags! Let's have a look at them:
 
 - `--target` is the type of command we want to run - we want to use `serve` to run both applications
-- `--projects` these are all the applications we want to run in the command, they are comma separated
+- `--projects` these are all the applications we want to run in the command, they are comma-separated
 - `--parallel` is used because we want to serve both projects together at the same time
-  - If we don't use it, nx would run the first project until terminated, before starting the next one in line
+  - If we don't use it, nx would run the first project until terminated, before starting the next one
 
 ## Creating a run command to launch both applications
 
@@ -67,7 +67,7 @@ We can create a custom target that will allow us to start the `api` application 
 - Each command has to have a builder which has the implementation to run the job.
 - We can now choose `options` which are commands that we want to execute.
 
-_**Note:** `run-commands` will run the commands will run the commands in parallel by default._
+_**Note:** `run-commands` will run the commands in parallel by default._
 
 
 Now we can run our custom target with the command:

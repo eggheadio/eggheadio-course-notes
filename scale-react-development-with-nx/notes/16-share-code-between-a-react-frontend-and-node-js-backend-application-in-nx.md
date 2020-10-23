@@ -10,7 +10,7 @@ We start by creating a new library called `util-interfaces` with the generate co
 yarn nx generate @nrwl/workspace:lib util-interfaces --directory=api
 ```
 
-You can see that we are creating a new direactory inside our `libs` folder because this library is related to our `api` application.
+You can see that we are creating a new directory inside our `libs` folder because this library is related to our `api` application.
 
 Then we can create a new Game interface inside the file `api-util-interfaces.ts`
 

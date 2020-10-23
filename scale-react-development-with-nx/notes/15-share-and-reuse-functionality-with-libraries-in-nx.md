@@ -4,7 +4,7 @@
 
 Similar to how we import shared libraries in our Applications, we can also do the same in our libraries inside the `libs` folder.
 
-To use our `formatRating` we can import it like we did on the `store` application.
+To use our `formatRating` we can import it as we did on the `store` application.
 
 ```react
 import { formatRating } from '@nxegghead/store/util-formatter'

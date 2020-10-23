@@ -26,14 +26,14 @@ Then it will also ask you about which CLI should be activated in your workspace
 - NX - used for all workspaces
 - Angular CLI - used for Angular workspaces
 
-Finally you get asked if you want to use the NX cloud, this is the commercial version of NX. There is a free tier which provides better performance and distribution of cache between co-workers.
+Finally, you get asked if you want to use the NX cloud, this is the commercial version of NX. There is a free tier which provides better performance and distribution of cache between co-workers.
 
 ## The Nx workspace
 
 The workspace contains different files and folders.
 
 - `Apps` folder - contains all the applications we want to host
-- `Libs` folder - contains all the code, usually applications will link to code inside this folder
+- `Libs` folder - contains all the code, usually, applications will link to code inside this folder
 - A single `node_modules` folder for the workspace
 - The `package.json` serves as the global file for packages for the whole workspace
 - `workspace.json` contains all the configuration of your projects and how to build it

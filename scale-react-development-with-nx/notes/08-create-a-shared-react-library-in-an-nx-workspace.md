@@ -6,9 +6,9 @@
 
 Let's look at the difference between **Applications** and **Library**.
 
-In essence the applications living inside the `apps` folder will use different libraries, so they will bundle the code inside the `libs` folder.
+In essence, the applications living inside the `apps` folder will use different libraries, so they will bundle the code inside the `libs` folder.
 
-The Library will contain code that we want to import from the `apps` folder. This is where all our components and other code will live and the amout of code inside the `libs` folder is always larger than the one in the `apps` folder.
+The Library will contain code that we want to import from the `apps` folder. This is where all our components and other code will live and the amount of code inside the `libs` folder is always larger than the one in the `apps` folder.
 
 ## Create a React Library 
 
@@ -46,7 +46,7 @@ After running the component generate command, Nx will ask if you want the compon
 
 If you are using the component in the Application and is not an internal component to the library, then you should select yes.
 
-## Using the new created component
+## Using the newly created component
 
 Since we exported this component, we can open the `tsconfig.base.json` file and scroll down to `paths` to see the paths of each created component.
 
