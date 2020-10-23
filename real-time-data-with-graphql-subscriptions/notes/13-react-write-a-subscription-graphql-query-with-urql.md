@@ -115,7 +115,7 @@ const [result] = useSubscription({
 - `error` contains any errors that have occurred
 - `fetching` is always set to `true` as this is a live connection that can be updated any time.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [OneGraph Subscription Client - NPM](https://www.npmjs.com/package/onegraph-subscription-client)
 

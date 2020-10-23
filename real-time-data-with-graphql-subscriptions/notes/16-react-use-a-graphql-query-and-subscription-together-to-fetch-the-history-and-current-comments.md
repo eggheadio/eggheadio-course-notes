@@ -8,7 +8,7 @@
 
 `useSubscription` allows us to subscribe to new events, but we can't subscribe to a history of events. We can use `useQuery` to fetch a log of historical comments, and merge in new comments from our subscription.
 
-The `useQuery` hook configuration object has a `pause` property which can be set to `false` in order to disable it refetching.
+The `useQuery` hook configuration object has a `pause` property which can be set to `false` in order to disable refetching.
 
 ## Event History
 
@@ -70,7 +70,7 @@ React.useEffect(() => {
 
 This will ensure that we only fetch the comments history once, and then append to it with new comments from our subscription.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [React docs - useState hook](https://reactjs.org/docs/hooks-state.html)
 

@@ -60,7 +60,7 @@ There are many ways to apply CSS rules to style React components (see [this arti
 
 ## Style Prop
 
-The quickest and most simple way to style a component is by using the `style` prop. This allows us to declare an object of key value pairs to declare our CSS styling rules. This object can be passed directly to the `style` prop, or declared as a variable outside the component.
+The quickest and most simple way to style a component is by using the `style` prop. This allows us to declare a json object of key value pairs describing our styling rules. This object can be passed directly to the `style` prop, or declared as a variable outside the component.
 
 ```js
 // inline
@@ -106,9 +106,9 @@ const headingStyle = {
 }
 ```
 
-[The React docs](https://reactjs.org/docs/dom-elements.html#style) consider the `style` prop to be for convenience purposes - as well as some specific use cases around dynamically calculated styles. It is advised that `className`, `CSS Modules` or `CSS-in-JS` should be used instead.
+[The React docs](https://reactjs.org/docs/dom-elements.html#style) consider the `style` prop to be for convenience purposes - as well as some specific use cases around dynamically calculated styles. It is advised that `stylesheets`, `CSS Modules` or `CSS-in-JS` be used instead.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [The `style` prop in React](https://reactjs.org/docs/dom-elements.html#style)
 

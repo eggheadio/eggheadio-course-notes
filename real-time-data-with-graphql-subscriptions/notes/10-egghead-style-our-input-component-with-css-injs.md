@@ -6,11 +6,11 @@
 
 ## Summary
 
-The `style` prop can be used to quickly style the different elements of our component. The `style` prop accepts a JSON object of key value pairs - the `key` being the property name, and `value` being the value for that property. These styles can be declared inline, in a variable outside our component, or in a separate file. Values can only be strings or numbers. When a number is provided as a value, it is turned into the pixel value - `padding: 8` becomes `padding: '8px'`.
+The `style` prop can be used to quickly style the different elements of our component. It accepts a json object of key value pairs - the `key` being the property name, and `value` being the value for that property. These styles can be declared inline, in a variable outside our component, or in a separate file. Values can only be strings or numbers. When a number is provided as a value, it is automatically turned into the pixel value - `padding: 8` becomes `padding: '8px'`.
 
 ## Styling
 
-We are going to use the `style` prop to style our chat app. The `style` prop accepts a JSON object of key value pairs, representing each style rule to apply.
+We are going to use the `style` prop to style our chat app. The `style` prop accepts a json object of key value pairs, representing each style rule to apply.
 
 ```js
 <span style={{ color: 'red' }}>Hi</span>
@@ -73,7 +73,7 @@ function Text() {
 
 🤔 This pattern is very similar to [CSS Modules](https://github.com/css-modules/css-modules), which are also supported by default with `create-react-app`.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [CSS Modules documentation](https://github.com/css-modules/css-modules)
 

@@ -26,7 +26,7 @@ The first time a comment is added something similar to this will be printed to t
     issueCommentEvent: {
       action: 'CREATED',
       comment: {
-        author: { login: 'theianjones' }
+        author: { login: 'theianjones' },
         body: 'This was a cool movie',
         ...
       }
@@ -43,7 +43,7 @@ The next time this is triggered `result.data` will contain the new information.
     issueCommentEvent: {
       action: 'CREATED',
       comment: {
-        author: { login: 'dijonmusters' }
+        author: { login: 'dijonmusters' },
         body: 'The movie was just okay',
         ...
       }
@@ -86,7 +86,7 @@ function Comments() {
 
 This style of handler function is often called a `reducer`. Reducers take two parameters - an `accumulator` and the current `value`. `urql` will now stitch together an array of each comment event we receive and use this to update the `result.data` property.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [urql docs - useSubscription with handleSubscription reducer](https://formidable.com/open-source/urql/docs/advanced/subscriptions/#react--preact)
 

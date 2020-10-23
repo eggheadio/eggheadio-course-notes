@@ -6,7 +6,7 @@
 
 ## Summary
 
-`urql` is a light-weight data fetching library that we can use to send queries and mutations to our `OneGraph` endpoint. It provides us with some convenient variables to determine whether our application is in a loading, or error state, or whether we have the data required to display our component.
+`urql` is a light-weight data fetching library that we can use to send queries and mutations to our `OneGraph` endpoint. It provides us with some convenient variables to determine whether our application is in a loading or error state, or whether we have the data required to display our component.
 
 ## Create React App
 
@@ -16,7 +16,7 @@ In this video we will create a new React application using the `create-react-app
 npx create-react-app name-of-our-app
 ```
 
-The `create-react-app` package allows us to quickly create a React application without needing to write a bunch of boilerplate code, or configure webpack, babel etc. Feel free to swap this out with your own custom react application, or another framework built on React - such as Next or Gatsby - if you prefer, but this may take a little bit of extra configuration.
+The `create-react-app` package allows us to quickly create a React application without needing to write a bunch of boilerplate code, or configure webpack, babel etc. Feel free to swap this out with your own custom React application, or another framework built on React - such as Next or Gatsby - but this may take some extra configuration and googling.
 
 ## Urql
 
@@ -60,7 +60,7 @@ const TODOS_QUERY = `
 Then we can pass this query to the useQuery hook from `urql`. This hook returns the result of the query, as well as a function to trigger this query again.
 
 ```
-const [result, reexecuteQuery] = useQuery({ query: TODOS_QUERY })
+const [result, reExecuteQuery] = useQuery({ query: TODOS_QUERY })
 ```
 
 > Note: the query gets executed as soon as the component is mounted, if we want to re-run this query after some user action - such as clicking a button to add a todo - we would call the `reExecuteQuery` function.
@@ -75,7 +75,7 @@ Since the query is making an asynchronous call to our GraphQL endpoint, we need 
   return result.data.todos.map(todo => <p>{todo.title}</p>)
 ```
 
-## Helpful Links
+## Helpful Links 🤔
 
 [create-react-app docs](https://create-react-app.dev/docs/getting-started)
 

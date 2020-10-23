@@ -24,7 +24,7 @@ This ensures that anything after this line can assume that `comments` exists, is
 
 🤔 Additionally, we could abstract the data fetching logic into it's own reusable wrapping component using the [render props](https://reactjs.org/docs/render-props.html) or [higher order component](https://reactjs.org/docs/higher-order-components.html) patterns, or abstract this logic into its own [custom hook](https://reactjs.org/docs/hooks-custom.html).
 
-## Helpful Links
+## Helpful Links 🤔
 
 [Render Props pattern](https://reactjs.org/docs/render-props.html)
 

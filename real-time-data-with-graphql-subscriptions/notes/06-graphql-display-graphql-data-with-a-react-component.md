@@ -40,7 +40,7 @@ We can add a check before returning the markup for `data` to confirm we actually
 function Comments() {
   const [result] = useQuery(...) // collapsed for simplicity
 
-  if (!result.data) return Loading...
+  if (!result.data) return <p>Loading...</p>
 
   // if we reach this line then we must have data
   return (
@@ -53,7 +53,7 @@ function Comments() {
 }
 ```
 
-🤔 Conveniently, the `result` variable also contains `fetching` and `error` properties that can be used to determine the state of the query. We can destructure these values off `result`, along with our `data` once it has been returned and refactor our code above to give the user some feedback through the request lifecycle.
+🤔 Conveniently, the `result` variable also contains `fetching` and `error` properties that can be used to determine the state of the query. We can destructure these values off `result`, along with our `data` once it has been returned and refactor our code above to give the user some feedback throughout the request lifecycle.
 
 ```js
 // src/components/Comments.js
@@ -77,7 +77,7 @@ function Comments() {
 }
 ```
 
-## Helpful Links
+## Helpful Links 🤔
 
 [useQuery's fetching and error states](https://formidable.com/open-source/urql/docs/#querying-data)
 

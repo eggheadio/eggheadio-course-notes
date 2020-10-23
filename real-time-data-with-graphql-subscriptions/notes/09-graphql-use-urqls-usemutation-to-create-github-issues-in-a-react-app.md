@@ -10,7 +10,7 @@
 
 ## useState
 
-In order to submit comments from our application, we need an `input` field. This requires us to keep a track of what the user has typed. Using the `useState` hook allows us to save the user's input in a variable, that we can pass across to our `NewComment` mutation.
+In order to submit comments from our application, we need an `input` element. This requires us to keep a track of what the user has typed. Using the `useState` hook allows us to save the user's input in a variable, that we can pass across to our `NewComment` mutation.
 
 ## useMutation
 
@@ -26,11 +26,11 @@ The `executeMutation` function allows us to trigger the mutation, once the user 
 
 🤔 Similarly to `useQuery`, the `result` variable contains `data`, `fetching` and `error` values, that we can use to determine the state of our mutation.
 
-## Helpful Links
+## Helpful Links 🤔
 
-[🤔 React docs - Forms](https://reactjs.org/docs/forms.html)
+[React docs - Forms](https://reactjs.org/docs/forms.html)
 
-[🤔 React docs - useState hook](https://reactjs.org/docs/hooks-state.html)
+[React docs - useState hook](https://reactjs.org/docs/hooks-state.html)
 
 [urql docs - Mutations](https://formidable.com/open-source/urql/docs/basics/mutations/)
 ---

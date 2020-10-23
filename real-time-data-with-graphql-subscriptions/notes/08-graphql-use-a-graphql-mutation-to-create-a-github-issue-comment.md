@@ -10,7 +10,7 @@
 
 ## Mutations
 
-In GraphQL, `queries` are used to read data and `mutations` are used to write data. The way we structure a `mutation` is the same as a `query`, except that we wrap any dynamic variables we want to pass in in an `input` key.
+In GraphQL, `queries` are used to read data and `mutations` are used to write data. The way we structure a `mutation` is the same as a `query`, except that we wrap any dynamic variables we want to pass to the `mutation` in an `input` key.
 
 ```gql
 mutation NewTodo($title: String!, $isCompleted: Boolean) {
@@ -29,9 +29,9 @@ We still specify the fields we want to get back after the `mutation` is complete
 
 In the video example we are sending an `addComment` mutation to the GitHub service. This requires a `subjectId`, to determine which issue we are commenting on, and a `body`, containing the actual comment text. The `OneGraphiQL` explorer allows us to click through the fields we want to get back after the `mutation` is complete - exactly the same as when we were building our `queries`.
 
-## Helpful Links
+## Helpful Links 🤔
 
-[🤔 GraphQL docs on Queries and Mutations](https://graphql.org/learn/queries/#mutations)
+[GraphQL docs on Queries and Mutations](https://graphql.org/learn/queries/#mutations)
 
 ---
 

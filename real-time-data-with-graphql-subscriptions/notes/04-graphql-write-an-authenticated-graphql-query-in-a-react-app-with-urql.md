@@ -12,7 +12,7 @@ The format for queries and mutations in `urql` match `OneGraphiQL` so we can eas
 
 ## Urql
 
-Moving the queries and mutations that we build in `OneGraphiQL` to our application is easy! We simply copy and paste the entire query into our query string variable.
+Moving the queries and mutations that we built in `OneGraphiQL` to our application is easy! We simply copy and paste the entire query into our query string variable.
 
 ```js
 // src/App.js
@@ -50,7 +50,7 @@ The last thing we need to implement in order to fetch data from our services is 
 yarn add onegraph-auth
 ```
 
-We can create a new auth instance by passing `onegraph-auth` our oneGraph `appId`.
+We can create a new auth instance by passing `onegraph-auth` our `OneGraph` `appId`.
 
 ```js
 // src/utils/auth.js
@@ -124,7 +124,7 @@ function App() {
 }
 ```
 
-## Helpful Links
+## Helpful Links 🤔
 
 [OneGraph-auth docs](https://www.onegraph.com/docs/)
 

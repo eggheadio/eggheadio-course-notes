@@ -16,9 +16,9 @@ This is kind of like a reverse API request. Instead of calling an API to get dat
 
 OneGraph uses webhooks to subscribe to GitHub events. This requires the user to be an admin of the repository being subscribed to. Thankfully, OneGraph gives us the ability to allow non-admin subscriptions to particular repos. This option is at the bottom of the `Subscriptions` page.
 
-## Helpful Links
+## Helpful Links 🤔
 
-[🤔 GitHub docs on WebHooks](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/about-webhooks)
+[GitHub docs on WebHooks](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/about-webhooks)
 
 [What are webhooks? Zapier article](https://zapier.com/blog/what-are-webhooks/)
 

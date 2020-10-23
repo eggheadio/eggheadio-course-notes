@@ -32,7 +32,7 @@ With GraphQL subscriptions our client is asking the server to notify it whenever
 
 Again, OneGraph abstracts away this complexity and allows us to build up a GraphQL subscription, and confirm that we are receiving data whenever a new comment is added to our issue in GitHub.
 
-## Helpful Links
+## Helpful Links 🤔
 
 [OneGraph Documentation - Subscriptions](https://www.onegraph.com/docs/subscriptions.html)
 

@@ -10,7 +10,7 @@
 
 ## OneGraphiQL
 
-`OneGraphiQL` is a data explorer that allows us to build up our GraphQL queries and mutations. It is the `OneGraph` implementation of [GraphiQL](https://github.com/graphql/graphiql), which can be used with any GraphQL endpoint. `GraphiQL` is the perfect way to discover what is available, as it is generated from the GraphQL schema, and provides helpful documentation for the queries, mutations and types. Additionally, it uses this data to intelligently suggest options for your queries and mutations.
+`OneGraphiQL` is a data explorer that allows us to build up our GraphQL queries and mutations. It is the `OneGraph` implementation of [GraphiQL](https://github.com/graphql/graphiql), which can be used with any GraphQL endpoint. `GraphiQL` is the perfect way to discover the different things we can request. It is generated from the GraphQL schema and provides helpful documentation for the graph's queries, mutations and types. Additionally, it can intelligently suggest options while we are building our queries and mutations.
 
 ⌨️ Pressing `Ctrl + Space` will display suggestions, and pressing `Tab` will autocomplete. This massively improves the speed at which you can build up GraphQL queries and mutations.
 
@@ -57,7 +57,7 @@ Now that we have authenticated with the `GitHub` service, we can re-send our Gra
 
 `OneGraph` keeps that authentication logic in one place, so we can authenticate a collection of services once and then forget about it all together. Now we have authenticated queries, so we can just focus on the data our application needs 🥳
 
-## Helpful Links
+## Helpful Links 🤔
 
 [GraphiQL repo](https://github.com/graphql/graphiql)
 
