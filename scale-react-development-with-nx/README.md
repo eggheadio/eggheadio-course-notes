@@ -26,7 +26,7 @@ It can get hard to keep things straight in your head.
 
 Nx is a tool that aims to solve these problems for you, whether you're working solo on a small full-stack app or on a dev team of thousands.
 
-It's not just an opinionated folder structure. When you create an app with Nx, it generates unit and e2e test setups as well as preparing bundling and code-splitting with Webpack, and stubbing out common features like routing.
+It's not just an opinionated folder structure. When you create an app with Nx, it generates unit and e2e test setups as well as preparing bundling and code-splitting with WebPack, and stubbing out common features like routing.
 
 One of the coolest features of Nx is its Dependency Graph. The graph can visually show you the relationship between the parts of your application, and is optimized to ensure that compiling, testing, and linting only happens in the affected areas of your project.
 
@@ -53,7 +53,7 @@ Watch Juri's course, and see if the Nx tooling & workflow is right for you and y
 
 ## Juri Strumpflohner 👨‍💻
 
-Juri Strumpflohner is Google Developer Expert in Web Tech and an Egghead.io Instructor.
+Juri Strumpflohner is Google Developer Expert in Web Tech and an egghead.io Instructor.
 
 He has been working as a software developer and architect for 10+ years, with technologies like Java, .Net, Node.js on the desktop, mobile, and on the web. Lately, he has focused on front-end web development with JavaScript, writing technical articles, teaching, and consulting.
 

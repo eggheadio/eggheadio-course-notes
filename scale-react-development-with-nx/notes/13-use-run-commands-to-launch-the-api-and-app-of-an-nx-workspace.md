@@ -37,7 +37,7 @@ That's a lot of flags! Let's have a look at them:
 - `--target` is the type of command we want to run - we want to use `serve` to run both applications
 - `--projects` these are all the applications we want to run in the command, they are comma-separated
 - `--parallel` is used because we want to serve both projects together at the same time
-  - If we don't use it, nx would run the first project until terminated, before starting the next one
+  - If we don't use it, Nx would run the first project until terminated, before starting the next one
 
 ## Creating a run command to launch both applications
 

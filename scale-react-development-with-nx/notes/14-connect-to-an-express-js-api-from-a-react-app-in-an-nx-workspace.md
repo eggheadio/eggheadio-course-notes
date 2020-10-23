@@ -20,4 +20,4 @@ fetch('/api/games')
 
 ## References
 
-- [Webpack dev proxy](https://webpack.js.org/configuration/dev-server/#devserverproxy)
+- [WebPack dev proxy](https://webpack.js.org/configuration/dev-server/#devserverproxy)
