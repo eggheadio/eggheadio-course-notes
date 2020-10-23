@@ -4,13 +4,13 @@
 
 We can install npm packages in an Nx Workspace like we install any npm package.
 
-Using yarn
+### Using yarn:
 
 ```shell
 yarn add <package name>
 ```
 
-Using npx
+### Using npx:
 
 ```shell
 npx install <package name>

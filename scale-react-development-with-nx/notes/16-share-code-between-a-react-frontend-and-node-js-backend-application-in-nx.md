@@ -35,7 +35,7 @@ Since we changed the name of the file, we need to update the export inside our `
 export * from './lib/game'
 ```
 
-We can know import our Game interface with
+We can know import our Game interface with:
 
 ```react
 import { Game } from '@nxegghead/api/util-interfaces'

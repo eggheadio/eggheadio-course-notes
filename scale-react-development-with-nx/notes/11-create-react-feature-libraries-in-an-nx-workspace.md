@@ -4,10 +4,10 @@
 
 Let's see why you should keep the bulk of your code inside the `libs` folder.
 
-- Reusability of the code, you can use it on different apps
-- Bounded context, you can group together some functionality and use it in an app
-  - This makes you think what should be private and what should be public
-  - Help speed compilation/testing/linting
+- Reusability of the code, you can use it on different apps.
+- Bounded context, you can group together some functionality and use it in an app.
+  - This makes you think what should be private and what should be public.
+  - Help speed compilation/testing/linting.
 
 In this lesson, we create a new library, but we are using a new flag `--appProject`. This flag allows us to generate a router component in that project and link it to the generated library.
 

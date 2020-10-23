@@ -58,9 +58,8 @@ To running the React Application we need to `serve` the app. If we open `serve` 
 }
 ```
 
-- The `builder` entry is responsible for running the application
-- The `options` allow you to pass options to the command, for example, to change a port
--
+- The `builder` entry is responsible for running the application.
+- The `options` allow you to pass options to the command, for example, to change a port.
 
 Let's go into our command line and use the command to run the React Application.
 

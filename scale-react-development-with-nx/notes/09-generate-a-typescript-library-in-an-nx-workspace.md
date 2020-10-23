@@ -2,7 +2,7 @@
 
 **[📹 Video](https://egghead.io/lessons/egghead-generate-a-typescript-library-in-an-nx-workspacece)**
 
-To create a plain TypeScript library, we can run the command
+To create a plain TypeScript library, we can run the command:
 
 ```shell
 yarn nx g @nrwl/workspace:lib <name of library> --directory=<directory name>

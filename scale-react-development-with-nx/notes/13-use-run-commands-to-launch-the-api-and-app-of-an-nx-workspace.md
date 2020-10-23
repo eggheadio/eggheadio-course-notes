@@ -8,7 +8,7 @@ To have the two applications working (the frontend and the backend), we need to 
 yarn run <app name>:serve
 ```
 
-For example to run both the api and the store application we can run in one terminal
+For example to run both the api and the store application we can run in one terminal:
 
 ```shell
 yarn run api:serve

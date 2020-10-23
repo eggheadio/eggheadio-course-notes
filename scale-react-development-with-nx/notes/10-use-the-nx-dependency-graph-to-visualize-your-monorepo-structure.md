@@ -4,7 +4,7 @@
 
 > "Behind the scenes, Nx understands the structure of your workspace. It create that dependency graph that understands the relationship between applications that live up here and libraries down here, or even between the libraries."
 
-We can launch the visual tool that draws the dependency graph with the command
+We can launch the visual tool that draws the dependency graph with the command:
 
 ```shell
 yarn nx dep-graph
