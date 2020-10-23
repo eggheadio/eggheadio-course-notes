@@ -38,7 +38,6 @@ If we run this command, we can see that inside our `store` folder, a `proxy.conf
 
 Now if we run our store application, the `/api` route will be forward to http://localhost:3333.
 
-
 ## References
 
 - [Why Nx?](https://nx.dev/latest/react/getting-started/why-nx)

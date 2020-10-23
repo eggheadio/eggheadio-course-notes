@@ -7,7 +7,7 @@ Nx creates an _assets_ folder inside our apps where we can serve assets such as 
 Any file inside this _assets_ folder, will be available for us to link to by just using the relative path of the file. For example:
 
 ```html
-<img src="/assets/beans.png">
+<img src="/assets/beans.png" />
 ```
 
 ## Changing or adding folders to assets
@@ -45,15 +45,16 @@ You can also copy assets by using the extended way of copying assets.
 
 ```json
 {
-    "assets": ["apps/store/src/favicon.ico", "apps/store/src/assets",
+  "assets": [
+    "apps/store/src/favicon.ico",
+    "apps/store/src/assets",
     {
-        "input": ".",
-        "glob": "*.png",
-        "output": ""
+      "input": ".",
+      "glob": "*.png",
+      "output": ""
     }
-    ]
+  ]
 }
-
 ```
 
 Let's have a look at what each of these means:

@@ -10,7 +10,7 @@ In essence, the applications living inside the `apps` folder will use different 
 
 The Library will contain code that we want to import from the `apps` folder. This is where all our components and other code will live and the amount of code inside the `libs` folder is always larger than the one in the `apps` folder.
 
-## Create a React Library 
+## Create a React Library
 
 Similar to how we can create a new React Application, we will use the command line to create a new Library.
 
@@ -18,7 +18,7 @@ Similar to how we can create a new React Application, we will use the command li
 yarn nx g @nrwl/react:lib <name of library> --directory=<name of directory>
 ```
 
-Since you can have different applications in your Nx workspace, it's a good idea to put new libraries inside a directory that contain the name of the application that will use this library. 
+Since you can have different applications in your Nx workspace, it's a good idea to put new libraries inside a directory that contain the name of the application that will use this library.
 
 This is why we used the `--directory` flag, to create a new library inside a `store` folder, since we will use this library on our store.
 
@@ -32,7 +32,7 @@ yarn nx g @nrwl/react:component <name of component> --project=<name of library>
 
 Remember that we created a `ui-shared` library earlier. By using the `--project` flag, we can specify which library should this component be generated in. This flag takes the combination of the library path.
 
-**Example:*
+\*_Example:_
 
 ```shell
 yarn nx g @nrwl/react:component header --project=store-ui-shared
@@ -51,7 +51,7 @@ If you are using the component in the Application and is not an internal compone
 Since we exported this component, we can open the `tsconfig.base.json` file and scroll down to `paths` to see the paths of each created component.
 
 ```json
-  
+
 {
   "compileOnSave": false,
   "compilerOptions": {

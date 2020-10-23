@@ -9,6 +9,7 @@ Using yarn
 ```shell
 yarn add <package name>
 ```
+
 Using npx
 
 ```shell

@@ -16,12 +16,12 @@ Then we can create a new Game interface inside the file `api-util-interfaces.ts`
 
 ```typescript
 export interface Game {
-    id: string;
-    name: string;
-    image: string;
-    description: string;
-    price: number;
-    rating: number;
+  id: string
+  name: string
+  image: string
+  description: string
+  price: number
+  rating: number
 }
 ```
 
@@ -32,7 +32,7 @@ This interface represents the structure of a game that gets exposed by our api.
 Since we changed the name of the file, we need to update the export inside our `index.ts` file (`libs/api/util-interfaces/src/index.ts`)
 
 ```typescript
-export * from './lib/game';
+export * from './lib/game'
 ```
 
 We can know import our Game interface with

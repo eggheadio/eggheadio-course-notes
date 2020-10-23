@@ -20,7 +20,6 @@ yarn nx affected:dep-graph --base=16-adjust-jest-test
 
 Let's say that on our CI we want to run all the affected tests and linting for the changes that we are trying to merge.
 
-
 We can run the `test` target for all affected changes.
 
 ```shell

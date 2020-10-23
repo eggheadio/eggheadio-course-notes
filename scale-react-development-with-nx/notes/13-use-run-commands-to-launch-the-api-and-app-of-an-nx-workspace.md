@@ -41,26 +41,26 @@ That's a lot of flags! Let's have a look at them:
 
 ## Creating a run command to launch both applications
 
-Let's open the `workspace.json`, inside the `store` we can see that inside the `architect` node we have a few targets like _build_, _serve_, _lint_ and _test_. 
+Let's open the `workspace.json`, inside the `store` we can see that inside the `architect` node we have a few targets like _build_, _serve_, _lint_ and _test_.
 
 We can create a custom target that will allow us to start the `api` application together with the store. That way we won't rely on the `run-many` command.
 
 ```json
 {
-    // Inside the architect node
-    "serveAppAndApi": {
-        "builder": "@nrwl/workspace:run-commands",
-        "options": {
-            "commands": [
-                {
-                    "command": "nx run api:serve"
-                },
-                {
-                    "command": "nx run store:serve"
-                }
-            ]
+  // Inside the architect node
+  "serveAppAndApi": {
+    "builder": "@nrwl/workspace:run-commands",
+    "options": {
+      "commands": [
+        {
+          "command": "nx run api:serve"
+        },
+        {
+          "command": "nx run store:serve"
         }
+      ]
     }
+  }
 }
 ```
 
@@ -68,7 +68,6 @@ We can create a custom target that will allow us to start the `api` application 
 - We can now choose `options` which are commands that we want to execute.
 
 _**Note:** `run-commands` will run the commands in parallel by default._
-
 
 Now we can run our custom target with the command:
 

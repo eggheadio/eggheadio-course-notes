@@ -19,4 +19,3 @@ yarn nx build store --configuration=production
 You can see that we _production_ to the `--configuration` flag, that tells Nx that you are building for production.
 
 After running the command we can see that the production-ready build was created on `dist/app/store`.
-

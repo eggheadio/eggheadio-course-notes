@@ -7,12 +7,9 @@ Let's talk about the `workspace.json` - this file contains all the projects avai
 ```json
 {
   "version": 1,
-  "projects": {
-  },
-  "cli": {
-  },
-  "schematics": {
-  },
+  "projects": {},
+  "cli": {},
+  "schematics": {},
   "defaultProject": "store"
 }
 ```
@@ -41,30 +38,29 @@ If we open the `store`, we can see the basic information for the application, we
 - Lint the app
 - Test the app
 
-
 ## Running the React App
 
 To running the React Application we need to `serve` the app. If we open `serve` we can see a few things:
 
 ```json
 {
-    "serve": {
-        "builder": "@nrwl/web:dev-server",
-        "options": {
-            "buildTarget": "store:build"
-        },
-        "configurations": {
-            "production": {
-                "buildTarget": "store:build:production"
-            }
-        }
+  "serve": {
+    "builder": "@nrwl/web:dev-server",
+    "options": {
+      "buildTarget": "store:build"
+    },
+    "configurations": {
+      "production": {
+        "buildTarget": "store:build:production"
+      }
     }
+  }
 }
 ```
 
 - The `builder` entry is responsible for running the application
 - The `options` allow you to pass options to the command, for example, to change a port
-- 
+-
 
 Let's go into our command line and use the command to run the React Application.
 

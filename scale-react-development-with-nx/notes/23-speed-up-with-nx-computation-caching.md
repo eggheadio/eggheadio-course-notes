@@ -16,6 +16,6 @@ yarn nx affected:test --all --skip-nx-cache
 
 ## Nx cloud
 
-When we created our Nx workspace, we got prompted if we wanted to use Nx cloud. 
+When we created our Nx workspace, we got prompted if we wanted to use Nx cloud.
 
 Nx cloud brings benefits when dealing with cache because it will be shared among all the users of our workspace. So our coworkers can benefit from it.

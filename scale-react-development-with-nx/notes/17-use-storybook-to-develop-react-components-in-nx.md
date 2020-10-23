@@ -31,7 +31,6 @@ yarn nx run store-ui-shared:storybook
 
 Storybook will be run on http://localhost:4400, we can go to this url in our browser and see all the available stories that were automatically generated for us.
 
-
 ## References
 
 - [Storybook](https://storybook.js.org/)

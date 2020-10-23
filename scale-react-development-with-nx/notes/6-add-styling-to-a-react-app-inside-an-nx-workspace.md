@@ -10,7 +10,6 @@ There are a few ways you can manage your stylesheets.
 - Update the `styles` array inside the `build` in the `workspace.json` file
   - Any file added to the array will be compiled at build time
 
-
 ## Using the `style` flag
 
 If you already know what sort of file extension you want to use for your styles, you can use the `--style` flag together with the `npx generate` command to specify a format.

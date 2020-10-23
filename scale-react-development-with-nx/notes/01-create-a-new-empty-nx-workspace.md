@@ -2,8 +2,7 @@
 
 **[📹 Video](https://egghead.io/lessons/egghead-create-a-new-empty-nx-workspace)**
 
-> Nx is a set of extensible dev tools for monorepos, which helps you develop like Google, Facebook, and Microsoft.
-> [Nx site](https://nx.dev/react)
+> Nx is a set of extensible dev tools for monorepos, which helps you develop like Google, Facebook, and Microsoft. [Nx site](https://nx.dev/react)
 
 We can create and configure a new NX workspace with the command
 
@@ -13,7 +12,7 @@ npx create-nx-workspace <workspace name>
 
 Running this command will give you a set of options that allows you to create the best workspace for your needs.
 
-- empty 
+- empty
 - oss
 - web components
 - angular
