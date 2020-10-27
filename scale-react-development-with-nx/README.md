@@ -4,6 +4,11 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<h1 align="center"><a href="https://egghead.io/playlists/scale-react-development-with-nx-4038">Scale React Development with Nx</a></h1>
+
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/405/344/full/EGH_ScalingReactNx.png" width="340"></p>
+
+
 ## About 🔍
 
 This repo contains notes from [Juri Strumpflohner](https://juristr.com)'s egghead course [Scale React Development with Nx](https://egghead.io/playlists/scale-react-development-with-nx-4038).
