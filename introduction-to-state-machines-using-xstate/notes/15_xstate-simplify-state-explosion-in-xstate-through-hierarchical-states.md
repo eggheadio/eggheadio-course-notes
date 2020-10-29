@@ -55,7 +55,7 @@ const door = Machine({
       }
     },
     unlocked: {
-      initial: 'closed'
+      initial: 'closed',
       states: {
         closed: {
           on: {
@@ -86,11 +86,11 @@ const door = Machine({
   states: {
     ...
     unlocked: {
-      initial: 'closed'
+      initial: 'closed',
       states: {
         closed: {
           on: {
-            LOCK: '#door.locked'
+            LOCK: '#door.locked',
             OPEN: 'opened'
           }
         },
@@ -115,11 +115,11 @@ const door = Machine({
       }
     },
     unlocked: {
-      initial: 'closed'
+      initial: 'closed',
       states: {
         closed: {
           on: {
-            LOCK: '#locked'
+            LOCK: '#locked',
             OPEN: 'opened'
           }
         },
@@ -129,6 +129,8 @@ const door = Machine({
   }
 })
 ```
+
+[Online Vis demo](https://xstate.js.org/viz/?gist=d87ef45197e075dca7cba55ad594d160)
 
 ## Personal take
 
