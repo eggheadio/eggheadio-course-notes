@@ -62,7 +62,6 @@ We are going to use OneGraph GraphQL server and urql GraphQL Client to build a r
         🖋
       </a>
     </td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/gatsby-theme-authoring-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
-
-[✏️ Edit on GitHub](https://github.com/eggheadio/eggheadio-course-notes/tree/master/real-time-data-with-graphql-subscriptions/notes)
