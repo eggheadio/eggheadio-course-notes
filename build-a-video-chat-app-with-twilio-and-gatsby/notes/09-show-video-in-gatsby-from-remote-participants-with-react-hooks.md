@@ -11,6 +11,7 @@ Twilio's unique identifier is the `sid`, so we want to get that from the partici
   const useTwilioVideo = () => {
   const [state, dispatch] = useContext(TwilioVideoContext);
   const videoRef = useRef();
+  const { room, token, roomName } = state; 
 
   const getRoomToken = async ({ identity, roomName }) => {
     const result = await axios.post(TWILIO_TOKEN_URL, {
@@ -116,36 +117,40 @@ Now, we'll iterate over each of the participants in the room, passing each to ou
 ### hooks/use-twilio-video.js
 
 ```jsx
-const connectToRoom = async () => {
-  if (!token) {
-    return;
-  }
+  const connectToRoom = async () => {
+    if (!token) {
+      return;
+    }
 
-  const room = await connect(token, {
-    name: room,
-    audio: true,
-    video: { width: 640 },
-    logLevel: "info"
-  }).catch(error => {
-    console.error(`Unable to join the room: ${error.message}`);
-  });
+    const room = await connect(token, {
+      name: room,
+      audio: true,
+      video: { width: 640 },
+      logLevel: "info"
+    }).catch(error => {
+      console.error(`Unable to join the room: ${error.message}`);
+    });
+    
+    // Add your own video and audio tracks so you can see yourself
+    const localTrack = await createLocalVideoTrack().catch(error => {
+      console.error(`Unable to create local tracks: ${error.message}`);
+    });
+    // Attach the local video if it’s not already visible
+    if (!videoRef.current.hasChildNodes()) {
+      const localEl = localTrack.attach();
+      localEl.className = 'local-video';
+      videoRef.current.appendChild(localEl);
+    }
 
-  const localTrack = [...room.localParticipant.videoTracks.value()][0].track;
-
-  if (!videoRef.current.hasChildNodes()) {
-    const localEl = localTrack.attach();
-
-    videoRef.current.appendChild(localEl);
-  }
-
-  const handleParticipant = participant => {
-    handleRemoteParticipant(videoRef.current, participant);
+    const handleParticipant = handleRemoteParticipant(videoRef.current);
+    // Handle any participants who are *already* connected to this room
+    room.participants.forEach(handleParticipant);
+    room.on("participantConnected", handleParticipant);
+    // Handle participants who join *after* you’ve connected to the room
+    dispatch({ type: "set-active-room", room });
   };
-
-  room.participants.forEach(handleParticipant);
-  room.on("participantConnected", handleParticipant);
-
-  dispatch({ type: "set-active-room", room });
+  const startVideo = () => connectToRoom(); 
+  return { state, getRoomToken, startVideo, roomName, room, token, videoRef };
 };
 ```
 
