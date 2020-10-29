@@ -22,11 +22,11 @@ GraphQL subscriptions work in a similar way, you tell it which events you would 
 
 This requires a slight change in our mental model for how API requests and responses work. With our queries and mutations, we are calling our OneGraph API and it either gives us back the data, or does some mutation stuff and gives us back the data. At that point the communication between our application (the client) and OneGraph (the server) is over. This unidirectional communication is how HTTP requests work - the client makes a request and the server sends a response.
 
-![Request and response model](../assets/request-response.gif)
+![Request and response model](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996029/transcript-images/egghead-write-a-graphql-subscription-query-in-a-graphiql-editor-request-response.gif)
 
 With GraphQL subscriptions our client is asking the server to notify it whenever a particular thing happens - this could be immediately, or after a few seconds, days or even months. So the server is not only responding to a single request with a single response, but has a direct connection with the client that it can push data to a number of times. A common implementation of this kind of bidirectional communication is [Websockets](https://medium.com/@tfarguts/websockets-for-beginners-part-1-10796106e207).
 
-![Websockets model](../assets/websockets.gif)
+![Websockets model](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996029/transcript-images/egghead-write-a-graphql-subscription-query-in-a-graphiql-editor-websockets.gif)
 
 ## OneGraph
 

@@ -12,19 +12,19 @@
 
 Modern applications typically make several requests to third party services to handle isolated functionality - charging a card with Stripe, fetching tweets from Twitter, issues from GitHub etc. This requires your application to know how to talk to each of these individual services.
 
-![React application making multiple API requests](../assets/traditional-communication.png)
+![React application making multiple API requests](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996029/transcript-images/graphql-query-multiple-services-with-onegraph-graphiql-editor-traditional-communication.png)
 
 It also requires your application to speak to each of these services in their language of choice.
 
-![React application making REST and GraphQL requests](../assets/traditional-payloads.png)
+![React application making REST and GraphQL requests](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996029/transcript-images/graphql-query-multiple-services-with-onegraph-graphiql-editor-traditional-payloads.png)
 
 `OneGraph` sits between your application requests and these services.
 
-![React application using OneGraph to proxy requests](../assets/onegraph-communication.png)
+![React application using OneGraph to proxy requests](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996028/transcript-images/graphql-query-multiple-services-with-onegraph-graphiql-editor-onegraph-communication.png)
 
 `OneGraph` exposes these services via a single GraphQL endpoint - meaning your application only needs to speak one language.
 
-![React application only making GraphQL requests](../assets/onegraph-payload.png)
+![React application only making GraphQL requests](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1603996029/transcript-images/graphql-query-multiple-services-with-onegraph-graphiql-editor-onegraph-payload.png)
 
 ## OneGraph
 
