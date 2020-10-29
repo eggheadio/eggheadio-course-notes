@@ -10,7 +10,7 @@ let click = (config) => (listener) => {
 }
 ```
 
-With this in place we need to change our mental model and think about the `mappInner` function as a function that creates or generates callbacks with the correct values.
+With this in place we need to change our mental model and think about the `mapInner` function as a function that creates or generates callbacks with the correct values.
 
 ```javascript
 let nest = (mapInner) => (outer) => (listener) => {
