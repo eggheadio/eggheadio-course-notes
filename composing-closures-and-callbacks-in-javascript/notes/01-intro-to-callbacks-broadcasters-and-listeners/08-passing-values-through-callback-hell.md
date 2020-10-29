@@ -10,7 +10,7 @@ let click = (config) => (listener) => {
 }
 ```
 
-With this in place we need to change our mental model and think about the `mappInner` function as a function that creates or generates callbacks with the correct values.
+With this in place we need to change our mental model and think about the `mapInner` function as a function that creates or generates callbacks with the correct values.
 
 ```javascript
 let nest = (mapInner) => (outer) => (listener) => {
@@ -21,7 +21,7 @@ let nest = (mapInner) => (outer) => (listener) => {
 }
 ```
 
-🔑 So now, instead of think about nested callback, we can think of what value is the function receiving and how we want to configure the inner callback.
+🔑 So now, instead of thinking about nested callback, we can think of what value is the function receiving and how we want to configure the inner callback.
 
 ## References
 
