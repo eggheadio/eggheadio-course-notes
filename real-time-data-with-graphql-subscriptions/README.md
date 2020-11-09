@@ -32,11 +32,12 @@ We are going to use OneGraph GraphQL server and urql GraphQL Client to build a r
 - [16 - Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments](notes/16-react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments.md)
 
 ## Emoji Legend 🧠
+
 | emoji |        explanation        |
 | ----- | :-----------------------: |
 | 📹    | links to the course video |
 | 💻    |     course repository     |
-| ⌨️     |     keyboard shortcut     |
+| ⌨️    |     keyboard shortcut     |
 | 🤔    |   additional resources    |
 | 👍    |       good practice       |
 | ❗    |    significant change     |
