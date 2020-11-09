@@ -1,6 +1,6 @@
-# Query Multiple Services with OneGraph GraphiQL Editor
+# 01. Query Multiple Services with OneGraph GraphiQL Editor
 
-**[📹 Video](https://egghead.io/lessons/graphql-query-multiple-services-with-onegraph-graphiql-editor)**
+**[📹 Video](https://egghead.io/lessons/graphql-query-multiple-services-with-urqls-graphql-client)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -43,7 +43,3 @@ Since most of these services require authentication or api keys to know who is m
 [OneGraph dashboard](https://www.onegraph.com/dashboard)
 
 [OneGraphiQL Explorer](https://www.onegraph.com/graphiql)
-
----
-
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-query-multiple-services-with-urqls-graphql-client)

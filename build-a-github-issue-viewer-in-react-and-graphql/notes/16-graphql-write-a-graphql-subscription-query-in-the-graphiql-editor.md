@@ -1,4 +1,4 @@
-# Write a GraphQL Subscription Query in a Graphiql Editor
+# 16. Write a GraphQL Subscription Query in a Graphiql Editor
 
 **[📹 Video](https://egghead.io/lessons/egghead-write-a-graphql-subscription-query-in-a-graphiql-editor)**
 
@@ -39,8 +39,3 @@ Again, OneGraph abstracts away this complexity and allows us to build up a Graph
 [Websockets article](https://medium.com/@tfarguts/websockets-for-beginners-part-1-10796106e207)
 
 [The Net Ninja - What are WebSockets? video](https://www.youtube.com/watch?v=vQjiN8Qgs3c)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component)
-📹 [Go to Next Lesson](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql)

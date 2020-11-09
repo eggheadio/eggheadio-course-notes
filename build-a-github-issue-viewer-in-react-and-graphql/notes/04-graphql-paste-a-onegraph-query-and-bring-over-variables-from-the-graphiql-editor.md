@@ -1,4 +1,4 @@
-# Write an Authenticated GraphQL Query in a React App with Urql
+# 04. Paste a OneGraph query and bring over variables from the Graphiql editor
 
 **[📹 Video](https://egghead.io/lessons/graphql-write-an-authenticated-graphql-query-in-a-react-app-with-urql)**
 
@@ -37,8 +37,8 @@ We do need to handle passing our `id` variable through to the query though. This
 const [result, reExecuteQuery] = useQuery({
   query: TODO_QUERY,
   variables: {
-    id: '3'
-  }
+    id: '3',
+  },
 })
 ```
 
@@ -58,15 +58,15 @@ We can create a new auth instance by passing `onegraph-auth` our `OneGraph` `app
 import OneGraphAuth from 'onegraph-auth'
 
 export const auth = OneGraphAuth({
-  appId: 'replace-with-app-id-from-onegraph'
+  appId: 'replace-with-app-id-from-onegraph',
 })
 ```
 
 Now we can use React Context to build an `AuthProvider` component to handle our auth logic. Probably best to just copy the [AuthContext.js](https://github.com/theianjones/egghead-graphql-subscriptions/blob/master/04-setUpAuthenticationWithUrql/src/contexts/AuthContext.js) file from the [course repo](https://github.com/theianjones/egghead-graphql-subscriptions), as it is quite lengthy. Basically what this file does is:
 
-  1. Creates a new `onegraph-auth` instance
-  2. Sets the headers for our authenticated GraphQL requests
-  3. Provides convenient login and logout functions
+1. Creates a new `onegraph-auth` instance
+2. Sets the headers for our authenticated GraphQL requests
+3. Provides convenient login and logout functions
 
 ## 🤔 React Context
 
@@ -76,14 +76,14 @@ Now we can use React Context to build an `AuthProvider` component to handle our 
 // src/index.js
 
 // other imports
-import { auth } from './utils/auth'
-import { AuthProvider } from './contexts/AuthContext'
+import {auth} from './utils/auth'
+import {AuthProvider} from './contexts/AuthContext'
 
 const client = createClient({
   url: 'replace-with-graphql-endpoint-from-onegraph',
   fetchOptions: {
-    headers: auth.authHeaders()
-  }
+    headers: auth.authHeaders(),
+  },
 })
 
 ReactDOM.render(
@@ -104,22 +104,18 @@ Now any components that need to implement authentication logic - such as logging
 // src/App.js
 
 // other imports
-import { AuthContext } from './contexts/AuthContext'
+import {AuthContext} from './contexts/AuthContext'
 
 function App() {
   // we can destructure any values exposed in the AuthProvider
-  const { login, status } = React.useContext(AuthContext)
+  const {login, status} = React.useContext(AuthContext)
 
   // before we return our component markup
   // check if authenticated to github
   // if not display a login button
 
   if (!status || !status.github) {
-    return (
-      <button onClick={() => login('github')}>
-        Log in with GitHub
-      </button>
-    )
+    return <button onClick={() => login('github')}>Log in with GitHub</button>
   }
 }
 ```
@@ -129,8 +125,3 @@ function App() {
 [OneGraph-auth docs](https://www.onegraph.com/docs/)
 
 [React Context](https://reactjs.org/docs/context.html)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-write-an-authenticated-query-in-onegraph)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-query-github-comments-with-one-graph-through-urql-s-client)

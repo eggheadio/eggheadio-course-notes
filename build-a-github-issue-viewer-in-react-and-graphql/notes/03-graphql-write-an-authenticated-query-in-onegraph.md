@@ -1,4 +1,4 @@
-# Write an Authenticated Query in OneGraph
+# 03. Write an Authenticated Query in OneGraph
 
 **[📹 Video](https://egghead.io/lessons/graphql-write-an-authenticated-query-in-onegraph)**
 
@@ -60,8 +60,3 @@ Now that we have authenticated with the `GitHub` service, we can re-send our Gra
 ## Helpful Links 🤔
 
 [GraphiQL repo](https://github.com/graphql/graphiql)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-query-multiple-services-with-urqls-graphql-client)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-write-an-authenticated-graphql-query-in-a-react-app-with-urql)

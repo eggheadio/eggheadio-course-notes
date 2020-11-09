@@ -1,4 +1,4 @@
-# Query Github Comments with One Graph through Urql's Client
+# 10. Query Github Comments with One Graph through Urql's Client
 
 **[📹 Video](https://egghead.io/lessons/graphql-query-github-comments-with-one-graph-through-urql-s-client)**
 
@@ -114,8 +114,3 @@ function() {
 ```
 
 You can check out the `Network` tab in the developer tools, or `console.log` the result of the `COMMENTS_QUERY` to see the data coming back from `OneGraph`.
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-write-an-authenticated-graphql-query-in-a-react-app-with-urql)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component)

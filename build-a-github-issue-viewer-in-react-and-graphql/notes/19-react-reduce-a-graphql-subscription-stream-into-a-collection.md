@@ -1,4 +1,4 @@
-# Reduce A GraphQL Subscription Stream into a Collection
+# 19. Reduce A GraphQL Subscription Stream into a Collection
 
 **[📹 Video](https://egghead.io/lessons/react-reduce-a-graphql-subscription-stream-into-a-collection)**
 
@@ -89,8 +89,3 @@ This style of handler function is often called a `reducer`. Reducers take two pa
 ## Helpful Links 🤔
 
 [urql docs - useSubscription with handleSubscription reducer](https://formidable.com/open-source/urql/docs/advanced/subscriptions/#react--preact)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql)
-📹 [Go to Next Lesson](https://egghead.io/lessons/react-display-graphql-subscription-results-to-the-ui)

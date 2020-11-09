@@ -1,4 +1,4 @@
-# Style our Input Component with CSS-inJS
+# 15. Style our Input Component with CSS-inJS
 
 **[📹 Video](https://egghead.io/lessons/egghead-style-our-input-component-with-css-injs)**
 
@@ -13,33 +13,35 @@ The `style` prop can be used to quickly style the different elements of our comp
 We are going to use the `style` prop to style our chat app. The `style` prop accepts a json object of key value pairs, representing each style rule to apply.
 
 ```js
-<span style={{ color: 'red' }}>Hi</span>
+<span style={{color: 'red'}}>Hi</span>
 ```
 
 When a number is specified as the value, it is interpreted as pixels.
 
 ```js
-<span style={{ marginTop: 16 }}>Hi</span>
+<span style={{marginTop: 16}}>Hi</span>
 ```
 
 ^^^ is the same as:
 
 ```js
-<span style={{ marginTop: '16px' }}>Hi</span>
+<span style={{marginTop: '16px'}}>Hi</span>
 ```
 
 `prop` styling can be declared inline or moved into a separate variable.
 
 **inline**
+
 ```js
-<span style={{ color: 'red' }}>Hi</span>
+<span style={{color: 'red'}}>Hi</span>
 ```
 
 **separate variable**
+
 ```js
 const textStyles = {
   color: 'red',
-  padding: '1rem 2rem'
+  padding: '1rem 2rem',
 }
 
 function Text() {
@@ -76,8 +78,3 @@ function Text() {
 ## Helpful Links 🤔
 
 [CSS Modules documentation](https://github.com/css-modules/css-modules)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component)
