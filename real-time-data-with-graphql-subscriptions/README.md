@@ -6,6 +6,13 @@
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
 
+## React/GraphQL Project 🎓
+After completing the course and absorbing all of this knowledge, the best way to solidify it is by using it!
+
+You can find a challenge written up for you to test your new GraphQL knowledge in the [Excercises folder](./exercises/README.md). We've given you a scenario for you to implement another feature that involves GraphQL subscriptions.
+
+You'll notice that there is a community solutions file within the [Excercises](./exercises/community-solutions.md) section. We encourage you to submit a PR and add your solution!
+
 ## Instructor 🎓
 
 [Ian Jones](https://egghead.io/instructors/ian-jones). Ian Jones is works for egghead writing Ruby on Rails and React.
@@ -63,5 +70,22 @@ We are going to use OneGraph GraphQL server and urql GraphQL Client to build a r
       </a>
     </td>
     <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/gatsby-theme-authoring-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center">
+      <a href="https://github.com/zacjones93">
+        <img
+          src="https://avatars1.githubusercontent.com/u/6188161?v=4"
+          width="100px;"
+          alt="Zac Jones's profile picture"
+        />
+        <br />
+        <sub><b>Zac Jones</b></sub>
+      </a>
+      <br />
+      <a
+        href="https://github.com/eggheadio/eggheadio-course-notes/real-time-data-with-graphql-subscriptions/notes"
+        title="Content">
+        🖋
+      </a>
+    </td>
   </tr>
 </table>
