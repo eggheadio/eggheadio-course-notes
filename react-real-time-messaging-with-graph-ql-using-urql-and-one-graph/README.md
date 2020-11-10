@@ -1,10 +1,17 @@
-# [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a)
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+<h1 align="center"><a href="https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a">React Real-Time Messaging with GraphQL using urql and OneGraph</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/409/013/full/EGH_RealtimeGraphqL.png" width="300" /></p>
 
 ## About 🔍
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
+
+---
 
 ## React/GraphQL Project 🎓
 After completing the course and absorbing all of this knowledge, the best way to solidify it is by using it!
@@ -88,6 +95,5 @@ You'll notice that there is a community solutions file within the [Excercises](.
       </a>
     </td>
     <td align="center"><a href="http://maggieappleton.com"><img src="https://avatars0.githubusercontent.com/u/5599295?v=4" width="100px;" alt=""/><br /><sub><b>Appleton</b></sub></a><br /><a href="#design-MaggieAppleton" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars1.githubusercontent.com/u/26470581?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="https://github.com/eggheadio-projects/build-an-app-with-the-AWS-cloud-development-kit-notes/pulls?q=is%3Apr+reviewed-by%3Alsminter" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
