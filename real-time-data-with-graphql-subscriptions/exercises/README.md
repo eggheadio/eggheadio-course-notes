@@ -27,11 +27,11 @@ The client liked the real-time nature of the chat app and wants you to implement
 
 ## Hints
 
-- (1)  Query Multiple Services with OneGraph GraphiQL Editor
-- (2)  Write a Subscription GraphQL Query with Urql
-- (3)  Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments
-- (4)  Display GraphQL Subscription Results to the UI
-- (4)  Display GraphQL Data with a React Compontent
-- (6)  Use a GraphQL Mutation to Create a GitHub Issue Comment
-- (6a) Use Urqls useMutation to Create GitHub Issues in a React App
+- (1)  [Query Multiple Services with OneGraph GraphiQL Editor](https://egghead.io/lessons/graphql-query-multiple-services-with-onegraph-graphiql-editor?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (2)  [Write a Subscription GraphQL Query with Urql](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (3)  [Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments](https://egghead.io/lessons/react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (4)  [Display GraphQL Data with a React Compontent](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (4)  [Display GraphQL Subscription Results to the UI](https://egghead.io/lessons/react-display-graphql-subscription-results-to-the-ui?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (6)  [Use a GraphQL Mutation to Create a GitHub Issue Comment](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
+- (6a) [Use Urqls useMutation to Create GitHub Issues in a React App](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)
 
