@@ -11,6 +11,12 @@
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
 
+This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s Egghead course R[eact Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a).
+
+These notes contain the same structure as the transcriptions, along with additional rewrites, links to resources, and personal takes on the lesson. Feel free to submit additions to these notes, but please don't remove anything (unless we messed up or misunderstood something).
+
+Generally, there is one document for each lesson in the course. If there are related lessons, the notes will be in the same document.
+
 ---
 
 ## React/GraphQL Project 🎓
