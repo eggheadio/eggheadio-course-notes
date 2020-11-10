@@ -8,10 +8,10 @@ The client liked the real-time nature of the chat app and wants you to implement
 
 ## Requirements
 
-- [] (1) Build out query for initial load
-- [] (2) Build out subscription for conversations that are started while in the app
-- [] (3) Integrate GraphQL queries into React App
-- [] (4) Display GraphQL data as a list
+- [ ] (1) Build out query for initial load
+- [ ] (2) Build out subscription for conversations that are started while in the app
+- [ ] (3) Integrate GraphQL queries into React App
+- [ ] (4) Display GraphQL data as a list
     - Each list item should: 
         - (4a) contain the title of the issue
         - (4b) total comment count
@@ -19,10 +19,10 @@ The client liked the real-time nature of the chat app and wants you to implement
 
 ### Stretch Goals
 
-- [] (5) Navigate to individual issue conversations from list
+- [ ] (5) Navigate to individual issue conversations from list
     - (5a) Parameterize issue being loaded as React props
     - (5b) add state to keep track of current issue
-- [] (6) Build a form to add a issue to the list
+- [ ] (6) Build a form to add a issue to the list
     - (6a) Add mutation to create new issue
 
 ## Hints
