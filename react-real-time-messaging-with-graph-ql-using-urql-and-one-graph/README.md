@@ -1,6 +1,6 @@
-# [Real Time Data with GraphQL Subscriptions](https://egghead.io/courses/real-time-data-with-graphql-subscriptions)
+# [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a)
 
-<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/034/full/graphqllogo.png" width="300" /></p>
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/409/013/full/EGH_RealtimeGraphqL.png" width="300" /></p>
 
 ## About 🔍
 
