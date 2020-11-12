@@ -1,6 +1,6 @@
 # 11. Display GraphQL Data with A React Component
 
-**[📹 Video](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component)**
+**[📹 Video](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 

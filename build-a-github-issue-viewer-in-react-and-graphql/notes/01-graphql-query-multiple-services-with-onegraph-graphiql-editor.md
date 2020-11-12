@@ -1,6 +1,6 @@
 # 01. Query Multiple Services with OneGraph GraphiQL Editor
 
-**[📹 Video](https://egghead.io/lessons/graphql-query-multiple-services-with-urqls-graphql-client)**
+**[📹 Video](https://egghead.io/lessons/graphql-query-multiple-services-with-urqls-graphql-client?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 

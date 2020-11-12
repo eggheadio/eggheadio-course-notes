@@ -1,6 +1,6 @@
 # 12. Use a GraphQL Mutation to Create a Github Issue Comment
 
-**[📹 Video](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment)**
+**[📹 Video](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 

@@ -1,6 +1,6 @@
 # 17. Extract a view component from our CommentQuery Component
 
-**[📹 Video](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component)**
+**[📹 Video](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 

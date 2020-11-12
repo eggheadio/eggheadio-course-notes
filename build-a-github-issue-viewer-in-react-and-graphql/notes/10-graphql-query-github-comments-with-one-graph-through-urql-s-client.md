@@ -1,6 +1,6 @@
 # 10. Query Github Comments with One Graph through Urql's Client
 
-**[📹 Video](https://egghead.io/lessons/graphql-query-github-comments-with-one-graph-through-urql-s-client)**
+**[📹 Video](https://egghead.io/lessons/graphql-query-github-comments-with-one-graph-through-urql-s-client?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 

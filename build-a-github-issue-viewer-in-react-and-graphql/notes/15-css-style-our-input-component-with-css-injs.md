@@ -1,6 +1,6 @@
 # 15. Style our Input Component with CSS-inJS
 
-**[📹 Video](https://egghead.io/lessons/egghead-style-our-input-component-with-css-injs)**
+**[📹 Video](https://egghead.io/lessons/egghead-style-our-input-component-with-css-injs?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
