@@ -1,6 +1,6 @@
-# Style A List Component
+# 11. Style A List Component
 
-**[📹 Video](https://egghead.io/lessons/graphql-style-a-list-component)**
+**[📹 Video](https://egghead.io/lessons/graphql-style-a-list-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -9,7 +9,7 @@
 The `style` prop can be used to quickly apply CSS rules to our components. It accepts a json object of `key` `value` pairs, where the `key` is the CSS property, and the `value` is the value of that property. Since this is a json object, all keys must be `camelCase` and values surrounded by quotes.
 
 ```js
-<span style={{ fontSize: '2rem'}}>Hello</span>
+<span style={{fontSize: '2rem'}}>Hello</span>
 ```
 
 ## Styling
@@ -17,46 +17,49 @@ The `style` prop can be used to quickly apply CSS rules to our components. It ac
 There are many ways to apply CSS rules to style React components (see [this article](https://medium.com/@dmitrynozhenko/9-ways-to-implement-css-in-react-js-ccea4d543aa3)). 🤔 Without installing additional packages or writing configuration, `create-react-app` supports three styling options:
 
 1. Inline styles or the `style` prop
-  ```js
-  <span style={{ color: 'red' }}>Red text</span>
-  ```
+
+```js
+<span style={{color: 'red'}}>Red text</span>
+```
 
 2. Stylesheets
-  ```css
-  /* src/heading.css */
 
-  .heading {
-    font-size: 5rem;
-  }
-  ```
+```css
+/* src/heading.css */
 
-  ```js
-  // src/Heading.js
+.heading {
+  font-size: 5rem;
+}
+```
 
-  import './heading.css'
+```js
+// src/Heading.js
 
-  function Heading() {
-    return <h1 className=".heading">This is big!</h1>
-  }
-  ```
+import './heading.css'
+
+function Heading() {
+  return <h1 className=".heading">This is big!</h1>
+}
+```
 
 3. CSS Modules
-  ```css
-  /* src/Heading.module.css */
 
-  .heading {
-    font-size: 5rem;
-  }
-  ```
+```css
+/* src/Heading.module.css */
 
-  ```js
-  // src/Heading.js
-  import styles from './Heading.module.css'
+.heading {
+  font-size: 5rem;
+}
+```
 
-  function Heading() {
-    return <h1 className={styles.heading}>This is big!</h1>
-  }
-  ```
+```js
+// src/Heading.js
+import styles from './Heading.module.css'
+
+function Heading() {
+  return <h1 className={styles.heading}>This is big!</h1>
+}
+```
 
 ## Style Prop
 
@@ -68,8 +71,8 @@ The quickest and most simple way to style a component is by using the `style` pr
 function Heading() {
   return (
     <div>
-      <h1 style={{ fontSize: '1rem' }}>This text is big</h1>
-      <p stlye={{ color: 'red' }}>This text is RED!</p>
+      <h1 style={{fontSize: '1rem'}}>This text is big</h1>
+      <p stlye={{color: 'red'}}>This text is RED!</p>
     </div>
   )
 }
@@ -79,11 +82,11 @@ function Heading() {
 // outside component
 
 const headingStyle = {
-  fontSize: '1rem'
+  fontSize: '1rem',
 }
 
 const textStyle = {
-  color: 'red'
+  color: 'red',
 }
 
 function Heading() {
@@ -119,8 +122,3 @@ const headingStyle = {
 [9 Ways To Implement CSS in React JS article](https://medium.com/@dmitrynozhenko/9-ways-to-implement-css-in-react-js-ccea4d543aa3)
 
 [CSS Modules docs](https://github.com/css-modules/css-modules)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment)

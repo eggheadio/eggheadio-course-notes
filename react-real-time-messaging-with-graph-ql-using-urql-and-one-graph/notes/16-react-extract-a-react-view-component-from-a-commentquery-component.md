@@ -1,6 +1,6 @@
-# Extract a view component from our CommentQuery Component
+# 16. Extract a view component from our CommentQuery Component
 
-**[📹 Video](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component)**
+**[📹 Video](https://egghead.io/lessons/egghead-extract-a-view-component-from-our-commentquery-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -31,8 +31,3 @@ This ensures that anything after this line can assume that `comments` exists, is
 [Higher Order Component pattern](https://reactjs.org/docs/higher-order-components.html)
 
 [Custom React Hooks](https://reactjs.org/docs/hooks-custom.html)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-style-our-input-component-with-css-injs)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-write-a-graphql-subscription-query-in-a-graphiql-editor)

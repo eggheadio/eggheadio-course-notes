@@ -1,6 +1,6 @@
-# Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments
+# 20. Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments
 
-**[📹 Video](https://egghead.io/lessons/react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments)**
+**[📹 Video](https://egghead.io/lessons/react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -58,7 +58,7 @@ In our `CommentsSubscription` component we can use a combination of `useState` a
 // src/components/CommentsSubscription.js
 const [pauseFetching, setPauseFetching] = React.useState(false)
 
-const commentsHistory = useCommentsHistory({ pause: pauseFetching })
+const commentsHistory = useCommentsHistory({pause: pauseFetching})
 const commentsHistoryLength = commentsHistory.length
 
 React.useEffect(() => {
@@ -79,7 +79,3 @@ This will ensure that we only fetch the comments history once, and then append t
 [React docs - custom hooks](https://reactjs.org/docs/hooks-custom.html)
 
 [urql docs - pause useQuery](https://formidable.com/open-source/urql/docs/basics/queries/#pausing-usequery)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/react-display-graphql-subscription-results-to-the-ui)

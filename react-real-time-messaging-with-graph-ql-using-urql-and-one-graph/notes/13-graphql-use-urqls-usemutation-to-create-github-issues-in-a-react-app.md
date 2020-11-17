@@ -1,6 +1,6 @@
-# Use Urqls useMutation to Create Github Issues in a React App
+# 13. Use Urqls useMutation to Create Github Issues in a React App
 
-**[📹 Video](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app)**
+**[📹 Video](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -33,7 +33,3 @@ The `executeMutation` function allows us to trigger the mutation, once the user 
 [React docs - useState hook](https://reactjs.org/docs/hooks-state.html)
 
 [urql docs - Mutations](https://formidable.com/open-source/urql/docs/basics/mutations/)
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment)
-📹 [Go to Next Lesson](https://egghead.io/lessons/egghead-style-our-input-component-with-css-injs)

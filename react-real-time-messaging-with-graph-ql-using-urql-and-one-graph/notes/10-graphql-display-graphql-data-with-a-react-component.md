@@ -1,6 +1,6 @@
-# Display GraphQL Data with A React Component
+# 10. Display GraphQL Data with A React Component
 
-**[📹 Video](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component)**
+**[📹 Video](https://egghead.io/lessons/graphql-display-graphql-data-with-a-react-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -80,8 +80,3 @@ function Comments() {
 ## Helpful Links 🤔
 
 [useQuery's fetching and error states](https://formidable.com/open-source/urql/docs/#querying-data)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-query-github-comments-with-one-graph-through-urql-s-client)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-style-a-list-component)

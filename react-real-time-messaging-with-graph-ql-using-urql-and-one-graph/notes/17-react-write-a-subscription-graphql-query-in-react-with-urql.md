@@ -1,6 +1,6 @@
-# Write a Subscription GraphQL Query with Urql
+# 17. Write a Subscription GraphQL Query with Urql
 
-**[📹 Video](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql)**
+**[📹 Video](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -22,11 +22,11 @@ Again, we need to create a new subscription client at the root of our applicatio
 // src/index.js
 
 // other imports
-import { SubscriptionClient } from 'onegraph-subscription-client'
+import {SubscriptionClient} from 'onegraph-subscription-client'
 
 const subscriptionClient = new SubscriptionClient(
   'replace-with-app-id-from-onegraph',
-  { oneGraphAuth: auth }
+  {oneGraphAuth: auth},
 )
 ```
 
@@ -63,9 +63,9 @@ import {
   defaultExchanges,
   subscriptionExchange,
 } from 'urql'
-import { CLIENT_URL, auth, APP_ID } from './utils/auth'
-import { AuthProvider } from './contexts/AuthContext'
-import { SubscriptionClient } from 'onegraph-subscription-client'
+import {CLIENT_URL, auth, APP_ID} from './utils/auth'
+import {AuthProvider} from './contexts/AuthContext'
+import {SubscriptionClient} from 'onegraph-subscription-client'
 
 const subscriptionClient = new SubscriptionClient(APP_ID, {
   oneGraphAuth: auth,
@@ -105,7 +105,7 @@ const [result] = useSubscription({
   query: SUBSCRIPTION_STRING,
   variables: {
     // any dynamic values we need to provide the subscription
-  }
+  },
 })
 ```
 
@@ -120,8 +120,3 @@ const [result] = useSubscription({
 [OneGraph Subscription Client - NPM](https://www.npmjs.com/package/onegraph-subscription-client)
 
 [Urql documentation - Subscriptions](https://formidable.com/open-source/urql/docs/advanced/subscriptions/)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/egghead-write-a-graphql-subscription-query-in-a-graphiql-editor)
-📹 [Go to Next Lesson](https://egghead.io/lessons/react-reduce-a-graphql-subscription-stream-into-a-collection)

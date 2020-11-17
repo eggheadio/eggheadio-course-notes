@@ -1,6 +1,6 @@
-# Use a GraphQL Mutation to Create a Github Issue Comment
+# 12. Use a GraphQL Mutation to Create a Github Issue Comment
 
-**[📹 Video](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment)**
+**[📹 Video](https://egghead.io/lessons/graphql-use-a-graphql-mutation-to-create-a-github-issue-comment?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
@@ -14,10 +14,7 @@ In GraphQL, `queries` are used to read data and `mutations` are used to write da
 
 ```gql
 mutation NewTodo($title: String!, $isCompleted: Boolean) {
-  todo(input: {
-    title: $title
-    isCompleted: $isCompleted
-  }) {
+  todo(input: {title: $title, isCompleted: $isCompleted}) {
     id
     title
     isCompleted
@@ -32,8 +29,3 @@ In the video example we are sending an `addComment` mutation to the GitHub servi
 ## Helpful Links 🤔
 
 [GraphQL docs on Queries and Mutations](https://graphql.org/learn/queries/#mutations)
-
----
-
-📹 [Go to Previous Lesson](https://egghead.io/lessons/graphql-style-a-list-component)
-📹 [Go to Next Lesson](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app)
