@@ -4,8 +4,6 @@
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
-
-
 ## Authentication
 
 The last thing we need to implement in order to fetch data from our services is authentication. `OneGraph` provides a package called [onegraph-auth](https://www.onegraph.com/docs/) that we can import into our project.
