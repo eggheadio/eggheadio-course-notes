@@ -1,10 +1,23 @@
-# [Real Time Data with GraphQL Subscriptions](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a)
 
-<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/034/full/graphqllogo.png" width="300" /></p>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+<h1 align="center"><a href="https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a">React Real-Time Messaging with GraphQL using urql and OneGraph</a></h1>
+
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/409/013/full/EGH_RealtimeGraphqL.png" width="300" /></p>
 
 ## About 🔍
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
+
+This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s Egghead course R[eact Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a).
+
+These notes contain the same structure as the transcriptions, along with additional rewrites, links to resources, and personal takes on the lesson. Feel free to submit additions to these notes, but please don't remove anything (unless we messed up or misunderstood something).
+
+Generally, there is one document for each lesson in the course. If there are related lessons, the notes will be in the same document.
+
+---
 
 ## React/GraphQL Project 🎓
 After completing the course and absorbing all of this knowledge, the best way to solidify it is by using it!
@@ -21,7 +34,7 @@ You'll notice that there is a community solutions file within the [Excercises](.
 
 ## Table of Contents 📜
 
-- [01 - Query Multiple Services with OneGraph GraphiQL Editor](notes/01-graphql-query-multiple-services-with-onegraph-graphiql-editor.md)
+- [01 - Query Multiple Services with OneGraph GraphiQL Editor](notes/)
 - [02 - Query Multiple Services with urqls GraphQL Client](notes/02-graphql-query-multiple-services-with-urqls-graphql-client.md)
 - [03 - Write an Authenticated Query in OneGraph](notes/03-graphql-write-an-authenticated-query-in-onegraph.md)
 - [04 - Paste a OneGraph query and bring over variables from the Graphiql editor](notes/04-graphql-paste-a-onegraph-query-and-bring-over-variables-from-the-graphiql-editor.md)
@@ -44,12 +57,11 @@ You'll notice that there is a community solutions file within the [Excercises](.
 - [21 - Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments](notes/21-react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments.md)
 
 ## Emoji Legend 🧠
-
 | emoji |        explanation        |
 | ----- | :-----------------------: |
 | 📹    | links to the course video |
 | 💻    |     course repository     |
-| ⌨️    |     keyboard shortcut     |
+| ⌨️     |     keyboard shortcut     |
 | 🤔    |   additional resources    |
 | 👍    |       good practice       |
 | ❗    |    significant change     |
@@ -93,5 +105,9 @@ You'll notice that there is a community solutions file within the [Excercises](.
         🖋
       </a>
     </td>
+    <td align="center"><a href="http://maggieappleton.com"><img src="https://avatars0.githubusercontent.com/u/5599295?v=4" width="100px;" alt=""/><br /><sub><b>Appleton</b></sub></a><br /><a href="#design-MaggieAppleton" title="Design">🎨</a></td>
   </tr>
 </table>
+
+
+
