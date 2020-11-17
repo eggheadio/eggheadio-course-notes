@@ -1,4 +1,4 @@
-# 21. Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments
+# 20. Use a GraphQL Query and Subscription Together to Fetch the History and Current Comments
 
 **[📹 Video](https://egghead.io/lessons/react-use-a-graphql-query-and-subscription-together-to-fetch-the-history-and-current-comments?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

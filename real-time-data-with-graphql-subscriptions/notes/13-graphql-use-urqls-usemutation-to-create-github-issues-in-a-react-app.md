@@ -1,4 +1,4 @@
-# 14. Use Urqls useMutation to Create Github Issues in a React App
+# 13. Use Urqls useMutation to Create Github Issues in a React App
 
 **[📹 Video](https://egghead.io/lessons/graphql-use-urqls-usemutation-to-create-github-issues-in-a-react-app?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

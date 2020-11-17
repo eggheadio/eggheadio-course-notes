@@ -1,4 +1,4 @@
-# 18. Write a Subscription GraphQL Query with Urql
+# 17. Write a Subscription GraphQL Query with Urql
 
 **[📹 Video](https://egghead.io/lessons/react-write-a-subscription-graphql-query-with-urql?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

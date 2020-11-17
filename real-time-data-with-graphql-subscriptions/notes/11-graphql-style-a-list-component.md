@@ -1,4 +1,4 @@
-# 13. Style A List Component
+# 11. Style A List Component
 
 **[📹 Video](https://egghead.io/lessons/graphql-style-a-list-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

@@ -1,4 +1,4 @@
-# 19. Reduce A GraphQL Subscription Stream into a Collection
+# 18. Reduce A GraphQL Subscription Stream into a Collection
 
 **[📹 Video](https://egghead.io/lessons/react-reduce-a-graphql-subscription-stream-into-a-collection?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
