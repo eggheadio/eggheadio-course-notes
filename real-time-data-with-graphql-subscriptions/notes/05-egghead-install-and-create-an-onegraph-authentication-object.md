@@ -1,4 +1,4 @@
-# 06. Install and create an OneGraph authentication object
+# 05. Install and create an OneGraph authentication object
 
 **[📹 Video](https://egghead.io/lessons/egghead-install-and-create-an-onegraph-authentication-object?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

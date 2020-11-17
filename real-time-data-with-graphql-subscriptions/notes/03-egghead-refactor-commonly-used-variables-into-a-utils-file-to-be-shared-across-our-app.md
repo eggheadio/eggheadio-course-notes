@@ -1,4 +1,4 @@
-# 05. Refactor commonly used variables into a utils file to be shared across our app
+# 03. Refactor commonly used variables into a utils file to be shared across our app
 
 **[📹 Video](https://egghead.io/lessons/egghead-refactor-commonly-used-variables-into-a-utils-file-to-be-shared-across-our-app?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 

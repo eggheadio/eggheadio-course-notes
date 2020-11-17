@@ -1,6 +1,8 @@
-# 08. Wrap our React application in our AuthProvider component
+# 07 08 Egghead Authprovider Component And Pass Auth Headers To Urql Fetch Options
 
-**[📹 Video](https://egghead.io/lessons/egghead-wrap-our-react-application-in-our-authprovider-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
+**[📹 07 Video](https://egghead.io/lessons/egghead-wrap-our-react-application-in-our-authprovider-component?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
+
+**[📹 08 Video](https://egghead.io/lessons/egghead-pass-authorization-headers-to-our-requests-through-urql-s-fetchoptions?pl=build-a-github-issue-viewer-in-react-and-graphql-be5a)**
 
 **[💻 Course repo](https://github.com/theianjones/egghead-graphql-subscriptions)**
 
