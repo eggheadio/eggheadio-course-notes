@@ -2,12 +2,12 @@
 
 Now we want to take advantage of `getInitialProps` to retrieve the specific id for each blog post. We are able to pull this value out of the query object that we defined in our server.
 
-The first step is to destructure the context parameter of `getInitialProps` so we can get the id from the `query` object. The context object has a number of different properties, and `query` is one of them. You can read more about `getInitialProps` [here](https://nextjs.org/docs/api-reference/data-fetching/getInitialProps)
+The first step is to destructure the context parameter of `getInitialProps` so we can get the id from the `query` object. The context object has a number of different properties, and `query` is one of them.
 
-```
-Post.getInitialProps = async ({ query: { id }}) => {
+📜 - You can read more about `getInitialProps` [here](https://nextjs.org/docs/api-reference/data-fetching/getInitialProps)
 
-};
+```js
+Post.getInitialProps = async ({ query: { id } }) => {};
 ```
 
 To make the API call we are going to use `isomorphic-fetch`. We want to make sure to import that at the top of our file.
@@ -20,13 +20,15 @@ Inside of our `fetch` call, we're going to use the `id` that we have pulled out 
 
 Below that, we're going to store the parsed response in a variable named `data`. We're also going to set up variables to hold other data that we want to display.
 
-```
-Post.getInitialProps = async ({ query: { id }}) => {
-    const response = await fetch (`${process.env.BLOGGER_URL}/${id}?key=\${process.env.API_KEY}`)
-    const data = await response.json();
-    const title = data.title;
-    const content = data.content;
-    return { title, content } // returning title & content this way ensures that they are available to our component as props.
+```js
+Post.getInitialProps = async ({ query: { id } }) => {
+  const response = await fetch(
+    `${process.env.BLOGGER_URL}/${id}?key=\${process.env.API_KEY}`
+  );
+  const data = await response.json();
+  const title = data.title;
+  const content = data.content;
+  return { title, content }; // returning title & content this way ensures that they are available to our component as props.
 };
 ```
 
@@ -42,7 +44,7 @@ First, we can destructure the `title` and `content` parameters from our props:
 
 Now we can use our Material UI components and create a card to display our post data:
 
-```
+```js
 const Post = ({ title, content }) =>
     <div>
         <Header />
@@ -61,14 +63,14 @@ The last step here to set up our `Post` component is to add a button and a link 
 
 First, import `RaisedButton` and `Link`:
 
-```
-import RaisedButton from 'material-ui/RaisedButton';
-import Link from 'next/link';
+```js
+import RaisedButton from "material-ui/RaisedButton";
+import Link from "next/link";
 ```
 
 Then we will go ahead and add those elements to our `Post` component:
 
-```
+```js
 const Post = ({ title, content }) =>
     <div>
         <Header />

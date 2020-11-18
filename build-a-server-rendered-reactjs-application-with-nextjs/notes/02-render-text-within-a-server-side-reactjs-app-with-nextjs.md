@@ -45,3 +45,5 @@ export default About;
 ```
 
 Now when we navigate to `localhost:3000/about`, you'll see the page we just created!
+
+📜 - If you want to learn more about routing in Next.js, you can check out the docs [here](https://nextjs.org/docs/routing/introduction).

@@ -40,6 +40,8 @@ const withMaterialUI = ComposedComponent => {
 export default withMaterialUI;
 ```
 
+🧩 - Take note of the color constants that we are importing from our `theme.js` file. These will be passed into our `withMaterialUI` higher order component, so that they will be available to the components that we pass in.
+
 A higher order component (HOC) is a component that takes a component and adds additional functionality.
 
 Since we're using Next.js, and will be rendering code from the server, we want to make sure that we are loading the same code on both the client and the server. This will be accomplished by using Next's `getInitialProps` hook.

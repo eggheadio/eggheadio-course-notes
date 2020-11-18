@@ -6,13 +6,15 @@ We actually have a couple of different ways to style our components in Next.js.
 
 The first styling technique that we're going to talk about is CSS-in-JS, and it is real simple to get started with. All we have to do is add a `style` prop to the element that we want to style.
 
-```
-<a style={{
-    textDecoration: 'none',
-    fontSize: '18px',
-    color: '#fff'
-}}>
-Click to view Post!
+```js
+<a
+  style={{
+    textDecoration: "none",
+    fontSize: "18px",
+    color: "#fff",
+  }}
+>
+  Click to view Post!
 </a>
 ```
 
@@ -26,15 +28,15 @@ There are a few things to note here:
 
 The other option that we have is to used styled-jsx. This is achieved by using a set of `<style>` tags inside of our component.
 
-```
+```js
 <style jsx>
-    {`
-        .post-link {
-            text-decoration: none;
-            color: #fff;
-            font-size: 18px
-        }
-    `}
+  {`
+    .post-link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+  `}
 </style>
 ```
 
@@ -43,3 +45,4 @@ Important items to take note of here:
 1. We want to make sure that we include `jsx` attribute on the `<style>` tag.
 2. We're using a set of brackets and template strings, and including our styles within.
 3. Inside of the style tags, we are able to use traditional CSS names and formatting.
+4. When using Styled JSX, Next puts the styles in the `<head>` of the document, instead of inline like the CSS-in-JS approach does.

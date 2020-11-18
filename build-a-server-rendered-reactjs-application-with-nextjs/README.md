@@ -4,6 +4,10 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+# Build a Server-rendered ReactJS Application with Next.js
+
+<img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/179/full/EGH_ReactNextServer_Final.png" />
+
 ## About 🔎
 
 This repo contains notes on [Thomas Greco](https://egghead.io/instructors/tom-greco)'s collection [Build a Server-rendered ReactJS Application with Next.js](https://egghead.io/courses/build-a-server-rendered-reactjs-application-with-next-js). These notes follow along with the course and guide you as you create a blog in React with Next.js that pulls in content from an API, generates dynamic pages, sets up styling with Material UI, and is deployed using now-cli.
