@@ -11,7 +11,7 @@
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
 
-This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s Egghead course [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/react-real-time-messaging-with-graphql-using-urql-and-onegraph-be5a).
+This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s egghead course [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/react-real-time-messaging-with-graphql-using-urql-and-onegraph-be5a).
 
 These notes contain the same structure as the transcriptions, along with additional rewrites, links to resources, and personal takes on the lesson. Feel free to submit additions to these notes, but please don't remove anything (unless we messed up or misunderstood something).
 
@@ -104,6 +104,23 @@ You'll notice that there is a community solutions file within the [Excercises](.
       </a>
     </td>
     <td align="center"><a href="http://maggieappleton.com"><img src="https://avatars0.githubusercontent.com/u/5599295?v=4" width="100px;" alt=""/><br /><sub><b>Appleton</b></sub></a><br /><a href="#design-MaggieAppleton" title="Design">🎨</a></td>
+    <td align="center">
+      <a href="https://github.com/theianjones">
+        <img
+          src="https://avatars2.githubusercontent.com/u/4407263?s=460&v=4"
+          width="100px;"
+          alt="Ian Jones's profile picture"
+        />
+        <br />
+        <sub><b>Ian Jones</b></sub>
+      </a>
+      <br />
+      <a
+        href="https://github.com/eggheadio/eggheadio-course-notes/real-time-data-with-graphql-subscriptions/notes"
+        title="Content">
+        🖋
+      </a>
+    </td>
   </tr>
 </table>
 
