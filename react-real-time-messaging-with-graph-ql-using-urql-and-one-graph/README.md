@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<h1 align="center"><a href="https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a">React Real-Time Messaging with GraphQL using urql and OneGraph</a></h1>
+<h1 align="center"><a href="https://egghead.io/playlists/react-real-time-messaging-with-graphql-using-urql-and-onegraph-be5a">React Real-Time Messaging with GraphQL using urql and OneGraph</a></h1>
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/409/013/full/EGH_RealtimeGraphqL.png" width="300" /></p>
 
@@ -11,7 +11,7 @@
 
 We are going to use OneGraph GraphQL server and urql GraphQL Client to build a real time chat application.
 
-This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s Egghead course [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/build-a-github-issue-viewer-in-react-and-graphql-be5a).
+This repo contains notes from [Ian Jones](https://twitter.com/_jonesian)'s Egghead course [React Real-Time Messaging with GraphQL using urql and OneGraph](https://egghead.io/playlists/react-real-time-messaging-with-graphql-using-urql-and-onegraph-be5a).
 
 These notes contain the same structure as the transcriptions, along with additional rewrites, links to resources, and personal takes on the lesson. Feel free to submit additions to these notes, but please don't remove anything (unless we messed up or misunderstood something).
 
