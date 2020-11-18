@@ -8,9 +8,10 @@ We're going to import AppBar from the Material-UI library and use it in our `Hea
 
 The goal right now is to create a simple header component with the following code:
 
-```
-const Header = ({ title = 'Next.js blogging application'}) =>
-    <AppBar title={title} showMenuIconButton={false} />
+```js
+const Header = ({ title = "Next.js blogging application" }) => (
+  <AppBar title={title} showMenuIconButton={false} />
+);
 ```
 
 At the bottom of the file we also want to make sure that the header component is the default export.

@@ -4,17 +4,15 @@ The next step in building our application is to set up a custom server that will
 
 In the root of your project, create a file named `server.js` and include the following starter code in the file:
 
-```
-const express = require('express')
-const next = require('next')
-const port = parseInt(process.env.PORT, 10) || 3000
-const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
+```js
+const express = require("express");
+const next = require("next");
+const port = parseInt(process.env.PORT, 10) || 3000;
+const dev = process.env.NODE_ENV !== "production";
+const app = next({ dev });
 const handle = app.getRequestHandler();
 
-app.prepare().then(() => {
-
-});
+app.prepare().then(() => {});
 ```
 
 We're going to put all of our code inside of the `app.prepare().then()`, since it will allow us to continue to use Next.js features.
@@ -41,11 +39,11 @@ The value of the `handle` constant results from calling `getRequestHandler()`. T
 
 The final part we need to complete for this file is to use `server.listen()` to have our server listen on a port that we choose. In this example we will use 3000.
 
-```
-server.listen(port, err => {
-        if(err) throw err
-        console.log(`Listening on Port ${port}`)
-    });
+```js
+server.listen(port, (err) => {
+  if (err) throw err;
+  console.log(`Listening on Port ${port}`);
+});
 ```
 
 Now we want to update our `package.json`. We need to change the `scripts` object to make sure that it runs the server that we just created.

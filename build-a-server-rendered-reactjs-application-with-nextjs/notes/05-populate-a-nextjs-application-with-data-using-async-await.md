@@ -8,17 +8,17 @@ You can read more about environment variables [here](https://medium.com/chingu/a
 
 In our `next.config.js` file, we want to set it up as follows:
 
-```
-const webpack = require('webpack');
-require('dotenv').config();
+```js
+const webpack = require("webpack");
+require("dotenv").config();
 
 module.exports = {
-  webpack: config => {
+  webpack: (config) => {
     config.plugins.push(
-      new webpack.EnvironmentPlugin(['BLOGGER_URL', 'API_KEY'])
+      new webpack.EnvironmentPlugin(["BLOGGER_URL", "API_KEY"])
     );
     return config;
-  }
+  },
 };
 ```
 
@@ -43,12 +43,14 @@ Inside of our `index.js` we want to import `isomorphic-fetch` so we can make the
 
 Below our `Index` component, we can go ahead and use `getInitialProps` to fetch the data:
 
-```
+```js
 Index.getInitialProps = async () => {
-    const response = await fetch(`${process.env.BLOGGER_URL}?key=${process.env.API_KEY}`);
-    const data = await response.json();
-    return { posts: data.items }
-}
+  const response = await fetch(
+    `${process.env.BLOGGER_URL}?key=${process.env.API_KEY}`
+  );
+  const data = await response.json();
+  return { posts: data.items };
+};
 ```
 
 For a more detailed look at `getInitialProps` you can check out [the documentation](https://nextjs.org/docs/api-reference/data-fetching/getInitialProps).
@@ -59,28 +61,33 @@ With our API call set up and ready to retrieve data for us, we can prepare our c
 
 First we want to pull in a couple of components from Material-UI to help us create cards.
 
-```
-import { Card, CardHeader, CardText } from 'material-ui/Card';
-import RaisedButton from 'material-ui/RaisedButton';
+```js
+import { Card, CardHeader, CardText } from "material-ui/Card";
+import RaisedButton from "material-ui/RaisedButton";
 ```
 
 We're going to use destructuring to pull posts out of the `props` object that is being passed into the Index component:
 
-```
-const Index = ({ posts }) => // Object destructuring. This is more readable than props.posts.
-    <div>
+```js
+const Index = (
+  { posts } // Object destructuring. This is more readable than props.posts.
+) => (
+  <div>
     <Header />
-        {
-            posts.map(x => // Here we're going to map over each of the objects in our posts array, and create a card for each one.
-                <Card key={x.id}> // We want each card to have a unique id.
-                    <CardHeader title={x.title} />
-                    <CardText>
-                        <RaisedButton label="Click to view post!" fullWidth={true} />
-                    </CardText>
-                </Card>
-            )
-        }
-    </div>;
+    {posts.map((
+      x // Here we're going to map over each of the objects in our posts array, and create a card for each one.
+    ) => (
+      <Card key={x.id}>
+        {" "}
+        // We want each card to have a unique id.
+        <CardHeader title={x.title} />
+        <CardText>
+          <RaisedButton label="Click to view post!" fullWidth={true} />
+        </CardText>
+      </Card>
+    ))}
+  </div>
+);
 ```
 
 The attributes `title`, `label`, and `fullWidth` are props that Material-UI provides us that allow us some control over how the components are displayed. You can find more information about Material-UI cards and their props in [the documentation](https://material-ui.com/components/cards/).

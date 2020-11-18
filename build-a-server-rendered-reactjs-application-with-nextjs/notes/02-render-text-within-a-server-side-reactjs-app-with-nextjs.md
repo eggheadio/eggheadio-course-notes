@@ -2,7 +2,7 @@
 
 Whether you used `create-next-app` to create your next application, or you set everything up yourself, make sure the `scripts` section of your `package.json` looks like the following:
 
-```
+```js
 "scripts": {
         "dev": "next",
         "start": "next start",
@@ -16,11 +16,12 @@ Create a `pages` directory in your project, and add a page named `index.js`. It'
 
 You can add the following content to `index.js` to get started:
 
-```
-const Index = ({ title = 'Hello from next.js' }) =>
-    <div>
-        <h2>{title}</h2>
-    </div>;
+```js
+const Index = ({ title = "Hello from next.js" }) => (
+  <div>
+    <h2>{title}</h2>
+  </div>
+);
 
 export default Index;
 ```
@@ -33,11 +34,12 @@ We can do this by creating a new file in our `pages` directory called `about.js`
 
 Add the following code to the file:
 
-```
-const About = ({ title = 'Hello from the about route!' }) =>
-    <div>
-        <h2>{title}</h2>
-    </div>;
+```js
+const About = ({ title = "Hello from the about route!" }) => (
+  <div>
+    <h2>{title}</h2>
+  </div>
+);
 
 export default About;
 ```
