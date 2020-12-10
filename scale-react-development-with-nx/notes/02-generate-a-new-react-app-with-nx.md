@@ -14,10 +14,10 @@ Using yarn
 yarn add @nrwl/react
 ```
 
-Using npx
+Using npm
 
 ```shell
-npx i @nrwl/react
+npm i @nrwl/react
 ```
 
 Now we can run `yarn nx list @nrwl/react` to see all the possibilities that this plugin gives us.
@@ -30,7 +30,7 @@ Now we can run `yarn nx list @nrwl/react` to see all the possibilities that this
 - Generate storybook story
 - Create a cypress spec
 
-_**Note:** Juri is using yarn on the course, so these notes will only contain the yarn version of running the commands, but you can use npx instead._
+_**Note:** Juri is using yarn on the course, so these notes will only contain the yarn version of running the commands, but you can use npm instead._
 
 ### Let's create the React Application
 
