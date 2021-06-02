@@ -2,7 +2,7 @@
 
 **[📹 Video](https://egghead.io/lessons/aws-install-aws-cloud-development-kit-cdk-and-create-a-new-project)**
 
-We'll start by installing the [AWS Cloud Development Kit](https://aws.amazon.com/cdk/).
+00:03 We'll start by installing the [AWS Cloud Development Kit](https://aws.amazon.com/cdk/).
 
 * `npm install -g aws-cdk`
 
@@ -10,11 +10,11 @@ We'll start by installing the [AWS Cloud Development Kit](https://aws.amazon.com
 
 👍 Throughout the course, Tomasz will use both `yarn` and `npm` package mangers, and it's really up to you to decide which one to use, as both work fine.
 
-Verify that`cdk` was installed.
+00:07 Verify that`cdk` was installed.
 
 * `cdk --version`
 
-Initialize a new `cdk` project.
+00:21 Initialize a new `cdk` project.
 
 * `cdk init`
 
@@ -22,11 +22,11 @@ Initialize a new `cdk` project.
 * sample-app: Example CDK Application with some constructs
    └─ cdk init sample-app --language=[csharp|fsharp|java|javascript|python|typescript]
 ```
-We are going to choose the `sample app`, `typescript` template:
+00:34 We are going to choose the `sample app`, `typescript` template:
 
 * `cdk init sample-app --language=typescript`
 
-This will create a bunch of files with the following directory structure (note that I'm displaying files just one level deep here):
+01:05 This will create a bunch of files with the following directory structure (note that I'm displaying files just one level deep here):
 
 ```
 .
