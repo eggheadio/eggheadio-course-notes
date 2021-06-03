@@ -6,18 +6,40 @@
 
 ## Notes
 
-- No requirements needed when taking this course.
-- Recommend that you watch all of these videos through once without touching the keyboard. Just take notes. Then watch them a second time and follow along and change/break the code and review the bits that you need.
-- Download or clone the source code: [**Course Repo**](https://github.com/kentcdodds/beginners-guide-to-react/tree/egghead) and ⚠️ switch to the egghead branch.
+<TimeStamp start={11} end={20}>
 
-* Copy and paste the `start` script in a terminal window to locally serve all the files. Access the files in `localhost:3000`.
+  No requirements needed when taking this course.
 
-  - `npx browser-sync start --server --files "./*.html" --no-open --no-notify --directory`
+</TimeStamp>
+
+<TimeStamp start={126} end={134}>
+
+  Download or clone the source code: [**Course Repo**](https://github.com/kentcdodds/beginners-guide-to-react/tree/egghead) and ⚠️ switch to the egghead branch.
+  
+</TimeStamp>
+
+- 
+ 
+<TimeStamp start={232} end={240}>
+
+  - `npx browser-sync start --server --files "./*.html" --no-open --no-notify --directory` 
+  - Access the files in `localhost:3000`.
   - `npx` comes bundled with Node.js
-  - browsersync automatically reloads any changes made to the code.
-  - More info on [browsersync](https://github.com/wesbos/browser-sync-remote-example)
+  
+</TimeStamp>
 
-* Recommended setup:
+<TimeStamp start={272} end={290}>
+
+  - `browser-sync` automatically reloads any changes made to the code.
+  - More info on [browser-sync](https://github.com/wesbos/browser-sync-remote-example)
+  
+</TimeStamp>
+
+<TimeStamp start={302} end={319}>
+
+  Kent recommends that you watch all of these videos through once without touching any code. Just take notes. Then watch them a second time and follow along and change/break the code and review the bits that you need.
+  
+</TimeStamp>
 
 ```
 - code editor opened
