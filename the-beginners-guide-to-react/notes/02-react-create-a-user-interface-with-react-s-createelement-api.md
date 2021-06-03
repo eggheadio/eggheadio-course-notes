@@ -6,49 +6,39 @@
 
 ## Notes
 
-- React uses the same APIs to control and update the DOM that we did in the previous lesson.
-- Instead of creating DOM elements, we’ll create React elements and then hand those off to `react-dom` to handle turning those into DOM elements and putting them into the page.
-- If you’ve ever learned or used React before, you’re probably more familiar with JSX than React’s `createElement` API, but it’s important to understand the `createElement` API first so you understand the magic.
-
-- Get `react` and `react-dom` from unpkg.com, using a fixed version:
-
-```
-unpkg.com/react@16.12.0/umd/react.production.min.js
-unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js
-```
-
-- And add a `script` tag to the page:
-
+<TimeStamp start={28} end={31}>
+  
+Add these scripts to get React on to the page. 
 ```html
 <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
-```
+```  
+  
+</TimeStamp>
 
-```html
-<body>
-  <div id="root"></div>
-  <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
-  <script type="text/javascript">
-    const rootElement = document.getElementById('root');
-    // specify properties on creation, as an object
-    const element = React.createElement('div', {
-      className: 'container',
-      children: 'Hello World'
-    });
-    // use `react-dom` to render those elements to the page
-    console.log(element);
-    // props argument is what we passed as a second argument
-    // we can also specify it as an array
-    // Example: children: ['Hello World', ", Goodbye World"]
-    ReactDOM.render(element, rootElement);
-  </script>
-</body>
-```
+<TimeStamp start={32} end={40}>
+  
+  Instead of creating DOM elements, we’ll create React elements and then hand those off to `react-dom` to handle turning those into DOM elements and putting them into the page.
+  
+</TimeStamp>
 
-- Now with `react` you can create `React.createElement` and use `react-dom` to render those elements to the page.
-- `React.createElement` API is as simple as the element that you want to create `<div>`, and then an object that has all of the props that you want to have applied, `className`, `children`.
-- Just as a convenience, you can provide the `children` with any number of arguments after the props argument as well.
+<TimeStamp start={46} end={60}>
+  
+If you’ve ever learned or used React before, you’re probably more familiar with JSX than React’s `createElement` API, but it’s important to understand the `createElement` API first so you understand the magic.
+  
+</TimeStamp>
+
+<TimeStamp start={77} end={88}>
+    
+`React.createElement` API is as simple as the element that you want to create. Here we have a `<div>`, and then an object that has all of the props that you want to have applied, `className`, `children`.
+  
+</TimeStamp>
+
+<TimeStamp start={167} end={185>
+    
+Just as a convenience, in `React.createElement` all arguments after the props object are considered children.
+  
+</TimeStamp>
 
 ## Additional resource
 
