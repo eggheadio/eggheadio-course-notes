@@ -6,23 +6,18 @@
 
 ## Notes
 
-- JSX is not an entirely different language, but it is a bit of an extension to the language, so knowing how you would express certain JavaScript things within the JSX syntax is important to using JSX effectively.
 
-- To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's. Example:
+<TimeStamp start={25} end={32}>
+    
+To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's.
+  
+</TimeStamp>
 
-```html
-<script type="text/babel">
-  const rootElement = document.getElementById('root');
-  // declaring variables
-  const children = 'Hello World';
-  const className = 'container';
-  // interpolation
-  const element = <div className={className}>{children}</div>;
-  ReactDOM.render(element, rootElement);
-</script>
-```
-
-Since this is JSX and not HTML, you can use self-closing tags:
+<TimeStamp start={196} end={202}>
+  
+Since this is JSX and not HTML, you can use self-closing tags for divs `<div {...props} />`
+  
+</TimeStamp>
 
 ```html
 <script type="text/babel">
@@ -35,8 +30,11 @@ Since this is JSX and not HTML, you can use self-closing tags:
   ReactDOM.render(element, rootElement);
 </script>
 ```
-
-- The spread operator takes either an array or an object and expands it into its set of items. We can use the spread operator to pass down our props to the `React.createElement` API:
+<TimeStamp start={228} end={235}>
+  
+In JSX you can spread an object within an element, `<div {...props} />` to pass properties to the `React.createElement` API
+  
+</TimeStamp>
 
 ```html
 <body>
