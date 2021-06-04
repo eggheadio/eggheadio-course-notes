@@ -6,7 +6,7 @@
 
 ## Notes
 
-<TimeStamp start={28} end={31}>
+<TimeStamp start="0:28" end="0:31">
   
 Add these scripts to get React on to the page. 
 ```html
@@ -16,25 +16,25 @@ Add these scripts to get React on to the page.
   
 </TimeStamp>
 
-<TimeStamp start={32} end={40}>
+<TimeStamp start="0:33" end="0:40">
   
   Instead of creating DOM elements, we’ll create React elements and then hand those off to `react-dom` to handle turning those into DOM elements and putting them into the page.
   
 </TimeStamp>
 
-<TimeStamp start={46} end={60}>
+<TimeStamp start="0:46" end="1:00">
   
 If you’ve ever learned or used React before, you’re probably more familiar with JSX than React’s `createElement` API, but it’s important to understand the `createElement` API first so you understand the magic.
   
 </TimeStamp>
 
-<TimeStamp start={77} end={88}>
+<TimeStamp start="1:17" end="1:28">
     
 `React.createElement` API is as simple as the element that you want to create. Here we have a `<div>`, and then an object that has all of the props that you want to have applied, `className`, `children`.
   
 </TimeStamp>
 
-<TimeStamp start={167} end={185>
+<TimeStamp start="2:47" end="3:05">
     
 Just as a convenience, in `React.createElement` all arguments after the props object are considered children.
   

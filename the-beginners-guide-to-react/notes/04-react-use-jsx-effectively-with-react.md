@@ -7,13 +7,13 @@
 ## Notes
 
 
-<TimeStamp start={25} end={32}>
+<TimeStamp start="0:25" end="0:32">
     
 To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's.
   
 </TimeStamp>
 
-<TimeStamp start={196} end={202}>
+<TimeStamp start="3:16" end="3:22">
   
 Since this is JSX and not HTML, you can use self-closing tags for divs `<div {...props} />`
   
@@ -30,7 +30,7 @@ Since this is JSX and not HTML, you can use self-closing tags for divs `<div {..
   ReactDOM.render(element, rootElement);
 </script>
 ```
-<TimeStamp start={228} end={235}>
+<TimeStamp start="3:48" end="3:55">
   
 In JSX you can spread an object within an element, `<div {...props} />` to pass properties to the `React.createElement` API
   

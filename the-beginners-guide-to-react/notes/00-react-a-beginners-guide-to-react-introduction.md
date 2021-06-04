@@ -6,13 +6,13 @@
 
 ## Notes
 
-<TimeStamp start={11} end={20}>
+<TimeStamp start="0:11" end="0:20">
 
   No requirements needed when taking this course.
 
 </TimeStamp>
 
-<TimeStamp start={126} end={134}>
+<TimeStamp start="2:06" end="2:14">
 
   Download or clone the source code: [**Course Repo**](https://github.com/kentcdodds/beginners-guide-to-react/tree/egghead) and ⚠️ switch to the egghead branch.
   
@@ -20,7 +20,7 @@
 
 - 
  
-<TimeStamp start={232} end={240}>
+<TimeStamp start="3:52" end="4:00">
 
   - `npx browser-sync start --server --files "./*.html" --no-open --no-notify --directory` 
   - Access the files in `localhost:3000`.
@@ -28,14 +28,14 @@
   
 </TimeStamp>
 
-<TimeStamp start={272} end={290}>
+<TimeStamp start="4:32" end="4:50">
 
   - `browser-sync` automatically reloads any changes made to the code.
   - More info on [browser-sync](https://github.com/wesbos/browser-sync-remote-example)
   
 </TimeStamp>
 
-<TimeStamp start={302} end={319}>
+<TimeStamp start="5:02" end="5:19">
 
   Kent recommends that you watch all of these videos through once without touching any code. Just take notes. Then watch them a second time and follow along and change/break the code and review the bits that you need.
   
