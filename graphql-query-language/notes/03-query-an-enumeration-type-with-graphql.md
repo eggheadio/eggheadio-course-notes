@@ -6,9 +6,17 @@ We'll query an enum field, category, in this lesson to find out the different pe
 
 ## Notes
 
+<TimeStamp start="0:15" end="0:18">
+
+`CTRL+SPACE`
+
+</TimeStamp>
+
 When we're using GraphQL Playground, we can hit `CTRL+SPACE`. This will surface all of the different fields that are available on this query.
 
-Add `category` to our query. When clicking play, you should see category being returned.
+Add `category` to our query. 
+
+<TimeStamp start="0:22" end="0:27">
 
 ```graphql
 query {
@@ -20,6 +28,10 @@ query {
   totalPets
 }
 ```
+
+</TimeStamp>
+
+When clicking play, you should see category being returned.
 
 GraphQL is a query language for your API, but it's also a **type system** for your API.
 
@@ -33,7 +45,16 @@ If you click the schema tab, you can take a look at this schema.
 
 ## Personal Take
 
-**🔥Tip**: You can hover over one of these field names and press _command_. This will allow you to click on that field, and it'll take you directly to that field definition in the schema.
+**🔥Tip**: You can hover over one of these field names and press _command_. 
+
+<TimeStamp start="1:24" end="1:29">
+
+`⌘` + click on Mac 
+`CTRL` + click on Windows
+
+</TimeStamp>
+
+This will allow you to click on that field, and it'll take you directly to that field definition in the schema.
 
 ## Resources
 

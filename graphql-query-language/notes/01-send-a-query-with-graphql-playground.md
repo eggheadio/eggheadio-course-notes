@@ -8,11 +8,15 @@ In this lesson, we will send a query to obtain the total number of pets register
 
 In this lesson, we send a query to obtain the total number of pets registered at the Pet Library.
 
+
+
 When we go to this route `https://pet-library.moonhighway.com` a tool called GraphQL Playground will pop up in the browser.
 
 **GraphQL Playground** is an in-browser IDE that lets you send queries to GraphQL endpoints.
 
 With GraphQL, there's only one endpoint, so you need to specify the data that you want by writing a query on the left-hand side of the screen.
+
+<TimeStamp start="0:26" end="0:35">
 
 ```graphql
 query {
@@ -20,7 +24,9 @@ query {
 }
 ```
 
-When clicking play the data returned is JSON. It matches the shape of the response exactly. All of the feels are the same:
+</TimeStamp>
+
+When clicking play the data returned is JSON. It matches the shape of the response exactly. All of the fields are the same:
 
 ```json
 {
@@ -32,7 +38,11 @@ When clicking play the data returned is JSON. It matches the shape of the respon
 
 ## Personal Take
 
-It's important to understand that GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
+<TimeStamp start="0:48" end="1:00">
+
+GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
+
+</TimeStamp>
 
 ## Resources
 
