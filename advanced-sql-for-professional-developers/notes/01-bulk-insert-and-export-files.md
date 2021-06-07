@@ -2,22 +2,44 @@
 
 This is the format when using Postgres:
 
-```sql
-  postgres=# copy <table name> <column names> from '<full file path to CSV file>' DELIMITER ',' CSV HEADER; 
-```
+<TimeStamp start="0:22" end="0:37">
 
-![Bult Insert Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829471/transcript-images/bulk-insert.jpg)
+  ```sql
+    postgres=# copy <table name> <column names> from '<full file path to CSV file>' DELIMITER ',' CSV HEADER; 
+  ```
+  ![Bult Insert Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829471/transcript-images/bulk-insert.jpg)
 
-This comand will bulk insert all rows from the file into the table.
+  This comand will bulk insert all rows from the file into the table.
 
-![SQL Bulk Import Gif](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589830294/transcript-images/sql-bulkimport.gif)
+  ![SQL Bulk Import Gif](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589830294/transcript-images/sql-bulkimport.gif)
 
-The `copy` command makes this possible. Defining columns is optional, and renames the columns from the original file. If left out, `HEADER` will be pulled in from the imported file. 
+</TimeStamp>
 
-In this case, the `DELIMITER` defaults to tabs, but with CSV we need to choose commas (this works like a key value pair).
 
-And `CSV` and `HEADER` are two separate options: `CSV` for the file type, `HEADER` tells the `copy` command that the first row in the file contains headers and shouldn't be copied into the DB.
+<TimeStamp start="0:48" end="1:13">
 
-If you change "from" to "to" you can **export a copy of data** to the file **FROM the DB** as a CSV.
+  The `copy` command makes this possible. Defining columns is optional, and renames the columns from the original file. If left out, `HEADER` will be pulled in from the imported file. 
 
-![Bulk Insert Reverse Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/bulk-insert-reverse-to.jpg)
+</TimeStamp>
+
+<TimeStamp start="1:15" end="1:33">
+
+  In this case, the `DELIMITER` defaults to tabs, but with CSV we need to choose commas (this works like a key value pair).
+
+</TimeStamp
+
+
+<TimeStamp start="1:36" end="1:58">
+
+  And `CSV` and `HEADER` are two separate options: `CSV` for the file type, `HEADER` tells the `copy` command that the first row in the file contains headers and shouldn't be copied into the DB.
+
+</TimeStamp>
+
+<TimeStamp start="2:15" end="2:25">
+
+  If you change "from" to "to" you can **export a copy of data** to the file **FROM the DB** as a CSV.
+
+  ![Bulk Insert Reverse Image](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1589829472/transcript-images/bulk-insert-reverse-to.jpg)
+
+</TimeStamp>
+
