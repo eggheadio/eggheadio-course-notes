@@ -43,9 +43,9 @@ If you click the schema tab, you can take a look at this schema.
 
 ## Personal Take
 
-**🔥Tip**: You can hover over one of these field names and press _command_. 
-
 <TimeStamp start="1:24" end="1:29">
+
+**🔥Tip**: You can hover over one of these field names and press _command_. 
 
 `⌘` + click on Mac 
 `CTRL` + click on Windows
