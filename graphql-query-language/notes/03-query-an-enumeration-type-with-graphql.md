@@ -8,11 +8,9 @@ We'll query an enum field, category, in this lesson to find out the different pe
 
 <TimeStamp start="0:15" end="0:18">
 
-`CTRL+SPACE`
+When we're using GraphQL Playground, we can hit `CTRL+SPACE`. This will surface all of the different fields that are available on this query.
 
 </TimeStamp>
-
-When we're using GraphQL Playground, we can hit `CTRL+SPACE`. This will surface all of the different fields that are available on this query.
 
 Add `category` to our query. 
 
