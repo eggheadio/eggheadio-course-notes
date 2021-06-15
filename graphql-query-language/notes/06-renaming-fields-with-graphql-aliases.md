@@ -32,6 +32,8 @@ If I scroll down a little further, we're going to see where this is happening, l
 
 We have a naming collision here. What we'll need to do is preface both of these queries with an alias. I can pick a new name for this field. I'll call it `available` and add a colon. Then I'll add `checkedOut` with a colon in front of that.
 
+<TimeStamp start="0:42" end="0:53">
+
 ```graphql
 query {
   available: totalPets(status: AVAILABLE)
@@ -48,9 +50,14 @@ query {
 }
 ```
 
+</TimeStamp>
+
 I can hit play, and now, I see that `available` and `checkedOut` are returned. The query is successful, and I've renamed these fields in our JSON response.
 
 ![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555709/transcript-images/renaming-fields-with-graphql-aliases-queries-fiexed.png)
+
+
+<TimeStamp start="1:00" end="1:07">
 
 ```graphql
 query {
@@ -69,9 +76,14 @@ query {
 }
 ```
 
+</TimeStamp>
+
 This will tell us that 25 total pets are part of the library, all bundled in the same query. Aliases can be added to any field, so I added them to top-level queries, like `totalPets`, before. If you wanted to add them to more nested fields, you could do so.
 
 I could rename the photo field with an alias called `petPhoto`, and this is going to rename that in the response in all cases.
+
+
+<TimeStamp start="1:17" end="1:20">
 
 ```
 query {
@@ -89,6 +101,8 @@ query {
   }
 }
 ```
+
+</TimeStamp>
 
 ## Personal Take
 

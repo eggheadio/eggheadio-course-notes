@@ -6,7 +6,8 @@ In this lesson, we’ll replace static or inline values with dynamic values and 
 
 ## Notes
 
-We'll start by opening up a new tab in GraphQL Playground by clicking the plus, and we're going to use this new tab to write a new `query`. We'll use our `allPets` query from before, but this time, we want to pass in some optional arguments.
+We'll start by opening up a new tab in GraphQL Playground by clicking the plus, and we're going to use this new tab to write a new query. We'll use our `allPets` query from before, but this time, we want to pass in some optional arguments.
+
 
 ```
 query {
@@ -25,9 +26,11 @@ query {
 
 Now, I can make a selection for id, name, status, and category, and I'll just see those dogs that are available.
 
+<TimeStamp start="0:08" end="0:35">
+
 ```graphql
 query {
-  allPets(category: DOG, status: AVAILABLE) {
+  allPets(category: DOG status: AVAILABLE) {
     id
     name
     status
@@ -35,6 +38,8 @@ query {
   }
 }
 ```
+
+</TimeStamp>
 
 Right now, these values are being passed in-line as strings with the query, but we also have the option to provide values as dynamic values.
 
@@ -45,8 +50,8 @@ Let's say you wanted to build a UI for this. You might have some dropdown filter
 The first thing I want to do is I want to set up these variables on line one. We're going to use the dollar sign and `category`, and then we'll define what type category is, which is `petCategory`. Then we'll provide status, which is `petStatus`.
 
 ```graphql
-query($category: PetCategory, $status: PetStatus) {
-  allPets(category: DOG, status: AVAILABLE) {
+query($category: PetCategory $status: PetStatus) {
+  allPets(category: DOG status: AVAILABLE) {
     id
     name
     status
@@ -57,9 +62,11 @@ query($category: PetCategory, $status: PetStatus) {
 
 Next, we'll provide these variables to our allPets query by using the dollar sign and the name of the argument.
 
+<TimeStamp start="1:05" end="1:23">
+
 ```graphql
-query($category: PetCategory, $status: PetStatus) {
-  allPets(category: $category, status: $status) {
+query($category: PetCategory $status: PetStatus) {
+  allPets(category: $category status: $status) {
     id
     name
     status
@@ -68,11 +75,15 @@ query($category: PetCategory, $status: PetStatus) {
 }
 ```
 
+</TimeStamp>
+
 Now, if I click play, we're going to have these variables set up, but we're not passing any values yet. This is just going to give me everything.
 
 ![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555709/transcript-images/use-variables-to-filter-a-query-result-with-graphql-variables-set-up.png)
 
 Because those values are nullable, we can provide null, and this will just show me all of the pets. When I want to provide those values, I'm going to open up the query variables panel. Here, I'm going to pass the values as JSON.
+
+<TimeStamp start="1:35" end="1:45">
 
 ```graphql
 {
@@ -80,6 +91,8 @@ Because those values are nullable, we can provide null, and this will just show 
   "status": "AVAILABLE"
 }
 ```
+
+</TimeStamp>
 
 I'll provide the `category` and the `status` to find those available dogs. These values will then be passed, and our response should reflect that.
 
@@ -96,6 +109,8 @@ This will be dynamic, so I can change it to cat. This will show me all the avail
 
 The GraphQL query language also gives us a way to pass default values for these variables. For example, if I set the default with an equals sign to `STINGRAY` for `PetCategory`, and I click play, the default isn't going to be used. We're still going to pull those values from the query variables.
 
+<TimeStamp start="2:07" end="2:23">
+
 ```
 query ($category: PetCategory=STINGRAY $status: PetStatus){
   allPets(category: $category status: $status) {
@@ -106,6 +121,8 @@ query ($category: PetCategory=STINGRAY $status: PetStatus){
   }
 }
 ```
+
+</TimeStamp>
 
 However, if I remove that, and I don't pass the cat value, then it will use the default. If that value is not provided, we're going to use the default.
 

@@ -8,14 +8,6 @@ In this lesson, we’ll take a closer look at the Photo type and how it can be u
 
 The photo type has fields for full-size image and thumbnail-size image, both of which are strings. Each pet would have a photo.
 
-If I query `photo`, it gives me this error message that says:
-
-```
-"Field photo of type photo must have a selection of subfields."
-```
-
-![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555709/transcript-images/send-a-nested-graphql-query-error-message.png)
-
 ```graphql
 query {
   allPets {
@@ -28,11 +20,30 @@ query {
 }
 ```
 
-Because photo is an object, I'm going to need to add another selection set here.
+If I query `photo`, it gives this error message:
+
+```
+"Field photo of type photo must have a selection of subfields."
+```
+
+![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555709/transcript-images/send-a-nested-graphql-query-error-message.png)
+
+Because photo is an object, we need to add another selection set here.
+
+<TimeStamp start="0:35" end="0:45">
+
+```graphql
+photo {
+  thumb
+  full
+}
+```
+
+</TimeStamp>
 
 This allows us to have some flexibility when we are sending a query.
 
-A photo may have more than one field associated with it. Then we can request just the fields that we want with our GraphQL query.
+A photo may have more than one field associated with it. We can request just the fields that we want with our GraphQL query.
 
 ## Personal Take
 

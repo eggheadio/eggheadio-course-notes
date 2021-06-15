@@ -8,6 +8,8 @@ We're going to write a query to return a list of pet objects. Along the way, we'
 
 To get a list of all pets, we need to query the `allPets` field. Open up a pair of curly braces to select `name` and `weight` for each of these pets, and then click play.
 
+<TimeStamp start="0:05" end="0:50">
+
 ```graphql
 query {
   allPets {
@@ -17,6 +19,8 @@ query {
   totalPets
 }
 ```
+
+</TimeStamp>
 
 The result: `allPets` returns an array of pets with name and weight for each of them.
 
