@@ -5,6 +5,7 @@
 We can ensure integrity by adding constraints to our tables. 
 
 <TimeStamp start="0:16" end="0:28">
+
   A powerful feature of SQL is the ability to create our own types.
 
   ```sql

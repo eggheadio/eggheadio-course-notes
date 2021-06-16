@@ -4,21 +4,33 @@
 
 If we want to filter an data using aggregate functions, we can't use `where`. That will return an error.
 
+<TimeStamp start="0:41" end="1:00">
+
 ```sql
-select user_handle, sum(quantity) as total from purchases where sun(quantity) > 5 group by user_handle;
+select user_handle, sum(quantity) as total from purchases where sum(quantity) > 5 group by user_handle;
 ```
+
+</TimeStamp>
 
 This code will throw an error. This is where `having` comes in.
 
 ## How `having` Works
 
-Look at this code to see how `having` clause is formated.
+<TimeStamp start="1:35" end="1:43">
+
+Look at this code to see how `having` clause is formatted.
 
 ```sql
 select user_handle, sum(quantity) as total from purchases group by user_handle having sum(quantity) > 5;
 ```
 
+</TimeStamp>
+
+<TimeStamp start="1:50" end="2:15">
+
 Notice that `having` is often used in conjunction with `group by`. We can use `having` without `group by`. This way, it will treat all rows as one huge group. This is not very common though.
+
+</TimeStamp>
 
 ### `where` vs `having`
 
