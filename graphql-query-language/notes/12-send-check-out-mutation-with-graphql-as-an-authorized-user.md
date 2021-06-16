@@ -6,6 +6,8 @@ In this lesson we learn how to how to send a mutation based on current data to c
 
 ## Notes
 
+<TimeStamp start="0:00" end="0:20>
+
 Once logged in, the user will be able to check out pets with a `checkOut` mutation. First we need to know which pets are available.
 
 We can do this by quering `allPets`.
@@ -19,6 +21,10 @@ query {
   }
 }
 ```
+
+</TimeStamp>
+
+<TimeStamp start="0:21" end="1:01">
 
 We are going to checkout Switchblade who has an id of `S-2`. We are also going to query the pet and customer information.
 
@@ -37,6 +43,12 @@ mutation Checkout {
 
 ![alt text](https://i.ibb.co/Q9YghWb/scrnli-1-23-2020-6-26-48-PM.png)
 
+</TimeStamp>
+
+<TimeStamp start="1:02" end="1:24">
+
 If we look at the `checkOut` mutation, we see that this returns a `CheckOutPayload`. Here we have access to the customer object, the pet object and the checkout date all in one place.
 
 ![alt text](https://i.ibb.co/fHXh3KC/scrnli-1-23-2020-6-32-18-PM.png)
+
+</TimeStamp>
