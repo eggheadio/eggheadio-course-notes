@@ -290,3 +290,8 @@ export default class Task extends React.Component {
 }
 ```
 </TimeStamp>
+
+
+The extension of the files might give you some errors while running the application, one possible solution will be to use the extension to `.js` instead of `.jsx` in the `column` file.
+
+

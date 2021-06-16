@@ -1,6 +1,20 @@
 ## :movie_camera: [Lesson 7](https://egghead.io/lessons/react-customise-the-appearance-of-an-app-using-react-beautiful-dnd-ondragstart-and-ondragend)
 
-We've looked at `onDragEnd` so far but there are two others, `onDragUpdate` and `onDragStart`. We can do things like change the text color when we start to drag something and have it change back to normal once the drag has ended. 
+<TimeStamp start="0:08" end="0:19">
+
+As mention before there are three callbacks, so far we have worked only on `onDragEnd`
+
+</TimeStamp>
+
+<TimeStamp start="0:13" end="0:30">
+
+We can also use `onDragUpdate` and `onDragStart`if we want to add more visual styling to our application. 
+
+</TimeStamp>
+
+<TimeStamp start="1:18" end="1:50">
+
+We can do things like change the text color when we start to drag something and have it change back to normal once the drag has ended. 
 
 ```js
 onDragStart = () => {
@@ -13,7 +27,11 @@ onDragEnd = result => {
 }
 ```
 
-We can do the same thing when something gets updated. We can make it so that the background color changes with each update to the tasks list. 
+</TimeStamp>
+
+<TimeStamp start="1:51" end="2:25">
+
+We can do the same thing when something gets updated. We can make it so that the background color changes with each update to the tasks list.
 
 ```js
 onDragUpdate = update => {
@@ -24,8 +42,11 @@ onDragUpdate = update => {
   document.body.style.backgroundColor = `rgba(153, 141, 217, ${opacity})`
 }
 ```
+</TimeStamp>
 
-We can add in transitions to the color change on update and have it revert back normal once the drag has ended. 
+<TimeStamp start="2:27" end="2:50">
+
+We can add in transitions to the color change on update and have it revert back normal once the drag has ended.
 
 ```js
 onDragStart = () => {

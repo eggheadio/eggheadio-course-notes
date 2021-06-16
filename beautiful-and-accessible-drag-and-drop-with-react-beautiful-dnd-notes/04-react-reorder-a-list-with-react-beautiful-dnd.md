@@ -258,7 +258,7 @@ We can now drag items around with our mouse and with our keyboard. However, when
 
 <TimeStamp start="7:30" end="7:56">
 
-We go back to `task.jsx, and just add some background color. This will fix the see through problem. 
+We go back to `task.jsx`, and just add some background color. This will fix the see through problem. 
 
 ```js 
 
@@ -272,3 +272,8 @@ const Container = styled.div`
 
 ```
 </TimeStamp>
+
+
+## :warning: innerRef Deprecation :warning:
+
+When using `innerRef` you may run into deprecation. You are not going to be able to drop like the instructor was able to.  To fix this issue, simply change `innerRef` inside of `column.jsx` and `task.jsx` to just ref and it'll work perfectly. Some documentation to use `innerRef` to your use, [Drag n’Drop with react-beautiful-dnd](https://medium.com/@reireynoso/drag-ndrop-with-react-beautiful-dnd-73014e5937f2), and [Here](https://github.com/atlassian/react-beautiful-dnd/blob/master/docs/guides/using-inner-ref.md)
