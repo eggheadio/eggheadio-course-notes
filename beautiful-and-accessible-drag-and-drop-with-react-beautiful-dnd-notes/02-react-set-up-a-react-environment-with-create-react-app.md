@@ -47,7 +47,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 <TimeStamp start="1:08" end="1:15">
 
-We also delete every other file in the `src` folder except for our index.js file. 
+We also delete every other file in the `src` folder except for our `index.js` file. 
 
 </TimeStamp>
 
