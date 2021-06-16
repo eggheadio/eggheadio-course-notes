@@ -59,3 +59,12 @@
 - [React Docs - API reference](https://reactjs.org/docs/hooks-reference.html#useeffect)
 - [Kent's Blog - useEffect vs useLayoutEffect](https://kentcdodds.com/blog/useeffect-vs-uselayouteffect)
 - [MDN - Window.localStorage docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+<TimeStamp start="0:00" end="0:12">
+  
+  [Reddit - What does side effect mean in React?](https://www.reddit.com/r/reactjs/comments/8avfej/what_does_side_effects_mean_in_react/dx1xo1l/)
+
+  Side effects are impure functions - [Redux: Pure and Impure Functions](https://egghead.io/lessons/react-redux-pure-and-impure-functions)
+  
+</TimeStamp>
+

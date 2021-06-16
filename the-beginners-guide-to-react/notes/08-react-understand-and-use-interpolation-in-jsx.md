@@ -82,6 +82,54 @@
 
 ## Additional resource
 
-- [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- 
 - [Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 - [What is JSX? - Kent's Blog](https://kentcdodds.com/blog/what-is-jsx/)
+
+<TimeStamp start="0:45" end="0:50">
+  
+  [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+  
+</TimeStamp>
+
+<TimeStamp start="2:50" end="3:15">
+  
+  You switch back and forth between JSX and JS regularly when writing React. JSX is written within one parent tag that's inside paranthesis. JavaScript expressions can be written inside JSX using curly brackets.
+  
+</TimeStamp>
+
+<TimeStamp start="3:42" end="3:55">
+  
+  What JavaScript expressions within JSX compile down to.
+
+  The JSX:
+  ```jsx
+  function CharacterCount({text}) {
+    return (
+      <div>
+        {`The text "${text}" has `}
+        {text.length ? <strong>{text.length}</strong> : 'No'}
+        {' characters'}
+    )
+  }
+  ```
+
+  The Compiled JavaScript
+  ```js
+    function Character Count(_ref) {
+      var text = _ref.text;
+      return React.createElement("div", null,
+      "The text \"".concat(text,"\" has "),
+    text.length ? React.createElement("strong", null,
+    text.length) : 'No' ' characters')
+      ;
+    }
+  ```
+  
+</TimeStamp>
+
+<TimeStamp start="5:30" end="5:45">
+  
+  JSX's interpolation of JavaScript is not unique. You can also interpolate JavaScript within HTML using `<script>` tags!
+  
+</TimeStamp>

@@ -9,6 +9,24 @@
 - One of the biggest paradigm shifts that React offered to the UI ecosystem was the component model.
 - Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
+<TimeStamp start="2:10" end="2:15">
+  
+  React components must be capitalized since in JSX, lower-case tag names are considered to be HTML tags.
+  
+</TimeStamp>
+
+<TimeStamp start="4:00" end="4:05">
+  
+  JSX components are great declaritive shorthand for `react.createElement`
+  
+</TimeStamp>
+
+<TimeStamp start="4:20" end="4:26">
+  
+  The content nested inside a component is considered the value for the `children` prop. 
+  
+</TimeStamp>
+
 ```html
 <body>
   <div id="root"></div>

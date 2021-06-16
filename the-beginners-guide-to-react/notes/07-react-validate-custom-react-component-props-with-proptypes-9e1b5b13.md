@@ -89,3 +89,32 @@
 
 - [npm - prop-types](https://www.npmjs.com/package/prop-types)
 - [React Docs - Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+<TimeStamp start="0:40" end="0:45">
+  
+  [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+  
+</TimeStamp>
+
+<TimeStamp start="2:30" end="2:35">
+  
+  A list of other common proptypes:
+  ```js
+    {
+      optionalArray: PropTypes.array,
+      optionalBool: PropTypes.bool,
+      optionalFunc: PropTypes.func,
+      optionalNumber: PropTypes.number,
+      optionalObject: PropTypes.object,
+      optionalString: PropTypes.string,
+      optionalSymbol: PropTypes.symbol,
+    }
+  ```
+  
+</TimeStamp>
+
+<TimeStamp start="4:03" end="4:10">
+  
+  [prop-types - npm](https://www.npmjs.com/package/prop-types)
+  
+</TimeStamp>

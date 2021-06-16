@@ -80,3 +80,33 @@ const handleChange2 = event => setName2(event.target.value);
 - [Kent's Blog - 5 Tips to Help You Avoid React Hooks Pitfalls](https://kentcdodds.com/blog/react-hooks-pitfalls)
 - [Kent's Blog - React Hooks: Compound Components](https://kentcdodds.com/blog/compound-components-with-react-hooks)
 - [React Docs - Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
+
+<TimeStamp start="0:40" end="0:44">
+  
+  In react we use [htmlFor](https://reactjs.org/docs/dom-elements.html#htmlfor) instead of `for`
+  
+</TimeStamp>
+
+<TimeStamp start="1:40" end="1:44">
+  
+  Unless a rerender is triggered and your function is called the DOM isn't going to update. 
+  
+</TimeStamp>
+
+<TimeStamp start="1:50" end="2:00">
+  
+  [Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)
+  
+</TimeStamp>
+
+<TimeStamp start="2:35" end="2:43">
+  
+  Destructure the `useState` hook's array instead of using the index. Your code will be far more readable.
+  
+</TimeStamp>
+
+<TimeStamp start="3:07" end="3:15">
+  
+  `useState`'s updater function triggeres a rerendering. Use this with events to easily update your application
+  
+</TimeStamp>

@@ -132,3 +132,21 @@ const element = (
 - [styled-components](https://github.com/styled-components/styled-components)
 - [React Docs - Styling and CSS](https://reactjs.org/docs/faq-styling.html)
 - [Why do I have to use "className" instead of "class" in ReactJs components done in JSX?](https://www.quora.com/Why-do-I-have-to-use-className-instead-of-class-in-ReactJs-components-done-in-JSX-JSX-is-preprocessed-so-shouldnt-that-conversion-happen-when-JSX-is-converted-to-JavaScript)
+
+<TimeStamp start="0:10" end="0:15">
+  
+  [Dan Abramov on class vs className](https://github.com/facebook/react/issues/13525#issuecomment-417818906)
+  
+</TimeStamp>
+
+<TimeStamp start="4:30" end="4:40">
+  
+  Like vanilla JS functions, custom components are how you reduce reptition in your code.
+  
+</TimeStamp>
+
+<TimeStamp start="5:55" end="6:31">
+  
+  This applies to more than styling. It is a great example of creating versatile components through abstraction. 
+  
+</TimeStamp>
