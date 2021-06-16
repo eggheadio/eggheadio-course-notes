@@ -1,14 +1,34 @@
 ## :movie_camera: [Lesson 6](https://egghead.io/lessons/react-customise-the-appearance-of-an-app-during-a-drag-using-react-beautiful-dnd-snapshot-values)
 
-Now we are going to be working on customizing the appearance of an app during a drag. 
 
-We are going to be talking about `snapshot`. It has two main properties, `isDragging` and `draggingOver`. 
+<TimeStamp start="0:00" end="0:08">
+
+Our design so far looks really nice, but now we are going to be working on customizing the appearance of an app during a drag. 
+
+</TimeStamp>
+
+<TimeStamp start="0:09" end="0:27">
+ 
+ You can modify anything you like, as long as you don't change the dimensions of your `Draggable` and `Droppable` components during a drag. 
+
+</TimeStamp>
+
+<TimeStamp start="0:28" end="0:36">
 
 Let's change our tasks to be a different color when dragging them. 
+ 
+</TimeStamp>
+
+<TimeStamp start="0:39" end="2:14">
+ 
+Now we move to `task.jsx`. We are going to be talking about `snapshot`. It has two main properties, `isDragging` which is a boolean flag and `draggingOver` will be set to the `Id` of the droppable. 
 
 To do that, we add `snapshot` as a parameter to our Container function and in the styling, we add the function to check that if a task is being dragged, it would change the color to light green, otherwise it would have a white background. 
 
-```js
+The resulting code should look like this: 
+
+```JS
+
 const Container = styled.div`
   border: 1px solid lightgrey;
   border-radius: 2px;
@@ -35,9 +55,16 @@ export default class Task extends React.Component {
     );
   }
 }
+
 ```
 
-Now we can do the same thing with the column. When we are dragging a task around in a column, we can change the color of the background of that column by using `isDraggingOver`. 
+</TimeStamp>
+
+<TimeStamp start="2:23" end="3:53">
+
+We can do the same for our `column.jsx`. We will be using `snapshot` with the same properties explained previously, `isDragging` and  `draggingOver`.  When we are dragging a task around in a column, we can change the color of the background of that column by using `isDraggingOver`. We set up the background color as skyblue.
+
+The resulting code should look like this:
 
 ```js
 const TaskList = styled.div`
@@ -69,13 +96,21 @@ export default class Column extends React.Component {
   }
 }
 ```
+</TimeStamp>
 
-You can also add in transitions to your color changes to make it a little more visually appealing. 
+<TimeStamp start="4:06" end="4:22">
 
-```js
+You can also add in transitions to your color changes to make it a little more visually appealing.
+
+```js 
+
 const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
   background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'white')};
 `;
-```
+
+ ```
+
+</TimeStamp>
+

@@ -55,60 +55,71 @@ Then you grab the information that we are interested in from the result object. 
 
 <TimeStamp start="1:44" end="2:05">
 
-
-
-
-</TimeStamp>
-<TimeStamp start="0:06" end="0:16">
-
-
-
-</TimeStamp>
-<TimeStamp start="0:06" end="0:16">
-
-
-
-</TimeStamp>
-<TimeStamp start="0:06" end="0:16">
-
-
-
-</TimeStamp>
-<TimeStamp start="0:06" end="0:16">
-
-
-
-</TimeStamp>
-
-Inside of our `onDragEnd` function in `index.js`, we already passed in `result`. We not want to grab off the different props we want from result, destination, source, and draggableId. Then we will do a couple checks to see where the task was dropped. 
+I like to do a little check to see if the location of the draggable changes. We do this by checking if the `destination.droppableId` is the same as `source` and if the `index` is has the same destination as the `source`.
 
 ```js
-onDragEnd = result => {
-  const {destination, source, draggableId } = result;
 
-  if(!destination) {
-    return;
-  }
+if (
+  destination.droppableId === source.droppableId &&
+  destination.index === source.index
+) {
+  return;
+}
 
-  if (destination.droppableId === source.droppableId && destination.index === source.index) {
-    return;
-  }
+```
+</TimeStamp>
 
-  const column = this.state.columns[source.droppableId];
-  const newTaskIds = Array.from(column.taskIds);
-  newTaskIds.splice(source.index, 1);
-  newTaskIds.splice(destination.index, 0, draggableId);
+<TimeStamp start="2:06" end="2:29">
 
-  const newColumn = {
-    ...column,
-    taskIds: newTaskIds,
-  };
+Now we need to reorder the `taskIds` array for the column. 
 
-  
-};
+```js
+
+const column = this.state.columns[source.droppableId];
+
+```
+</TimeStamp>
+
+<TimeStamp start="2:51" end="2:58">
+
+We need to create a new `taskId` array with the same contents as our last array.
+
+```js
+
+const newTaskIds = Array.from(column.taskIds);
+
 ```
 
-We create a new column and a new state and save those in a constant. 
+</TimeStamp>
+
+<TimeStamp start="3:09" end="3:21">
+
+Now need to move the task ID from its old index to its new index in the array. `splice` modifies the array and will modify the `newTaskIds`
+
+```js
+
+newTaskIds.splice(source.index, 1);
+
+```
+
+
+</TimeStamp>
+
+<TimeStamp start="3:40" end="4:00">
+
+We will use `splice` again starting from the `destination.index` to remove nothing and insert the `draggableId` 
+
+```Js
+
+newTaskIds.splice(destination.index, 0, draggableId);
+
+```
+
+</TimeStamp>
+
+<TimeStamp start="4:03" end="5:12">
+
+We create a new column and a new state and save those in a constant. The resulting code should look like this: 
 
 ```js
 onDragEnd = result => {
@@ -145,3 +156,5 @@ onDragEnd = result => {
 ```
 
 This now saves our tasks in their new order. 
+
+</TimeStamp>
