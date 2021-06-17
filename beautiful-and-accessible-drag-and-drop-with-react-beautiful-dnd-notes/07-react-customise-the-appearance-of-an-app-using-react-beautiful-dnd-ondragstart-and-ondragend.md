@@ -1,6 +1,6 @@
 ## :movie_camera: [Lesson 7](https://egghead.io/lessons/react-customise-the-appearance-of-an-app-using-react-beautiful-dnd-ondragstart-and-ondragend)
 
-<TimeStamp start="0:08" end="0:19">
+<TimeStamp start="0:08" end="0:12">
 
 As mention before there are three callbacks, so far we have worked only on `onDragEnd`
 

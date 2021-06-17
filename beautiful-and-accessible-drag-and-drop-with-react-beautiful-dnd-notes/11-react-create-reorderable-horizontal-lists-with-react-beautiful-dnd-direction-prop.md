@@ -1,6 +1,9 @@
 ## :movie_camera: [Lesson 11](https://egghead.io/lessons/react-create-reorderable-horizontal-lists-with-react-beautiful-dnd-direction-prop)
 
-We are going to start this lesson off by deleting our second and third column and removing their id's from the columnOrder in `initial-data.js`. 
+
+<TimeStamp start="0:14" end="0:16">
+
+We are going to start this lesson off by deleting our second and third column and removing their id's from the columnOrder in `initial-data.js` 
 
 ```js
 const initialData = {
@@ -24,7 +27,11 @@ const initialData = {
 export default initialData;
 ```
 
-Now let's remove some of the styling that we did for our tasks in `column.js`. 
+</TimeStamp>
+
+<TimeStamp start="0:25" end="0:43">
+
+In `column.jsx` we convert `TaskList` into a flex parent and remove remove some of the styling that we did for our tasks
 
 ```js
 const Container = styled.div`
@@ -47,6 +54,10 @@ const TaskList = styled.div`
 `;
 ```
 
+</TimeStamp>
+
+<TimeStamp start="0:45" end="0:52">
+
 And lets have it print out only the first character of our tasks. We do this very easily in our `task.jsx` file.
 
 ```js
@@ -59,6 +70,9 @@ And lets have it print out only the first character of our tasks. We do this ver
   {this.props.task.content[0]}
 </Container>
 ```
+</TimeStamp>
+
+<TimeStamp start="0:54" end="1:16">
 
 Let's add a width and a height to our boxes as well as making them round and centering the text. 
 
@@ -77,6 +91,9 @@ const Container = styled.div`
   align-items: center;
 `;
 ```
+</TimeStamp>
+
+<TimeStamp start="1:28" end="1:48">
 
 Now we really need to set it up so that we can drag in between our tasks and make that look much nicer. 
 
@@ -90,7 +107,15 @@ In the Droppable component in `column.js`, you can add in the prop `direction`. 
 >
 ```
 
+</TimeStamp>
+
+<TimeStamp start="1:54" end="2:02">
+
 Now we can drag from right to left and it works with keyboard. 
+
+</TimeStamp>
+
+<TimeStamp start="2:12" end="2:25">
 
 Let's change our border color to red when a task is focused on as well as increase our border size. 
 
@@ -114,3 +139,10 @@ const Container = styled.div`
   }
 `;
 ```
+</TimeStamp>
+
+
+
+
+
+
