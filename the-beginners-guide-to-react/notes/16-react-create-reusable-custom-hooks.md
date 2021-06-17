@@ -93,3 +93,21 @@ function useLocalStorageState(key, defaultValue = '') {
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 - [Kent's Blog - The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 - [React Docs - Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)
+
+<TimeStamp start="0:00" end="0:15">
+  
+  Sharing logic in a react app is just as straightforward as it is in vanilla JavaScript. 
+  
+</TimeStamp>
+
+<TimeStamp start="0:30" end="1:20">
+  
+  You can compose custom hooks with existing hooks. Just as you could in vanilla JavaScript with functions.
+  
+</TimeStamp>
+
+<TimeStamp start="2:30" end="2:40">
+  
+  We can name custom hooks whatever we want, but the reason that it's a best practice to preface their name with `use` is so that eslint plugins can recognize our custom hooks.
+  
+</TimeStamp>

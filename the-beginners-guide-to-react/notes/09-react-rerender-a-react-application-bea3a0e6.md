@@ -71,6 +71,18 @@
 ## Additional resource
 
 - [kent's Blog - One simple trick to optimize React re-renders](https://kentcdodds.com/blog/optimize-react-re-renders/)
-- [React Docs - Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
-- [React Docs - ReactDOM](https://reactjs.org/docs/react-dom.html)
 - [React Docs - Virtual DOM](https://reactjs.org/docs/faq-internals.html)
+
+<TimeStamp start="0:05" end="0:08">
+  
+  [React Docs - Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
+  [React Docs - ReactDOM](https://reactjs.org/docs/react-dom.html)
+  
+</TimeStamp>
+
+<TimeStamp start="0:50" end="1:00">
+  
+  React compares the elements that you returned on a previous render with your current render and only makes updates to the differences.
+  
+</TimeStamp>
+

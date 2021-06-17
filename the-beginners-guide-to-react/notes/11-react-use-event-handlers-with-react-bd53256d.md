@@ -10,7 +10,7 @@
 
 - We still haven’t gotten to state yet, so we’ve implemented our own little way of managing state and re-rendering our component so we can play around with event handlers.
 
-- One thing you’ll want to know is that events with React are very similar to working with events in regular DOM.
+- One thing you’ll want to know is that events with React are very similar to working with events in regular DOM. 
 
 ```html
 <body>
@@ -75,3 +75,9 @@
 - [React Docs - Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Kent Livestream](https://www.youtube.com/watch?v=WqFlnolg7mo)
 - [React Event Handlers: onClick, onChange ...](https://www.robinwieruch.de/react-event-handler)
+
+<TimeStamp start="1:25" end="1:30">
+  
+  [List of available events](https://reactjs.org/docs/events.html)
+  
+</TimeStamp>

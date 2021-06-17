@@ -126,3 +126,27 @@
 - [Kent's egghead course - Simplify React Apps with React Hooks](https://egghead.io/courses/simplify-react-apps-with-react-hooks)
 - [React Hooks - useRef](https://reactjs.org/docs/hooks-reference.html#useref)
 - [Manipulating DOM Elements With React Hook useRef()](https://dev.to/spukas/manipulating-dom-elements-with-react-hook-useref-446c)
+
+<TimeStamp start="0:15" end="0:20">
+  
+  [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+  
+</TimeStamp>
+
+<TimeStamp start="1:30" end="2:00">
+  
+  React manages the DOM for us with the virtual DOM. `useRef` is like an "escape hatch" for us to interact with the DOM directly. 
+  
+</TimeStamp>
+
+<TimeStamp start="3:30" end="4:05">
+  
+  Inside `useEffect` we can return a function, called on every update, that is used for garbage collection.
+
+</TimeStamp>
+
+<TimeStamp start="4:40" end="4:45">
+  
+  Leaving the dependency array empty ensures that it'll only be ran on the component's initial mount.
+  
+</TimeStamp>
