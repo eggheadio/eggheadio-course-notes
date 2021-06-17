@@ -3,7 +3,7 @@
 
 <TimeStamp start="0:01" end="0:22">
 
-There is basically an on/off switch to components to  to configure what can be dragged or dropped where. To do this, we use `isDragDisabled`
+There is basically an on/off switch to components to configure what can be dragged or dropped where. To do this, we use `isDragDisabled`
 
 ```js
 <Draggable 
@@ -17,7 +17,7 @@ There is basically an on/off switch to components to  to configure what can be d
 
 <TimeStamp start="0:47" end="0:50">
 
-We can make it so that there are conditions to wether or not a task can be dragged. We will make a new `const` and assign our conditions to that.
+We can make it so that there are conditions to whether or not a task can be dragged. We will make a new `const` and assign our conditions to that.
 
 ```js
 
@@ -73,7 +73,7 @@ const Container = styled.div`
 
 </TimeStamp>
 
-<TimeStamp start="1:42" end="2:10">
+<TimeStamp start="1:42" end="2:25">
 
 There are two mechanisms that control where a draggable can be dropped. The simplest is the droppable `type`. We can set our conditions to wether or not a task can be dropped into a certain column. We can add our stipulations in `column.jsx`.
 
@@ -173,4 +173,3 @@ onDragStart = () => {
 }
 ```
 </TimeStamp>
-

@@ -1,12 +1,12 @@
 ## :movie_camera: [Lesson 7](https://egghead.io/lessons/react-customise-the-appearance-of-an-app-using-react-beautiful-dnd-ondragstart-and-ondragend)
 
-<TimeStamp start="0:08" end="0:12">
+<TimeStamp start="0:08" end="0:19">
 
 As mention before there are three callbacks, so far we have worked only on `onDragEnd`
 
 </TimeStamp>
 
-<TimeStamp start="0:13" end="0:30">
+<TimeStamp start="0:23" end="0:30">
 
 We can also use `onDragUpdate` and `onDragStart`if we want to add more visual styling to our application. 
 
@@ -29,7 +29,7 @@ onDragEnd = result => {
 
 </TimeStamp>
 
-<TimeStamp start="1:51" end="2:25">
+<TimeStamp start="1:55" end="2:25">
 
 We can do the same thing when something gets updated. We can make it so that the background color changes with each update to the tasks list.
 

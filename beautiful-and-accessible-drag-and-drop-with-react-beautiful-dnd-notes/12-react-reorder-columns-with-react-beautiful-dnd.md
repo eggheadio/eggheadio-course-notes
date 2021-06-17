@@ -14,7 +14,7 @@ Let's start by removing the third column from our `initial-data.js` just to make
 
 <TimeStamp start="1:16" end="1:18">
 
-In `index.js`, Lets import Droppabled from **react-beautiful-dnd**. 
+In `index.js`, let's import Droppable from `react-beautiful-dnd`. 
 
 </TimeStamp>
 
@@ -237,5 +237,4 @@ const TaskList = styled.div`
 ```
 
 </TimeStamp>
-
 
