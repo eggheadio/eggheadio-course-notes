@@ -75,3 +75,21 @@
 - [egghead.io - Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](https://egghead.io/lessons/react-handle-deep-object-comparison-in-react-s-useeffect-hook-with-the-useref-hook)
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 - [React Docs - ESLint Plugin](https://reactjs.org/docs/hooks-rules.html#explanation)
+
+<TimeStamp start="1:10" end="1:23">
+  
+  The purpose of `useEffect` is to sync the state of the world with the state of our application
+  
+</TimeStamp>
+
+<TimeStamp start="1:59" end="2:19">
+  
+  Keep your dependency array accurate or else you may miss out on synchronizing the state of the world with the state of your app.
+  
+</TimeStamp>
+
+<TimeStamp start="2:55" end="3:15">
+  
+  Use [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) to keep your dependency array up to date
+  
+</TimeStamp>

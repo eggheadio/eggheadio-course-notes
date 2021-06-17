@@ -56,3 +56,11 @@
 
 - [Kent's Blog - How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
 - [React Docs - Effects Without Cleanup](https://reactjs.org/docs/hooks-effect.html#effects-without-cleanup)
+
+<TimeStamp start="1:00" end="1:20">
+  
+  Use `useEffect`'s lazy initialization feature by providing an arrow function as the initial value. 
+
+  We do this so that the value is only ran on initialization and not on each rerender which could cause performance problems.
+  
+</TimeStamp>
