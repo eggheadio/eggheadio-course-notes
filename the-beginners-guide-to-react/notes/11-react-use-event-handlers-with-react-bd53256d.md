@@ -10,7 +10,7 @@
 
 - We still haven’t gotten to state yet, so we’ve implemented our own little way of managing state and re-rendering our component so we can play around with event handlers.
 
-- One thingyou’ll want to know is that events with React are very similar to working with events in regular DOM. 
+- One thing you’ll want to know is that events with React are very similar to working with events in regular DOM. 
 
 ```html
 <body>
