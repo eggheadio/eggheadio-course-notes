@@ -131,3 +131,21 @@
 
 - [React Docs - Recursing On Children](https://reactjs.org/docs/reconciliation.html#recursing-on-children)
 - [Kent's Blog - Understanding React's key prop](https://kentcdodds.com/blog/understanding-reacts-key-prop)
+
+<TimeStamp start="0:38" end="0:50">
+  
+  React requires items in a list to have key props in order to keep track of them.
+  
+</TimeStamp>
+
+<TimeStamp start="3:25" end="4:02">
+  
+  Unless you give each list item some kind of identifier React won't know what you did to change the list when it rerenders. Maybe you removed three and added two, or maybe you just removed one. React doesn't know without keys.
+  
+</TimeStamp>
+
+<TimeStamp start="5:30" end="5:35">
+  
+  It's important that they keys are unique to each item in the array
+  
+</TimeStamp>

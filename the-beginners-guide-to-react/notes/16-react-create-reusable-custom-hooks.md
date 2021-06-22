@@ -108,6 +108,6 @@ function useLocalStorageState(key, defaultValue = '') {
 
 <TimeStamp start="2:30" end="2:40">
   
-  We can name custom hooks whatever we want, but the reason that it's a best practice to preface their name with `use` is so that eslint plugins can recognize our custom hooks.
+  We can name custom hooks whatever we want, but the reason that it's a convention to preface their name with `use` is so that eslint plugins can recognize our custom hooks.
   
 </TimeStamp>

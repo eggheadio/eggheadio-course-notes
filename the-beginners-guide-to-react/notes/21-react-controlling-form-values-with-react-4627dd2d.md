@@ -57,3 +57,15 @@
 
 - [React Docs - Forms](https://reactjs.org/docs/forms.html)
 - [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
+
+<TimeStamp start="0:47" end="0:57">
+  
+  Keep your input value and state in sync by controlling the input's value.
+  
+</TimeStamp>
+
+<TimeStamp start="1:00" end="1:10">
+  
+  Take control of the state of an input by adding a `value` property.
+  
+</TimeStamp>

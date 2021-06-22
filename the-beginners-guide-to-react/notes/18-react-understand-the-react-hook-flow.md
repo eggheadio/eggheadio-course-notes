@@ -155,3 +155,33 @@
 - [A flowchart that explains the new lifecycle of a Hooks component](https://github.com/donavon/hook-flow)
 - [React Hooks: What's going to happen to my tests?](https://kentcdodds.com/blog/react-hooks-whats-going-to-happen-to-my-tests)
 - [Kent's Livestream - React Hooks: Refactor compound components to hooks](https://www.youtube.com/watch?v=415EfGPuhSo)
+
+<TimeStamp start="1:50" end="1:55">
+  
+  `useEffect` is called after React finishes rendering.
+  
+</TimeStamp>
+
+<TimeStamp start="3:15" end="3:23">
+  
+  When you use a function callback to set the initial state in a `useState` hook, it is only called when initially rendered.
+  
+</TimeStamp>
+
+<TimeStamp start="3:59" end="4:02">
+  
+  React will only call a function when the component is actually rendered. You aren't calling the functions, React is.
+  
+</TimeStamp>
+
+<TimeStamp start="5:46" end="5:55">
+  
+  `useEffect` is only called when there are no dependencies listed or one of the dependencies change.
+  
+</TimeStamp>
+
+<TimeStamp start="9:55" end="10:55">
+  
+  ![Hook flow diagram](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1624333719/egghead-notes/beginners-guide-to-react/hook-flow.png)
+  
+</TimeStamp>

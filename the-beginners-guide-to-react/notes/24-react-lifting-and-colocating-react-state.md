@@ -76,3 +76,27 @@
 [Kent's Blog - State Colocation will make your React app faster](https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster)
 [Kent's Blog - Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 [React Docs - Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+
+<TimeStamp start="1:00" end="1:20">
+  
+  If you need to share state between two components, that is currently living in one component, "lift" that state to the closest shared parent component. 
+  
+</TimeStamp>
+
+<TimeStamp start="1:30" end="1:57">
+  
+  Remember to pass a function through props that allows the child component to update the state of the parent component.
+  
+</TimeStamp>
+
+<TimeStamp start="2:20" end="2:25">
+  
+  State should live as close as possible to where it is used
+  
+</TimeStamp>
+
+<TimeStamp start="3:00" end="3:10">
+  
+  Colocation is when you move your state closer to where it is being used.
+  
+</TimeStamp>

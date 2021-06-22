@@ -86,3 +86,41 @@
 - [egghead lesson - Handle React Suspense Errors with an Error Boundary](https://egghead.io/lessons/react-handle-react-suspense-errors-with-an-error-boundary)
 - [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
 - [npm - react-error-boundary](https://www.npmjs.com/package/react-error-boundary)
+
+<TimeStamp start="1:20" end="1:23">
+  
+  Error boundaries have to be class components
+  
+</TimeStamp>
+
+<TimeStamp start="1:50" end="1:57">
+  
+  The error boundary returns its children. That way we can wrap other elements with it
+  
+</TimeStamp>
+
+<TimeStamp start="2:30" end="2:40">
+  
+  use the static method `getDerivedStateFromError` to catch errors and update your state with the error. 
+  
+</TimeStamp>
+
+<TimeStamp start="2:45" end="2:55">
+  
+  Use a conditional that checks your state for an error to either render an error message or your normal application. 
+  
+</TimeStamp>
+
+<TimeStamp start="3:45" end="3:55">
+  
+  Provide your error boundaries with a fallback component prop that you can use to render out a fallback incase there is an error.
+
+  You'll want to do this so you can reuse the fallback with different boundaries
+  
+</TimeStamp>
+
+<TimeStamp start="4:58" end="5:11">
+  
+  Kent prefers the `react-error-boundary` library over building boundaries from scratch
+  
+</TimeStamp>

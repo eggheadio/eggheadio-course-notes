@@ -61,3 +61,10 @@
 - [Blog post - Making dynamic form inputs with React](https://goshakkk.name/array-form-inputs/)
 - [React Docs - Forms](https://reactjs.org/docs/forms.html)
 - [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
+
+<TimeStamp start="0:23" end="0:32">
+  
+  use the `onChange` handler to run code each time the user makes a change to your input. This is a great way to check if the user is meeting the input's requirements before they submit the form. 
+  
+</TimeStamp>
+
