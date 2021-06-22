@@ -21,5 +21,28 @@
 
 ## Additional resource
 
-- [CodeSandbox](https://codesandbox.io)
 - [Netlify](https://www.netlify.com)
+
+<TimeStamp start="0:12" end="0:25">
+  
+  [CodeSandbox](https://codesandbox.io)
+  
+</TimeStamp>
+
+<TimeStamp start="1:14" end="1:35">
+  
+  You can run tests within code sandbox
+  
+</TimeStamp>
+
+<TimeStamp start="1:45" end="2:00">
+  
+  You can create github repos from your code sandbox projects
+  
+</TimeStamp>
+
+<TimeStamp start="2:19" end="2:26">
+  
+  You can deploy your code sandbox project with Now or Netlify 
+  
+</TimeStamp>

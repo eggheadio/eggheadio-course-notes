@@ -60,3 +60,23 @@
 - [React Docs - Forms](https://reactjs.org/docs/forms.html)
 - [Kent's Blog - Please stop building inaccessible forms](https://kentcdodds.com/blog/please-stop-building-inaccessible-forms-and-how-to-fix-them)
 - [Kent's Livestream - Testing a Multi-Page form](https://www.youtube.com/watch?v=9xaJ78qEJCM)
+
+<TimeStamp start="0:55" end="1:00">
+  
+  [Forms in React](https://reactjs.org/docs/forms.html)
+  
+</TimeStamp>
+
+<TimeStamp start="2:00" end="2:10">
+  
+  use `event.preventDefault()` in your handle submit functions in order to prevent a full page refresh when the user submits a form.
+  
+</TimeStamp>
+
+<TimeStamp start="7:30" end="7:35">
+  
+  The simplest way to get input values in your forms is to properly associate labels with inputs and then, in your submit function, retrieve the value using the label. 
+
+  `event.target.elements.INPUTLABEL.value`
+  
+</TimeStamp>

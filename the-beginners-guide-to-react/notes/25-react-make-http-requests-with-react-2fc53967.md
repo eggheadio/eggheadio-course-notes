@@ -117,3 +117,10 @@
 - [React Docs - AJAX and APIs](https://reactjs.org/docs/faq-ajax.html)
 - [Kent's Livestream - Testing axios](https://www.youtube.com/watch?v=YJKtzS1jGsI)
 - [MDN - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+<TimeStamp start="1:30" end="1:35">
+  
+  Making HTTP requests is a side effect so it should be handled in a `useEffect` hook.
+  
+</TimeStamp>
+
