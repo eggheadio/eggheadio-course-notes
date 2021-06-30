@@ -50,7 +50,7 @@ After here, the project does not work properly on the latest version of React. I
 
 I have cloned the repository from the Instructor and compared the dependencies that he is working with and make sure all of those dependencies are in the new project, however, this was not sufficient to make it work. 
 
-One of the dependencies that the instructor's repository works is => "parcel-bundler" This package has been deprecated [here](https://www.npmjs.com/package/parcel-bundler). Moreover, the repository works with the dependencies of "Babel' and the newest versions of React have those files hidden since they are already included when the app is created, for more information of this refer to this documentation [here](https://reactjs.org/docs/create-a-new-react-app.html). However, I download all of the Babel dependencies but not luck when running the app. 
+One of the dependencies that the instructor's repository works is => "parcel-bundler" This package has been deprecated [here](https://www.npmjs.com/package/parcel-bundler). Moreover, the repository works with the dependencies of "Babel' and the newest versions of React have those files hidden since they are already included when the app is created, for more information of this refer to this documentation [here](https://reactjs.org/docs/create-a-new-react-app.html). However, I downloaded all of the Babel dependencies but not luck when running the app. 
 
 Finally, my last option was to upgrade the dependencies on the current project, specially React dependency in the repository, running the following command `yarn upgrade --latest react-scripts`. Doing that the project crashes. 
 
