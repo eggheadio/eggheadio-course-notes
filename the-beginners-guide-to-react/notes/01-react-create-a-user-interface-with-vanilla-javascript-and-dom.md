@@ -7,8 +7,8 @@
 ## Notes
 
 <TimeStamp start="0:00" end="0:10">
-  
-  To create a user interface with JavaScript you will need a place to append your JavaScript DOM (Document Object Model) elements. This will be the `root` of our application.
+
+  To start building a UI with JavaScript you need a `root` element to append the elements you create with the `document` api to.
 
 </TimeStamp>
 
@@ -18,10 +18,15 @@
   
 </TimeStamp>
 
+<TimeStamp start="0:30" end="0:36">
+  
+  Use `.appendChild()` to append an element to another
+  
+</TimeStamp>
+
 <TimeStamp start="0:43" end="0:52">
   
-  - In addition to referencing elements we can also [create elements with the document API](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-  - We can also append properties to the elements that we create
+  In addition to referencing elements we can also [create elements with the document API](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
   
 </TimeStamp>
 
