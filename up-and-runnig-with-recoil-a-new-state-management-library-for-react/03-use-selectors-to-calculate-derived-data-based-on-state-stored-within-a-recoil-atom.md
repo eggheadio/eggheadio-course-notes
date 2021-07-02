@@ -1,13 +1,8 @@
 # Notes
 
-<TimeStamp start="0:27" end="0:29">
-
-We are going to use Recoil [selectors](https://recoiljs.org/docs/api-reference/core/selector/) to allow the `function Square` to recalculated the value whenever the atom is updated. 
-
-</TimeStamp>
 <TimeStamp start="0:33" end="0:48">
 
-In Recoil, a selector is a pure function that accepts atoms or some other selectors as input. What's going to happen is that a selector is going to calculate a derived state, you can think of derived state as the output of passing the state
+In Recoil, a [selector](https://recoiljs.org/docs/api-reference/core/selector/) is a pure function that accepts atoms or some other selectors as input. What's going to happen is that a selector is going to calculate a derived state, you can think of derived state as the output of passing the state
 
 </TimeStamp>
 
