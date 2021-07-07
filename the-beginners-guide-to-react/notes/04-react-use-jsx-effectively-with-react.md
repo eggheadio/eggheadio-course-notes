@@ -7,9 +7,9 @@
 ## Notes
 
 
-<TimeStamp start="0:25" end="0:32">
+<TimeStamp start="0:25" end="0:35">
     
-To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's.
+Put JavaScript expressions inside curly braces `{}` to have them be evaluated and their resulting value used in its current position.
   
 </TimeStamp>
 

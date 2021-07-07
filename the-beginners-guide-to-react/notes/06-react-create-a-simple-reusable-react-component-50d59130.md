@@ -11,7 +11,7 @@
 
 <TimeStamp start="2:10" end="2:15">
   
-  React components must be capitalized since in JSX, lower-case tag names are considered to be HTML tags.
+  [User-defined React components must be capitalized](https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized) since in JSX, lower-case tag names are considered to be HTML tags.
   
 </TimeStamp>
 

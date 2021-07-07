@@ -6,17 +6,23 @@
 
 ## Notes
 
-<TimeStamp start="0:10" end="0:15">
+<TimeStamp start="0:10" end="0:17">
   
   The React team came up with [JSX](https://reactjs.org/docs/introducing-jsx.html). JSX gives us an expressive syntax for representing our UI, without losing the benefits and powers of writing our UI in JavaScript.
 
 </TimeStamp>
   
-- The best way to take advantage of this is to learn how JSX is compiled to regular JavaScript. By default the browser does not compile JSX, it needs [Babel](https://babeljs.io) to compile non-standard features, like JSX.
+  The best way to take advantage of this is to learn how JSX is compiled to regular JavaScript. By default the browser does not compile JSX, it needs [Babel](https://babeljs.io) to compile non-standard features, like JSX.
 
-<TimeStamp start="1:00" end="1:30">
+<TimeStamp start="1:00" end="1:10">
     
   **Tip**: [Spend some time exploring how Babel compiles JSX](https://babeljs.io/repl), this will help you be more effective.
+  
+</TimeStamp>
+
+<TimeStamp start="2:12" end="2:20">
+  
+  Running Babel in the browser is slow because the browser will have to compile your files every time you open a page
   
 </TimeStamp>
 
