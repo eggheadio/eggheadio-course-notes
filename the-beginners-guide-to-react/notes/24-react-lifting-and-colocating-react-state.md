@@ -79,13 +79,13 @@
 
 <TimeStamp start="1:00" end="1:20">
   
-  If you need to share state between two components, that is currently living in one component, "lift" that state to the closest shared parent component. 
+  If you need to share state that is currently living in one component between two components "lift" that state to the closest shared parent component. 
   
 </TimeStamp>
 
 <TimeStamp start="1:30" end="1:57">
   
-  Remember to pass a function through props that allows the child component to update the state of the parent component.
+  Remember to pass a function through props that allows the child component to update the state that is living in the parent component.
   
 </TimeStamp>
 

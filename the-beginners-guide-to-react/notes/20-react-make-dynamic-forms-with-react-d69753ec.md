@@ -62,9 +62,15 @@
 - [React Docs - Forms](https://reactjs.org/docs/forms.html)
 - [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
 
-<TimeStamp start="0:23" end="0:32">
+<TimeStamp start="0:23" end="0:34">
   
   use the `onChange` handler to run code each time the user makes a change to your input. This is a great way to check if the user is meeting the input's requirements before they submit the form. 
+  
+</TimeStamp>
+
+<TimeStamp start="1:00" end="1:06">
+  
+  [reactjs.org - Using the State Hook](https://reactjs.org/docs/hooks-state.html)
   
 </TimeStamp>
 

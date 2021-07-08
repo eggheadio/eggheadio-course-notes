@@ -140,7 +140,9 @@
 
 <TimeStamp start="3:25" end="4:02">
   
-  Unless you give each list item some kind of identifier React won't know what you did to change the list when it rerenders. Maybe you removed three and added two, or maybe you just removed one. React doesn't know without keys.
+  Unless you give each list item some kind of identifier React won't know what you did to change the list when it rerenders. 
+
+  Without using `key` props, React wouldn't know the difference between removing three items and then adding two, or just removing one item.
   
 </TimeStamp>
 
