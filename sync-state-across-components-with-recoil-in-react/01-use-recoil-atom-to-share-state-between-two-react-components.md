@@ -8,7 +8,7 @@ The documentation on how to set up the latest version of react can be found [her
 2. Run `cd running-w-recoil`
 3. Finally, to run your react server you could either run `npm start` or `yarn start`
 
-<TimeStamp start="1:00" end="0:07">
+<TimeStamp start="0:01" end="0:07">
 
 Instructions to set up a brand new React project [here](https://reactjs.org/docs/create-a-new-react-app.html)
 
