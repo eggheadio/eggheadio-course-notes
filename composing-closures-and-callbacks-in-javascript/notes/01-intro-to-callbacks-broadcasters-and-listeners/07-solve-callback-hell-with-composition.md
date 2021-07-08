@@ -61,7 +61,11 @@ Is important to notice the pattern here, this code is hard to read and have mult
 We can use `pipe` from `lodash/fp` package and refactor our code
 
 ```javascript
-let timeoutURL = pipe(nest(timeout), nest(getURL))
+let timeoutURL = pipe(
+  nest(timeout),
+  nest(getURL)
+)
+
 timeoutURL(click)((data) => {
   console.log(data)
 })
