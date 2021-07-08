@@ -23,7 +23,7 @@ Quicksort is an efficient sorting algorithm, when compared to Bubble or Insertio
 
 ```js
 function quickSort(array) {
-  if (array.length < 2>) {
+  if (array.length < 2) {
     return array
   }
 
