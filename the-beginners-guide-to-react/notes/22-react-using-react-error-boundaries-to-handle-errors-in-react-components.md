@@ -113,7 +113,7 @@
 
 <TimeStamp start="3:45" end="3:55">
   
-  Provide your error boundaries with a fallback component prop that you can use to render out a fallback incase there is an error.
+  Provide your error boundaries with a `FallbackComponent` prop that you can use to render out a backup component incase there is an error.
 
   You'll want to do this so you can reuse the fallback with different boundaries
   

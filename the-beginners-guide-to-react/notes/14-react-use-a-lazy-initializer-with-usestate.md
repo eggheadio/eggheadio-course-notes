@@ -59,7 +59,7 @@
 
 <TimeStamp start="1:00" end="1:20">
   
-  Use `useEffect`'s lazy initialization feature by providing an arrow function as the initial value. 
+  Use `useEffect`'s lazy initialization feature by providing a function as the initial value. 
 
   We do this so that the value is only ran on initialization and not on each rerender which could cause performance problems.
   

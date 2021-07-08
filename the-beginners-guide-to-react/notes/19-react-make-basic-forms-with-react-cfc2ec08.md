@@ -63,17 +63,29 @@
 
 <TimeStamp start="0:55" end="1:00">
   
-  [Forms in React](https://reactjs.org/docs/forms.html)
+  [reactjs.org - Forms in React](https://reactjs.org/docs/forms.html)
   
 </TimeStamp>
 
 <TimeStamp start="2:00" end="2:10">
   
-  use `event.preventDefault()` in your handle submit functions in order to prevent a full page refresh when the user submits a form.
+  Use `event.preventDefault()` in your handle submit functions in order to prevent a full page refresh when the user submits a form.
   
 </TimeStamp>
 
-<TimeStamp start="7:30" end="7:35">
+<TimeStamp start="2:55" end="3:10">
+  
+  Don't use `document.querySelector` to get values out of your inputs since you will most likely have multiple inputs and it also breaks the incapsulation of your components
+  
+</TimeStamp>
+
+<TimeStamp start="4:25" end="4:35">
+  
+  Don't implictly rely on the order of your inputs when selecting them.
+  
+</TimeStamp>
+
+<TimeStamp start="7:30" end="7:40">
   
   The simplest way to get input values in your forms is to properly associate labels with inputs and then, in your submit function, retrieve the value using the label. 
 

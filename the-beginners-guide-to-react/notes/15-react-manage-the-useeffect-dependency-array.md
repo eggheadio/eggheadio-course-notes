@@ -77,7 +77,7 @@
 
 <TimeStamp start="1:10" end="1:23">
   
-  The purpose of `useEffect` is to sync the state of the world with the state of our application
+  The purpose of the `useEffect` dependency array is to sync the state of the world with the state of our application
   
 </TimeStamp>
 

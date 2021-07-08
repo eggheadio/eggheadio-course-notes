@@ -106,6 +106,12 @@ function useLocalStorageState(key, defaultValue = '') {
   
 </TimeStamp>
 
+<TimeStamp start="1:30" end="1:40">
+  
+  By returning `[state, setState]` you are creating an API identical to `useState`, making your custom hook more intuitive for users.
+  
+</TimeStamp>
+
 <TimeStamp start="2:30" end="2:40">
   
   We can name custom hooks whatever we want, but the reason that it's a convention to preface their name with `use` is so that eslint plugins can recognize our custom hooks.

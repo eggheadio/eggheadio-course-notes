@@ -118,9 +118,20 @@
 - [Kent's Livestream - Testing axios](https://www.youtube.com/watch?v=YJKtzS1jGsI)
 - [MDN - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
+<TimeStamp start="0:35" end="0:45">
+  
+  Learn to use GraphQL in Eve Porcello's course, [GraphQL Query Language](https://egghead.io/courses/graphql-query-language)
+  
+</TimeStamp>
+
 <TimeStamp start="1:30" end="1:35">
   
   Making HTTP requests is a side effect so it should be handled in a `useEffect` hook.
   
 </TimeStamp>
 
+<TimeStamp start="2:43" end="2:50">
+  
+  [MDN - JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+  
+</TimeStamp>

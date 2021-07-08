@@ -168,19 +168,19 @@
   
 </TimeStamp>
 
-<TimeStamp start="3:59" end="4:02">
+<TimeStamp start="3:59" end="4:06">
   
   React will only call a function when the component is actually rendered. You aren't calling the functions, React is.
   
 </TimeStamp>
 
-<TimeStamp start="5:46" end="5:55">
+<TimeStamp start="5:46" end="5:56">
   
   `useEffect` is only called when there are no dependencies listed or one of the dependencies change.
   
 </TimeStamp>
 
-<TimeStamp start="9:55" end="10:55">
+<TimeStamp start="9:55" end="10:02">
   
   ![Hook flow diagram](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1624333719/egghead-notes/beginners-guide-to-react/hook-flow.png)
   

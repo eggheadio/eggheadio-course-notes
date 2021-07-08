@@ -130,7 +130,7 @@
 - [Kent's Blog - How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
 - [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
 
-<TimeStamp start="1:40" end="2:30">
+<TimeStamp start="1:40" end="1:55">
   
   Avoid state bugs and give your user another chance to search after an error by creating state for the status of the search. Idle, pending, resolved, and rejected.
   
