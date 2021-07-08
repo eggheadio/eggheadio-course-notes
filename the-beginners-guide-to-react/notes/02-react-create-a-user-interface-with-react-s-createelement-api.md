@@ -16,9 +16,9 @@ Add these scripts to get React on to the page.
   
 </TimeStamp>
 
-<TimeStamp start="0:33" end="0:40">
+<TimeStamp start="0:33" end="0:42">
   
-  Instead of creating DOM elements, we’ll create React elements and then hand those off to `react-dom` to handle turning those into DOM elements and putting them into the page.
+  Hand React elements off to `react-dom` so it can handle converting them into DOM elements and rendering them to the page.
   
 </TimeStamp>
 
@@ -28,9 +28,9 @@ If you’ve ever learned or used React before, you’re probably more familiar w
   
 </TimeStamp>
 
-<TimeStamp start="1:17" end="1:28">
+<TimeStamp start="1:17" end="1:30">
     
-`React.createElement` API is as simple as the element that you want to create. Here we have a `<div>`, and then an object that has all of the props that you want to have applied, `className`, `children`.
+The `React.createElement` API is as simple as the element that you want to create. Here we have a `<div>`, and then an object that has all of the props that you want to have applied.
   
 </TimeStamp>
 

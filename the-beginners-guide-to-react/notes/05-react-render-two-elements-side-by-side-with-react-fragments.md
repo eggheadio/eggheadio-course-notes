@@ -59,3 +59,15 @@ const element = (
 ## Additional resource
 
 - [React doc- Fragments](https://reactjs.org/docs/fragments.html)
+
+<TimeStamp start="0:45" end="1:00">
+  
+  Remember that React elements are JavaScript expressions. Just like how a function can't return two values, or how variables can't store two values, you can't return two React elements.
+  
+</TimeStamp>
+
+<TimeStamp start="2:45" end="2:55">
+  
+  Use `React.Fragment` when a specific DOM structure is required
+  
+</TimeStamp>

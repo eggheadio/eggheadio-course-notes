@@ -94,7 +94,7 @@
 
 <TimeStamp start="2:50" end="3:15">
   
-  You switch back and forth between JSX and JS regularly when writing React. JSX is written within one parent tag that's inside paranthesis. JavaScript expressions can be written inside JSX using curly brackets.
+  You switch back and forth between JSX and JS regularly when writing React. JavaScript expressions can be written inside JSX using curly brackets.
   
 </TimeStamp>
 

@@ -86,3 +86,14 @@
   
 </TimeStamp>
 
+<TimeStamp start="2:05" end="2:15">
+  
+  The entire contents of your application is updated even when you are just trying to change an inner value
+  
+</TimeStamp>
+
+<TimeStamp start="2:35" end="2:45">
+  
+  React keeps track of your focus when it makes updates to the DOM
+  
+</TimeStamp>

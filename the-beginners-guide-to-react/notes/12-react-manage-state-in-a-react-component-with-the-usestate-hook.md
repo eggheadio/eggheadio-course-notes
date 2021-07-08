@@ -89,7 +89,7 @@ const handleChange2 = event => setName2(event.target.value);
 
 <TimeStamp start="1:40" end="1:44">
   
-  Unless a rerender is triggered and your function is called the DOM isn't going to update. 
+  Unless a rerender is triggered and your function is called, the DOM isn't going to update. 
   
 </TimeStamp>
 

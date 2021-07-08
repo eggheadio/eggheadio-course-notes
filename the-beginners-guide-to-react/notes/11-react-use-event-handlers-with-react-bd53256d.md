@@ -81,3 +81,9 @@
   [List of available events](https://reactjs.org/docs/events.html)
   
 </TimeStamp>
+
+<TimeStamp start="2:18" end="2:28">
+  
+  [React Docs - SyntheticEvent](https://reactjs.org/docs/events.html)
+  
+</TimeStamp>
