@@ -1,8 +1,14 @@
 # Notes
 
+<TimeStamp start="0:01" end="0:05">
+
+View code on [GitHub](https://github.com/tlakomy/recoil-app/tree/use-recoil-selectors).
+
+</TimeStamp>
+
 <TimeStamp start="0:33" end="0:48">
 
-In Recoil, a [selector](https://recoiljs.org/docs/api-reference/core/selector/) is a pure function that accepts atoms or some other selectors as input. What's going to happen is that a selector is going to calculate a derived state, you can think of derived state as the output of passing the state
+In Recoil, a [selector](https://recoiljs.org/docs/api-reference/core/selector/) is a pure function that accepts atoms or some other selectors as input. What's going to happen is that a selector is going to calculate a derived state, you can think of derived state as the output of passing the state.
 
 </TimeStamp>
 
