@@ -24,5 +24,3 @@
   [recoiljs.org - <RecoilRoot ...props />](https://recoiljs.org/docs/api-reference/core/RecoilRoot/)
   
 </TimeStamp>
-
-Project is going smoothly. Nothing is out of date so far.
