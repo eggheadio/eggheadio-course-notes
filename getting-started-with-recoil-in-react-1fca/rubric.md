@@ -1,0 +1,19 @@
+- **Are there opportunities for self-assessment?**
+    The course felt very coherent. It was a slow, gentle introduction to Recoil. Everything is still up to date
+- **Is the course content high quality?**
+    - 4 The content is consistently legible, well-edited, and free from errors and can be considered professional.
+- **Is the course content current and up to date?**
+    - 4 The syntax and practices used in the content are up to date, require no workarounds and could be implemented in production today
+- **Does the content meet the stated learning goals?**
+    - 4 The content aligns well with the stated outcomes and goals of the course design
+- **Does the content incorporate proof (to the learner and others) that the stated learning goals were achieved?**
+    - 1 There is no proof of learning incorporated in the course materials
+- **Is the course material evergreen?**
+    - 4 The material in this course is as fundamental and valid today as it was when it was created and will still be valid well into the future
+- **How much depth of knowledge does the course provide?**
+    - 3 The material made learning the basics fun. I didn't even feel like I was studying
+- **Is the course actionable?**
+    - 3 The course has some actionable steps but the learner has to take the lead
+    - I think that the material that was taught is easy enough to include in whatever it is you're working on in React
+- **Score: 3.28**
+  - Only loses points due to the lack of supplemental material. Could be made perfect through our efforts
