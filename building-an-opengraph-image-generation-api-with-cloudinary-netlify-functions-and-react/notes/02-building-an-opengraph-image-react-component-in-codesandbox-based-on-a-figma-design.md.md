@@ -2,15 +2,24 @@
 
 [Video Link](https://egghead.io/lessons/react-building-an-opengraph-image-react-component-in-codesandbox-based-on-a-figma-design)
 
-- Create a CodeSandbox, and install the `@emotion/core` dependency
-- This is what your code looks like before you add in your background Image
+<TimeStamp start="0:05" end="0:10">
 
-~~~ javascript
-    /** @jsx jsx */
-    import { jsx } from "@emotion/core";
+Create a new React CodeSandbox [here](https://codesandbox.io/s)
 
-    export default function App() {
-      return (
+</TimeStamp>
+
+<TimeStamp start="0:35" end="0:50">
+
+`@emotion/core` has been renamed as `@emotion/react`. We need to import in the `App.js` file the following: `import { jsx } from "@emotion/react";` and install `@emotion/react` dependency. We also need to add a pragma at the top of the file `/** @jsx jsx */`
+
+</TimeStamp>
+
+<TimeStamp start="1:33" end="1:44">
+
+This is what your code looks like before you add in your background Image
+
+``` jsx
+   
         <div
           css={{
             width: 1200,
@@ -19,20 +28,25 @@
         >
           image
         </div>
-      );
-    }
-~~~
-
-- Go back to the Gradient you made in the first video and copy the CSS from there inside the css element, adjusting the css attribute name from `background-image` to `backgroundImage`. (CSS attribute names in JS are camel case). My background is below:
-
-``` js
-backgroundImage: `linear-gradient(45deg, rgb(191,228,242) 0%, rgb(191,228,242) 5%,rgb(146,92,119) 5%, rgb(146,92,119) 7%,rgb(114,151,166) 7%, rgb(114,151,166) 9%,rgb(117,185,190) 9%, rgb(117,185,190) 100%)`
 ```
+</TimeStamp>
+<TimeStamp start="1:48" end="2:05">
 
-- Add in some Global styles which will inject the styles and apply them globally, I&rsquo;ll probably go back and update the fontFamily value with one of my website fonts.
+Go back to the Gradient you made in the first video (or the notepad suggested in the first lesson) and copy the CSS from there and paste it inside the css element on your code, adjust the css attribute name from `background-image` to `backgroundImage` and wrap the css properties in quotes. (CSS attribute names in JS are camel case)
+
+</TimeStamp>
+
+<TimeStamp start="2:16" end="2:20">
+
+You need to import global styles, `import { jsx, Global } from "@emotion/react";`
+
+
+</TimeStamp>
+<TimeStamp start="2:36" end="2:50">
+
+Adding in some Global styles will inject the styles and apply them globally.
 
 ``` javascript
-        import { jsx, Global } from '@emotion/core'
 
         /** **/
         <Global
@@ -45,120 +59,60 @@ backgroundImage: `linear-gradient(45deg, rgb(191,228,242) 0%, rgb(191,228,242) 5
             },
           }}
         />
-
         // ... //
 ```
+</TimeStamp>
 
-- Now we&rsquo;re going to work on the rectangle our text will show up on. We&rsquo;ll wrap this in a div of its own. We&rsquo;re going to add the value `display: flex` to the top-level div.
-- Here&rsquo;s my code for my rectangle div, **notice the background CSS attribute** you can grab the hex code for that from the rectangle in your Figma design. Also note that this code includes the shadow that we&rsquo;ll be adding later.
+<TimeStamp start="2:51" end="2:56">
 
-``` javascript
-    <div
-            css={{
-              background: "#EEF6F7",
-              margin: "40px",
-              display: "flex",
-              flex: 1,
-              flexDirection: "column",
-              justifyContent: "space-between",
-              borderRadius: 15,
-              padding: "4rem",
-              boxShadow: `
-      0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-      0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-      0 12.5px 10px rgba(0, 0, 0, 0.035),
-      0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-      0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-      0 100px 80px rgba(0, 0, 0, 0.07)`
-            }}
-          >
-```
+You need to wrap the image text in a div of its own.
 
-- Next we&rsquo;re going to start scaffolding the rest of the text for our opengraph image within this rectangle. Chris is doing title, a list of tags, and author name. But you can do whatever you want here. I&rsquo;m going to do title, type of post, and author name.
 
-      <h1
-        css={{
-          color: "black"
-        }}
-      >
-        This is a title of a blog post
-      </h1>
-      <div css={{ color: "black" }}>
-        <span>Type of post</span>
-        <span>Author Name</span>
-      </div>
-    </div>
+</TimeStamp>
 
-- Great, we&rsquo;re getting closer! Now we want to make the div that contains our two spans (or a list and a span) separate. We&rsquo;ll add the CSS attributes `display: "flex"` and `justifyContent: "space-between"` and now they will each show up on opposite sides of the image.
-- Take some time to style each of those components. If you&rsquo;re using a list, Chris walks thorugh how to remove and restyle your list to be horizontal instead of vertical.
-- To allow our title to dynamically grow to fill our content we&rsquo;ll wrap it in a Textfit component like so:
+<TimeStamp start="2:57" end="3:46">
 
-``` javascript
-        import Textfit from "react-textfit";
+Now we're going to work on the rectangle our text will show up on, we're going to add some background color and margin. Also, on the top-level div we need to add `position: absolute` and `display:flex`  to set up our rectangle to fit in the area that we want.
 
-        <h1
-                  css={{
-                    color: "black",
-                    height: "100%"
-                  }}
-                >
-            <Textfit
-                    max={140}
-                    min={24}
-                    style={{ minHeight: "80%", maxHeight: "80%" }}
-                  >
-            This is a title of a blogpost
-            </Textfit>
-        </h1>
-```
+</TimeStamp>
 
-- **What if you want to add emoji&rsquo;s to your title?** That&rsquo;s as easy as importing `react-twemoji` and wrapping your title like so:
+<TimeStamp start="4:07" end="4:20">
 
-```javascript
-        import Textfit from "react-textfit";
-        import Twemoji from "react-twemoji";
+Next we're going to start scaffolding the rest of the text for our opengraph image within this rectangle. Chris is doing title, a list of tags, and author name. But you can do whatever you want here. 
 
-            <h1
-                  css={{
-                    color: "black",
-                    height: "100%"
-                  }}
-                >
-                  <Textfit
-                    max={140}
-                    min={24}
-                    style={{ minHeight: "80%", maxHeight: "80%" }}
-                  >
-                    <Twemoji>This is a title of a blog post 🎉</Twemoji>
-                  </Textfit>
-                </h1>
-```
+</TimeStamp>
 
-- Because I want the flexibility, I&rsquo;m going to wrap my post type elment in a twemoji element as well.
-- The Emoji&rsquo;s can get a bit large so I&rsquo;m going to add to my Global styles which will make the emojis as tall as the line
+<TimeStamp start="4:40" end="5:30">
 
-```  javascript
-        <Global
-              styles={{
-                ".emoji": {
-                  height: "1em",
-                  width: "1em",
-                  margin: "0 .05em 0 .1em",
-                  verticalAlign: "-0.1em"
-                },
-                "*": {
-                  boxSizing: "border-box",
-                  margin: 0,
-                  padding: 0,
-                  fontFamily: "system-ui"
-                }
-              }}
-            />
-```
+Great, we're getting closer! Now we want to make the div that contains our two spans (or a list and a span) separate. We'll add the CSS attributes `display: "flex"` and `justifyContent: "space-between"` and now they will each show up on opposite sides of the image.
+
+</TimeStamp>
+<TimeStamp start="5:32" end="5:45">
+
+Take some time to style each of those components. If you're using a list, Chris walks through how to remove and restyle your list to be horizontal instead of vertical.
+
+</TimeStamp>
+
+<TimeStamp start="9:46" end="9:53">
+
+To allow our title to dynamically grow to fill our content we'll import `import Textfit from 'react-textfit';` and add it as a dependency. 
+
+</TimeStamp>
+
+<TimeStamp start="11:46" end="12:03">
+
+To add a `box-shadow` go to [this site](https://shadows.brumm.af/) and add it into your div component on your background card. 
+
+</TimeStamp>
+
+<TimeStamp start="12:05" end="12:15">
 
 - Do one last round tweaking how your different elements look and bringing it in line with your Figma mock-up.
 
-## Resources
+</TimeStamp>
 
-- [Chris&rsquo;s Code Sandbox Example](https://codesandbox.io/s/building-an-opengraph-image-generation-api-with-cloudinary-netlify-functions-and-react-zjf2b?from-embed)
-- [Different Code Sandbox Example](https://codesandbox.io/s/happy-mendel-uiesy?file=/src/App.js)
+<TimeStamp start="12:16" end="12:30">
+
+**Resources** [Chris&rsquo;s Code Sandbox Example](https://codesandbox.io/s/building-an-opengraph-image-generation-api-with-cloudinary-netlify-functions-and-react-zjf2b?from-embed)
+and [Different Code Sandbox Example](https://codesandbox.io/s/happy-mendel-uiesy?file=/src/App.js)
+</TimeStamp>
