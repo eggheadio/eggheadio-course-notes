@@ -34,27 +34,9 @@ Unions don't share any fields, so if we try to query the `name` field, we will g
 
 If we want to query additional pet data, we can use inline fragments.
 
-```graphql
-query {
-  familyPets {
-    __typename
-    # This queries cat specific data
-    ... on Cat {
-      name
-      sleepAmount
-    }
-    # This queries dog specific data
-    ... on Dog {
-      name
-      good
-    }
-  }
-}
-```
+We will see that the error now goes away, and we get back out data. 🥳
 
 </TimeStamp>
-
-We will see that the error now goes away, and we get back out data. 🥳
 
 ## Resources
 

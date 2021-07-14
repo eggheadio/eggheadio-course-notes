@@ -6,7 +6,7 @@ In this lesson we learn how to check a pet in using a pet id.
 
 ## Notes
 
-<TimeStamp start="0:03" end="0:07">
+<TimeStamp start="0:01" end="0:07">
 
 It's time to check our pet back in. To do this, we are going to use the named mutation `checkIn`.
 
@@ -21,25 +21,6 @@ Remember we have to have our authorization token in our headers.
 <TimeStamp start="0:17" end="0:31">
 
 The `checkIn` mutation takes in a pet id and returns an object called `checkOut`. `checkOut` returns the `pet` object, `checkOutDate`, `checkInDate` and a boolean `late`.
-
-</TimeStamp>
-
-<TimeStamp start="0:32" end="0:41">
-
-
-
-```graphql
-mutation CheckIn {
-  checkIn(id: "S-2") {
-    pet {
-      name
-    }
-    checkOutDate
-    checkInDate
-    late
-  }
-}
-```
 
 </TimeStamp>
 

@@ -6,26 +6,9 @@ In this lesson we learn how to use fragments.
 
 ## Notes
 
-<TimeStamp start="0:00" end="0:01">
+<TimeStamp start="0:00" end="0:10">
 
 Fragments are selection sets that can be used across multiple queries. They allow us to refactor redundant selection sets, and they are essential when querying unions or interface types.
-
-</TimeStamp>
-
-<TimeStamp start="0:02" end="0:19">
-
-First we are going to query `allPets` and filter the results so we only get back available rabbits.
-
-```graphql
-query {
-  allPets(category: RABBIT, status: AVAILABLE) {
-    name
-    weight
-    category
-    status
-  }
-}
-```
 
 </TimeStamp>
 
@@ -41,21 +24,6 @@ We are going to create a fragment called `PetDetails` which is on type `Pet`. We
 
 Afterwards we can use spread syntax to push all of the pet details into the `allPets` query.
 
-```graphql
-query {
-  allPets(category: RABBIT, status: AVAILABLE) {
-    ...PetDetails
-  }
-}
-
-fragment PetDetails on Pet {
-  name
-  weight
-  category
-  status
-}
-```
-
 </TimeStamp>
 
 <TimeStamp start="0:50" end="0:53">
@@ -68,34 +36,11 @@ We are still able to send the query along with all of the fields. 🥳
 
 We can adjust the fragment and add additional fields such as `photo`. You'll see that the data returned from the `allPets` query now includes a thumbnail.
 
-```graphql
-fragment PetDetails on Pet {
-  name
-  weight
-  category
-  status
-  photo {
-    thumb
-  }
-}
-```
-
 </TimeStamp>
 
 <TimeStamp start="1:05" end="1:19">
 
 Now we're going to add on to the to query a little bit. We are going to add `petById` and pass in "C-1". We can also reuse `PetDetails`.
-
-```graphql
-query {
-  petById(id: "C-1") {
-    ...PetDetails
-  }
-  allPets(category: RABBIT, status: AVAILABLE) {
-    ...PetDetails
-  }
-}
-```
 
 ![alt text](https://i.ibb.co/8cfpKXv/scrnli-1-24-2020-2-23-48-PM.png)
 
@@ -105,40 +50,11 @@ query {
 
 We can also add additional fields along side of the fragment. Here we're going to add `inCareOf`, `name` and `username`.
 
-```graphql
-petById(id: "C-1") {
-    ...PetDetails
-    inCareOf {
-      name
-      username
-    }
-  }
-```
-
 </TimeStamp>
 
 <TimeStamp start="1:31" end="1:52">
 
 We can now create another fragment for customer details. We specify that these fields come from the `Customer` type. We'll add `name` and `username` from `inCareOf` and push those fields into the query.
-
-```graphql
-query {
-  petById(id: "C-1") {
-    ...PetDetails
-    inCareOf {
-      ...CustomerDetails
-    }
-  }
-  allPets(category: RABBIT, status: AVAILABLE) {
-    ...PetDetails
-  }
-}
-
-fragment CustomerDetails on Customer {
-  name
-  username
-}
-```
 
 </TimeStamp>
 

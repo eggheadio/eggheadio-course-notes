@@ -16,40 +16,6 @@ Right now, on the left-hand side of our screen, we have a huge query. It's colle
 
 As soon as I break this down into two separate queries, we're going to run into an issue. When I click play, there are two unnamed queries.
 
-```graphql
-query {
-  availablePets: totalPets(status: AVAILABLE)
-  checkedOutPets: totalPets(status: CHECKOUT)
-  dogs: allPets(category: DOG, status: AVAILABLE) {
-    name
-    weight
-    status
-    category
-    photo {
-      full
-      thumb
-    }
-  }
-}
-
-query {
-  totalCustomers
-  allCustomers {
-    name
-    username
-    dataCreated
-    checkoutHistory {
-      pet {
-        name
-      }
-      checkOutDate
-      checkInDate
-      late
-    }
-  }
-}
-```
-
 </TimeStamp>
 
 ![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555708/transcript-images/create-operation-names-for-graphql-queries-query-error.png)
@@ -63,40 +29,6 @@ If I click the second one of these, it says, `"This anonymous operation must be 
 <TimeStamp start="0:41" end="0:51">
 
 Right now, these are anonymous queries. Think of those like anonymous functions. We need to give them a name. I'll call the first one, `"PetPage."` I'll call the second one, `"CustomerPage"`.
-
-```graphql
-query PetPage {
-  availablePets: totalPets(status: AVAILABLE)
-  checkedOutPets: totalPets(status: CHECKOUT)
-  dogs: allPets(category: DOG, status: AVAILABLE) {
-    name
-    weight
-    status
-    category
-    photo {
-      full
-      thumb
-    }
-  }
-}
-
-query CustomerPage {
-  totalCustomers
-  allCustomers {
-    name
-    username
-    dataCreated
-    checkoutHistory {
-      pet {
-        name
-      }
-      checkOutDate
-      checkInDate
-      late
-    }
-  }
-}
-```
 
 </TimeStamp>
 

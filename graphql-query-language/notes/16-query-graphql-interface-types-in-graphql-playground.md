@@ -44,16 +44,6 @@ The `allPets` query returns a list of pets, and all of these pets are different 
 
 If we want to know which type a pet is, we can query the `__typename` field.
 
-```graphql
-query {
-  allPets {
-    __typename
-    id
-    name
-  }
-}
-```
-
 ![alt text](https://i.ibb.co/BTwXRT9/scrnli-1-25-2020-2-52-30-PM.png)
 
 </TimeStamp>
@@ -63,19 +53,6 @@ query {
 Writing queries for interfaces is a little different. Now we are able to use inline fragments.
 
 If we want to query those extra fields we had on `Cat`, we can use the spread syntax followed by `on <type name>`.
-
-```graphql
-query {
-  allPets {
-    __typename
-    id
-    name
-    ... on Cat {
-      sleepAmount
-    }
-  }
-}
-```
 
 </TimeStamp>
 
@@ -90,22 +67,6 @@ Now whenever there is a cat in the response, we will see a `sleepAmount` value f
 <TimeStamp start="1:48" end="1:59">
 
 We can do this for any additional fields.
-
-```graphql
-query {
-  allPets {
-    __typename
-    id
-    name
-    ... on Cat {
-      sleepAmount
-    }
-    ... on Stringray {
-      chill
-    }
-  }
-}
-```
 
 </TimeStamp>
 

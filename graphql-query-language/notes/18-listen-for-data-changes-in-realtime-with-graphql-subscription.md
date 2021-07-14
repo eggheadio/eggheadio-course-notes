@@ -22,16 +22,6 @@ The next step is to add a subscription. We can do this in a new tab.
 
 <TimeStamp start="0:58" end="1:18">
 
-```graphql
-subscription {
-  petReturned {
-    pet {
-      name
-    }
-  }
-}
-```
-
 Subscriptions are named just like queries and mutations. This one is called `petReturned`, and it returns a `Checkout` object.
 
 </TimeStamp>
@@ -47,20 +37,6 @@ It is not a request and response. We are listening for changes over a web socket
 </TimeStamp>
 
 We'll go to a new tab and checkout a pet and press play.
-
-<TimeStamp start="1:32" end="1:43">
-
-```graphql
-mutation {
-  checkOut(id: "C-2") {
-    pet {
-      name
-    }
-  }
-}
-```
-
-</TimeStamp>
 
 Once we send that request, we'll change checkOut to checkIn and press play again to check that pet back in.
 
