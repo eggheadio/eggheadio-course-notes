@@ -14,35 +14,11 @@ The real power of GraphQL starts to show up when we start to talk about connecti
 
 </TimeStamp>
 
-<TimeStamp start="0:22" end="0:29">
-
-```graphql
-query {
-  petById(id: "C-1") {
-    name
-  }
-}
-```
-
-</TimeStamp>
-
 ![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1563555708/transcript-images/query-connected-data-with-the-graphql-query-language-pet-by-id.png)
 
 <TimeStamp start="0:30" end="0:40">
 
 There's another field on pet called `inCareOf`. `inCareOf` is going to return the customer who has checked out this pet. Biscuit has been checked out by this customer.
-
-```graphql
-query {
-  petById(id: "C-1") {
-    name
-    inCareOf {
-      name
-      username
-    }
-  }
-}
-```
 
 </TimeStamp>
 
@@ -51,18 +27,6 @@ query {
 <TimeStamp start="0:41" end="0:53">
 
 To draw the line from customer to pet, we're going to use the `allCustomers` query. `allCustomers` is going to return a list of customers, so we can ask for their name, their username, and we also are going to get their `currentPets`.
-
-```graphql
-query {
-  allCustomers {
-    name
-    username
-    currentPets {
-      name
-    }
-  }
-}
-```
 
 </TimeStamp>
 
