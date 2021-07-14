@@ -26,7 +26,7 @@ This is the format when using Postgres:
 
   In this case, the `DELIMITER` defaults to tabs, but with CSV we need to choose commas (this works like a key value pair).
 
-</TimeStamp
+  </TimeStamp>
 
 
 <TimeStamp start="1:36" end="1:58">
