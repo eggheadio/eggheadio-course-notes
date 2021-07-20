@@ -1,6 +1,6 @@
 <TimeStamp start="1:09" end="1:19">
   
-  `useRecoilValue` is used to read state
+  `useRecoilValue` is used to read state. [recoiljs.org - useRecoilValue](https://recoiljs.org/docs/api-reference/core/useRecoilValue/)
   
 </TimeStamp>
 
