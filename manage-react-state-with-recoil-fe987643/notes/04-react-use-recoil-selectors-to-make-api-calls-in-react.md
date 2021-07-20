@@ -2,7 +2,7 @@
 
 Trying to consume the `weatherSelector` directly will give us some problems, until the API call returns, all we have is a promise, so React won't know what to render. One way of fixing this is using [React Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html), an experimental feature.
 
-</Timestamp>
+</TimeStamp>
 
 <TimeStamp start="2:00" end="2:15">
 

@@ -10,7 +10,7 @@
 
 </TimeStamp>
 
-<TimeStamp start="1:22" end="1:42">
+<TimeStamp start="1:22" end="2:42">
 
 [useSetRecoilState](https://recoiljs.org/docs/api-reference/core/useSetRecoilState/) is used when you want to update the state but not have it re-render every time the state is changed. It is the primary candidate when you just need to write state. useSetRecoilState returns a setter function for updating the value of writeable Recoil state.
 
