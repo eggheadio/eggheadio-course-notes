@@ -10,11 +10,11 @@
   
 </TimeStamp>
 
-<TimeStamp start="2:30" end="2:40">
+<TimeStamp start="2:25" end="2:45">
   
   "Suspense for Data Fetching is a new feature that lets you also use <Suspense> to declaratively “wait” for anything else, including data." - [reactjs.org](https://reactjs.org/docs/concurrent-mode-suspense.html)
   
- React Suspense is experimental and subject to change.
+  React Suspense is experimental and subject to change.
   
 </TimeStamp>
 
