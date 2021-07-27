@@ -2,16 +2,11 @@
 
 <Timestamp start="0:00" end="0:30">
     
-With new versions of RxJS, tests should look a little different. Also, assertions that should have been failing were passing. To fix this, I had to include and call the `done` argument in the test. (see https://stackoverflow.com/a/51640742). The working test is given below:
+With new versions of RxJS, tests should look a little different. Also, assertions that should have been failing were passing. To fix this, I had to include and call the `done` argument in the test. (see https://stackoverflow.com/a/51640742). The working test is given below (some unchanged code/imports omitted):
 
 ```
 import { of, toArray } from "rxjs";
-import { searchBeersEpic } from ".";
-import {
-  RECEIVED_BEERS,
-  searchBeers,
-  SEARCHED_BEERS_LOADING,
-} from "../actions";
+...
 it("should perform a search", function (done) {
   const action$ = of(searchBeers("shane"));
   const deps = {
@@ -21,26 +16,21 @@ it("should perform a search", function (done) {
   };
   const output$ = searchBeersEpic(action$, null, deps);
   output$.pipe(toArray()).subscribe((actions) => {
-    expect(actions.length).toBe(2);
-    expect(actions[0].type).toBe(SEARCHED_BEERS_LOADING);
-    expect(actions[1].type).toBe(RECEIVED_BEERS);
-    done();
+    // assertions
+    done(); // include so that tests fail when they should
   });
 });
 ```
 
 </Timestamp>
 
-<Timestamp start="0:31" end="1:20">
+<Timestamp start="0:31" end="1:05">
 
-Middleware setup has changed some in newer versions of redux-observable. We need to create the Epic middleware, create the store and apply that middleware, then run the middleware with the `rootEpic`. So, our `configureStore()` function is going to look slightly different than what is presented in the lesson:
+Middleware setup has changed some in newer versions of redux-observable. We need to create the Epic middleware, create the store and apply that middleware, then run the middleware with the `rootEpic`. So, our `configureStore()` function is going to look slightly different than what is presented in the lesson (some unchanged imports omitted):
 
 ```
-import reducer from "./reducers";
 import { ajax } from "rxjs/ajax";
-import { applyMiddleware, compose, createStore } from "redux";
-import { createEpicMiddleware } from "redux-observable";
-import { rootEpic } from "./epics";
+...
 export function configureStore() {
   const epicMiddleware = createEpicMiddleware({
     dependencies: {
@@ -58,13 +48,11 @@ export function configureStore() {
 }
 ```
 
-See https://redux-observable.js.org/docs/basics/SettingUpTheMiddleware.html for more information.
-
 </Timestamp>
 
-<Timestamp start="4:28" end="4:40">
+<Timestamp start="4:28" end="4:45">
 
-Make sure to remove the `done` argument here. Since we are asserting on the Redux store and are not using Observables, we do not need to tell Jest when to finish the test.
+Make sure to remove the `done` argument here. Since we are asserting on the Redux store and not using Observables, we do not need to tell Jest when to finish the test.
 
 </Timestamp>
 
@@ -73,3 +61,8 @@ We can make assertions on the final state of our Redux store by extracting the s
 We ran into errors testing an Epic that used the `debounceTime()` operator. This is because, when we test synchronous Redux functionality, we expect everything to be completed by the time we make an assertion. Thus, the delay from `debounceTime()` causes our test to fail.
 
 We can use RxJS schedulers to solve the problem with `debounceTime()` in our tests. We can create a `new VirtualTimeScheduler()` and `flush()` it before our assertions are made. This executes any queued actions that it has built up as fast as possible.
+
+The following resources provide information about updates/deprecations to RxJS that are relevant to this lesson:
+
+-   https://stackoverflow.com/a/51640742
+-   https://redux-observable.js.org/docs/basics/SettingUpTheMiddleware.html

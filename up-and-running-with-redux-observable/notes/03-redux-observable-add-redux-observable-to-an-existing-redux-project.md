@@ -5,27 +5,38 @@
 As of redux-observable 1.0.0, we no longer provide rootEpic to createEpicMiddleware. Instead, we call `epicMiddleware.run(rootEpic)` after creating our store with it. Our middleware setup should look as follows:
 
 ```
-import { applyMiddleware, createStore } from "redux"
-import { createEpicMiddleware } from "redux-observable"
-import { rootEpic } from "./epics"
-
 const epicMiddleware = createEpicMiddleware();
 const store = createStore(reducer, applyMiddleware(epicMiddleware));
 epicMiddleware.run(rootEpic);
 ```
 
-See https://redux-observable.js.org/MIGRATION.html for more information.
+</Timestamp>
+
+<Timestamp start="2:50" end="3:40">
+
+RxJS Operators are now piped to Observables using the `Observable.pipe(operator1, operator2, ...)` syntax. This means that we need to import each RxJS operator separately from `rxjs/operators`.
+
+```
+import { tap, ignoreElements } from "rxjs/operators"
+
+function loadStoriesEpic(action$) {
+    return action$.pipe(
+        tap((action) => console.log(action)),
+        ignoreElements()
+    )
+}
+```
+
+Note also that the RxJS `do` operator has been replaced with `tap`.
 
 </Timestamp>
 
-<Timestamp start="1:40" end="4:50">
+<Timestamp start="4:15" end="4:50">
 
-RxJS Operators are now piped to Observables using the `Observable.pipe(operator1, operator2, ...)` syntax. This means that we need to import each RxJS operator separately from `rxjs/operators`. Also, with pipeable operators, `do()` is replaced with `tap()` (see https://www.learnrxjs.io/learn-rxjs/operators/utility/do). Thus, to match the functionality demonstrated in the lesson our `epics/index.js` should look like
+With pipeable operators, we now can filter the action type as follows (some imports omitted):
 
 ```
 import { tap, ignoreElements, filter } from "rxjs/operators"
-import { combineEpics } from "redux-observable"
-import { LOAD_STORIES } from "../actions"
 
 function loadStoriesEpic(action$) {
     return action$.pipe(
@@ -34,22 +45,16 @@ function loadStoriesEpic(action$) {
         ignoreElements()
     )
 }
-
-export const rootEpic = combineEpics(loadStoriesEpic);
 ```
-
-See https://rxjs.dev/guide/operators for more information.
 
 </Timestamp>
 
 <Timestamp start="4:51" end="5:20">
 
-Instead of calling `ofType()` on the `action$` observable as is done in the lesson, we want to import `ofType` from "redux-observable" and `pipe` it into `action$`:
+We'll want to import the `ofType` operator from "redux-observable" and pipe it into `action$` as follows (some unchanged code/imports omitted):
 
 ```
-import { tap, ignoreElements} from "rxjs/operators"
 import { combineEpics, ofType } from "redux-observable"
-import { LOAD_STORIES } from "../actions"
 
 function loadStoriesEpic(action$) {
     return action$.pipe(
@@ -58,21 +63,19 @@ function loadStoriesEpic(action$) {
         ignoreElements()
     )
 }
-
-export const rootEpic = combineEpics(loadStoriesEpic);
 ```
 
 </Timestamp>
 
-<Timestamp start="5:30" end="6:49">
+<Timestamp start="5:30" end="6:20">
     
-With the previously noted changes to RxJS operators, we now must use the `pipe()` syntax to pipe the `ofType()` and `switchMap()` operators to `action$`. Furthermore, `of()` is now a standalone function that returns an Observable, and we must again use `pipe()` to pipe `delay` to that Observable. Our `epics/index.js` should now look like
+We should now use the `pipe()` syntax to pipe the `ofType()` and `switchMap()` operators to `action$`. Furthermore, `of()` is now a standalone function that returns an Observable, and we must again pipe the `delay` operator into that Observable. We can see these changes made in the code that follows (some unchanged code/imports omitted):
 
 ```
 import { of } from "rxjs";
 import { delay, switchMap } from "rxjs/operators";
 import { combineEpics, ofType } from "redux-observable";
-import { clear, LOAD_STORIES } from "../actions";
+
 function loadStoriesEpic(action$) {
   return action$.pipe(
     ofType(LOAD_STORIES),
@@ -81,10 +84,7 @@ function loadStoriesEpic(action$) {
     })
   );
 }
-export const rootEpic = combineEpics(loadStoriesEpic);
 ```
-
-See https://rxjs.dev/guide/operators for more information.
 
 </Timestamp>
 
@@ -97,3 +97,7 @@ An Epic is a function that takes in a stream of actions and returns a stream of 
 `combineEpics()` from redux-observable allows us to register multiple functions
 
 Everytime the LOAD_STORIES action has been processed by the Redux store, we will receive that action in our Epic stream.
+
+See https://rxjs.dev/guide/operators and https://www.learnrxjs.io/learn-rxjs/operators/utility/do for more information about discussed updates and deprecations in RxJS.
+
+See https://redux-observable.js.org/MIGRATION.html for more information about discussed updates and deprecations in redux-observable.
