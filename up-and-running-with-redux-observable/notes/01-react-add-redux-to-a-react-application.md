@@ -1,6 +1,6 @@
 ## 01. Add Redux to a React application
 
-<Timestamp start="0:00" end="0:30">
+<Timestamp start="0:00" end="0:20">
     
 No longer need to globally install create-react-app. Just use `npx create-react-app redux-obs` here.
 
