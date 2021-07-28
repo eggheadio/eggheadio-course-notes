@@ -29,11 +29,11 @@ Handler will be an async function that takes two arguments, the event to our fun
 
 </TimeStamp>
 
-<TimeStamp start="0:09" end="0:17">
+<TimeStamp start="0:54" end="1:05">
 
 The resulting code should look like this: 
 
-``` js
+```
 exports.handler = async function (event, context) {
   return {
     statusCode: 200,

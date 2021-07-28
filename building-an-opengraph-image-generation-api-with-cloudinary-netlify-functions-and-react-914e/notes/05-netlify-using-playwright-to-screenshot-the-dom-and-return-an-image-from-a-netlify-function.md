@@ -5,8 +5,9 @@
 <TimeStamp start="0:01" end="0:15">
 
 We are going to install [Playwright](https://github.com/microsoft/playwright), which is the library that will run headless browsers for us, whether it's Chromium-based, Firefox, or Webkit-based. If we install Playwright, the regular package, it installs all three browsers for us for convenience.
-- 
+  
 </TimeStamp>
+
 <TimeStamp start="0:37" end="0:50">
 
 
