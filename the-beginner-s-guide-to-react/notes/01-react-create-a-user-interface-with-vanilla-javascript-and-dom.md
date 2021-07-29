@@ -28,9 +28,8 @@
   
   In addition to referencing elements we can also [create elements with the document API](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
   
-</TimeStamp>
-
 ```html
+  
 <body>
   <div id="root"></div>
   <script type="text/javascript">
@@ -41,7 +40,10 @@
     rootElement.appendChild(element);
   </script>
 </body>
+  
 ```
+  
+</TimeStamp>
 
 ## Additional resource
 
