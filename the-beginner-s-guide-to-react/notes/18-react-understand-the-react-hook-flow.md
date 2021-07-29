@@ -181,6 +181,8 @@
 </TimeStamp>
 
 <TimeStamp start="9:55" end="10:02">
+
+  This is a test to see if text stops images from displaying.
   
   ![Hook flow diagram](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1624333719/egghead-notes/beginners-guide-to-react/hook-flow.png)
   
