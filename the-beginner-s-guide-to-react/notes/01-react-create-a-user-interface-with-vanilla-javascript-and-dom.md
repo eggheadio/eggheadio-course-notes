@@ -25,9 +25,7 @@
 </TimeStamp>
 
 <TimeStamp start="0:43" end="0:52">
-  
-In addition to referencing elements we can also [create elements with the document API](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-  
+
 ~~~html
   
 <body>
