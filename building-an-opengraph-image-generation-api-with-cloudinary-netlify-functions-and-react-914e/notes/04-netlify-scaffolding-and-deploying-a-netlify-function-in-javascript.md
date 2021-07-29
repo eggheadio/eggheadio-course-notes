@@ -33,7 +33,7 @@ Handler will be an async function that takes two arguments, the event to our fun
 
 The resulting code should look like this: 
 
-```
+``` js
 exports.handler = async function (event, context) {
   return {
     statusCode: 200,
