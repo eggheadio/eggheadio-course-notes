@@ -7,6 +7,7 @@
 </TimeStamp>
 
 <TimeStamp start="0:40" end="0:20">
+
   Normally this would require 2 separate queries, but postgres offers a solution:
 
   ```sql
@@ -20,11 +21,13 @@
 </TimeStamp>
 
 <TimeStamp start="1:21" end="1:43">
+
   We can also choose to `update` instead of doing `nothing`: 
 
   ```sql
     postgres=# insert into users values (uuid_generate_v4(), 'Lucie', 'Hawkins', 'Lucie-Jones@gmail.com') on conflict (email) do update set first_name = excluded.first_name, last_name = excluded.last_name; 
   ```
+
 </TimeStamp>
 
 <TimeStamp start="2:00" end="2:50">
@@ -44,7 +47,7 @@
   ```sql
     postgres=# insert into users as u values (uuid_generate_v4(), 'Lucie', 'Cook', 'Lucie-Jones@gmail.com') on conflict (email) do update set first_name = excluded.first_name, last_name = excluded.last_name where u.first_name <> 'Lucie'; 
   ```
-
+  
 </TimeStamp>
 
 <TimeStamp start="3:09" end="3:25">

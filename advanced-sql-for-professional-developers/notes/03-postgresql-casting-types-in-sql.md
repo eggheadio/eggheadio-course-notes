@@ -11,15 +11,18 @@
 
     postgres=# select cast ('100' as integer);
   ```
+
 </TimeStamp>
 
 <TimeStamp start="0:41" end="0:53">
+
   Postgres allows us to use the shorthand `::` between the types in place of using `cast...as...`:
 
   ```sql
     postgres=# select now()::date 
   ``` 
-</TimeStamp>
+  
+  </TimeStamp>
 
 
   ## Example Implementation: 
@@ -47,6 +50,7 @@
   ```sql
     postgres=# select create_date from users_temp u inner join (select now() as date) n on u.create_date = n.date; 
   ```
+  
 </TimeStamp>
 
 <TimeStamp start="1:59" end="2:26">
