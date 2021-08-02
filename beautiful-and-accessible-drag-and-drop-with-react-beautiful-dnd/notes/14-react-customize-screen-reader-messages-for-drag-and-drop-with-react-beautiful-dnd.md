@@ -16,7 +16,7 @@ This lesson is a good example for how you can change messages but the examples t
 
 You can customize what the voice over says by using the `aria-roledescription` prop in your container. We are doing this in `task.jsx`.  
 
-```js
+```jsx
 export default class Task extends React.Component {
   render() {
     return (
@@ -47,7 +47,7 @@ export default class Task extends React.Component {
 
 We can also change what it says while dragging a task. In `index.js`, we are going to add in an `onDragStart` and `onDragEnd`. 
 
-```js
+```jsx
 render() {
   return (
     <DragDropContext 
@@ -90,7 +90,7 @@ render() {
 
 We also need to create those. These come with a prop called `provided` and on provided, we have `announce`. Here is where you can change the text. 
 
-```js
+```jsx
 onDragStart = (start, provided) => {
   provided.announce(`You have lifted the task in position ${start.source.index + 1}`,)
 }
@@ -102,7 +102,7 @@ onDragStart = (start, provided) => {
 
 For `onDragUpdate`, we have it so that it tells us the position of the task or if it is not currently over a droppable area using the `announce` method like onDragStart. 
 
-```js
+```jsx
 onDragUpdate = (update, provided) => {
   const message = update.description
     ? `You have moved the task to position ${update.destination.index + 1}`
@@ -118,11 +118,12 @@ onDragUpdate = (update, provided) => {
 
 Lastly for our `onDragEnd`, we can use `destination` to tell our user where they have dropped the task, either in a new position on in the starting position. 
 
-```js
+```jsx
 const message = result.destination
   ? `You have moved the task from position ${result.source.index + 1} to ${result.destination.index +1}`
   : `The task has been returned to its starting position of ${result.source.index + 1}`;
 
 provided.announce(message)
 ```
+
 </TimeStamp>

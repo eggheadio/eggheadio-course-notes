@@ -16,7 +16,7 @@ We can also use `onDragUpdate` and `onDragStart`if we want to add more visual st
 
 We can do things like change the text color when we start to drag something and have it change back to normal once the drag has ended. 
 
-```js
+```jsx
 onDragStart = () => {
   document.body.style.color = 'orange';
 }
@@ -33,7 +33,7 @@ onDragEnd = result => {
 
 We can do the same thing when something gets updated. We can make it so that the background color changes with each update to the tasks list.
 
-```js
+```jsx
 onDragUpdate = update => {
   const { destination } = update;
   const opacity = destination 
@@ -42,13 +42,14 @@ onDragUpdate = update => {
   document.body.style.backgroundColor = `rgba(153, 141, 217, ${opacity})`
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:27" end="2:50">
 
 We can add in transitions to the color change on update and have it revert back normal once the drag has ended.
 
-```js
+```jsx
 onDragStart = () => {
   document.body.style.color = 'orange';
   document.body.style.transition = 'background-color 0.2s ease';
@@ -65,7 +66,8 @@ onDragUpdate = update => {
 onDragEnd = result => {
   document.body.style.color = 'inherit';
   document.body.style.backgroundColor = 'inherit';
-
   ...
 }
 ```
+
+</TimeStamp>

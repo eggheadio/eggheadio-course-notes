@@ -16,7 +16,7 @@ For our purposes we are going to have a very simple data structure.
 
 Firstly we are going to have a property call `tasks`, task object contains the task on our system, it uses the task id as the key for the lookup of the task object. Task object contains and id and content for the task. 
 
-```JS
+```jsx
 const initialData = {
   tasks: {
     'task-1': { id: 'task-1', content: 'Take out the garbage' },
@@ -24,15 +24,15 @@ const initialData = {
     'task-3': { id: 'task-3', content: 'Charge my phone' },
     'task-4': { id: 'task-4', content: 'Cook dinner' },
   },
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="0:37" end="0:51">
 
 We are also going to have a columns object, which we'll use to store the columns in our system. We also use the column id as the key for looking up the column. The code should look like this: 
 
-```JS
+```jsx
 columns: {
     'column-1': {
       id: 'column-1',
@@ -40,8 +40,8 @@ columns: {
       taskIds: ['task-1', 'task-2', 'task-3', 'task-4'],
     },
   },
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="0:52" end="1:09">
@@ -56,8 +56,7 @@ We are also going to add another property to the object called `columnOrder`. Th
 
 The resulting code should look like this: 
 
-```JS
-
+```jsx
 const initialData = {
   tasks: {
     'task-1': { id: 'task-1', content: 'Take out the garbage' },
@@ -75,7 +74,6 @@ const initialData = {
   // Facilitate reordering of the columns
   columnOrder: [ 'column-1'],
 };
-
 ```
 
 </TimeStamp>
@@ -84,21 +82,18 @@ const initialData = {
 
 We need to export `initialData`, and return to `index.js` file.
 
-```JS
-
+```jsx
 export default initialData;
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="1:35" end="1:39">
 
 Inside of our `index,js` file, we can now import our initialData.
 
-```JS
-
+```jsx
 import initialData from './initial-data';
-
 ```
 
 </TimeStamp>
@@ -109,7 +104,7 @@ We're going to set the initial state of our application to be that initialData, 
 
 The resulting code should look like this: 
 
-```js
+```jsx
 import initialData from './initial-data';
 
 class App extends React.Component {
@@ -124,13 +119,14 @@ class App extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:37" end="3:08">
 
 Now instead of just returning the `column.title`, we are going to return a column component with its id and tasks.
 
-```js
+```jsx
 return <Column key={column.id} column={column} tasks={tasks} />;
 ```
 
@@ -142,7 +138,7 @@ We don't currently have this created yet, so let's do that.
 
 We create `column.jsx` inside of our `src` folder and just have it render out the title again to make sure it's working. 
 
-```js
+```jsx
 import React from 'react';
 
 export default class column extends React.Component {
@@ -164,10 +160,8 @@ Now is where we have to start styling the application. Run `yarn add styled-comp
 
 In order to improve the visual consistency between browsers, we are going to use a css reset. To add this this reset to our project we need to run '`yarn add @atlaskit/css-reset`. Now, let's import that into our `index.js` file: 
 
-```JS 
-
+```jsx
 import '@atlaskit/css-reset';
-
 ```
 
 After importing that, you'll see a slight difference to your web output. 
@@ -178,10 +172,8 @@ After importing that, you'll see a slight difference to your web output.
 
 We go back to `column.jsx` and import the style-components 
 
-```JS 
-
+```jsx
 import styled from 'styled-components';
-
 ```
 
 </TimeStamp>
@@ -190,18 +182,19 @@ import styled from 'styled-components';
 
 After importing the style components we are able to create elements with styles. We'll need a `Container` to wrap our column, a `Tittle`, and a `TaskList` component
 
-``` JS
+``` jsx
 const Container = styled.div``;
 const Title = styled.h3``;
 const TaskList = styled.div``;
 ```
+
 </TimeStamp> 
 
 <TimeStamp start="5:21" end="5:27">
 
 Now rendering out our column with no additional styles other than the CSS reset that we've added.
 
-```JS
+```jsx
 render () {
   return (
         <Container>
@@ -211,13 +204,14 @@ render () {
       );
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="5:29" end="5:51">
 
 Now we add a little styling to this to make it look nicer. Just a margin and padding to our container, title, and tasklist.
 
-``` JS
+```jsx
 const Container = styled.div`
   margin: 8px;
   border: 1px solid lightgrey;
@@ -229,7 +223,6 @@ const Title = styled.h3`
 const TaskList = styled.div`
   padding: 8px;
 `;
-
 ```
 
 </TimeStamp>
@@ -238,7 +231,7 @@ const TaskList = styled.div`
 
 We are going to make our `TaskList` return a list of tasks 
 
-```JS
+```jsx
 render () {
   return (
     <Container>
@@ -250,13 +243,14 @@ render () {
   );    
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="6:20" end="6:44">
 
 We're now rendering out a list of task components, but we haven't created it yet. Let's go ahead and import Task from task. We haven't created this file, so let's go ahead and create `task.jsx` under `src` folder, and have it just print out the contents of our tasks.
 
-```js
+```jsx
 import React from 'react';
 
 export default class Task extends React.Component {
@@ -265,6 +259,7 @@ export default class Task extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="6:55" end="7:37">
@@ -272,7 +267,7 @@ export default class Task extends React.Component {
 To improve the style of this we create a `Container` component to wrap inside of that our task content and we add some borders and padding to make it look nicer and similar to the column. 
 
 
-```js
+```jsx
 import React from 'react';
 import styled from 'styled-components';
 
@@ -289,6 +284,7 @@ export default class Task extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 
