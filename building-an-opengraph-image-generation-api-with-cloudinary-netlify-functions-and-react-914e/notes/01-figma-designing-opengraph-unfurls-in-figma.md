@@ -15,6 +15,7 @@ The first thing we're going to do is design the template in Figma using [this te
 Duplicate the Template on the top right 
 
 </TimeStamp>
+
 <TimeStamp start="0:46" end="0:51">
 
 On the left hand side, navigate to "Open Graph Image"
@@ -26,6 +27,7 @@ On the left hand side, navigate to "Open Graph Image"
 An Open Graph image is what we use to preview when a page is shared on Twitter, Discord, Slack, Facebook, etc. 
 
 </TimeStamp>
+
 <TimeStamp start="1:45" end="2:05">
 
 You can get a background from [Gradient Magic](https://www.gradientmagic.com) for free. Click on Edit, if you have brand colors (or just colors you like) now would be a great time to plug them in!
@@ -63,25 +65,28 @@ Now we need to take a screenshot of this node:
 Drag the image into Figma and its the right size, and ready to go.
 
 </TimeStamp>
+
 <TimeStamp start="4:04" end="4:30">
 
 Next create a rectangle in Figma, a little smaller than your canvas (1160 X 590) and put it at the center of your background.
 
 </TimeStamp>
+
 <TimeStamp start="5:00" end="5:12">
 
 Choose a color from the background for the rectangle and then adjust the lightness so that it is either dark or light (depending on whether you want light or dark text)
 
 </TimeStamp>
+
 <TimeStamp start="5:35" end="5:50">
 
 Continue to adjust and prototype your design in Figma, but remember that you don't need to spend a lot of time making everything perfect. The goal is to get the idea down on paper and then reference it later when we build a React component.
 
 </TimeStamp>
+
 <TimeStamp start="6:35" end="6:42">
 
 To add some text you either need to select the "T" button on the left side of the navbar or hit "T" on the keyboard. 
-
 
 </TimeStamp>
 

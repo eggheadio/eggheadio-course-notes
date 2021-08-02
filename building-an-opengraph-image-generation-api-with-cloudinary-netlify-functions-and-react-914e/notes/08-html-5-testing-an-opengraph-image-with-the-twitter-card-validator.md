@@ -14,6 +14,7 @@
 Time to test your OpenGraph Image... Let's tweet it!
 
 </TimeStamp>
+
 <TimeStamp start="1:30" end="1:38">
 
   **Resources**
