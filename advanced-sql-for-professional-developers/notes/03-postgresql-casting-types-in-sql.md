@@ -22,7 +22,7 @@
     postgres=# select now()::date 
   ``` 
   
-  </TimeStamp>
+</TimeStamp>
 
 
   ## Example Implementation: 
