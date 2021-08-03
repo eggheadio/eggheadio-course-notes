@@ -1,6 +1,7 @@
 # [Initialize Prisma in a TypeScript Node Project](https://egghead.io/lessons/prisma-initialize-prisma-in-a-typescript-node-project)
 
 <TimeStamp start="0:14" end="0:25">
+
 To send back dynamic data using Prisma you need to run the following:
 
  - `npm i -D prisma`

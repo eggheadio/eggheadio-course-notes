@@ -3,7 +3,7 @@
 
 <TimeStamp start="0:54" end="1:00">
 
-To know more about Thunder Client visit this [page](https://www.thunderclient.io/)
+To know more about Thunder Client visit their [home page](https://www.thunderclient.io/)
 
 You can add this extension in the marketplace of VS Code. 
 
