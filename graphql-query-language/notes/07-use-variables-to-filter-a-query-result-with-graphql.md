@@ -9,7 +9,7 @@ In this lesson, we’ll replace static or inline values with dynamic values and 
 We'll start by opening up a new tab in GraphQL Playground by clicking the plus, and we're going to use this new tab to write a new query. We'll use our `allPets` query from before, but this time, we want to pass in some optional arguments.
 
 
-```
+```graphql
 query {
   allPets()
 }

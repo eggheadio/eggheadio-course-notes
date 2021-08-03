@@ -45,6 +45,8 @@ What this mutation returns is a customer object. This will give us access to all
 
 When we send this mutation, we're going to send all of the values from the input object.
 
+</TimeStamp>
+
 <TimeStamp start="1:42" end="1:53">
 
 `CreateAccount` takes in an `input` called `createAccountInput`. We pass the variables in the query variables panel, and then the mutation returns a customer object so I can access those values that I've just supplied.

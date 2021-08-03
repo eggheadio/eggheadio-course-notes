@@ -22,7 +22,7 @@ query {
 
 If I query `photo`, it gives this error message:
 
-```
+```bash
 "Field photo of type photo must have a selection of subfields."
 ```
 
