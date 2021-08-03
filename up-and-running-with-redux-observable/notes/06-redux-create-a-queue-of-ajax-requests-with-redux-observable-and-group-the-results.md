@@ -22,7 +22,7 @@ The `do` operator has been replaced by `tap`, and we'll need to pipe that and th
     
 We can implement the `fetchStoriesEpic` as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { combineEpics, ofType } from "redux-observable";
 import { ignoreElements, switchMap, tap } from "rxjs";
 import { ajax } from "rxjs/ajax";
@@ -65,7 +65,7 @@ Just as with the `map` operator, we want to `pipe` the `mergeMap` operator into 
 
 `forkJoin` has been changed in the same way that `ajax` has. Now, we can call `forkJoin` as a standalone Observable creation operator. This line, with the operator `pipe` syntax, should look as follows:
 
-```
+```jsx
 // execute 5 ajax requests
 mergeMap((reqs) => forkJoin(reqs)),
 ```
@@ -76,7 +76,7 @@ mergeMap((reqs) => forkJoin(reqs)),
 
 In newer versions of RxJS, implementation of `fetchStoriesEpic` should look as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { combineEpics, ofType } from "redux-observable";
 import { forkJoin, map, mergeMap, switchMap } from "rxjs";
 import { ajax } from "rxjs/ajax";

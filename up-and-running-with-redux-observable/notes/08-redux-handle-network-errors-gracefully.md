@@ -4,7 +4,7 @@
     
 We wrote the code for this Epic in the last lesson. RxJS has been updated such that we now need to `pipe` operators into `action$`. Furthermore, `ajax` is now a standalone Observable creation operator. Relevant changes to the code are outlined below:
 
-```
+```jsx
 import { combineEpics, ofType } from "redux-observable";
 import { debounceTime, map, switchMap } from "rxjs";
 import { ajax } from "rxjs/ajax";
@@ -29,7 +29,7 @@ function searchBeersEpic(action$) {
     
 RxJS Observables no longer have the `throw` method. Instead, we use the `throwError` Observable creation operator to throw an error. We should now have:
 
-```
+```jsx
 import { debounceTime, map, switchMap, throwError } from "rxjs";
 ...
 const ajaxGet = (term) =>
@@ -50,7 +50,7 @@ In newer versions of RxJS, the `catch()` operator has changed to the `catchError
 
 Omitting some unchanged imports/code, we can implement `searchBeersEpic` on newer versions of RxJS as follows:
 
-```
+```jsx
 function searchBeersEpic(action$) {
   return action$.pipe(
     ofType(SEARCHED_BEERS),

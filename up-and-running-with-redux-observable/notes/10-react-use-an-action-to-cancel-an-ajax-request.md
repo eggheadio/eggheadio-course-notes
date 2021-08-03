@@ -4,7 +4,7 @@
 
 To match the functionality at this point in the lesson, we need to include `delay` as an import from `"rxjs"` and `pipe()` it into our AJAX get request:
 
-```
+```jsx
 import { catchError, concatWith, debounceTime, delay, filter, map, of, switchMap, takeUntil, throwError } from "rxjs";
 ...
 const ajaxGet = (term) =>
@@ -27,7 +27,7 @@ const request = ajaxGet(payload).pipe(
 
 The instructor moves the `delay` operator up and out of the way, so remember to `pipe()` this operator into the `ajax.getJSON()` observable.
 
-```
+```jsx
 ...
 const ajaxGet = (term) =>
   term === "skull"
@@ -41,7 +41,7 @@ const ajaxGet = (term) =>
 
 We must import `takeUntil` from `'rxjs'` and pipe it into our `ajax` GET Observable. Then, where the instructor uses `action$.ofType`, we will pipe `ofType()` into the `action$` stream:
 
-```
+```jsx
 const request = ajaxGet(payload).pipe(
   takeUntil(action$.pipe(
     ofType(CANCEL_SEARCH)
@@ -59,7 +59,7 @@ const request = ajaxGet(payload).pipe(
 
 To match the functionality described at this point in the lesson, we should replace `merge` with the `mergeWith` operator and pipe it. Furthermore, we should pipe `ofType()` into each `action$` stream. An example of this is shown below:
 
-```
+```jsx
 switchMap(({ payload }) => {
     const loading = of(searchBeersLoading(true));
 

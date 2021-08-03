@@ -16,7 +16,7 @@ To summarize updates to RxJS here, we now `pipe` operators into the Observable i
 
 We can see how `pipe` works with the addition of the `filter` operator:
 
-```
+```jsx
 import { catchError, debounceTime, filter, map, of, switchMap, throwError } from "rxjs";
 ...
 function searchBeersEpic(action$) {
@@ -48,7 +48,7 @@ function searchBeersEpic(action$) {
 
 `concat()` is also now a standalone Observable creation opertaor, although it is now recommended to replace the `concat()` operator with `concatWith()` and, in this case, pipe `concatWith(request)` into the `loading` observable. These changes are demonstrated below:
 
-```
+```jsx
 import { catchError, concatWith, debounceTime, filter, map, of, switchMap, throwError } from "rxjs";
 ...
 function searchBeersEpic(action$) {

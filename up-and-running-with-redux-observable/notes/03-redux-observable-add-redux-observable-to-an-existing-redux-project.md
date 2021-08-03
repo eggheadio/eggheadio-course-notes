@@ -4,12 +4,10 @@
     
 As of redux-observable 1.0.0, we no longer provide rootEpic to createEpicMiddleware. Instead, we call `epicMiddleware.run(rootEpic)` after creating our store with it. Our middleware setup should look as follows:
 
-```
-    
+```jsx
 const epicMiddleware = createEpicMiddleware();
 const store = createStore(reducer, applyMiddleware(epicMiddleware));
-epicMiddleware.run(rootEpic);
-    
+epicMiddleware.run(rootEpic);  
 ```
 
 </Timestamp>
@@ -18,8 +16,7 @@ epicMiddleware.run(rootEpic);
 
 RxJS Operators are now piped to Observables using the `Observable.pipe(operator1, operator2, ...)` syntax. This means that we need to import each RxJS operator separately from `rxjs/operators`.
 
-```
-    
+```jsx
 import { tap, ignoreElements } from "rxjs/operators"
 
 function loadStoriesEpic(action$) {
@@ -27,8 +24,7 @@ function loadStoriesEpic(action$) {
         tap((action) => console.log(action)),
         ignoreElements()
     )
-}
-    
+} 
 ```
 
 Note also that the RxJS `do` operator has been replaced with `tap`.
@@ -39,8 +35,7 @@ Note also that the RxJS `do` operator has been replaced with `tap`.
 
 With pipeable operators, we now can filter the action type as follows (some imports omitted):
 
-```
-    
+```jsx
 import { tap, ignoreElements, filter } from "rxjs/operators"
 
 function loadStoriesEpic(action$) {
@@ -49,8 +44,7 @@ function loadStoriesEpic(action$) {
         tap((action) => console.log(action)),
         ignoreElements()
     )
-}
-    
+}  
 ```
 
 </Timestamp>
@@ -59,8 +53,7 @@ function loadStoriesEpic(action$) {
 
 We'll want to import the `ofType` operator from "redux-observable" and pipe it into `action$` as follows (some unchanged code/imports omitted):
 
-```
-    
+```jsx
 import { combineEpics, ofType } from "redux-observable"
 
 function loadStoriesEpic(action$) {
@@ -70,7 +63,6 @@ function loadStoriesEpic(action$) {
         ignoreElements()
     )
 }
-    
 ```
 
 </Timestamp>
@@ -79,8 +71,7 @@ function loadStoriesEpic(action$) {
     
 We should now use the `pipe()` syntax to pipe the `ofType()` and `switchMap()` operators to `action$`. Furthermore, `of()` is now a standalone function that returns an Observable, and we must again pipe the `delay` operator into that Observable. We can see these changes made in the code that follows (some unchanged code/imports omitted):
 
-```
-    
+```jsx
 import { of } from "rxjs";
 import { delay, switchMap } from "rxjs/operators";
 import { combineEpics, ofType } from "redux-observable";
@@ -93,7 +84,6 @@ function loadStoriesEpic(action$) {
     })
   );
 }
-    
 ```
 
 </Timestamp>

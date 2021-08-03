@@ -4,7 +4,7 @@
     
 On newer versions of RxJS, our `fetchUserEpic()` will need to use the `pipe()` syntax. Below is an implementation of the Epic on newer versions of RxJS:
 
-```
+```jsx
 import { ofType } from "redux-observable";
 import { map } from "rxjs";
 export function fetchUserEpic(action$) {
@@ -41,7 +41,7 @@ Now that RxJS has pipeable operators, we do not need an `ActionsObservable`! In 
 
 So, on newer versions of RxJS and redux-observable, our test should look like:
 
-```
+```jsx
 import { of } from "rxjs";
 import { fetchUserEpic } from "./fetch-user-epic";
 it("should return correct actions", function () {
@@ -61,7 +61,7 @@ See https://redux-observable.js.org/CHANGELOG.html#200-alpha0-2019-11-14 for mor
 
 With newer versions of RxJS, we'll want to pipe `toArray()` into `output$`.
 
-```
+```jsx
 output$.pipe(toArray()).subscribe(...)
 ```
 
@@ -71,7 +71,7 @@ output$.pipe(toArray()).subscribe(...)
 
 I found that this test would pass regardless of whether the assertion was true. Passing in a `done` argument for the test and calling it at the end of the assertions fixed this issue (see https://stackoverflow.com/a/51640742). Now, the test passes almost immediately if the assertions hold and times out otherwise. Our test should look as follows:
 
-```
+```jsx
 import { of, toArray } from "rxjs";
 import { fetchUserEpic } from "./fetch-user-epic";
 it("should return correct actions", (done) => {

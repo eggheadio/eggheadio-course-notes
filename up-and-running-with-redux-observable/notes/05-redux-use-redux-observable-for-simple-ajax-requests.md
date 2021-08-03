@@ -4,7 +4,7 @@
     
 The contents of `epics/index.js` at this point in the lesson are as follows:
 
-```
+```jsx
 import { combineEpics } from "redux-observable";
 import { FETCH_USER, fetchUserFulfilledAction } from "../actions/index";
 export const rootEpic = combineEpics();
@@ -28,7 +28,7 @@ Updates to RxJS require us `pipe` operators like `ofType` and `switchMap` into `
 
 We can implement `fetchUserEpic` as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { combineEpics, ofType } from "redux-observable";
 import { map, switchMap } from "rxjs";
 import { ajax } from "rxjs/ajax";
