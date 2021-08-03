@@ -9,13 +9,14 @@ We remove the `console.log` from the `Function Game`
 <TimeStamp start="0:32" end="0:46">
 
 We'll start adding the `grid` component where receives our `grid` data, and we will create a cell for each datum in the set of data
+
 </TimeStamp>
 
 <TimeStamp start="2:30" end="2:40">
 
 The resulting code for `function Grid` should look like this: 
 
-```js
+```jsx
 function Grid({ grid }) {
   return (
     <div css={{ display: 'inline-block' }}>
@@ -40,8 +41,8 @@ function Grid({ grid }) {
       </div>
     )
   }
+```
 
-  ```
 </TimeStamp>
 
 After here, the project does not work properly on the latest version of React. It does not display the layout of the game, after reviewing and reading proper documentation of react I was not able to find the error. The terminal and the website itself does not throw any error. 
@@ -62,7 +63,7 @@ From now on I'm reviewing the course and taking notes while working on the repos
 
 The resulting code for `function Cell` should look like this:
 
-```js 
+```jsx 
   function Cell({ value }) {
     return (
       <div
@@ -78,14 +79,15 @@ The resulting code for `function Cell` should look like this:
       </div>
     )
   }
-  ```
+```
+
 </TimeStamp>
 
 <TimeStamp start="4:30" end="4:35">
 
 After mapping the `grid` into the `function Grid` we can see in our browser the design of our Tic Tac Toe game. The resulting code of `function grid` should look like this: 
 
-```js
+```jsx
 function Grid({ grid }) {
   return (
     <div css={{ display: 'inline-block' }}>
@@ -110,5 +112,6 @@ function Grid({ grid }) {
       </div>
     )
   }
-  ```
+```
+
 </TimeStamp>

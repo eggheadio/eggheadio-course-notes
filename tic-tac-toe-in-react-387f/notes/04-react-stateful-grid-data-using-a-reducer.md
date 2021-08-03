@@ -18,8 +18,7 @@ We start by creating the initial state of the component and a reducer function t
 
 The code should look like this: 
 
-```js 
-
+```jsx
 const initialState = {
     grid: newTicTacToeGrid()
 }
@@ -27,8 +26,8 @@ const initialState = {
 const reducer = (state, action) => {
     return state
 }
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:00" end="2:20">
