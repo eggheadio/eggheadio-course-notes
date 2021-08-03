@@ -5,7 +5,7 @@
 
 We are going to start this lesson off by deleting our second and third column and removing their id's from the columnOrder in `initial-data.js` 
 
-```js
+```jsx
 const initialData = {
   tasks: {
     'task-1': { id: 'task-1', content: 'Take out the garbage' },
@@ -33,7 +33,7 @@ export default initialData;
 
 In `column.jsx` we convert `TaskList` into a flex parent and remove remove some of the styling that we did for our tasks
 
-```js
+```jsx
 const Container = styled.div`
   margin: 8px;
   border: 1px solid lightgrey;
@@ -60,7 +60,7 @@ const TaskList = styled.div`
 
 And lets have it print out only the first character of our tasks. We do this very easily in our `task.jsx` file.
 
-```js
+```jsx
 <Container
   {...provided.draggableProps}
   {...provided.dragHandleProps}
@@ -70,13 +70,14 @@ And lets have it print out only the first character of our tasks. We do this ver
   {this.props.task.content[0]}
 </Container>
 ```
+
 </TimeStamp>
 
 <TimeStamp start="0:54" end="1:16">
 
 Let's add a width and a height to our boxes as well as making them round and centering the text. 
 
-```js
+```jsx
 const Container = styled.div`
   border: 1px solid lightgrey;
   border-radius: 50%;
@@ -91,6 +92,7 @@ const Container = styled.div`
   align-items: center;
 `;
 ```
+
 </TimeStamp>
 
 <TimeStamp start="1:28" end="1:48">
@@ -99,7 +101,7 @@ Now we really need to set it up so that we can drag in between our tasks and mak
 
 In the Droppable component in `column.js`, you can add in the prop `direction`. By default, it is set to 'vertical'. Let's set it to horizontal. 
 
-```js
+```jsx
 <Droppable 
   droppableId={this.props.column.id}
   isDropDisabled={this.props.isDropDisabled}
@@ -119,7 +121,7 @@ Now we can drag from right to left and it works with keyboard.
 
 Let's change our border color to red when a task is focused on as well as increase our border size. 
 
-```js
+```jsx
 const Container = styled.div`
   border: 3px solid lightgrey;
   border-radius: 50%;
@@ -139,6 +141,7 @@ const Container = styled.div`
   }
 `;
 ```
+
 </TimeStamp>
 
 

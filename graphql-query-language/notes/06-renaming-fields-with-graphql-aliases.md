@@ -85,7 +85,7 @@ I could rename the photo field with an alias called `petPhoto`, and this is goin
 
 <TimeStamp start="1:17" end="1:20">
 
-```
+```graphql
 query {
   available: totalPets (status: AVAILABLE)
   checkedOut: totalPets (status: CHECKEDOUT)

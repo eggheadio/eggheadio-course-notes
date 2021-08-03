@@ -10,7 +10,7 @@ The `dragHandleProps` is what is allowing us to click anywhere on our Task compo
 
 We do this by creating a Handle component inside of our `Draggable` container. We move `{...provided.dragHandleProps}` from our `Container` to our newly created `Handle`. We also need to create our Handle and give it some styling. 
 
-```js
+```jsx
 const Handle = styled.div`
   width: 20px;
   height: 20px;
@@ -40,6 +40,7 @@ export default class Task extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:02" end="2:18">

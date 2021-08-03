@@ -203,7 +203,6 @@ We are currently not passing an index to our task component, so we go back to ou
   {this.props.tasks.map((task, index) => <Task key={task.id} task={task} index={index}/>)}
   {provided.placeholder}
 </TaskList>
-
 ```
 
 </TimeStamp>

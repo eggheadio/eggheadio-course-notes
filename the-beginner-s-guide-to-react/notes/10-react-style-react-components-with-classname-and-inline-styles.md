@@ -69,7 +69,7 @@
 
 - One of the most basic ways to style React components is with inline CSS. JSX elements can take a style attribute which takes in an object:
 
-```js
+```jsx
 const element = (
   <div>
     <div
@@ -84,7 +84,7 @@ const element = (
 
 - The style property is wrapped in **two sets of curly braces**, one to interpolate JavaScript and the second to define the object.
 
-```js
+```jsx
 function Box({ style, size, className = '', ...rest }) {
   return (
     <div
@@ -98,7 +98,7 @@ function Box({ style, size, className = '', ...rest }) {
 
 The next thing we'll do is make a reusable Box component. It would be better if the author could just define a size like `small`, `medium` or `large`. In this example we destructure size instead of `className`. That's why we could replace `className` with a size property that takes in a string:
 
-```js
+```jsx
 function Box({ style, size, className = '', ...rest }) {
   const sizeClassName = size ? `box--${size}` : '';
   return (

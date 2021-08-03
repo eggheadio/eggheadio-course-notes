@@ -10,7 +10,6 @@ We are going to install [Playwright](https://github.com/microsoft/playwright), w
 
 <TimeStamp start="0:37" end="0:50">
 
-
 We're going to use [Playwright AWS Lambda](https://github.com/JupiterOne/playwright-aws-lambda). To add this package run `npm install playwright-core playwright-aws-lambda --save`
 
 </TimeStamp>

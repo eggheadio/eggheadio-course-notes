@@ -12,7 +12,7 @@ Before you start looking at the lesson, you will need to do some changes in your
 
 1. Under the `/src` folder you'll find the `App.js` file, open that file, delete all the content and add the following code: 
 
-    ``` js 
+``` jsx
     import React from 'react'
 
     export default function App() {
@@ -24,7 +24,7 @@ Before you start looking at the lesson, you will need to do some changes in your
         </div>
     )
     }
-    ```
+```
 
 * Instructor does not explain how to set up the project, assuming he is working on a simple page React Project, the project does not run properly on the latest version of React. The version used in the course is React 16.04* *Refer to notes for second lesson for more information about this matter*
 
@@ -35,7 +35,7 @@ Before you start looking at the lesson, you will need to do some changes in your
 
 On the `App.js` file we will need to create the game component to hold the state of our game and other state values and add it to the `App` component 
 
-``` js
+```jsx
 function Game() {
     return <div> Game </div>
 }
@@ -46,7 +46,7 @@ function Game() {
 
 Now, we are going to add a `grid`, our `grid` will be a two dimensional array. To do that, we are going to create a function 
 
-```js
+```jsx
 function generateGrid(rows, columns, mapper) {
   return Array(rows)
     .fill()
@@ -60,10 +60,10 @@ function generateGrid(rows, columns, mapper) {
 
 We will create a new functions specifically for tic tac toe. 
 
-```js
+```jsx
 const newTicTacToeGrid = () =>
   generateGrid(3, 3, () => null)
-  ```
+```
 
 </TimeStamp>
 
@@ -73,13 +73,12 @@ Now we can add `grid` to our `Game` component and `console.log` the `grid`
 
 Our `function Game` should look like this: 
 
-```js
-
+```jsx
 function Game() {
     const grid = newTicTacToeGrid()
     console.log(grid)
     return <div> Game </div>
 }
-
 ```
+
 </TimeStamp>

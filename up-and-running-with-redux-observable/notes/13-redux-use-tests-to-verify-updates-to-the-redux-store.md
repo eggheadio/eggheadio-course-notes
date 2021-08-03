@@ -4,7 +4,7 @@
     
 With new versions of RxJS, tests should look a little different. Also, assertions that should have been failing were passing. To fix this, I had to include and call the `done` argument in the test. (see https://stackoverflow.com/a/51640742). The working test is given below (some unchanged code/imports omitted):
 
-```
+```jsx
 import { of, toArray } from "rxjs";
 ...
 it("should perform a search", function (done) {
@@ -28,7 +28,7 @@ it("should perform a search", function (done) {
 
 Middleware setup has changed some in newer versions of redux-observable. We need to create the Epic middleware, create the store and apply that middleware, then run the middleware with the `rootEpic`. So, our `configureStore()` function is going to look slightly different than what is presented in the lesson (some unchanged imports omitted):
 
-```
+```jsx
 import { ajax } from "rxjs/ajax";
 ...
 export function configureStore() {

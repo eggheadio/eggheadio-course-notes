@@ -27,8 +27,7 @@ To do that, we add `snapshot` as a parameter to our Container function and in th
 
 The resulting code should look like this: 
 
-```JS
-
+```jsx
 const Container = styled.div`
   border: 1px solid lightgrey;
   border-radius: 2px;
@@ -55,7 +54,6 @@ export default class Task extends React.Component {
     );
   }
 }
-
 ```
 
 </TimeStamp>
@@ -66,7 +64,7 @@ We can do the same for our `column.jsx`. We will be using `snapshot` with the sa
 
 The resulting code should look like this:
 
-```js
+```jsx
 const TaskList = styled.div`
   padding: 8px;
   background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'white')};
@@ -96,21 +94,20 @@ export default class Column extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="4:06" end="4:22">
 
 You can also add in transitions to your color changes to make it a little more visually appealing.
 
-```js 
-
+```jsx
 const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
   background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'white')};
 `;
-
- ```
+```
 
 </TimeStamp>
 

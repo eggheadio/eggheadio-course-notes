@@ -21,7 +21,8 @@ The resulting code for out buttons is:
         type="button"
       >
 
- ```
+```
+
 </TimeStamp>
 
 <TimeStamp start="1:45" end="1:52">

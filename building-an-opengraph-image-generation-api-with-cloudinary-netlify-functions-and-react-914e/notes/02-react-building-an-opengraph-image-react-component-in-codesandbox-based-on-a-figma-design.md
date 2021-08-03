@@ -19,7 +19,6 @@ Create a new React CodeSandbox [here](https://codesandbox.io/s)
 This is what your code looks like before you add in your background Image
 
 ``` jsx
-   
         <div
           css={{
             width: 1200,
@@ -29,7 +28,9 @@ This is what your code looks like before you add in your background Image
           image
         </div>
 ```
+
 </TimeStamp>
+
 <TimeStamp start="1:48" end="2:05">
 
 Go back to the Gradient you made in the first video (or the notepad suggested in the first lesson) and copy the CSS from there and paste it inside the css element on your code, adjust the css attribute name from `background-image` to `backgroundImage` and wrap the css properties in quotes. (CSS attribute names in JS are camel case)
@@ -40,14 +41,13 @@ Go back to the Gradient you made in the first video (or the notepad suggested in
 
 You need to import global styles, `import { jsx, Global } from "@emotion/react";`
 
-
 </TimeStamp>
+
 <TimeStamp start="2:36" end="2:50">
 
 Adding in some Global styles will inject the styles and apply them globally.
 
-``` javascript
-
+```jsx
         /** **/
         <Global
           styles={{
@@ -61,12 +61,12 @@ Adding in some Global styles will inject the styles and apply them globally.
         />
         // ... //
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:51" end="2:56">
 
 You need to wrap the image text in a div of its own.
-
 
 </TimeStamp>
 
@@ -87,6 +87,7 @@ Next we're going to start scaffolding the rest of the text for our opengraph ima
 Great, we're getting closer! Now we want to make the div that contains our two spans (or a list and a span) separate. We'll add the CSS attributes `display: "flex"` and `justifyContent: "space-between"` and now they will each show up on opposite sides of the image.
 
 </TimeStamp>
+
 <TimeStamp start="5:32" end="5:45">
 
 Take some time to style each of those components. If you're using a list, Chris walks through how to remove and restyle your list to be horizontal instead of vertical.
@@ -115,4 +116,5 @@ To add a `box-shadow` go to [this site](https://shadows.brumm.af/) and add it in
 
 **Resources** [Chris&rsquo;s Code Sandbox Example](https://codesandbox.io/s/building-an-opengraph-image-generation-api-with-cloudinary-netlify-functions-and-react-zjf2b?from-embed)
 and [Different Code Sandbox Example](https://codesandbox.io/s/happy-mendel-uiesy?file=/src/App.js)
+
 </TimeStamp>

@@ -34,7 +34,7 @@ We're going to remove some of the things in the `index.js` file that we're not i
 
 The resulting code inside `index.js` should look like this:
 
-```js
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 

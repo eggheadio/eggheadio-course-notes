@@ -24,7 +24,7 @@ Only received one `console.log` at this step: `{ type: 'SEARCHED_BEERS_LOADING',
 
 Again, because `of()` is now a standalone Observable creation operator, we do not need to call it on an Observable. Our test should look as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { of } from "rxjs";
 ...
 it("should perform a search", function () {
@@ -47,7 +47,7 @@ it("should perform a search", function () {
 
 We'll want to pipe `toArray()` into `output$`.
 
-```
+```jsx
 output$.pipe(toArray()).subscribe(...)
 ```
 
@@ -57,7 +57,7 @@ output$.pipe(toArray()).subscribe(...)
 
 As mentioned in the prior lesson, I found that these tests would pass regardless of the assertions made. Passing in a `done` argument for the test and calling it at the end of the assertions fixed this issue (see https://stackoverflow.com/a/51640742). Now, the test passes almost immediately if the assertions hold and times out if the assertions are defied. Our working test should look as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { of, toArray } from "rxjs";
 ...
 it("should perform a search", function (done) {
@@ -81,7 +81,7 @@ it("should perform a search", function (done) {
 
 Middleware setup for redux-observable has changed a little bit in newer versions. Also, `ajax` is now a standalone observable creation operator. So, we should now include dependencies in our middleware as follows:
 
-```
+```jsx
 import { ajax } from "rxjs/ajax";
 ...
 const epicMiddleware = createEpicMiddleware({

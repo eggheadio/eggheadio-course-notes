@@ -103,6 +103,7 @@
   What JavaScript expressions within JSX compile down to.
 
   The JSX:
+  
   ```jsx
   function CharacterCount({text}) {
     return (
@@ -115,7 +116,8 @@
   ```
 
   The Compiled JavaScript
-  ```js
+
+  ```jsx
     function Character Count(_ref) {
       var text = _ref.text;
       return React.createElement("div", null,

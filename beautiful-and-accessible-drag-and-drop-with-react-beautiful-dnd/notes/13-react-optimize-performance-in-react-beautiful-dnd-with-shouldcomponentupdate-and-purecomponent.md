@@ -10,7 +10,7 @@ For this lesson, we are going to be spending a good bit of time on the browser u
 
 We start by making the background of our columns to lightgrey for this lesson. 
 
-```js
+```jsx
 const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
@@ -28,7 +28,7 @@ We are going to streamline things a bit. Whenever you drag a task over a droppab
 
 Let's fix this by replacing our map function in our column with a new component called `InnerList`. 
 
-```js
+```jsx
 <TaskList
   ref={provided.innerRef}
   {...provided.droppableProps}
@@ -41,7 +41,7 @@ Let's fix this by replacing our map function in our column with a new component 
 
 Now let's create that class. 
 
-```js
+```jsx
 class InnerList extends React.Component {
   render() {
     return this.props.tasks.map((task, index) => (
@@ -50,13 +50,14 @@ class InnerList extends React.Component {
   }
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="2:30" end="2:51">
 
 We then add a `shouldComponentUpdate` life cycle method. In here, we are going to skip a render if the new tasks array shares referential equality with the existing tasks array. 
 
-```js
+```jsx
 class InnerList extends React.Component {
   shouldComponentUpdate(nextProps) {
     if (nextProps.tasks === this.props.tasks) {
@@ -81,8 +82,7 @@ Now we have the tasks in a single column not being rendered when one is moved un
 
 We want to stop the rendering of the children of the droppable, the container, during a drag. Instead of returning a Column, we are going to return an `InnerList` component that'll render a column. 
 
-```js
->
+```jsx
 {this.state.columnOrder.map((columnId, index) => {
   const column = this.state.columns[columnId];
     
@@ -94,7 +94,6 @@ We want to stop the rendering of the children of the droppable, the container, d
     index={index}
   />;
 })}
-
 ```
 
 </TimeStamp>
@@ -103,8 +102,7 @@ We want to stop the rendering of the children of the droppable, the container, d
 
 Now lets create that InnerList component. 
 
-```js
-
+```jsx
 class InnerList extends React.Component {
   render() {
     const { column, taskMap, index } = this.props;
@@ -121,7 +119,7 @@ class InnerList extends React.Component {
 
 This currently does the exact same as before. Now we add in a `shouldComponentUpdate` and add in the logic to check to see if there is a render necessary. 
 
-```js
+```jsx
 class InnerList extends React.Component {
   shouldComponentUpdate(nextProps) {
     if (
@@ -149,7 +147,7 @@ class InnerList extends React.Component {
 
 None of these should change when a column is dragged so a render shouldn't happen. To shorten this up, we change `React.Component` to `React.PureComponent` and it'll do everything inside of that `shouldComponentUpdate` for us. 
 
-```js
+```jsx
 class InnerList extends React.PureComponent {
   render() {
     const { column, taskMap, index } = this.props;
@@ -158,6 +156,7 @@ class InnerList extends React.PureComponent {
   }
 }
 ```
+
 </TimeStamp>
 
 

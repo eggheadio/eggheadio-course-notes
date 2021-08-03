@@ -22,7 +22,7 @@ In `index.js`, let's import Droppable from `react-beautiful-dnd`.
 
 Let's wrap the Container with our new `Droppable`. as well as give our droppable and ID and a direction of "horizontal". We are also going to give it a type of "column".
 
-```js
+```jsx
 <DragDropContext onDragEnd={this.onDragEnd}>
   <Droppable droppableId="all-columns" direction="horizontal" type="column">
     {() => (
@@ -45,7 +45,7 @@ Let's wrap the Container with our new `Droppable`. as well as give our droppable
 
 Now to our Container, we need to add the droppable props, the DOM ref, and a `placeholder` 
 
-```js
+```jsx
 <DragDropContext onDragEnd={this.onDragEnd}>
   <Droppable 
     droppableId="all-columns" 
@@ -76,7 +76,7 @@ Now to our Container, we need to add the droppable props, the DOM ref, and a `pl
 
 Now, over in `column.jsx`, we want to make our column `draggable`. So lets import `Draggable` from **react-beautiful-dnd**. We wrap our column inside of a `Draggable` and add our container to the function. For the `draggableId`, we are going to use the column id and make sure to give our columns and index. 
 
-```js
+```jsx
 export default class Column extends React.Component {
   render() {
     return (
@@ -112,7 +112,7 @@ export default class Column extends React.Component {
 
 To give it an index, we have to do that over in `index.js`. We add `index` as a prop for our map function and pass that straight along to our column component. 
 
-```js
+```jsx
 {this.state.columnOrder.map((columnId, index) => {
   const column = this.state.columns[columnId];
   const tasks = column.taskIds.map(taskId => this.state.tasks[taskId]);
@@ -120,6 +120,7 @@ To give it an index, we have to do that over in `index.js`. We add `index` as a 
   return <Column key={column.id} column={column} tasks={tasks} index={index}/>;
 })}
 ```
+
 </TimeStamp>
 
 <TimeStamp start="3:43" end="4:09">
@@ -128,7 +129,7 @@ Now back in `column.jsx`, we need to finish wiring up our `draggable`.
 
 The resulting code should look like this:
 
-```js
+```jsx
 export default class Column extends React.Component {
   render() {
     return (
@@ -179,20 +180,21 @@ Now we can drag our columns, BUT we get an error when we drop it. Now we need to
 
 We add in the `type` prop so we can differentiate the difference between a task and a column. We add the logic for if a type equals column, it'll create a new array and delete the old one. 
 
-```js
+```jsx
 if(type === 'column') {
   const newColumnOrder = Array.from(this.state.columnOrder);
   newColumnOrder.splice(source.index, 1);
   newColumnOrder.splice(destination.index, 0, draggableId);
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="5:42" end="5:53">
 
 We create a newState object with the columnOrder added to it and set the state to the newState. 
 
-```js
+```jsx
 if(type === 'column') {
   const newColumnOrder = Array.from(this.state.columnOrder);
   newColumnOrder.splice(source.index, 1);
@@ -213,7 +215,7 @@ if(type === 'column') {
 
 We can now reorder our columns. Now lets just add some styling to our `column.js`.
 
-```js
+```jsx
 const Container = styled.div`
   margin: 8px;
   border: 1px solid lightgrey;

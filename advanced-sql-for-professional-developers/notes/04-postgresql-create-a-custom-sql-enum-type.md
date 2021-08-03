@@ -12,7 +12,7 @@ We can ensure integrity by adding constraints to our tables.
     create type user_status as enum ('member', 'instructor', 'developer');
     CREATE TYPE
   ```
-
+  
 <TimeStamp>
 
 <TimeStamp start="0:33" end="0:42">

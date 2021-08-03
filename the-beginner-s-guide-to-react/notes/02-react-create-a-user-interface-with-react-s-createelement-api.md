@@ -9,6 +9,7 @@
 <TimeStamp start="0:28" end="0:31">
   
 Add these scripts to get React on to the page. 
+
 ```html
 <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>

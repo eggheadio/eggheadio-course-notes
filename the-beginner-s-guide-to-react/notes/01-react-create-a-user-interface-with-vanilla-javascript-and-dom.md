@@ -29,7 +29,6 @@
 In addition to referencing elements we can also [create elements with the document API](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
   
 ```html
-  
 <body>
   <div id="root"></div>
   <script type="text/javascript">
@@ -40,7 +39,6 @@ In addition to referencing elements we can also [create elements with the docume
     rootElement.appendChild(element);
   </script>
 </body>
-  
 ```
   
 </TimeStamp>

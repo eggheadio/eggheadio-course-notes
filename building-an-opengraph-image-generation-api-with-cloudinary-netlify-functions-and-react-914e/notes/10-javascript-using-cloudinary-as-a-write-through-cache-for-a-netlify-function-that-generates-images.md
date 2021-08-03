@@ -6,7 +6,6 @@
 
 [Cloudinary](https://cloudinary.com/) is an end-to-end image- and video-management solution for websites and mobile apps
 
-
 </TimeStamp>
 
 <TimeStamp start="1:09" end="1:17">
@@ -27,13 +26,11 @@ The version of the image is what we'll use in our function to invalidate the cac
 
 To create the new directory run `mkdir process-url` 
 
-
 </TimeStamp>
 
 <TimeStamp start="2:25" end="2:31">
 
 To initialize a new package.json run `yarn init -y`  and to add cloudinary run `yarn add cloudinary`
-
 
 </TimeStamp>
 
@@ -66,12 +63,13 @@ We use `&&` to chain the calls, first, we go into a directory, then we do an `np
 [set your `ENV` variables in Netlify](https://docs.netlify.com/configure-builds/environment-variables/).
 
 </TimeStamp>
+
 <TimeStamp start="5:52" end="6:03">
 
 We're going to need to set the image version, the `CLOUDINARY_KEY`, and the `CLOUDINARY_SECTRET`.
 
-
 </TimeStamp>
+
 <TimeStamp start="6:15" end="6:25">
 
 We now have two functions. One function's job is to generate the image. The other functions job is to sign a URL and redirect us to Cloudinary.

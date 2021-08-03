@@ -14,7 +14,7 @@ Now, when the instructor refers to the `ajax` variable, we should use the `ajaxG
     
 With newer versions of RxJS, we'll want to `pipe` these operators into the Observables. Here is a working implementation of that (some unchanged code/imports omitted.
 
-```
+```jsx
 import { combineEpics, ofType } from "redux-observable";
 import { map, switchMap } from "rxjs";
 import { ajax } from "rxjs/ajax";
@@ -38,7 +38,7 @@ function searchBeersEpic(action$) {
     
 Again, in newer versions of RxJS, we need to `pipe` operators like `debounceTime` into `action$` as follows (some unchanged code/imports omitted):
 
-```
+```jsx
 import { debounceTime, map, switchMap } from "rxjs";
 ...
 return action$.pipe(

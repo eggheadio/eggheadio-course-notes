@@ -12,8 +12,7 @@ We are going to add further columns to our application and enable the movement o
 
 We go to `initial-data.js` file and quickly add two columns. 
 
-```js
-
+```jsx
 const initialData = {
   tasks: {
     "task-1": { id: "task-1", content: "Take out the garbage" },
@@ -43,15 +42,15 @@ const initialData = {
 };
 
 export default initialData;
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="0:41" end="0:52">
 
 Now, over in `index.js`, we are going to wrap our columns in a `Container` 
 
-```js
+```jsx
 render() {
   return (
     <DragDropContext onDragEnd={this.onDragEnd}>
@@ -67,21 +66,21 @@ render() {
   )
 }
 ```
+
 </TimeStamp>
 
 <TimeStamp start="0:57" end="1:11">
 
 Then add some styles to that container with `flex` which will align the items next to each other,as well as import styled.
 
-``` js
-
+``` jsx
 import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
 `;
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="1:18" end="1:27">
@@ -94,7 +93,7 @@ To make our columns look nicer and all have the same look, in `column.js`, we ar
 
 Now the columns are not highlighting when we try to drag a task over into it. To fix that we convert our `container` as a `flex` parent.
 
-```js
+```jsx
 const Container = styled.div`
   margin: 8px;
   border: 1px solid lightgrey;
@@ -110,8 +109,7 @@ const Container = styled.div`
 
 We set up `flex` growing in `TaskList` we can see how `flexbox` will grow to fill the available space and add the minimum height to the droppable components. After hovering through the columns we get the correct coloring 
 
-```js
-
+```jsx
 const TaskList = styled.div`
   padding: 8px;
   transition: background-color 0.2s ease;
@@ -119,45 +117,45 @@ const TaskList = styled.div`
   flex-grow: 1;
   min-height: 100px;
 `;
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="3:15" end="3:40">
 
 We go back to `index.js` and we rename our `column` to start, with this we have created a new variable to store our reference to the column that we finish. 
 
-```js 
-
+```jsx
 const start = this.state.columns[source.droppableId];
 const finish = this.state.columns[destination.droppableId];
 
 if (start === finish) {
   ....
 }
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="4:05" end="4:33">
 
 Now from moving to one list to another, we need to create a `startTaskIds` array and a `newStart` column and remove the dragged `taskId` from the old array. 
 
-```js
+```jsx
 const startTaskIs = Array.from(start.taskIds);
 startTaskIds.splice(source.index, 1);
 const newStart = {
   ...start,
   taskIds: startTaskIds
 };
-
 ```
+
 </TimeStamp>
 
 <TimeStamp start="4:34" end="4:59">
 
 We also need to create a `finishTaskIds` array and a `newFinish` 
-```js
+
+```jsx
 const finishTaskIs = Array.from(finish.taskIds);
 finishTaskIss.splice(destination.index, 0, draggableId);
 const newFinish = {
@@ -165,14 +163,14 @@ const newFinish = {
   taskIds: finishTaskIds
 };
 ```
+
 </TimeStamp>
 
 <TimeStamp start="5:00" end="5:11">
 
 Finally, we need to create a `newState` updating the new column's map and task Ids. 
 
-```js
-
+```jsx
  const newState = {
       ...this.state,
       columns: {
@@ -181,7 +179,6 @@ Finally, we need to create a `newState` updating the new column's map and task I
         [newFinish.id]: newFinish,
       },
     };
-
 ```
 
 </TimeStamp>
