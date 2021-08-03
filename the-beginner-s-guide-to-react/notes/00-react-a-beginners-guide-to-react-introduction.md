@@ -17,8 +17,6 @@
   Download or clone the source code: [**Course Repo**](https://github.com/kentcdodds/beginners-guide-to-react/tree/egghead) and ⚠️ switch to the egghead branch.
   
 </TimeStamp>
-
-- 
  
 <TimeStamp start="3:52" end="4:00">
 
@@ -41,7 +39,7 @@
   
 </TimeStamp>
 
-```
+```bash
 - code editor opened
 - browsersync running
 - developer tools opened
