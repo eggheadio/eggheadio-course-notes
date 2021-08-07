@@ -4,7 +4,7 @@
 
 <TimeStamp start="0:30" end="0:35">
 
-```js
+```jsx
 const Auth = () => {
   return null
 }
@@ -17,7 +17,7 @@ export default Auth
 
 <TimeStamp start="0:40" end="0:45">
 
-```js
+```jsx
 import Auth from '../components/auth'
 
 <Auth />
@@ -27,7 +27,7 @@ import Auth from '../components/auth'
 
 <TimeStamp start="0:55" end="1:05">
 
-```js
+```jsx
 const Auth = () => {
   return <div>
     <button>Log in with GitHub</button>
@@ -45,7 +45,7 @@ const Auth = () => {
 
 <TimeStamp start="2:20" end="2:30">
 
-```js
+```jsx
 const signInWithGithub = async () => {
   let { user, error } = await supabase.auth.signIn({
     provider: 'github'
@@ -56,7 +56,7 @@ const signInWithGithub = async () => {
 
 <TimeStamp start="2:45" end="2:52">
 
-```js
+```jsx
 <Auth supabase={supabase} />
 ```
 
@@ -64,7 +64,7 @@ const signInWithGithub = async () => {
 
 <TimeStamp start="3:55" end="4:05">
 
-```js
+```jsx
 const signInWithGithub = () => {
   supabase.auth.signIn({ provider: 'github' })
 }
@@ -74,7 +74,7 @@ const signInWithGithub = () => {
 
 <TimeStamp start="4:14" end="4:20">
 
-```js
+```jsx
 <button onClick={signInWithGithub}>Log in with GitHub</button>
 ```
 

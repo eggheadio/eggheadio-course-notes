@@ -4,13 +4,13 @@
 
 <TimeStamp start="0:07" end="0:12">
 
-npx create-next-app supabase-chat-server
+`npx create-next-app supabase-chat-server`
 
 </TimeStamp>
 
 <TimeStamp start="0:27" end="0:32">
 
-npm install @supabase/supabase-js
+`npm install @supabase/supabase-js`
 
 </TimeStamp>
 
@@ -23,7 +23,7 @@ NEXT_PUBLIC_SUPABASE_API_KEY=<KEY>
 
 <TimeStamp start="3:35" end="3:50">
 
-```js
+```jsx
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
@@ -36,7 +36,7 @@ const supabase = createClient(
 
 <TimeStamp start="4:30" end="4:45">
 
-```js
+```jsx
 const useSupabase = () => {
   const [session, setSession] = useState(supabase.auth.session())
 }
@@ -48,7 +48,7 @@ const useSupabase = () => {
 
 <TimeStamp start="5:15" end="5:25">
 
-```js
+```jsx
 supabase.auth.onAuthStateChange(async (_event, session) => {
   setSession(session)
 })
@@ -58,7 +58,7 @@ supabase.auth.onAuthStateChange(async (_event, session) => {
 
 <TimeStamp start="5:57" end="6:02">
 
-```js
+```jsx
 import { useState } from 'react';
 ```
 
@@ -66,7 +66,7 @@ import { useState } from 'react';
 
 <TimeStamp start="6:10" end="6:23">
 
-```js
+```jsx
 return { session, supabase }
 ```
 
@@ -74,7 +74,7 @@ return { session, supabase }
 
 <TimeStamp start="6:10" end="6:23">
 
-```js
+```jsx
 export default useSupabase
 ```
 
@@ -82,7 +82,7 @@ export default useSupabase
 
 <TimeStamp start="7:15" end="7:20">
 
-```js
+```jsx
 import useSupabase from '../utils/useSupabase'
 ```
 
@@ -90,7 +90,7 @@ import useSupabase from '../utils/useSupabase'
 
 <TimeStamp start="7:40" end="7:50">
 
-```js
+```jsx
 const { session, supabase } = useSupabase()
 ```
 
@@ -98,7 +98,7 @@ const { session, supabase } = useSupabase()
 
 <TimeStamp start="8:05" end="8:15">
 
-```js
+```jsx
 return <Component session={session} supabase={supabase} {...pageProps} />
 ```
 
@@ -106,7 +106,7 @@ return <Component session={session} supabase={supabase} {...pageProps} />
 
 <TimeStamp start="8:35" end="8:42">
 
-```js
+```jsx
 export default function Home({ session, supabase }) 
 ```
 

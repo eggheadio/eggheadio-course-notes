@@ -4,7 +4,7 @@
 
 <TimeStamp start="1:45" end="1:50">
 
-```js
+```jsx
 export default function Home({ session, supabase }) {
   return (
     <div className={styles.container}>
@@ -23,7 +23,7 @@ export default function Home({ session, supabase }) {
 
 <TimeStamp start="2:13" end="2:35">
 
-```js
+```jsx
 import {useEffect, useState} from 'react'
 
 const [ loggedIn, setLoggedIn ] = useState(false)
@@ -35,7 +35,7 @@ const [ loggedIn, setLoggedIn ] = useState(false)
 
 <TimeStamp start="4:10" end="4:25">
 
-```js
+```jsx
 useEffect(() => {
   setLoggedIn(!! session)
 }, [session])
