@@ -4,7 +4,7 @@
 
 <TimeStamp start="0:03" end="0:10">
 
-[supabase](https://supabase.io/)
+[https://supabase.io/](https://supabase.io/) is where you can find supabase.
 
 </TimeStamp>
 
