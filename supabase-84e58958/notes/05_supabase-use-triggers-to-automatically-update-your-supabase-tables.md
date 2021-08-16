@@ -8,6 +8,12 @@ More on [triggers](https://supabase.io/blog/2021/07/30/supabase-functions-update
 
 </TimeStamp>
 
+<TimeStamp start="1:13" end="1:33">
+  
+  Documentation on creating public user tables has been [moved here](https://supabase.io/docs/guides/auth/managing-user-data). Supabase has also removed triggers from this doc but you can still use them.
+  
+</TimeStamp>
+
 <TimeStamp start="3:20" end="3:30">
 
 ```sql
