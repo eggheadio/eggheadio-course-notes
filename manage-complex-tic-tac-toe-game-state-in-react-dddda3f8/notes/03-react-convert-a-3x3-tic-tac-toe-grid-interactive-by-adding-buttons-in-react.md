@@ -33,7 +33,7 @@ For more information about  lifting of state and state updaters in React review 
 
 <TimeStamp start="2:55" end="3:05">
 
-So far we can see on our server that our the buttons are interactive, and if we open the console we can see tha arrays with the update information. 
+So far we can see in our application that our buttons are interactive, and if we open the console we can see the x, y coordinates logged as objects 
 
 </TimeStamp>
 

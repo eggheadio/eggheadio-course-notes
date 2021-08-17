@@ -2,7 +2,7 @@
 
 <TimeStamp start="0:02" end="0:07">
 
-Our main goal in this lesson is to create condition to determine the winner in our game. 
+Our main goal in this lesson is to create condition to determine the winner in our game.
 
 </TimeStamp>
 

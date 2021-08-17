@@ -33,7 +33,7 @@ Before you start looking at the lesson, you will need to do some changes in your
 
 <TimeStamp start="0:02" end="0:15">
 
-On the `App.js` file we will need to create the game component to hold the state of our game and other state values and add it to the `App` component 
+On the `App.js` file we will need to create the game component to hold the state of our game and other state values and add it to the `App` component.
 
 ```jsx
 function Game() {
@@ -44,7 +44,7 @@ function Game() {
 
 <TimeStamp start="0:49" end="1:37">
 
-Now, we are going to add a `grid`, our `grid` will be a two dimensional array. To do that, we are going to create a function 
+Now, we are going to add a `grid`, our `grid` will be a two dimensional array. To do that, we are going to create a function.
 
 ```jsx
 function generateGrid(rows, columns, mapper) {
@@ -58,7 +58,7 @@ function generateGrid(rows, columns, mapper) {
 
 <TimeStamp start="1:38" end="1:55">
 
-We will create a new functions specifically for tic tac toe. 
+We will create a new functions specifically for tic tac toe.
 
 ```jsx
 const newTicTacToeGrid = () =>
@@ -69,9 +69,9 @@ const newTicTacToeGrid = () =>
 
 <TimeStamp start="1:56" end="2:09">
 
-Now we can add `grid` to our `Game` component and `console.log` the `grid` 
+Now we can add `grid` to our `Game` component and `console.log` the `grid`.
 
-Our `function Game` should look like this: 
+Our `function Game` should look like this:
 
 ```jsx
 function Game() {
