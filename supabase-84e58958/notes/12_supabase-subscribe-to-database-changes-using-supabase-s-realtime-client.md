@@ -37,4 +37,8 @@ const message = supabase
 
 </TimeStamp>
 
+<TimeStamp start="3:57" end="4:10">
 
+To test if we can see the messages in interface, you need to create a new *message* in messages table 
+
+</TimeStamp>

@@ -8,7 +8,6 @@
 const Auth = () => {
   return null
 }
-
 export default Auth
 ```
 
@@ -19,7 +18,6 @@ export default Auth
 
 ```jsx
 import Auth from '../components/auth'
-
 <Auth />
 ```
 
@@ -39,7 +37,7 @@ const Auth = () => {
 
 <TimeStamp start="1:25" end="1:30">
 
-[Supabase api](https://supabase.io/docs/guides/api)
+Here you can find more information in [Supabase api](https://supabase.io/docs/guides/api)
 
 </TimeStamp>
 
