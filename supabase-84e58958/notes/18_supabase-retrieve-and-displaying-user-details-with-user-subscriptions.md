@@ -13,8 +13,29 @@ Keep in mind if you cloned the [repo](https://github.com/signalnerve/supabase-ch
 
 </TimeStamp>
 
+<TimeStamp start="1:05" end="1:10">
+
+```jsx
+<span className={styles.user}>{username(message.user_id)}}</span>
+```
+
+</TimeStamp>
+
+<TimeStamp start="1:15" end="1:25">
+
+```jsx
+const username = user_id => {
+    const user = users[user_id]
+    if (!user) return ""
+    return user.username ? user.name : user.id
+}
+```
+
+</TimeStamp>
 
 <TimeStamp start="3:22" end="3:35">
+
+Below `setupMessagesSubscription` 
 
 ```jsx
 const setupUsersSubscription = async () => {
@@ -38,5 +59,10 @@ const setupUsersSubscription = async () => {
 
 </TimeStamp>
 
+<TimeStamp start="7:20" end="7:30">
+
+Now we have everything working with updating user names and showing all the information we want
+
+</TimeStamp>
 
 

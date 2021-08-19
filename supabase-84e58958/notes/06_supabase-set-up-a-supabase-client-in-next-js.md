@@ -16,7 +16,7 @@
 
 <TimeStamp start="2:20" end="2:30">
 
-```
+```markdown
 NEXT_PUBLIC_SUPABASE_URL=<KEY>
 NEXT_PUBLIC_SUPABASE_API_KEY=<KEY>
 ```

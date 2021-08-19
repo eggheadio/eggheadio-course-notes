@@ -9,11 +9,11 @@ Basically the sql code that you'll need to activate the real-time notifications 
 
 ```sql
 begin;
-
+------
 drop publication if exists supabase_realtime;
 create publication supabase_realtime;
 commit;
-
+------
 alter publication supabase_realtime add table public.message;
 alter table public.message replica identity full;
 alter publication supabase_realtime add table public.user;
@@ -45,6 +45,19 @@ const message = supabase
 
 <TimeStamp start="3:35" end="3:40">
 
-Change the `console.log` statement for `setMessages(previous => [].concat(previous, payload.new))`
+Change the `console.log` statement for `setMessages([].concat(message, payload.new))`
 
 </TimeStamp>
+
+<TimeStamp start="4:43" end="5:25">
+
+As you can see, there is a glitch in our application. Every time you create a new message, the previous messages get erased in our interface. To solve this problem we need to do some changes in our `const setUpMessagesSubscription`
+
+```jsx
+setMessages(previous => [].concat(previous, payload.new))
+```
+
+With this tweak, we are setting the messages to be up to date, including previous.
+
+</TimeStamp>
+
