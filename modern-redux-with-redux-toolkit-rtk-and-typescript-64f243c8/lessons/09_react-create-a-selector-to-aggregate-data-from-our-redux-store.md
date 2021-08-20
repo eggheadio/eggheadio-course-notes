@@ -28,29 +28,25 @@ export function getNumItems(state: RootState){
 
 </TimeStamp>
 
-<TimeStamp start="0:38" end="0:00">
+<TimeStamp start="0:40" end="1:00">
 
-We just created a selector! Here is some info for [Basic Selector Concepts](https://redux.js.org/usage/deriving-data-selectors#basic-selector-concepts)
+Here is some info for [Basic Selector Concepts](https://redux.js.org/usage/deriving-data-selectors#basic-selector-concepts)
+
+```ts
+import { useAppSelector } from "../../app/hooks";
+import { getNumItems } from "./cartSlice";
+
+const numItems = useAppSelector(getNumItems);
+```
 
 </TimeStamp>
 
+<TimeStamp start="1:15" end="1:22">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<TimeStamp start="0:00" end="0:00">
-
-
+```html
+<span className={styles.text}>
+  🛒&nbsp;&nbsp;{numItems ? numItems: "Cart"}
+</span>
+```
 
 </TimeStamp>

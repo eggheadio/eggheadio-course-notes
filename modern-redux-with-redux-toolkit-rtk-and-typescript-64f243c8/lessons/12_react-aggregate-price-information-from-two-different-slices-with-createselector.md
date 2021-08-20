@@ -2,12 +2,49 @@
 
 [Video link](https://www.egghead.io/lessons/react-aggregate-price-information-from-two-different-slices-with-createselector?pl=modern-redux-with-redux-toolkit-rtk-and-typescript-64f243c8)
 
-Jamund Ferguson: [0:00] Open up cartSlice.ts, and at the bottom of the file type export const getTotalPrice = createSelector(). This time we're going to pass in three functions.
+<TimeStamp start="0:05" end="0:25">
 
-[0:12] The first one is going to take state of type RootState and return state.cart.items. The second one is also going to take in state and return state.products.products. Lastly, we're going to pass in a function that takes in items as its first argument and products as its second. Here, we're going to calculate the total value of all the products in your shopping cart.
+```ts
+export const getTotalPrice = createSelector(
+  (state: RootState) => state.cart.items,
+  (state: RootState) => state.products.products,
+)
+```
 
-[0:35] Type let total =  for (let id in items) { total += products [id] .price * items[id] }. This is the price of an individual item times the number of items you have in your cart. Then, we're going to return total.toFixed(2). This will essentially round us to the nearest two decimal places. We've just created a selector that relies on two pieces of state rather than one.
+</TimeStamp>
 
-[1:03] Inside of Cart.tsx, we are going to import { getTotalPrice } from "./cartSlice" and at the top of the page const totalPrice = useAppSelector(getTotalPrice). Then, down at the bottom of the file where we have hard-coded ., let's put in totalPrice.
+<TimeStamp start="0:30" end="0:45">
 
-[1:24] If we go to our Shopping Cart now, it's currently . Let's add some bananas, some chocolates. You can see that our total is now calculated properly.
+```ts
+export const getTotalPrice = createSelector(
+  (state: RootState) => state.cart.items,
+  (state: RootState) => state.products.products,
+  (items, products) => {
+    let total = 0;
+    for (let id in items) {
+      total += products[id].price * items[id];
+    }
+    return total.toFixed(2);
+  }
+)
+```
+
+</TimeStamp>
+
+<TimeStamp start="1:10" end="1:15">
+
+```ts
+import { getTotalPrice } from "./cartSlice";
+
+const totalPrice = useAppSelector(getTotalPrice);
+```
+
+</TimeStamp>
+
+<TimeStamp start="1:20" end="1:23">
+
+```html
+<td className={styles.total}>${totalPrice}</td>
+```
+
+</TimeStamp>
