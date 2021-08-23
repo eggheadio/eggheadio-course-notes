@@ -50,7 +50,8 @@ We recommend you to change the first character of Products to lower case.
 
 <TimeStamp start="1:30" end="1:37">
 
-In out app, a review must be related to a product. To do that you need to delete the question mark in `Review` table.
+In our app, a review must be related to a product. To do that you need to delete the question mark in `Review` table.
+
 </TimeStamp>
 
 <TimeStamp start="1:54" end="2:00">
