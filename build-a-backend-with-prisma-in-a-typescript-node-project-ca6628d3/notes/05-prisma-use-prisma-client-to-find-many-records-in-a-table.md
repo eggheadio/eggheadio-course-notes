@@ -9,6 +9,7 @@ To run the app, run `npm run dev`
 <TimeStamp start="0:14" end="0:21">
 
 Prisma client can be used to get the data that is currently in the database and return it a JSON object.
+    
 </TimeStamp>
 
 <TimeStamp start="0:24" end="0:50">
