@@ -41,7 +41,7 @@ Now we can run `npx prisma init` to initialize Prisma in this project.
 
 <TimeStamp start="0:54" end="1:05">
 
-After initializing Prisma, we can fin a directory called `prisma`, in this directory we'll fin the schema, there is where we describe our database, relationship between tables and other important information.
+After initializing Prisma, we can find a directory called `prisma`, in this directory we'll fin the schema, there is where we describe our database, relationship between tables and other important information.
 
 </TimeStamp>
 
