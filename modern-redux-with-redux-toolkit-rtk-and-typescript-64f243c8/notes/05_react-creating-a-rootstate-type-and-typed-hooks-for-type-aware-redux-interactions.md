@@ -4,7 +4,7 @@
 
 <TimeStamp start="0:02" end="0:18">
 
-More on [dispatch](https://redux.js.org/usage/usage-with-typescript#define-root-state-and-dispatch-types)
+[dispatch](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow#dispatch) is how you update state in your store. You'll pass dispatch an action object.
 
 ```ts
 export type RootState = ReturnType<typeofStore.getState>;
@@ -15,7 +15,7 @@ export type AppDispatch = typeof store.dispatch;
 
 <TimeStamp start="0:44" end="0:58">
 
-More on [Defined Typed Hooks](https://react-redux.js.org/using-react-redux/usage-with-typescript#define-typed-hooks)
+We will create root [Defined Typed Hooks](https://react-redux.js.org/using-react-redux/usage-with-typescript#define-typed-hooks) so that we don't have to type our function each time we want to select state or dispatch an action.
 
 ```ts
 import { TypedUseSelectorHook, useSelector, useDispatch } from "react-redux";

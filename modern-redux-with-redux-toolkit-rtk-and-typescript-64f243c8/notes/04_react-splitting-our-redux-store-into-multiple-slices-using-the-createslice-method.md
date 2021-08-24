@@ -2,9 +2,9 @@
 
 [Video link](https://www.egghead.io/lessons/react-splitting-our-redux-store-into-multiple-slices-using-the-createslice-method?pl=modern-redux-with-redux-toolkit-rtk-and-typescript-64f243c8)
 
-<TimeStamp start="0:22" end="0:35">
+<TimeStamp start="0:31" end="0:49">
 
-More on [createSlice](https://redux-toolkit.js.org/api/createslice)
+[createSlice](https://redux-toolkit.js.org/api/createslice) accepts a `name`, `initialState`, `reducers`, and `extraReducers` 
 
 ```ts
 import { createSlice } from "@reduxjs/toolkit";
@@ -16,7 +16,7 @@ export interface CartState {
 
 </TimeStamp>
 
-<TimeStamp start="0:44" end="1:00">
+<TimeStamp start="1:05" end="1:26">
 
 ```ts
 const initialState: cartState = {
@@ -34,7 +34,7 @@ export default cartSlice.reducer;
 
 </TimeStamp>
 
-<TimeStamp start="1:25" end="1:35">
+<TimeStamp start="1:50" end="2:00">
 
 ```ts
 import { createSlice } from "@reduxjs/toolkit";
@@ -43,17 +43,13 @@ import type { Product } from "../../app/api";
 
 </TimeStamp>
 
-<TimeStamp start="1:46" end="1:56">
+<TimeStamp start="2:15" end="2:48">
 
 ```ts
 export interface ProductsState {
   products: { [id: string]: Product}
 }
 ```
-
-</TimeStamp>
-
-<TimeStamp start="1:58" end="2:18">
 
 ```ts
 const initialState: ProductsState = {
@@ -71,16 +67,12 @@ export default productsSlice.reducer.
 
 </TimeStamp>
 
-<TimeStamp start="2:30" end="2:42">
+<TimeStamp start="2:55" end="3:15">
 
 ```ts
 import cartReducer from "../features/cart/cartSlice";
 import productsReducer from "../features/products/productsSlice";
 ```
-
-</TimeStamp>
-
-<TimeStamp start="2:44" end="2:52">
 
 ```ts
 export const store = configureStore({

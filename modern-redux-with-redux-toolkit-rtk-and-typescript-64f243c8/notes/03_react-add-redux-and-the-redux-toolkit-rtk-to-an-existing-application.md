@@ -4,16 +4,15 @@
 
 <TimeStamp start="0:02" end="0:10">
 
-```
-npm install react-redux
-npm install @reduxjs/toolkit
+```bash
+npm install react-redux @reduxjs/toolkit
 ```
 
 </TimeStamp>
 
 <TimeStamp start="0:16" end="0:31">
 
-More on [configureStore](https://redux-toolkit.js.org/api/configureStore)
+There are a number of options and parameters you can set for [configureStore in the docs](https://redux-toolkit.js.org/api/configureStore)
 
 ```ts
 import { configureStore } from "@reduxjs/toolkit"
@@ -37,9 +36,14 @@ import { store } from "./app/store";
 <TimeStamp start="0:45" end="0:51">
 
 ```ts
-<Provider store={store}>
-  <App />
-</Provider>
+ReactDOM.render(
+  <React.StricMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StricMode>,
+  document.getElementById("root")
+);
 ```
 
 </TimeStamp>
