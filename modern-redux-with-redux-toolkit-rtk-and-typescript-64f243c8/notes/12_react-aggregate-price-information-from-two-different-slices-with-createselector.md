@@ -2,18 +2,7 @@
 
 [Video link](https://www.egghead.io/lessons/react-aggregate-price-information-from-two-different-slices-with-createselector?pl=modern-redux-with-redux-toolkit-rtk-and-typescript-64f243c8)
 
-<TimeStamp start="0:05" end="0:25">
-
-```ts
-export const getTotalPrice = createSelector(
-  (state: RootState) => state.cart.items,
-  (state: RootState) => state.products.products,
-)
-```
-
-</TimeStamp>
-
-<TimeStamp start="0:30" end="0:45">
+<TimeStamp start="0:25" end="0:45">
 
 ```ts
 export const getTotalPrice = createSelector(

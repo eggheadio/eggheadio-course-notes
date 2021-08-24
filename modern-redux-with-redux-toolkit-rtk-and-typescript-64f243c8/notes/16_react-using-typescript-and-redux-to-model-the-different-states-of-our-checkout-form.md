@@ -21,7 +21,7 @@ const intialState: CartState = {
 
 <TimeStamp start="0:30" end="0:35">
 
-classnames simple JavaScript utility for conditionally joining classNames together.
+[classnames](https://www.npmjs.com/package/classnames) is a simple JavaScript utility for conditionally joining classNames together.
 
 ```bash
 npm install classnames

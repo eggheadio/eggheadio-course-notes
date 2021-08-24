@@ -31,7 +31,7 @@ builder.addCase(checkoutCart.rejected, (state, action) => {
 
 </TimeStamp>
 
-<TimeStamp start="0:40" end="0:00">
+<TimeStamp start="0:40" end="0:50">
 
 ```ts
 const errorMessage = useAppSelector(state => state.cart.errorMessage);

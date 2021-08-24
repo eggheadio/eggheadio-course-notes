@@ -14,18 +14,12 @@ export const { addToCart, removeFromCart } = cartSlice.actions
 
 </TimeStamp>
 
-<TimeStamp start="0:30" end="0:35">
+<TimeStamp start="0:37" end="0:50">
 
 ```ts
 import { useAppSelector, useAppDispatch } from "../../app/hooks";
 import { getTotalPrice, removeFromCart } from "./cartSlice";
-```
 
-</TimeStamp>
-
-<TimeStamp start="0:37" end="0:00">
-
-```ts
 const dispatch = useAppDispatch()
 
 onclick={() => dispatch(removeFromCart(id))}

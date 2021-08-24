@@ -31,17 +31,11 @@ export const { addToCart } = cartSlice.actions;
 
 </TimeStamp>
 
-<TimeStamp start="1:12" end="1:17">
-
-```ts
-import { addToCart } from "../cart/cartSlice";
-```
-
-</TimeStamp>
-
 <TimeStamp start="1:22" end="1:33">
 
 ```jsx
+import { addToCart } from "../cart/cartSlice";
+
 <button onClick={() => dispatch(addToCart(product.id))}>
   Add to Cart 🛒
 </button>

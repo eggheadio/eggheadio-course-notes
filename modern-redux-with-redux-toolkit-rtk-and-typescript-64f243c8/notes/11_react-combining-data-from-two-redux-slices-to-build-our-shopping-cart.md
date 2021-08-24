@@ -2,18 +2,11 @@
 
 [Video link](https://www.egghead.io/lessons/react-combining-data-from-two-redux-slices-to-build-our-shopping-cart?pl=modern-redux-with-redux-toolkit-rtk-and-typescript-64f243c8)
 
-
-<TimeStamp start="0:08" end="0:13">
-
-```ts
-import { useAppSelector } from "../../app/hooks";
-```
-
-</TimeStamp>
-
 <TimeStamp start="0:15" end="0:30">
 
 ```ts
+import { useAppSelector } from "../../app/hooks";
+
 const products = useAppSelector((state) => state.products.products);
 const items = useAppSelector((state) => state.cart.items);
 ```
