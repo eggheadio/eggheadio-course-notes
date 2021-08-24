@@ -2,7 +2,7 @@
 
 [Video link](https://www.egghead.io/lessons/react-accessing-global-state-inside-of-async-thunks-with-typescript?pl=modern-redux-with-redux-toolkit-rtk-and-typescript-64f243c8)
 
-<TimeStamp start="0:00" end="0:08">
+<TimeStamp start="0:02" end="0:08">
 
 `thunkAPI`: an object containing all of the parameters that are normally passed to a Redux thunk function, as well as additional options.
 
@@ -21,7 +21,7 @@ export const checkoutCart = createAsyncThunk("cart/checkout", async (_, thunkAPI
 
 </TimeStamp>
 
-<TimeStamp start="0:50" end="0:00">
+<TimeStamp start="0:50" end="1:05">
 
 This is a long convoluted way to get to the correct typing but isn't necessarily the best way.
 
@@ -40,7 +40,7 @@ export const checkoutCart = createAsyncThunk<{
 
 </TimeStamp>
 
-<TimeStamp start="0:00" end="0:00">
+<TimeStamp start="1:15" end="1:20">
 
 This is what is easiest and still works just as fine.  
 

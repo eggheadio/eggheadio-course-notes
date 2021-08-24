@@ -54,7 +54,7 @@ extraReducers: (builder) => {
 
 </TimeStamp>
 
-<TimeStamp start="2:00" end="2:05">
+<TimeStamp start="2:05" end="2:20">
 
 ```ts
 import { 
@@ -63,13 +63,7 @@ import {
   updateQuantity, 
   checkoutCart 
 } from "./cartSlice";
-```
 
-</TimeStamp>
-
-<TimeStamp start="2:10" end="2:20">
-
-```ts
 function onCheckout(e: React.FormEvent<HTMLFormElement>) {
   e.preventDefault();
   dispatch(checkoutCart(items));
