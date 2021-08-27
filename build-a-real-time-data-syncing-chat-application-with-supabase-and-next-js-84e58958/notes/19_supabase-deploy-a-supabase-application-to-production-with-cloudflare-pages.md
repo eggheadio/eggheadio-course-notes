@@ -20,9 +20,9 @@ To deploy our application we need to do the following:
 
 <TimeStamp start="0:22" end="0:43 ">
 
-`git status` Would give you the status of your files 
-`git add .` Would add all the files that have been changed 
-`git commit -m "Your commit message` To commit changes 
+- `git status` Would give you the status of your files 
+- `git add .` Would add all the files that have been changed 
+- `git commit -m "Your commit message` To commit changes 
 
 </TimeStamp>
 
