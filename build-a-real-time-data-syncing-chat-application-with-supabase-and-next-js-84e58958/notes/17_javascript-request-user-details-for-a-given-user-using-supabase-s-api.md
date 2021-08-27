@@ -8,7 +8,7 @@ In this lesson we are going to add the User Name for each message in our chat.
 
 </TimeStamp>
 
-<TimeStamp start="0:01" end="0:06">
+<TimeStamp start="0:15" end="0:20">
 
 1. We need the information from the user 
 2. List of every user 
