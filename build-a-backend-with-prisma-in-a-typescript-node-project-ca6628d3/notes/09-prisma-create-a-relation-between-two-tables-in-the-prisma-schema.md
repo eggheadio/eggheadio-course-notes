@@ -32,7 +32,7 @@ model Product {
 
 <TimeStamp start="0:54" end="0:58">
 
-If you want to learn more about relationships between tables visit [here](https://docs.microsoft.com/en-us/office/troubleshoot/access/define-table-relationships#:~:text=A%20one%2Dto%2Dmany%20relationship,one%2Dto%2Dmany%20relationship.)
+If you want to learn more about relationships between tables visit [the Microsoft documents](https://docs.microsoft.com/en-us/office/troubleshoot/access/define-table-relationships#:~:text=A%20one%2Dto%2Dmany%20relationship,one%2Dto%2Dmany%20relationship.)
 
 </TimeStamp>
 

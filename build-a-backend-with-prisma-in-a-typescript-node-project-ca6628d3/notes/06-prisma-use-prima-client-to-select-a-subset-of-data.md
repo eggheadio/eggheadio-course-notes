@@ -19,7 +19,7 @@ app.get('/products', async (req: Request, res: Response)=>{
 
 <TimeStamp start="1:10" end="1:20">
 
-[Here](https://www.prisma.io/docs/concepts/components/prisma-client/relation-queries) you can find the documentation the commands and key words for the queries using Prisma client.
+[In the Prisma documents](https://www.prisma.io/docs/concepts/components/prisma-client/relation-queries) you can find the commands and key words for the queries using Prisma client.
 
 </TimeStamp>
 

@@ -16,9 +16,7 @@ Prisma client can be used to get the data that is currently in the database and 
 
 ```jsx
 import {PrismaClient} from '@prisma/client'
-```
 
-```jsx
 const prisma = new PrismaClient();
 app.get('/products', async (req: Request, res: Response)=>{
     cost products = await prisma.product.findMany();

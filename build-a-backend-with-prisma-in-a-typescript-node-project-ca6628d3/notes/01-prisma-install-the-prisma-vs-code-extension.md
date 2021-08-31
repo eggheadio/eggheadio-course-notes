@@ -2,6 +2,6 @@
 
 <TimeStamp start="0:19" end="0:26">
 
-The newest version of Prisma is 2.28, it was released on July 27th/2021. However, this version doesn't have major breaking changes. 
+[Here](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) is where you can download the Prisma VSCode Extension
 
 </TimeStamp>
