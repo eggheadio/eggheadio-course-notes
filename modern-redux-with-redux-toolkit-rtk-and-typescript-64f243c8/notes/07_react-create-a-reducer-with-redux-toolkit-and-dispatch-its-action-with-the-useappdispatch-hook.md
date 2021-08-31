@@ -5,6 +5,7 @@
 <TimeStamp start="0:05" end="0:20">
 
 A little more info on [PayloadAction](https://redux.js.org/usage/usage-with-typescript#application-usage)
+
 ```ts
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 

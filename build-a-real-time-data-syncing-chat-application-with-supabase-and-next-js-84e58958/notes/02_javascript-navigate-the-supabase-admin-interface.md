@@ -16,7 +16,7 @@
 
 <TimeStamp start="1:15" end="1:23">
 
-The log section is super useful and powerful for understanding if something goes wrong, what is going wrong.
+**The log section** is super useful and powerful for understanding if something goes wrong, what is going wrong.
 
 </TimeStamp>
 
@@ -46,7 +46,7 @@ The log section is super useful and powerful for understanding if something goes
 
 <TimeStamp start="4:17" end="4:40">
 
-PostgresSQL is a very popular and powerful open source project, and has tons of extensions to add into the Postgres core functionality. There are some extensions already enabled in your project as default in Supabase, but you can explore all the extensions to see if they are other extensions useful for your project. 
+**PostgresSQL** is a very popular and powerful open source project, and has tons of extensions to add into the Postgres core functionality. There are some extensions already enabled in your project as default in Supabase, but you can explore all the extensions to see if they are other extensions useful for your project. 
 
 </TimeStamp>
 

@@ -24,18 +24,12 @@ export const store = configureStore({
 
 </TimeStamp>
 
-<TimeStamp start="0:34" end="0:44">
+<TimeStamp start="0:43" end="0:51">
 
 ```ts
 import { Provider } from "react-redux";
 import { store } from "./app/store";
-```
 
-</TimeStamp>
-
-<TimeStamp start="0:45" end="0:51">
-
-```ts
 ReactDOM.render(
   <React.StricMode>
     <Provider store={store}>

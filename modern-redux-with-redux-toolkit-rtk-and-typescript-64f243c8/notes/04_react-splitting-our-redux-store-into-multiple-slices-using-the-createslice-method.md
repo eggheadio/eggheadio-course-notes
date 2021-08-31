@@ -72,9 +72,7 @@ export default productsSlice.reducer.
 ```ts
 import cartReducer from "../features/cart/cartSlice";
 import productsReducer from "../features/products/productsSlice";
-```
 
-```ts
 export const store = configureStore({
   reducer: {
     cart: cartReducer,

@@ -17,7 +17,7 @@ export const { addToCart, removeFromCart, updateQuantity } = cartSlice.actions;
 
 <TimeStamp start="0:45" end="1:05">
 
-More info on [FocusEvent](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent)
+The [FocusEvent](https://developer.mozilla.org/en-US/docs/Web/API/FocusEvent) interface represents focus-related events.
 
 ```ts
 import { getTotalPrice, removeFromCart, updateQuantity } from "./cartSlice";
@@ -33,7 +33,7 @@ function onQuantityChanged(
 
 </TimeStamp>
 
-<TimeStamp start="1:30" end="0:00">
+<TimeStamp start="1:30" end="1:40">
 
 ```jsx
 <input

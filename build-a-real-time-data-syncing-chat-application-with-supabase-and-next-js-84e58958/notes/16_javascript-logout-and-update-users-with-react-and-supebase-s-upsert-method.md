@@ -22,9 +22,7 @@ You can find more information about React Context in their [documentation](https
 The resulting code should look like this:
 
 ```jsx
-<div className={styles.settings}>
-
-</div>
+<div className={styles.settings}></div>
 ```
 
 </TimeStamp>
