@@ -9,7 +9,7 @@ In settings you need to enable logging in with GitHub, after that you need to fo
 
 </TimeStamp>
 
-<TimeStamp start="0:52" end="1:17>
+<TimeStamp start="0:52" end="1:17">
 
 While completing the application in GitHub, the last form you'll be asked *"Authorization callback URL"*, this relates to the API URL from supabase. You'll fin the URL under the API section in your Supabase account. You just need to copy and paste that url and add the following `/auth/v1/callback`  at the end. 
 
