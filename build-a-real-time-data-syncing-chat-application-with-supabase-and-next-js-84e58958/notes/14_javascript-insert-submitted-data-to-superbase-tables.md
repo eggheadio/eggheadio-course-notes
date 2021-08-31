@@ -14,7 +14,7 @@ In this lesson we are going to create the UI that will allow users to create mes
 To create the form, copy the following code: 
 
 ```jsx 
-<form onSUbmit={sendMessage}>
+<form onSubmit={sendMessage}>
     <input placeholder="Write your message" required ref={message}></input>
     <button type="submit"></button>
 </form>

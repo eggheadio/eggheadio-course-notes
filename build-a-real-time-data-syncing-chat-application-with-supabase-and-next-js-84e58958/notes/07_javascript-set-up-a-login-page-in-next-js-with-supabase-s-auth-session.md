@@ -6,7 +6,7 @@
 
 If you have something running in your default PORT=3000, you can run `PORT=3001 npm run dev`
 
-</TimeStamp
+</TimeStamp>
 
 <TimeStamp start="1:45" end="1:50">
 

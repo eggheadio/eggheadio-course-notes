@@ -63,7 +63,7 @@ To know more about [`useEffect`](https://reactjs.org/docs/hooks-effect.html) and
 
 <TimeStamp start="5:20" end="5:40">
 
-To test the code for retrieving the messages, we need to create a new message in the `message` table. And check your console yo see if the message it's being display. 
+To test the code for retrieving the messages, we need to create a new message in the `message` table. And check your console to see if the message it's being display. 
 
 </TimeStamp>
 
