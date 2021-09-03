@@ -57,7 +57,7 @@ No hay que abusar del uso del encadenamiento ya que puede invisibilizar errores
 
 </TimeStamp>
 
-<TimeStamp start="1:13" end="0:18"> 
+<TimeStamp start="1:13" end="1:18"> 
 
 Una de las condiciones para usar el encadenamiento es:
 
@@ -90,7 +90,7 @@ También funciona para acceder a propiedades utilizando brackets, en caso que la
   
 </TimeStamp>
 
-<TimeStamp start="1:45" end="0:50"> 
+<TimeStamp start="1:45" end="1:50"> 
 
 Ahora podemos usar el encadenamiento de forma nativa en el navegador.
   

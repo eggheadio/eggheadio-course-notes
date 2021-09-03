@@ -54,7 +54,7 @@ document.getElementById('button').addEventListener('click', async () => {
 
 </TimeStamp>
 
-<TimeStamp start="2:15" end="2:235">
+<TimeStamp start="2:15" end="2:35">
 
 JavaScript nos ofrece importaciones dinámicas de la misma forma que webpack ya lo hacía utilizando la sintaxis import función que retorna una promesa que nos permite utilizar todos los métodos de la API promesa como async y await para así importar de forma programática cualquier módulo que necesitemos de forma nativa directamente en el navegador.
 
