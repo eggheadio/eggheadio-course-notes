@@ -15,7 +15,7 @@ console.log(user.address.street)
 
 <TimeStamp start="0:10" end="0:18">
 
-O al intentar acceder a una propiedad `innerHTL` de un elemento HTML inexistente tambien tendremos un error. Por ejemplo: 
+O al intentar acceder a una propiedad `innerHTL` de un elemento HTML inexistente también tendremos un error. Por ejemplo: 
 
 ```jsx
 let html = document.querySelector('.some-element').innerHTL
@@ -41,13 +41,13 @@ Gracias a los operadores la consola nos devuelve `null`
 
 <TimeStamp start="0:34" end="0:39"> 
 
-Usar el operador `&&` puede solucionar el problema, pero esto tambien se puede volver complejo 
+Usar el operador `&&` puede solucionar el problema, pero esto también se puede volver complejo 
 
 </TimeStamp>
 
 <TimeStamp start="0:42" end="0:48"> 
 
-El encadenamiento opcional detiene la evaluacion y retorna `null` si la parte izquierda es `null` o `undefined` 
+El encadenamiento opcional detiene la evaluación y retorna `null` si la parte izquierda es `null` o `undefined` 
 
 </TimeStamp>
 
@@ -68,7 +68,7 @@ Una de las condiciones para usar el encadenamiento es:
 
 <TimeStamp start="1:21" end="1:30"> 
 
-Tambien puedes usar el operador para acceder a funciones opcionales, si la funcion no esta definida el operador evitara el error y mostrara `undefined` en caso contrario lo ejecutara, como por ejemplo:
+También puedes usar el operador para acceder a funciones opcionales, si la función no esta definida el operador evitará el error y mostrara undefined en caso contrario lo ejecutara, como por ejemplo:
 
 ```jsx
 let user = {
@@ -85,7 +85,7 @@ console.log(user2.isAdmin?.())
 
 <TimeStamp start="1:33" end="1:40"> 
 
-Tambien funciona para acceder a propiedades utilizando brackets, en caso que la propiedad no exista en el objeto, la consola nos devolvera `undefined`
+También funciona para acceder a propiedades utilizando brackets, en caso que la propiedad no exista en el objeto, la consola nos devolverá undefined
 
   
 </TimeStamp>
