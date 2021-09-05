@@ -59,7 +59,7 @@ console.log(array)
 
 </TimeStamp>
 
-<TimeStamp start="0:50" end="0:58">
+<TimeStamp start="0:51" end="0:58">
 
 Another way is using a for loop, but you modify the original array: 
 
