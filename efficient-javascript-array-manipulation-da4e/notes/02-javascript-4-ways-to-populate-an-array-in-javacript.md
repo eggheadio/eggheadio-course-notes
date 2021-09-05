@@ -59,9 +59,9 @@ console.log(array)
 
 </TimeStamp>
 
-<TimeStamp start="0:19" end="0:26">
+<TimeStamp start="0:50" end="0:58">
 
-Another way is: 
+Another way is using a for loop, but you modify the original array: 
 
 ```jsx 
 let array = new Array(5)
@@ -73,9 +73,9 @@ console.log(array)
 
 </TimeStamp>
 
-<TimeStamp start="0:19" end="0:26">
+<TimeStamp start="1:01" end="1:12">
 
-Finally, you can populate data in the following form: 
+You can populate data in the following form: 
 
 ```jsx
 const array = Array.from({length: 5},
@@ -85,9 +85,9 @@ console.log(array)
 
 </TimeStamp>
 
-<TimeStamp start="0:19" end="0:26">
+<TimeStamp start="1:16" end="1:25">
 
-You can also populate by expanding the array:
+Finally, you can also populate by expanding the array:
 
 ```jsx
 const array = [...new Array(5)]
