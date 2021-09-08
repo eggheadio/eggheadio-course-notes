@@ -43,13 +43,13 @@ console.log(array)
 
 <TimeStamp start="0:25" end="0:35">
 
-Como podemos ver en la consola, los elemneots de esta matriz son exactamento iguales, esto se debe a que `fill` simplemente copia una referencia del objeto original y completa la matriz
+Como podemos ver en la consola, los elementos de esta matriz son exactamente iguales, esto se debe a que `fill` simplemente copia una referencia del objeto original y completa la matriz
 
 </TimeStamp>
 
 <TimeStamp start="0:36" end="0:44">
 
-Para oslucionar lo anterirmente nombrado usando `.map`
+Para solucionar lo anteriormente mencionado usamos `.map`
 
 ```jsx
 const array = new Array(5)
@@ -62,7 +62,7 @@ console.log(array)
 
 <TimeStamp start="0:45" end="0:54">
 
-Tambien es posible utilizar un `for loop`, este es un metodo mutable ya que modificamos la matriz original
+También es posible utilizar un `for loop`, este es un método mutable ya que modificamos la matriz original
 
 ```jsx 
 let array = new Array(5)
@@ -76,7 +76,7 @@ console.log(array)
 
 <TimeStamp start="0:55" end="1:04">
 
-Tambien podemos utilizar el metodo `Array.from` 
+También podemos utilizar el método `Array.from` 
 
 ```jsx
 const array = Array.from({length: 5},
@@ -88,7 +88,7 @@ console.log(array)
 
 <TimeStamp start="1:06" end="1:16">
 
-Finalmente, tambien podemos expandir la matriz: 
+Finalmente, también podemos expandir la matriz: 
 
 ```jsx
 const array = [...new Array(5)]
@@ -99,6 +99,3 @@ console.log(array)
 
 </TimeStamp>
 
-<TimeStamp start="0:01" end="0:09">
-
-</TimeStamp>
