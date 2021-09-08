@@ -77,7 +77,7 @@ console.log(newArr); // [1,2,3,5,6]
 </TimeStamp>
 
 
-<TimeStamp start="1:48" end="0:09">
+<TimeStamp start="1:48" end="2:00">
 
 Finalmente, otra forma inmutable de eliminar elementos de un arreglo es utilizar `Array.filter`. Filter crea un array que contiene todos los elementos que pasaron la función de filtro utilizadas como argumento para filtrar. 
 
