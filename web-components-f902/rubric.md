@@ -1,0 +1,38 @@
+- **Are there opportunities for self-assessment?**
+    - Did the course feel coherent?
+    - How volatile is the technology being taught?
+- **Is the course content high quality?**
+    - 4 The content is consistently legible, well-edited, and free from errors and can be considered professional.
+    - 3 The content is relatively consistent with a few small problems.
+    - 2 There are some significant consistency and quality issues.
+    - 1 The consistency and quality of the media is unprofessional
+- **Is the course content current and up to date?**
+    - 4 The syntax and practices used in the content are up to date, require no workarounds and could be implemented in production today
+    - 3 The content isn't up to date but requires no major workarounds to get it working.
+    - 2 Workarounds exist but will require non-trivial effort to implement.
+    - 1 The content is out of date and should be approached with caution
+- **Does the content meet the stated learning goals?**
+    - 4 The content aligns well with the stated outcomes and goals of the course design
+    - 3 The goals of the learning design are present, but not completely met
+    - 2 The outcomes are stated and addressed, but not significantly
+    - 1 The content doesn't appear to have any goals or outcomes or deviates from the stated learning goals.
+- **Does the content incorporate proof (to the learner and others) that the stated learning goals were achieved?**
+    - 4 Proof is forefront in the course materials with exercises, quizzes, and projects integrated at key points within the course
+    - 3 Proof was incorporated but not all stated outcomes and goals are addressed
+    - 2 Some thought was put into proof but mostly as an afterthought
+    - 1 There is no proof of learning incorporated in the course materials
+- **Is the course material evergreen?**
+    - 4 The material in this course is as fundamental and valid today as it was when it was created and will still be valid well into the future
+    - 3 The course material is worth study but should be considered against modern patterns and practices
+    - 2 The course material is out of date, but still has merit even if trends are going a different direction
+    - 1 The content is out of date and should be considered as historical reference only
+- **How much depth of knowledge does the course provide?**
+    - 4 This course is extremely ambitious and could be called canonical reference material for the topic it covers
+    - 3 The material goes beyond the basics and provides an essential or unique approach to learning the subject matter
+    - 2 The course effectively "reads the docs" and doesn't provide any additional depth of knowledge beyond what is readily available
+    - 1 The course is "surface level" and wouldn't even be considered a minor supplement
+- **Is the course actionable?**
+    - 4 There are clear steps to apply the material learned in the course to another problem
+    - 3 The course has some actionable steps but the learner has to take the lead
+    - 2 The course has very little actionable content
+    - 1 Theres very little way for the learner to use what have been presented in the course
