@@ -4,11 +4,9 @@
 
 <TimeStamp start="0:09" end="0:17">
 
-
-We first define a class, `MyCustomElement()` which extends `HTMLElement` inside the script tags before creating our custom element.
+We first define a class, `MyCustomElement()` which extends `HTMLElement` inside the `<script>` tags before creating our custom element.
 
 </TimeStamp>
-
 
 <TimeStamp start="0:29" end="0:37">
 
@@ -16,17 +14,17 @@ We define a `connectedCallback` after defining our click event set up with a cal
 
 </TimeStamp>
 
-
 <TimeStamp start="0:45" end="0:54">
 
-To define our custom element to use inside the DOM:
+To define our custom element:
 
 ```jsx
 window.customElements.define('my-custom-element', MyCustomElement);
 ```
 
-</TimeStamp>
+Custom element tag names must be lowercase, contain a dash (helps distinguish from regular elements), and cannot be self-closing. Additionally, the same tag cannot be registered more than once.
 
+</TimeStamp>
 
 <TimeStamp start="0:56" end="1:06">
 

@@ -2,12 +2,6 @@
 
 [Video link](https://egghead.io/lessons/html-5-build-flexible-html-with-htmltemplates-using-slots-and-web-components)
 
-<TimeStamp start="0:00" end="0:00">
-
-In this lesson, we will learn how to use HTML
-
-</TimeStamp>
-
 <TimeStamp start="0:29 end="0:36">
 
 Nothing renders on the screen until we create a script that adds the template to the div.
