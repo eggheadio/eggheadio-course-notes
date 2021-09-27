@@ -18,7 +18,7 @@ Using `true` as the parameter to the `cloneNode()` method ensures a **deep** clo
 
 <TimeStamp start="0:53" end="1:00">
 
-It's worth noting **deep** clones have no effect on empty elements (such as <input> and <img> elements).
+It's worth noting **deep** clones have no effect on empty elements (such as `<input>` and `<img>` elements).
 
 </TimeStamp>
 
@@ -58,11 +58,5 @@ After reusing our custom element, we're able to observe how powerful `<slot>` ca
 <TimeStamp start="2:43" end="2:48">
 
 Templates can also be used dynamically in conjunction with dynamic content.
-
-</TimeStamp>
-
-<TimeStamp start="2:50" end="3:02">
-
-We can accomplish this by copying the template's content into a string (`templateString`), changing the template definition to `const template = document.createElement('template');`, and setting `template.innerHTML = templateString;`.
 
 </TimeStamp>
