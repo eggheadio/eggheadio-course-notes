@@ -10,7 +10,7 @@ We first define a class, `MyCustomElement()` which extends `HTMLElement` inside 
 
 <TimeStamp start="0:29" end="0:37">
 
-We define a `connectedCallback` after defining our click event set up with a callback. A `connectedCallback` is invoked each time the custom element is appended into a document-connected element.
+A `connectedCallback` is invoked each time the custom element is appended into a document-connected element.
 
 </TimeStamp>
 
