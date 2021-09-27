@@ -28,7 +28,7 @@ In the console: `$0.changeStyles({color: 'red', textDecoration: 'underline'})`
 
 <TimeStamp start="2:24" end="2:34">
 
-`attributeChangedCallback()` works in conjunction with our getter method, `observedAttributes()`, by firing anytime a custom element's attributes is added, removed, or changed. Specifically, we are looking for changes in our `'color'` and `'text-decoration'` attributes.
+`attributeChangedCallback()` works in conjunction with our getter method, `observedAttributes()`, by firing anytime a custom element's attributes is modified
 
 </TimeStamp>
 
