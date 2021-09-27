@@ -28,28 +28,6 @@ Read more about the `<slot>` element [on this page](https://developer.mozilla.or
 
 </TimeStamp>
 
-<TimeStamp start="1:44" end="1:55">
-
-Our `<script>` element is set up with our custom element as such:
-
-```jsx
-<script>
-  const template = document.querySelector('#template');
-  class CustomElement extends HTMLElement {
-    constructor() {
-      super();
-      this.attachShadow({mode: "open"});
-      this.shadowRoot
-        .appendChild(template.content.cloneNode(true));
-    }
-  }
-  customElements.define('custom-element', CustomElement);
-</script>
-<custom-element></custom-element>
-```
-
-</TimeStamp>
-
 <TimeStamp start="1:56" end="2:07">
 
 Finally, we add our `<slot>` tags inside our template as follows:
@@ -59,9 +37,7 @@ Finally, we add our `<slot>` tags inside our template as follows:
   <div>
     <slot name="slot1"></slot>
   </div>
-  <form>
-    <input/>
-  </form>
+  ...
   <slot name="slot2"></slot>
 </template>
 
