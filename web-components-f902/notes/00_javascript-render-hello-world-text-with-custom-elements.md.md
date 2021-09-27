@@ -22,7 +22,7 @@ To define our custom element:
 window.customElements.define('my-custom-element', MyCustomElement);
 ```
 
-Custom element tag names must be lowercase, contain a dash (helps distinguish from regular elements), and cannot be self-closing. Additionally, the same tag cannot be registered more than once.
+Custom element tag names must be lowercase, contain a dash (helps distinguish from regular elements), cannot be self-closing, and cannot be registered more than once.
 
 </TimeStamp>
 
