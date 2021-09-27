@@ -71,12 +71,11 @@ Finally, we add our `<slot>` tags inside our template as follows:
 
 <TimeStamp start="2:26" end"2:36">
 
-After reusing our custom element, we're able to observe how powerful `<slot>` can be. Dynamic content can be achieved with this code:
+After reusing our custom element, we're able to observe how powerful `<slot>` can be.
 
-<custom-element>
-    <iframe slot="slot1" width="560" height="315" src="https://www.youtube.com/embed/Bv_5Zv5c-Ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div slot="slot2">Slot 2 text inside a div</div>
-</custom-element>
+```jsx
+<iframe slot="slot1" width="560" height="315" src="https://www.youtube.com/embed/Bv_5Zv5c-Ts" ...></iframe>
+```
 
 </TimeStamp>
 
