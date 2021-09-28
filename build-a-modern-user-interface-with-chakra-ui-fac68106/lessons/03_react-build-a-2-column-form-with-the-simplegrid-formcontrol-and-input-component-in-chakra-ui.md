@@ -2,56 +2,187 @@
 
 [Video link](https://www.egghead.io/lessons/react-build-a-2-column-form-with-the-simplegrid-formcontrol-and-input-component-in-chakra-ui?pl=build-a-modern-user-interface-with-chakra-ui-fac68106)
 
-Lazar Nikolov: [0:00] In this lesson, we're going to populate the first section of our UI design. Let's start at the top. We can immediately see that the first text is a title and the second text is a label.
+<TimeStamp start="00:45" end="00:55">
 
-[0:11] Chakra UI has separate components for titles and labels. Those are the Heading component and Text component, respectfully. Let's see how we can use them.
+[Headings](https://chakra-ui.com/docs/typography/heading) are used for rendering headlines. It renders an <h2> tag by default.
 
-[0:21] Before we begin, I'm going to briefly explain the changes I made. In the previous lesson, we defined our sections in our index.tsx file. To make our code easier to read, I've moved the VStack components into the src/sections directory.
+</TimeStamp>
 
-[0:35] Here's the cart.tsx file and the details.tsx file. Then, I imported them into the index.tsx file. During this lesson, we'll be working only in the details.tsx file.
+<TimeStamp start="01:00" end="01:15">
 
-[0:47] Let's start with the title. We'll import the Heading component from the chakra-ui/react package and place it in the VStack. Since the size of the text in the figma design is set to two XL, we're going to set the size property to two XL. That's all we needed for the heading.
+```tsx
+import { VStack, Heading } from '@chakra-ui/react';
 
-[1:14] The text is even simpler. Let's import the Text component and place it after the Heading component. We just need to write the text inside and that would be it. We don't need to do additional styling.
+const Details = () => {
+  return (
+    <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
+      <Heading size="2xl">Your details</Heading>
+    </VStack>
+  )
+}
+```
 
-[1:28] One thing that we can see is that the spacing between the heading and the text is a bit bigger than the one in the design. That's because the parent V stack component defines the spacing as 40 pixels or just 10. But if we check the design, we can see that the spacing between these elements is 12 pixels.
+</TimeStamp>
 
-[1:49] Let's fix that by wrapping both the Heading and the Text component into their own V stack component. We'll set the spacing to 3, so it amounts to 12 pixels. Also set the align items to flex start, because they'll be centered by default. There we go. We're done with the title and label. Let's move on to the form.
+<TimeStamp start="01:20" end="01:30">
 
-[2:14] We can see that the names city and country inputs have just half of the width of the address input. Before we start adding them, it's a good idea to set up their layout first. To achieve this, we can use the simple Grid component that comes with chakra-ui.
+[Text](https://chakra-ui.com/docs/typography/text) component is the used to render text and paragraphs within an interface. It renders a <p> tag by default
 
-[2:30] The SimpleGrid component is the good old CSS grid that we know and love. Let's go ahead and add it. We're going to import the SimpleGrid component and also the GridItem. We're going to use the GridItem component as a wrapper around the form input so we can define how many columns each input is going to span to.
+</TimeStamp>
 
-[2:49] Let's define the SimpleGrid component after the inner vertical stack. We'll set the columns property to 2, so that the Address input can span to two columns, and the rest of the inputs to just 1. We will also set the columnGap to 3 and the rowGap to 6 because that's how we defined it into the UI design, so 24 pixels between the rows and 12 pixels between the columns.
+<TimeStamp start="01:35" end="01:40">
 
-[3:20] Let's also not forget to set the width of the grid to "full" so it takes up all of the available space. Now, we're ready to add the inputs. Chakra UI comes with a FormControl component that makes it easier for us to achieve the label and input layout. Let's import it from Chakra UI.
+```tsx
+import { VStack, Heading, Text } from '@chakra-ui/react';
 
-[3:36] We're going to import FormControl, but also FormLabel for the label and Input for the input. Scroll down to the SimpleGrid component and add our GridItem. Since this is going to be the First Name input, we'll set the colSpan property to just 1. Inside, we can add the FormControl component and the FormLabel.
+<Heading size="2xl">Your details</Heading>
+<Text>If you already have an account, click here to log in.</Text>
+```
 
-[4:03] The label is going to be just First Name. We can add the input inside. We'll set the placeholder to "John". If we save this, we can already see that we have the First Name input here.
+</TimeStamp>
 
-[4:16] Let's do the same for the last name. We're going to copy the First Name block. Then, change it to Last Name and change the placeholder. There we go. We can see that both inputs are in single row next to each other.
+<TimeStamp start="01:50" end="02:05">
 
-[4:33] Now, let's add the Address input and make it span to two columns. We're going to reuse the last name GridItem, but in this case, we'll set the colSpan to 2. We're going to change the label to say Address and change the placeholder.
+Overriding a parent's styling is quite easy in Chakra UI. To override the parent's `spacing`, we can wrap our `Heading` and our `Text` in another `VStack` and set `spacing={3}`. In existing react components, trying to override them may force you to restyle your parent components along with their internals. 
 
-[4:50] Awesome. This is exactly what we want. Let's proceed to the City input. Again, exactly like the name inputs. Let's steal that block from the last name and paste it after the address block. We're going to change the label to City and the placeholder to "San Francisco".
+</TimeStamp>
 
-[5:14] Nice. The next component that we should add is the Country input. As you can see, it's a Select component instead of an Input. Luckily, Chakra UI also comes with a Select component that we can use.
+<TimeStamp start="02:10" end="02:15">
 
-[5:30] Let's import the Select component. Then, scroll down. Grab the last GridItem block. Change the FormLabel to Country. Instead of rendering an input, we're going to render the Select. I'm going to quickly add the options here.
+```tsx
+<VStack spacing={3} alignItems="flex-start">
+  <Heading size="2xl">Your details</Heading>
+  <Text>If you already have an account, click here to log in.</Text>
+</VStack>
+```
 
-[6:00] There we go. We're getting close to finishing the first section. All that remains is the checkbox and the button. Let's go ahead and add them as well.
+</TimeStamp>
 
-[6:08] We're going to import the Checkbox and Button components from Chakra UI. We're going to keep them in the grid as well because the spacing between them is the same as the form inputs. Let's add another GridItem below. We'll make it span to two columns because we don't need to limit it. Then, let's add the Checkbox inside.
+<TimeStamp start="03:05" end="03:20">
 
-[6:30] Let's also add the default Checkbox to make it checked by default. The Checkbox component has an onChange event that we can use to reflect on the user's choice, but we're not going to cover that in this lesson.
+[Grid](https://chakra-ui.com/docs/layout/grid) is a primitive useful for grid layouts. Grid is `Box` with `display: grid` and it comes with helpful style shorthand. It renders a `div` element.
 
-[6:48] Let's do the same for the Button. We're going to reuse the last GridItem block. Instead of a Checkbox, we'll place a Button. Let's set the label as Place Order. We also want to set the size prop to "lg" because we want a large button.
+```tsx
+import { VStack, Heading, Text, SimpleGrid, GridItem } from '@chakra-ui/react';
 
-[7:03] We're almost done with the button. The only thing that we can see is that our button is not spanning to two columns. This is because the Button components width is set to "auto" by default. Let's fix that by setting the width to "full". There we go. Our first section is now complete.
+<SimpleGrid columns={2} columnGap={3} rowGap={6} w="full">
 
-[7:21] You might be wondering why our form looks nothing like the design. That's something that we'll cover in one of the following lessons. For now, we just want to achieve the layout and use the built-in components. I'll leave the second section for you to build on your own.
+</SimpleGrid>
+```
 
-[7:35] To recap, all Chakra UI components have unique set of style props that we can use to tweak their appearances to match our design. We learned how to use the Heading and Text components to display titles and labels and how to style them to better suit our style guides.
+</TimeStamp>
 
-[7:49] We touched on the SimpleGrid component and created our two-column layout in no time. We've utilized the FormControl component to display our inputs and select without having to add any styling at all.
+<TimeStamp start="03:55" end="04:10">
+
+[FormControl](https://chakra-ui.com/docs/form/form-control) provides context such as `isInvalid`, `isDisabled`, and `isRequired` to form elements. Since our `SimpleGrid` is two columns, we can make one of our inputs only take up one of those columns using `colSpan={1}`.
+
+```tsx
+import { ..., FormControl, FormLabel, Input } from '@chakra-ui/react';
+
+<SimpleGrid columns={2} columnGap={3} rowGap={6} w="full">
+  <GridItem colSpan={1}>
+    <FormControl>
+      <FormLabel>First Name</FormLabel>
+      <Input placeholder="John"/>
+    </FormControl>
+  </GridItem>
+</SimpleGrid>
+```
+
+</TimeStamp>
+
+<TimeStamp start="04:20" end="04:30">
+
+```tsx
+<GridItem colSpan={1}>
+  <FormControl>
+    <FormLabel>Last Name</FormLabel>
+    <Input placeholder="Doe"/>
+  </FormControl>
+</GridItem>
+```
+
+</TimeStamp>
+
+<TimeStamp start="04:45" end="04:50">
+
+```tsx
+<GridItem colSpan={2}>
+  <FormControl>
+    <FormLabel>Address</FormLabel>
+    <Input placeholder="Blvd. Broken Dreams 21"/>
+  </FormControl>
+</GridItem>
+```
+
+</TimeStamp>
+
+<TimeStamp start="05:10" end="05:15">
+
+```tsx
+<GridItem colSpan={1}>
+  <FormControl>
+    <FormLabel>City</FormLabel>
+    <Input placeholder="San Francisco"/>
+  </FormControl>
+</GridItem>
+```
+
+</TimeStamp>
+
+<TimeStamp start="05:40" end="06:00">
+
+[Select](https://chakra-ui.com/docs/form/select) component is a component that allows users pick a value from predefined options. Ideally, it should be used when there are more than 5 options, otherwise you might consider using a radio group instead.
+
+</TimeStamp>
+
+<TimeStamp start="06:05" end="06:10">
+
+```tsx
+import { ..., Select } from '@chakra-ui/react';
+
+<GridItem colSpan={1}>
+  <FormControl>
+    <FormLabel>City</FormLabel>
+    <Select>
+      <option value="usa">United States of America</option>
+      <option value="uae">United Arab Emirates</option>
+      <option value="nmk">North Macedonia</option>
+      <option value="de">Germany</option>
+    </Select>
+  </FormControl>
+</GridItem>
+```
+
+</TimeStamp>
+
+<TimeStamp start="06:30" end="06:40">
+
+The [Checkbox](https://chakra-ui.com/docs/form/checkbox) component is used in forms when a user needs to select multiple values from several options.
+
+</TimeStamp>
+
+<TimeStamp start="06:45" end="06:50">
+
+```tsx
+import { ..., Checkbox, Button } from '@chakra-ui/react';
+
+<GridItem colSpan={2}>
+  <CheckBox defaultChecked>Ship to billing address.</CheckBox>
+</GridItem>
+```
+
+</TimeStamp>
+
+
+<TimeStamp start="07:15" end="07:20">
+
+```tsx
+<GridItem colSpan={2}>
+  <Button size="lb" w="full">
+    Place Order
+  </Button>
+</GridItem>
+```
+
+</TimeStamp>
