@@ -4,8 +4,6 @@
 
 <TimeStamp start="00:05" end="00:10">
 
-To create a Next.js app with Typescript you can do a simple command
-
 ```bash
 npx create-next-app --ts
 # or
@@ -49,8 +47,6 @@ const App = ({ Component, pageProps }: AppProps) => {
 </TimeStamp>
 
 <TimeStamp start="01:35" end="01:45">
-
-To get ChakraUI working in your app, you first need to wrap the root of your application with [ChakraProvider](https://chakra-ui.com/docs/getting-started#set-up-provider)
 
 ```tsx
 import { ChakraProvider } from '@chakra-ui/react';

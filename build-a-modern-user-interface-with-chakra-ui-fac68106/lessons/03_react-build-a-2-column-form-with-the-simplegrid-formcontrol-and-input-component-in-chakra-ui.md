@@ -72,9 +72,13 @@ import { VStack, Heading, Text, SimpleGrid, GridItem } from '@chakra-ui/react';
 
 </TimeStamp>
 
-<TimeStamp start="03:55" end="04:10">
+<TimeStamp start="03:40" end="03:55">
 
 [FormControl](https://chakra-ui.com/docs/form/form-control) provides context such as `isInvalid`, `isDisabled`, and `isRequired` to form elements. Since our `SimpleGrid` is two columns, we can make one of our inputs only take up one of those columns using `colSpan={1}`.
+
+</TimeStamp>
+
+<TimeStamp start="04:05" end="04:10">
 
 ```tsx
 import { ..., FormControl, FormLabel, Input } from '@chakra-ui/react';
