@@ -13,7 +13,9 @@
 [Containers](https://chakra-ui.com/docs/layout/container) are used to constrain a content's width to the current breakpoint, while keeping it fluid.
 
 ```tsx
+
 import { Container } from '@chakra-ui/react';
+
 ```
 
 </TimeStamp>
@@ -79,6 +81,7 @@ const IndexPage = () => (
 <TimeStamp start="04:15" end="04:25">
 
 [VStack](https://chakra-ui.com/docs/layout/stack) is used to add spacing between elements in vertical direction only, and centers them.
+
 
 </TimeStamp>
 
