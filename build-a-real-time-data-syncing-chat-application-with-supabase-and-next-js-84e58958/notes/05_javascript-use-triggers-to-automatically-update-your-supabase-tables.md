@@ -2,21 +2,16 @@
 
 [Video link](https://www.egghead.io/lessons/supabase-use-triggers-to-automatically-update-your-supabase-tables?pl=supabase-84e58958)
 
-<TimeStamp start="1:04" end="1:09">
-
-If you want to know more about triggers you can review this [documentation](https://supabase.io/blog/2021/07/30/supabase-functions-updates#postgresql-triggers).
-
-</TimeStamp>
 
 <TimeStamp start="1:13" end="1:33">
   
-Documentation on creating public user tables has been [moved here](https://supabase.io/docs/guides/auth/managing-user-data). Supabase has also removed triggers from this doc but you can still use them.
+Documentation for managing-user-data can be found [here](https://supabase.io/docs/guides/auth/managing-user-data).
   
 </TimeStamp>
 
-<TimeStamp start="3:20" end="3:30">
+<TimeStamp start="1:50" end="2:00">
 
-The code should look like this: 
+This is the code that exposes a function to handle new users:
 
 ```sql
 -- inserts a row into public.user
@@ -27,9 +22,17 @@ begin
   values (new.id)
   return new;
 end;
-$$ language plpgsql security definer;
+```
+
+</TimeStamp>
+
+<TimeStamp start="2:56" end="3:05">
+
+This is the code the triggers the function every time a user is created:
+
+```sql
 -- trigger the function every time a user is created
-create trigger on_auth_user_create
+create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure public.handle_new_user();
 ```
