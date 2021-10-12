@@ -4,7 +4,7 @@
 
 <TimeStamp start="00:50" end="01:05">
 
-Object.assign will copy all enumerable own properties from one or more source objects to a target object. Keep in mind though that this will replace the original object. 
+`Object.assign` will copy all enumerable own properties from one or more source objects to a target object. Keep in mind though that this will replace the original object. 
 
 </TimeStamp>
 
