@@ -10,7 +10,7 @@
 
 <TimeStamp start="01:30" end="01:45">
 
-To not completely replace that original object, you can add a third parameter to Object.assign, an empty object {}. This will allow you to update the `merge` object without replacing the `person` object. 
+To not completely replace that original object, you can add a third parameter to Object.assign, an empty object. This will allow you to update the `merge` object without replacing the `person` object. 
 
 </TimeStamp>
 
