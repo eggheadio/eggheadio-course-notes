@@ -1,3 +1,5 @@
+//Script is probably broken with the move. This script is also not used much any more if at all because of the move away from enhanced transcripts.
+
 require('dotenv').config()
 var cloudinary = require('cloudinary')
 var _ = require('lodash')
