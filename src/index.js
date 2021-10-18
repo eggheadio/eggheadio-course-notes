@@ -14,7 +14,7 @@ async function createDirectory (dir) {
   try {
     await fs.ensureDir(`courses/${dir}`)
     await fs.ensureDir(`courses/${dir}/images`)
-    await fs.ensureDir(`courses/${dir}/lessons`)
+    await fs.ensureDir(`courses/${dir}/notes`)
     console.log('Created directory')
   } catch (err) {
     console.error(err)
@@ -24,7 +24,7 @@ async function createDirectory (dir) {
 async function createReadme (slug, title, image, description, instructor, path) {
   const readme = `# ${title}\n\n![Course Image](${image})\n\nAsciicasts for [${instructor.full_name}](${instructor.http_url})'s course, ${title} on [egghead.io](https://egghead.io${path})\n\n## Description\n${description}\n\n## Library Version\n`
 
-  const file = `output/${slug}/README.md`
+  const file = `courses/${slug}/README.md`
 
   try {
     await fs.outputFile(file, readme)
@@ -43,7 +43,7 @@ async function createSummary(slug, items) {
 
   const summary = `# Summary\n\n${bullets}`
 
-  const file = `output/${slug}/SUMMARY.md`
+  const file = `courses/${slug}/SUMMARY.md`
   try {
     await fs.outputFile(file, summary)
   } catch (err) {
@@ -60,7 +60,7 @@ async function writeFileToDir (file, content) {
 }
 
 async function createLessonDocs (slug, items) {
-  const dir = `output/${slug}/lessons`
+  const dir = `courses/${slug}/notes`
 
   forEach(items, (item, i) => {
     const file = `${dir}/${addZero(i + 1)}_${item.slug}.md`;
