@@ -1,0 +1,24 @@
+{
+  "name": "egghead-enhanced-transcript-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "upload": "node src/upload.js",
+    "replace": "node src/replace.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add-zero": "^1.0.0",
+    "axios": "^0.18.0",
+    "cloudinary": "^1.11.0",
+    "dotenv": "^6.0.0",
+    "fs-extra": "^6.0.1",
+    "lodash": "^4.17.10",
+    "prompt": "^1.0.0",
+    "prompt-input": "^3.0.0"
+  }
+}

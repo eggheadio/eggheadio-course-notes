@@ -1,0 +1,78 @@
+{
+  "name": "clone-deep",
+  "description": "Recursively (deep) clone JavaScript native types, like Object, Array, RegExp, Date as well as primitives.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/clone-deep",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/clone-deep",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/clone-deep/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "for-own": "^1.0.0",
+    "is-plain-object": "^2.0.4",
+    "kind-of": "^5.0.0",
+    "shallow-clone": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.4.2"
+  },
+  "keywords": [
+    "array",
+    "clone",
+    "clone-array",
+    "clone-array-deep",
+    "clone-date",
+    "clone-deep",
+    "clone-object",
+    "clone-object-deep",
+    "clone-reg-exp",
+    "date",
+    "deep",
+    "exp",
+    "for",
+    "for-in",
+    "for-own",
+    "javascript",
+    "mixin",
+    "mixin-object",
+    "object",
+    "own",
+    "reg",
+    "util",
+    "utility"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "shallow-clone",
+        "kind-of",
+        "isobject",
+        "is-plain-object"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
