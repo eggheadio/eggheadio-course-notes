@@ -12,9 +12,9 @@ const http = axios.create()
 
 async function createDirectory (dir) {
   try {
-    await fs.ensureDir(`output/${dir}`)
-    await fs.ensureDir(`output/${dir}/images`)
-    await fs.ensureDir(`output/${dir}/lessons`)
+    await fs.ensureDir(`courses/${dir}`)
+    await fs.ensureDir(`courses/${dir}/images`)
+    await fs.ensureDir(`courses/${dir}/lessons`)
     console.log('Created directory')
   } catch (err) {
     console.error(err)
