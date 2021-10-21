@@ -3,7 +3,7 @@
 
 <TimeStamp start="0:02" end="0:06">
 
-To install storybook anon you need to run `npm install @storybook/addon-a11y --save-dev` or you can also use `yarn` 
+To install storybook you need to run `npm install @storybook/addon-a11y --save-dev` or you can also use `yarn` 
 
 </TimeStamp>
 

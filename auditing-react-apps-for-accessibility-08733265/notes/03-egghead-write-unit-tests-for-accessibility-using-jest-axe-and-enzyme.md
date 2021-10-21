@@ -2,7 +2,7 @@
 
 <TimeStamp start="0:07" end="0:15">
 
-To get started we need to add the right dependencies, keep in mind the `enzyme-adapter` correspond to the react version you are using. Run `npm install jest-axe enzyme enzyme-adapter-react16 --save-dev`
+To get started we need to add the right dependencies, keep in mind the `enzyme-adapter` corresponds to the react version you are using. Run `npm install jest-axe enzyme enzyme-adapter-react16 --save-dev`
 
 </TimeStamp>
 

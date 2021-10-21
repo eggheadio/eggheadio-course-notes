@@ -2,7 +2,7 @@
 
 <TimeStamp start="0:14" end="0:17">
 
-Create a new file und er the `workflow` directory called `lighthouse.yml`
+Create a new file under the `workflow` directory called `lighthouse.yml`
 
 </TimeStamp>
 
