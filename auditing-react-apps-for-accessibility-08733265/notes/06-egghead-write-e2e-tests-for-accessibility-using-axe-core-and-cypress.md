@@ -29,7 +29,7 @@ In the new file `Login.spec.js` add the following code:
 
 ```jsx 
 beforeEach(() => {
-    cy.visit('http://localhost:300/login'); //we are telling cypress to navigate the exact page
+    cy.visit('http://localhost:3000/login'); //we are telling cypress to navigate the exact page
     cy.injectAxe();
 })
 ```

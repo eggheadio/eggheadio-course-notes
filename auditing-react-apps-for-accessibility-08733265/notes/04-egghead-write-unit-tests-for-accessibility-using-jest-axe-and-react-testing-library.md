@@ -28,11 +28,11 @@ This is how our code for the test should look like:
 expect.extend(toHaveNoViolations);
 
 it('should not violate accessibility rules', async () => {
-    cont {container} = render (
+    const {container} = render (
         <login history={{ push: jest.fn() }}/>
     );
 
-    const results = await axe(LoginPag.getDOMNode);
+    const results = await axe(LoginPage.getDOMNode);
     expect(results).toHaveNoViolations();
 });
 ```

@@ -14,7 +14,7 @@ Create a new file under the `src` directory called `setupTests.js`
 
 <TimeStamp start="0:37" end="0:47">
 
-In the new `setupTest.js` file you'll need  to add the following code:
+In the new `setupTest.js` file you'll need to add the following code:
 
 ```jsx
 import {configure} from 'enzyme';
