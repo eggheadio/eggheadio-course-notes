@@ -12,13 +12,13 @@ We create a new nx workspace `npx create-nx-workspace juridev --packageManager=y
 
 <TimeStamp start="1:52" end="1:58">
 
-To open the new workspace run `code-insiders juridev/`
+To open the new workspace, run `code-insiders juridev/`
 
 </TimeStamp>
 
 <TimeStamp start="3:45" end="3:55">
 
-To run your project `yarn nx run site:serve`. Keep in mind if you are working with another name you'll need to replace 'side' for your project name. 
+To run your project `yarn nx run site:serve`. Keep in mind if you are working with another name, you'll need to replace 'side' for your project name. 
 
 </TimeStamp>
 
