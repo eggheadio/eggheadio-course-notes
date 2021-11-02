@@ -64,7 +64,12 @@ async function createLessonDocs (slug, items) {
 
   forEach(items, (item, i) => {
     const file = `${dir}/${addZero(i + 1)}_${item.slug}.md`;
-    const summary = `# ${item.title}\n\n[Video link](https://www.egghead.io${item.path})\n\n${item.transcript}\n`;
+    const notesTemplate = `<TimeStamp start="00:00" end="00:00">
+
+
+
+</TimeStamp>`
+    const summary = `# ${item.title}\n\n[Video link](https://www.egghead.io${item.path})\n\n${notesTemplate}\n`;
 
     writeFileToDir(file, summary)
   })
