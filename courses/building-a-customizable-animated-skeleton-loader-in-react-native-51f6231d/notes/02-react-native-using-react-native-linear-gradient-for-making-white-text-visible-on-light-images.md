@@ -26,7 +26,7 @@ backgroundColor: 'rgba(0,0,0,0.4)' //This line of code is saying the background 
 
 <TimeStamp start="1:23" end="1:28">
 
-Finally, what we could is to add `import LinearGradient from 'react-native-linear-gradient';`, change <View> to <LinearGradient> and add `colors={['transparent', 'rgba(0,0,0,0.4')]}`
+Finally, what we could is to add `import LinearGradient from 'react-native-linear-gradient';`, change `<View>` to `<LinearGradient>` and add `colors={['transparent', 'rgba(0,0,0,0.4')]}`
 
 </TimeStamp>
 
