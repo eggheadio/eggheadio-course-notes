@@ -4,7 +4,7 @@
 
 <TimeStamp start="00:40" end="00:50">
 
-The [optimisticResponse option](https://www.apollographql.com/docs/react/performance/optimistic-ui/#the-optimisticresponse-option) is an option we can put on the mutate function to assume that the data we are going to receive is what we expect. 
+The [optimisticResponse option](https://www.apollographql.com/docs/react/performance/optimistic-ui/#the-optimisticresponse-option) is an option we can use on the mutate function to assume that the data we are going to receive is what we expect. 
 
 </TimeStamp>
 

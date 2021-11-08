@@ -4,7 +4,7 @@
 
 <TimeStamp start="01:00" end="01:10">
 
-[RetryLink](https://www.apollographql.com/docs/react/api/link/apollo-link-retry/) is an amazing tool that allows us to resend query's with custom parameters such as as `delay` and how often we want to it retry. 
+[RetryLink](https://www.apollographql.com/docs/react/api/link/apollo-link-retry/) is an amazing tool that allows us to resend queries with custom parameters such as as `delay` and how often we want to it retry. 
 
 </TimeStamp>
 

@@ -4,6 +4,6 @@
 
 <TimeStamp start="02:00" end="02:10">
 
-Apollo takes any fields merges them into existing objects in the cache. Your backend just needs to return the changed object from your mutations and ask for those objects when you do the mutation. 
+Apollo takes any fields and merges them into existing objects in the cache. Your backend just needs to return the changed object from your mutations and ask for those objects when you do the mutation. 
 
 </TimeStamp>

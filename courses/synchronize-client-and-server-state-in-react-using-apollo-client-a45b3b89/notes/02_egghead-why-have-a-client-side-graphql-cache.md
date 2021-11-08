@@ -10,6 +10,6 @@ The Apollo client has its own way of [handling the cache](https://www.apollograp
 
 <TimeStamp start="02:45" end="02:55">
 
-The [`useState` hook](https://reactjs.org/docs/hooks-state.html#whats-a-hook) from React is used to handle our state inside of our application. 
+The [`useState` hook](https://reactjs.org/docs/hooks-state.html#whats-a-hook) from React is used to handle state inside of our application. 
 
 </TimeStamp>

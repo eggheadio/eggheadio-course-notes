@@ -4,6 +4,6 @@
 
 <TimeStamp start="00:35" end="00:45">
 
-The [loading](https://www.apollographql.com/docs/react/data/queries/#executing-a-query) flag is an amazing tool given to us by Apollo to handle our loading states. We can use an `if/else` block to choose what to display for our different loading states. 
+The [loading](https://www.apollographql.com/docs/react/data/queries/#executing-a-query) flag is an amazing tool from Apollo for handling our loading states. We can use an `if/else` block to choose what to display for our different loading states. 
 
 </TimeStamp>

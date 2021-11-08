@@ -4,6 +4,6 @@
 
 <TimeStamp start="02:00" end="02:15">
 
-You use Apollo Client's [useSubscription Hook](https://www.apollographql.com/docs/react/data/subscriptions/#executing-a-subscription) to execute a subscription from React. Like useQuery, useSubscription returns an object from Apollo Client that contains loading, error, and data properties you can use to render your UI.
+You use Apollo Client's [useSubscription Hook](https://www.apollographql.com/docs/react/data/subscriptions/#executing-a-subscription) to execute a subscription from React. Like `useQuery`, `useSubscription` returns an object from Apollo Client that contains loading, error, and data properties you can use to render your UI.
 
 </TimeStamp>

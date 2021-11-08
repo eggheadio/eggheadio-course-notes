@@ -4,6 +4,6 @@
 
 <TimeStamp start="02:40" end="02:50">
 
-This read function uses the toReference helper utility to generate and return a cache reference.
+This read function uses the `toReference` helper utility to generate and return a cache reference.
 
 </TimeStamp>

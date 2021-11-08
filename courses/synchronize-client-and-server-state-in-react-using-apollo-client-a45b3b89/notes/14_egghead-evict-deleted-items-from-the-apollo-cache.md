@@ -4,7 +4,7 @@
 
 <TimeStamp start="00:02" end="00:10">
 
-The Apollo Dev Tools is a great help when working with the Apollo Client. It is only available in [firefox](https://addons.mozilla.org/en-US/firefox/addon/apollo-developer-tools/) and [Chrome](https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US).
+The Apollo Dev Tools is a great help when working with the Apollo Client. It is only available in [Firefox](https://addons.mozilla.org/en-US/firefox/addon/apollo-developer-tools/) and [Chrome](https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US).
 
 </TimeStamp>
 
