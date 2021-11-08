@@ -4,6 +4,6 @@
 
 <TimeStamp start="03:55" end="04:10">
 
-To update our todo's to be checked and stay checked, we need to store that data. We will create a new function called completeTodo's that will find our todo based on the id, and can flip that boolean of checked or not then update our todo's. All that is left is to attach that to our checkbox variable and it now updates and stores that data!
+To update our todos to be checked and stay checked, we need to store that data. We will create a new function called `completeTodos` that will find our todo based on the id, and can flip that boolean of checked or not then update our todos. All that is left is to attach that to our `checkbox` variable and it now updates and stores that data!
 
 </TimeStamp>
