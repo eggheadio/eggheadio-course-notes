@@ -1,0 +1,15 @@
+# Summary
+
+* [Introducing Optimizing React Applications](./lessons/01_egghead-introducing-optimizing-react-applications.md)
+* [Debounce Callbacks on DOM events](./lessons/02_egghead-debounce-callbacks-on-dom-events.md)
+* [Use the React Production Build](./lessons/03_egghead-use-the-react-production-build.md)
+* [Virtualize Long Lists of Data](./lessons/04_egghead-virtualize-long-lists-of-data.md)
+* [Tree Shake Your Application Modules](./lessons/05_egghead-tree-shake-your-application-modules.md)
+* [View Package Sizes with Webpack Analyzer](./lessons/06_egghead-view-package-sizes-with-webpack-analyzer.md)
+* [Containerization of state within child components](./lessons/07_egghead-containerization-of-state-within-child-components.md)
+* [Profile Components with the Devtools Profiler](./lessons/08_egghead-profile-components-with-the-devtools-profiler.md)
+* [Optimize Function Components with React.memo](./lessons/09_react-optimize-function-components-with-react-memo.md)
+* [Memoized Values with useMemo](./lessons/10_egghead-memoized-values-with-usememo.md)
+* [Memoize a Function with useCallback](./lessons/11_egghead-memoize-a-function-with-usecallback.md)
+* [Add the why-did-you-render Package to Catch Unnecessary Updates](./lessons/12_egghead-add-the-why-did-you-render-package-to-catch-unnecessary-updates.md)
+* [Code Split Components with React Lazy & Loadable Components](./lessons/13_egghead-code-split-components-with-react-lazy-loadable-components.md)
