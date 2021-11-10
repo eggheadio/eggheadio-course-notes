@@ -1,19 +1,9 @@
-# Shallow Merge Two Objects in JavaScript
+# Gradual Adoption Strategy of React 18
 
 [Video link]()
 
-<TimeStamp start="00:50" end="01:05">
+<TimeStamp start="0:05" end="0:08">
 
-
-</TimeStamp>
-
-<TimeStamp start="01:30" end="01:45">
-
-
-
-</TimeStamp>
-
-<TimeStamp start="03:00" end="03:15">
-
+[Documentation for React 18](https://reactjs.org/blog/2021/06/08/the-plan-for-react-18.html)
 
 </TimeStamp>
