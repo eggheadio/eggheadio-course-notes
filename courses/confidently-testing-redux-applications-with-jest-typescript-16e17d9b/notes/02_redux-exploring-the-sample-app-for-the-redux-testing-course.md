@@ -6,7 +6,7 @@
 
 </TimeStamp>
 
-<TimeStamp start="0:15" end="0:50">
+<TimeStamp start="0:35" end="0:50">
 
 `cd redux-testing/` to open the project folder
 `git checkout testing` to check out the branch we'll be working off of
