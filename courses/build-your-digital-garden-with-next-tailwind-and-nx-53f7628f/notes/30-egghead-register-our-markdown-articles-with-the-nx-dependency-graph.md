@@ -4,26 +4,21 @@
 
 # Notes
 
-<TimeStamp start="1:49" end="1:50">
+<TimeStamp start="0:04" end="0:06">
 
-`yarn nx affected:dep-graph --base=26-integrate-articles-dep-graph`
-
-</TimeStamp>
-
-<TimeStamp start="3:15" end="0:53">
-
-`yarn nx affected:apps --plain --base=HEAD-1`
+`yarn nx dep-graph`
 
 </TimeStamp>
 
-<TimeStamp start="2:17" end="2:18">
+<TimeStamp start="2:10" end="2:15">
 
-[Nx & Vercel Deployment](https://nx.dev/l/r/guides/deploy-nextjs-to-vercel)
-
-</TimeStamp>
-
-<TimeStamp start="5:06" end="5:07">
-
-`./tools/vercel-deploy/vercel-affected-deploy.sh`
+```json
+"site-articles": {
+    "root": "_articles", 
+    "sourceRoot: "_articles",
+    "projectType": "application", 
+    "target": {}
+}
+```
 
 </TimeStamp>
