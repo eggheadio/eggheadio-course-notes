@@ -8,17 +8,17 @@
 
 <TimeStamp start="0:35" end="0:50">
 
-`cd redux-testing/` to open the project folder
-`git checkout testing` to check out the branch we'll be working off of
-`npm install`
-`npm run dev` to launch the application we'll be testing
-Open your browser and navigate to `localhost:3000`
+1. `cd redux-testing/` to open the project folder
+2. `git checkout testing` to check out the branch we'll be working off of
+3. `npm install`
+4. `npm run dev` to launch the application we'll be testing
+5. Open your browser and navigate to `localhost:3000`
 
 </TimeStamp>
 
 <TimeStamp start="0:60" end="1:05">
 
-src/App.tsx contains the three main routes of the application.
+`src/App.tsx` contains the three main routes of the application.
 
 </TimeStamp>
 
