@@ -8,7 +8,7 @@ Create a new file under the `workflow` directory called `lighthouse.yml`
 
 <TimeStamp start="2:25" end="2:30">
  
- Add lighthouse in your github with the following [link](https://github.com/apps/lighthouse-ci) 
+Add lighthouse in your github with the following [link](https://github.com/apps/lighthouse-ci) 
 
 </TimeStamp>
 
