@@ -69,7 +69,7 @@ This is a safe and collaborative environment to work together. This repository f
 
 1. Run `yarn` to install dependencies
 2. Set up Auth
-3. Create a file `src/.env` with these contents:
+3. Create a file `~/.env` with these contents:
 ```
 CLOUDINARY_API_KEY=insert-key-here
 CLOUDINARY_API_SECRET=insert-key-here
@@ -91,8 +91,3 @@ AWS credentials can be created in [the management console](https://console.aws.a
 3. Create a .env file
 4. Paste what you copied to the contents of the file
 5. Replace `YOUR-TOKEN-HERE` with requested token
-
-## Uploading and Replacing Images
-1. Run `yarn upload`
-2. Pass in the course slug when prompted
-3. Run `yarn replace`
