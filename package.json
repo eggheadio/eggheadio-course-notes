@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "add-zero": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.32.0",
     "cloudinary": "^1.11.0",
     "dotenv": "^6.0.0",
     "fs-extra": "^6.0.1",
